@@ -1,0 +1,25 @@
+---
+title: "Software"
+description: "Research software and packages."
+---
+
+## Software Packages
+
+Use this page to connect your research identity to the tools you are building.
+
+### FPVS Studio
+
+FPVS Studio is a standalone package for designing and running FPVS experiments. It provides a user-friendly UI for creating FPVS conditions, managing stimuli, and currently supports BioSemi systems. This package is built on Python 3.10 and is available for installation via GitHub.
+
+[GitHub repository](https://github.com/zcm58/FPVS-Studio-2.0){target="_blank"}
+
+### FPVS Toolbox
+
+FPVS Toolbox is a sister package to FPVS Studio designed to streamline data processing and figure creation for FPVS experiments. It outputs FPVS results in formats that work well with JASP, RStudio, and SAS for statistical analysis. FPVS Toolbox currently supports BioSemi systems and `.bdf` file formats, and is available for installation via GitHub.
+
+[GitHub repository](https://github.com/zcm58/FPVS-Toolbox-Repo){target="_blank"}
+
+## Design Principles
+
+- Quick setup of multiple FPVS Projects and a one-click launch of experiments
+- Reproducible and shareable projects

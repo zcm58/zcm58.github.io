@@ -1,0 +1,64 @@
+---
+title: "Zack Murphy"
+subtitle: "Biomedical Engineering PhD student specializing in cognitive neuroscience research using EEG at Mississippi State University"
+description: "Academic homepage for Zack Murphy."
+---
+
+::: {.hero}
+::: {.hero-copy}
+## Research at the intersection of cognitive neuroscience, EEG, and Fast Periodic Visual Stimulation
+
+I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers.
+
+[Research](research.qmd){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-outline}
+:::
+
+::: {.hero-panel}
+**Current focus**
+
+- Standardizing FPVS experiment and analysis workflows
+- FPVS Toolbox
+- FPVS Studio
+- EEG applications in cognitive neuroscience
+
+**Links**
+
+[Google Scholar](https://scholar.google.com/citations?user=zbUyu0sAAAAJ&hl=en){target="_blank"}  
+[ORCID](https://orcid.org/0009-0003-3868-6888){target="_blank"}  
+[GitHub](https://github.com/zcm58){target="_blank"}  
+[NERD Lab](https://www.abe.msstate.edu/research/nerd/research/){target="_blank"}
+:::
+:::
+
+## Selected Work
+
+::: {.feature-grid}
+::: {.feature}
+### Research
+
+Short summaries of my dissertation work, ongoing collaborations, and projects in progress.
+
+[Read more](research.qmd)
+:::
+
+::: {.feature}
+### Publications
+
+Papers, preprints, conference abstracts, code, data links, and plain-language summaries.
+
+[View publications](publications.qmd)
+:::
+
+::: {.feature}
+### Software
+
+Research tools and packages I am building for analysis, reproducibility, and scientific workflows.
+
+[See software](software.qmd)
+:::
+:::
+
+## Recent Updates
+
+- **May 2026** - Initial academic homepage in progress.
+- **Add an update** - New publication, software release, talk, video, or conference presentation.

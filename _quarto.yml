@@ -1,0 +1,46 @@
+project:
+  type: website
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+    - software.qmd
+    - media.qmd
+    - cv.qmd
+
+website:
+  title: "Zack Murphy"
+  description: "Academic homepage for Zack Murphy."
+  site-url: "https://zcm58.github.io"
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: software.qmd
+        text: Software
+      - href: media.qmd
+        text: Media
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/zcm58
+        aria-label: GitHub
+  page-footer:
+    left: "Copyright Zack Murphy"
+    right: "Built with Quarto and GitHub Pages"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.css
+    toc: false
+    page-layout: full
+    smooth-scroll: true
+

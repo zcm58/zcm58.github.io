@@ -1,0 +1,30 @@
+---
+title: "Media"
+description: "Videos, talks, and public-facing research communication."
+---
+
+## YouTube and Talks
+
+Add your YouTube channel, selected videos, invited talks, conference recordings, podcast appearances, or public explainers here.
+
+### Featured Video
+
+Replace `VIDEO_ID` with the ID from a YouTube URL.
+
+```{=html}
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/VIDEO_ID"
+    title="Featured video"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+```
+
+## Selected Topics
+
+- [Topic you explain on your channel]
+- [Research concept]
+- [Software/tutorial topic]
+

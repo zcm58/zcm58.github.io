@@ -1,0 +1,15 @@
+---
+title: "CV"
+description: "Curriculum vitae and contact links."
+---
+
+## Curriculum Vitae
+
+CV available on request.
+
+## Contact
+
+- Email: [zmurphy@abe.msstate.edu](mailto:zmurphy@abe.msstate.edu)
+- GitHub: [github.com/zcm58](https://github.com/zcm58)
+- Google Scholar: [scholar.google.com/citations?user=zbUyu0sAAAAJ](https://scholar.google.com/citations?user=zbUyu0sAAAAJ&hl=en)
+- ORCID: [orcid.org/0009-0003-3868-6888](https://orcid.org/0009-0003-3868-6888)

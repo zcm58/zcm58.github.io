@@ -1,0 +1,23 @@
+---
+title: "Research"
+description: "Research projects and scientific interests."
+---
+
+## Research Overview
+
+Write a concise overview of your research program here. Aim for language that works for faculty, collaborators, students, and technically curious non-specialists.
+
+## Project 1: [Project Title]
+
+Describe the problem, why it matters, your approach, and what you have found so far.
+
+**Outputs:** papers, preprints, talks, datasets, code repositories, or posters.
+
+## Project 2: [Project Title]
+
+Use this space for a second major research direction, dissertation chapter, or collaboration.
+
+## Methods and Tools
+
+Summarize the techniques you use or develop: experimental design, computational modeling, signal processing, statistics, machine learning, hardware, software engineering, or other methods central to your work.
+

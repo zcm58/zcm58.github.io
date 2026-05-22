@@ -18,12 +18,10 @@ I am a Biomedical Engineering PhD student at Mississippi State University workin
 <img src="assets/headshot.jpg" class="headshot" alt="Zack Murphy headshot">
 </div>
 
-**Current focus**
+**Current Research Interests**
 
-- Standardizing FPVS experiment and analysis workflows
-- FPVS Toolbox
-- FPVS Studio
-- EEG applications in cognitive neuroscience
+- Increasing the reach of FPVS through dedicated software tools
+- Applying FPVS to study mild cognitive impairment 
 
 **Links**
 

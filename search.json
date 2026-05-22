@@ -70,11 +70,11 @@
     "text": "Ongoing FPVS Projects\nOur lab is using FPVS to study how the brain responds to visual, emotional, and semantic information across several research areas:\n\nDyslexia and individual differences in language-related processing\nAnxiety-linked differences in emotional face processing\nFear of heights and visual sensitivity to height-related stimuli\nEffects of creatine on emotional processing\nEffects of hormonal birth control on emotional processing in women across different phases of the menstrual cycle\n\nAcross these projects, FPVS provides a way to measure targeted neural responses with short EEG recordings, making it useful for research questions where participant burden, clinical relevance, and reproducibility matter."
   },
   {
-    "objectID": "research.html#semantic-categorization",
-    "href": "research.html#semantic-categorization",
+    "objectID": "research.html#recently-completed-fpvs-work-on-semantic-categorization",
+    "href": "research.html#recently-completed-fpvs-work-on-semantic-categorization",
     "title": "Research",
-    "section": "Semantic Categorization",
-    "text": "Semantic Categorization\nWe recently completed a semantic categorization project using highly visually similar stimuli. The results suggest that FPVS can still elicit a semantic categorization response even when visual differences between categories are tightly controlled. However, because semantic distance was low, the signal-to-noise ratio was weaker than in other published semantic categorization work. This manuscript is current in preparation.\nThis project helps clarify both the promise and the limits of FPVS semantic categorization designs: strong visual control is valuable, but reducing semantic distance can also reduce response strength."
+    "section": "Recently Completed FPVS Work on Semantic Categorization",
+    "text": "Recently Completed FPVS Work on Semantic Categorization\nDuring my research for my M.S. degree, I completed a semantic categorization FPVS using highly visually similar stimuli. The results suggest that FPVS can still elicit a semantic categorization response even when visual differences between categories are tightly controlled. However, the signal-to-noise ratio was weaker than in other published semantic categorization work, likely due to the low semantic distance and low visual variability of the stimuli used. This manuscript is currently in preparation.\nThis project helped to clarify both the promise and the limits of FPVS semantic categorization designs: strong visual control is valuable, but reducing semantic distance can also reduce response strength."
   },
   {
     "objectID": "index.html",

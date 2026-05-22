@@ -5,19 +5,30 @@ description: "Research projects and scientific interests."
 
 ## Research Overview
 
-Write a concise overview of your research program here. Aim for language that works for faculty, collaborators, students, and technically curious non-specialists.
+My research centers on Fast Periodic Visual Stimulation (FPVS), an powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still in its infancy, and it's only being used in a few research labs around the work. The main goal of my work is to help standardize FPVS methods and make them easier to use across cognitive neuroscience domains.
 
-## Project 1: [Project Title]
+I focus on both the scientific and practical sides of FPVS: designing experiments, improving analysis workflows, and building dedicated software tools that make FPVS more accessible.
 
-Describe the problem, why it matters, your approach, and what you have found so far.
+## Standardizing FPVS Workflows
 
-**Outputs:** papers, preprints, talks, datasets, code repositories, or posters.
+FPVS can produce strong neural responses in short recordings, but the method can be difficult to adopt quickly in practice. My work aims to reduce that barrier by developing easy to use, open-source software tools that support reproducible FPVS workflows. These tools include standardized methods for preparing experiments, running them in the lab, and processing and analyzing the resulting data.
 
-## Project 2: [Project Title]
+Even though FPVS is powerful, its reach is currently limited by the lack of standardized tools. I hope to make it easier for other researchers to adopt this method and apply it to a wider range of research questions in cognitive neuroscience.
 
-Use this space for a second major research direction, dissertation chapter, or collaboration.
+## Ongoing FPVS Projects
 
-## Methods and Tools
+Our lab is using FPVS to study how the brain responds to visual, emotional, and semantic information across several research areas:
 
-Summarize the techniques you use or develop: experimental design, computational modeling, signal processing, statistics, machine learning, hardware, software engineering, or other methods central to your work.
+- Dyslexia and individual differences in language-related processing
+- Anxiety-linked differences in emotional face processing
+- Fear of heights and visual sensitivity to height-related stimuli
+- Effects of creatine on emotional processing
+- Effects of hormonal birth control on emotional processing in women across different phases of the menstrual cycle
 
+Across these projects, FPVS provides a way to measure targeted neural responses with short EEG recordings, making it useful for research questions where participant burden, clinical relevance, and reproducibility matter.
+
+## Semantic Categorization
+
+We recently completed a semantic categorization project using highly visually similar stimuli. The results suggest that FPVS can still elicit a semantic categorization response even when visual differences between categories are tightly controlled. However, because semantic distance was low, the signal-to-noise ratio was weaker than in other published semantic categorization work. This manuscript is current in preparation.
+
+This project helps clarify both the promise and the limits of FPVS semantic categorization designs: strong visual control is valuable, but reducing semantic distance can also reduce response strength.

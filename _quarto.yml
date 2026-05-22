@@ -23,8 +23,6 @@ website:
         text: Publications
       - href: software.qmd
         text: Software
-      - href: media.qmd
-        text: Media
       - href: cv.qmd
         text: CV
     right:
@@ -43,4 +41,3 @@ format:
     toc: false
     page-layout: full
     smooth-scroll: true
-

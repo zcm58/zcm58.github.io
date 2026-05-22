@@ -36,3 +36,9 @@ David Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa,
 [Preprint](https://www.biorxiv.org/content/10.1101/2025.02.15.638321v1.abstract){target="_blank"} | [DOI](https://doi.org/10.1101/2025.02.15.638321){target="_blank"}
 
 This preprint examined whether anxiety-related characteristics are associated with altered neural responses to emotional facial expressions during FPVS. The study used EEG responses to neutral faces interspersed with emotional oddballs to evaluate FPVS as an implicit measure of emotion processing in anxiety.
+
+## Manuscripts under review
+
+### Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis
+
+Zack Murphy, Jennifer Kemp, and David Vandenheever.

@@ -60,5 +60,7 @@ Research tools and packages I am building for analysis, reproducibility, and sci
 
 ## Recent Updates
 
-- **May 2026** - Initial academic homepage in progress.
-- **Add an update** - New publication, software release, talk, video, or conference presentation.
+- **May 2026** - I have officially completed my Master of Science degree in Biomedical Engineering, and I am now a PhD student!
+
+- **October 2025** - Our FPVS research on facial expression processing was published in *Brain and Cognition*. [DOI](https://doi.org/10.1016/j.bandc.2025.106338){target="_blank"}
+- **August 2025** - Our FPVS work on anxiety-linked neural sensitivity to emotional faces was published in *International Journal of Psychophysiology*. [DOI](https://doi.org/10.1016/j.ijpsycho.2025.113212){target="_blank"}

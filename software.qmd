@@ -26,8 +26,3 @@ FPVS Toolbox is a sister package to FPVS Studio designed to streamline data proc
 If you use FPVS Toolbox in your research, please consider citing the software package:
 
 Zack Murphy. (2026). *zcm58/FPVS-Toolbox-Repo: v2.0.0 (v2.0.0)*. Zenodo. [https://doi.org/10.5281/zenodo.20342768](https://doi.org/10.5281/zenodo.20342768){target="_blank"}
-
-## Design Principles
-
-- Quick setup of multiple FPVS Projects and a one-click launch of experiments
-- Reproducible and shareable projects

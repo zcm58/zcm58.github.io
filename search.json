@@ -49,6 +49,13 @@
     "text": "My research centers on Fast Periodic Visual Stimulation (FPVS), an powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still in its infancy, and it’s only being used in a few research labs around the work. The main goal of my work is to help standardize FPVS methods and make them easier to use across cognitive neuroscience domains.\nI focus on both the scientific and practical sides of FPVS: designing experiments, improving analysis workflows, and building dedicated software tools that make FPVS more accessible."
   },
   {
+    "objectID": "research.html#suggested-reading",
+    "href": "research.html#suggested-reading",
+    "title": "Research",
+    "section": "Suggested Reading",
+    "text": "Suggested Reading\nIf you are unfamiliar with Fast Periodic Visual Stimulation and would like to learn more, I suggest starting with work by Bruno Rossion and George Stothart. Their research groups produced some of the commonly cited early FPVS applications, especially in face perception and semantic categorization.\n\nRossion, B. (2014). Understanding individual face discrimination by means of fast periodic visual stimulation. Experimental Brain Research, 232(6), 1599-1621. DOI\nRossion, B., Torfs, K., Jacques, C., & Liu-Shuang, J. (2015). Fast periodic presentation of natural images reveals a robust face-selective electrophysiological response in the human brain. Journal of Vision, 15(1), 18. DOI\nStothart, G., Quadflieg, S., & Milton, A. (2017). A fast and implicit measure of semantic categorisation using steady state visual evoked potentials. Neuropsychologia, 102, 11-18. DOI"
+  },
+  {
     "objectID": "research.html#standardizing-fpvs-workflows",
     "href": "research.html#standardizing-fpvs-workflows",
     "title": "Research",

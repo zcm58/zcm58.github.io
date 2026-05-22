@@ -43,9 +43,11 @@ body {
 }
 
 .page-columns .content {
+  width: 100%;
   max-width: 1080px;
   padding-left: 24px;
   padding-right: 24px;
+  box-sizing: border-box;
 }
 
 h1,
@@ -98,6 +100,22 @@ a {
   padding: 22px;
   background: rgba(255, 255, 255, 0.76);
   box-shadow: 0 18px 40px rgba(24, 32, 31, 0.08);
+}
+
+.headshot-block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.headshot {
+  width: 112px;
+  height: 112px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 10px 24px rgba(24, 32, 31, 0.18);
+  user-select: none;
 }
 
 .hero-panel p,
@@ -158,9 +176,34 @@ a {
 }
 
 @media (max-width: 820px) {
+  body.docked .page-columns,
+  body.docked.fullcontent .page-columns,
+  body.docked.slimcontent .page-columns,
+  body.floating .page-columns,
+  body.floating.fullcontent .page-columns,
+  body.floating.slimcontent .page-columns,
+  body.fullcontent .page-columns,
+  .page-columns {
+    grid-template-columns:
+      [screen-start page-start body-start body-content-start] minmax(0, 1fr)
+      [body-content-end body-end page-end screen-end];
+  }
+
+  .page-columns .content {
+    grid-column: body-content-start / body-content-end;
+    max-width: 100%;
+  }
+
   .hero,
   .feature-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero-copy,
+  .hero-panel,
+  .feature {
+    min-width: 0;
+    max-width: 100%;
   }
 
   .hero {
@@ -170,7 +213,13 @@ a {
   }
 
   .hero-copy h2 {
-    font-size: 2.5rem;
+    max-width: calc(100vw - 96px);
+    font-size: clamp(2rem, 10vw, 2.35rem);
+    overflow-wrap: break-word;
+  }
+
+  .hero-copy p,
+  .feature p {
+    max-width: calc(100vw - 96px);
   }
 }
-

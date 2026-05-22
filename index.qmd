@@ -14,6 +14,10 @@ I am a Biomedical Engineering PhD student at Mississippi State University workin
 :::
 
 ::: {.hero-panel}
+<div class="headshot-block">
+<img src="assets/headshot.jpg" class="headshot" alt="Zack Murphy headshot">
+</div>
+
 **Current focus**
 
 - Standardizing FPVS experiment and analysis workflows
@@ -29,6 +33,12 @@ I am a Biomedical Engineering PhD student at Mississippi State University workin
 [NERD Lab](https://www.abe.msstate.edu/research/nerd/research/){target="_blank"}
 :::
 :::
+
+## About Me
+
+I am a Biomedical Engineering PhD student at Mississippi State University with experience implementing Fast Periodic Visual Stimulation (FPVS) paradigms across a range of EEG research projects. During my master's degree, I developed FPVS Toolbox, a standalone Python-based software package designed to streamline FPVS data processing and analysis.
+
+More broadly, my research focuses on making FPVS more accessible through modern software tools, helping researchers across domains apply the method more easily and expand its impact in EEG-based neuroscience research.
 
 ## Selected Work
 

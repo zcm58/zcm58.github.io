@@ -109,8 +109,8 @@ a {
 }
 
 .headshot {
-  width: 112px;
-  height: 112px;
+  width: 160px;
+  height: 160px;
   border: 2px solid rgba(255, 255, 255, 0.9);
   border-radius: 50%;
   object-fit: cover;

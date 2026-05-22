@@ -28,7 +28,7 @@ I am a Biomedical Engineering PhD student at Mississippi State University workin
 [Google Scholar](https://scholar.google.com/citations?user=zbUyu0sAAAAJ&hl=en){target="_blank"}  
 [ORCID](https://orcid.org/0009-0003-3868-6888){target="_blank"}  
 [GitHub](https://github.com/zcm58){target="_blank"}  
-[NERD Lab](https://www.abe.msstate.edu/research/nerd/research/){target="_blank"}
+[Neural Engineering Research Division](https://www.abe.msstate.edu/research/nerd/research/){target="_blank"}
 :::
 :::
 

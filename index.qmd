@@ -36,7 +36,7 @@ I am a Biomedical Engineering PhD student at Mississippi State University workin
 
 I am a Biomedical Engineering PhD student at Mississippi State University with experience implementing Fast Periodic Visual Stimulation (FPVS) paradigms across a range of EEG research projects. During my master's degree, I developed FPVS Toolbox, a standalone Python-based software package designed to streamline FPVS data processing and analysis.
 
-More broadly, my research focuses on making FPVS more accessible through modern software tools, helping researchers across domains apply the method more easily and expand its impact in EEG-based neuroscience research.
+My current research interests focus on making FPVS more accessible through easy to use software tools, helping researchers across domains apply the method more easily and expand its impact in EEG-based neuroscience research. I am also interested in applying FPVS to study mild cognitive impairment related to dementia, with the goal of improving early detection. 
 
 ## Selected Work
 
@@ -44,7 +44,7 @@ More broadly, my research focuses on making FPVS more accessible through modern 
 ::: {.feature}
 ### Research
 
-Short summaries of my dissertation work, ongoing collaborations, and projects in progress.
+Short summaries of my research interests and ongoing projects in our lab. 
 
 [Read more](research.qmd)
 :::
@@ -52,7 +52,7 @@ Short summaries of my dissertation work, ongoing collaborations, and projects in
 ::: {.feature}
 ### Publications
 
-Papers, preprints, conference abstracts, code, data links, and plain-language summaries.
+Recent publications and preprints from my research. 
 
 [View publications](publications.qmd)
 :::
@@ -60,7 +60,7 @@ Papers, preprints, conference abstracts, code, data links, and plain-language su
 ::: {.feature}
 ### Software
 
-Research tools and packages I am building for analysis, reproducibility, and scientific workflows.
+Software tools I am currently developing to support FPVS research and make the method more accessible and standardized. 
 
 [See software](software.qmd)
 :::

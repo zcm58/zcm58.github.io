@@ -13,7 +13,7 @@ project:
 website:
   title: "Zack Murphy"
   description: "Academic homepage for Zack Murphy."
-  site-url: "https://zcm58.github.io"
+  site-url: "https://zack-murphy.com"
   navbar:
     pinned: true
     left:

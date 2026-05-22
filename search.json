@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "CV available on request."
+  },
+  {
+    "objectID": "cv.html#curriculum-vitae",
+    "href": "cv.html#curriculum-vitae",
+    "title": "CV",
+    "section": "",
+    "text": "CV available on request."
+  },
+  {
+    "objectID": "cv.html#contact",
+    "href": "cv.html#contact",
+    "title": "CV",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: zmurphy@abe.msstate.edu\nGitHub: github.com/zcm58\nGoogle Scholar: scholar.google.com/citations?user=zbUyu0sAAAAJ\nORCID: orcid.org/0009-0003-3868-6888"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Use this page to connect your research identity to the tools you are building.\n\n\nFPVS Studio is a standalone package for designing and running FPVS experiments. It provides a user-friendly UI for creating FPVS conditions, managing stimuli, and currently supports BioSemi systems. This package is built on Python 3.10 and is available for installation via GitHub.\nGitHub repository\nIf you use FPVS Studio in your research, please consider citing the software package:\nZack Murphy. (2026). zcm58/FPVS-Studio-2.0: v0.9.8 (v0.9.8). Zenodo. https://doi.org/10.5281/zenodo.20343059\n\n\n\nFPVS Toolbox is a sister package to FPVS Studio designed to streamline data processing and figure creation for FPVS experiments. It outputs FPVS results in formats that work well with JASP, RStudio, and SAS for statistical analysis. FPVS Toolbox currently supports BioSemi systems and .bdf file formats, and is available for installation via GitHub.\nGitHub repository\nIf you use FPVS Toolbox in your research, please consider citing the software package:\nZack Murphy. (2026). zcm58/FPVS-Toolbox-Repo: v2.0.0 (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.20342768"
+  },
+  {
+    "objectID": "software.html#software-packages",
+    "href": "software.html#software-packages",
+    "title": "Software",
+    "section": "",
+    "text": "Use this page to connect your research identity to the tools you are building.\n\n\nFPVS Studio is a standalone package for designing and running FPVS experiments. It provides a user-friendly UI for creating FPVS conditions, managing stimuli, and currently supports BioSemi systems. This package is built on Python 3.10 and is available for installation via GitHub.\nGitHub repository\nIf you use FPVS Studio in your research, please consider citing the software package:\nZack Murphy. (2026). zcm58/FPVS-Studio-2.0: v0.9.8 (v0.9.8). Zenodo. https://doi.org/10.5281/zenodo.20343059\n\n\n\nFPVS Toolbox is a sister package to FPVS Studio designed to streamline data processing and figure creation for FPVS experiments. It outputs FPVS results in formats that work well with JASP, RStudio, and SAS for statistical analysis. FPVS Toolbox currently supports BioSemi systems and .bdf file formats, and is available for installation via GitHub.\nGitHub repository\nIf you use FPVS Toolbox in your research, please consider citing the software package:\nZack Murphy. (2026). zcm58/FPVS-Toolbox-Repo: v2.0.0 (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.20342768"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research centers on Fast Periodic Visual Stimulation (FPVS), an powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still in its infancy, and it’s only being used in a few research labs around the work. The main goal of my work is to help standardize FPVS methods and make them easier to use across cognitive neuroscience domains.\nI focus on both the scientific and practical sides of FPVS: designing experiments, improving analysis workflows, and building dedicated software tools that make FPVS more accessible."
+  },
+  {
+    "objectID": "research.html#research-overview",
+    "href": "research.html#research-overview",
+    "title": "Research",
+    "section": "",
+    "text": "My research centers on Fast Periodic Visual Stimulation (FPVS), an powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still in its infancy, and it’s only being used in a few research labs around the work. The main goal of my work is to help standardize FPVS methods and make them easier to use across cognitive neuroscience domains.\nI focus on both the scientific and practical sides of FPVS: designing experiments, improving analysis workflows, and building dedicated software tools that make FPVS more accessible."
+  },
+  {
+    "objectID": "research.html#standardizing-fpvs-workflows",
+    "href": "research.html#standardizing-fpvs-workflows",
+    "title": "Research",
+    "section": "Standardizing FPVS Workflows",
+    "text": "Standardizing FPVS Workflows\nFPVS can produce strong neural responses in short recordings, but the method can be difficult to adopt quickly in practice. My work aims to reduce that barrier by developing easy to use, open-source software tools that support reproducible FPVS workflows. These tools include standardized methods for preparing experiments, running them in the lab, and processing and analyzing the resulting data.\nEven though FPVS is powerful, its reach is currently limited by the lack of standardized tools. I hope to make it easier for other researchers to adopt this method and apply it to a wider range of research questions in cognitive neuroscience."
+  },
+  {
+    "objectID": "research.html#ongoing-fpvs-projects",
+    "href": "research.html#ongoing-fpvs-projects",
+    "title": "Research",
+    "section": "Ongoing FPVS Projects",
+    "text": "Ongoing FPVS Projects\nOur lab is using FPVS to study how the brain responds to visual, emotional, and semantic information across several research areas:\n\nDyslexia and individual differences in language-related processing\nAnxiety-linked differences in emotional face processing\nFear of heights and visual sensitivity to height-related stimuli\nEffects of creatine on emotional processing\nEffects of hormonal birth control on emotional processing in women across different phases of the menstrual cycle\n\nAcross these projects, FPVS provides a way to measure targeted neural responses with short EEG recordings, making it useful for research questions where participant burden, clinical relevance, and reproducibility matter."
+  },
+  {
+    "objectID": "research.html#semantic-categorization",
+    "href": "research.html#semantic-categorization",
+    "title": "Research",
+    "section": "Semantic Categorization",
+    "text": "Semantic Categorization\nWe recently completed a semantic categorization project using highly visually similar stimuli. The results suggest that FPVS can still elicit a semantic categorization response even when visual differences between categories are tightly controlled. However, because semantic distance was low, the signal-to-noise ratio was weaker than in other published semantic categorization work. This manuscript is current in preparation.\nThis project helps clarify both the promise and the limits of FPVS semantic categorization designs: strong visual control is valuable, but reducing semantic distance can also reduce response strength."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Zack Murphy",
+    "section": "",
+    "text": "I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers.\nResearch Publications\n\n\nCurrent focus\n\nStandardizing FPVS experiment and analysis workflows\nFPVS Toolbox\nFPVS Studio\nEEG applications in cognitive neuroscience\n\nLinks\nGoogle Scholar\nORCID\nGitHub\nNERD Lab"
+  },
+  {
+    "objectID": "index.html#research-at-the-intersection-of-cognitive-neuroscience-eeg-and-fast-periodic-visual-stimulation",
+    "href": "index.html#research-at-the-intersection-of-cognitive-neuroscience-eeg-and-fast-periodic-visual-stimulation",
+    "title": "Zack Murphy",
+    "section": "",
+    "text": "I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers.\nResearch Publications"
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Zack Murphy",
+    "section": "Selected Work",
+    "text": "Selected Work\n\n\nResearch\nShort summaries of my dissertation work, ongoing collaborations, and projects in progress.\nRead more\n\n\nPublications\nPapers, preprints, conference abstracts, code, data links, and plain-language summaries.\nView publications\n\n\nSoftware\nResearch tools and packages I am building for analysis, reproducibility, and scientific workflows.\nSee software"
+  },
+  {
+    "objectID": "index.html#recent-updates",
+    "href": "index.html#recent-updates",
+    "title": "Zack Murphy",
+    "section": "Recent Updates",
+    "text": "Recent Updates\n\nMay 2026 - I have officially completed my Master of Science degree in Biomedical Engineering, and I am now a PhD student!\nOctober 2025 - Our FPVS research on facial expression processing was published in Brain and Cognition. DOI\nAugust 2025 - Our FPVS work on anxiety-linked neural sensitivity to emotional faces was published in International Journal of Psychophysiology. DOI"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Newest work appears first.\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. Brain and Cognition, 189, 106338, 2025.\nDOI | ScienceDirect\nThis study used FPVS and EEG to examine facial expression processing with diverse, naturalistic stimuli. Robust expression-related neural responses were observed with brief recordings and limited preprocessing, supporting FPVS as a sensitive framework for studying emotional face processing in both typical and clinical populations.\n\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. International Journal of Psychophysiology, 2025.\nDOI | ScienceDirect | OSF data and analysis scripts\nThis study used Fast Periodic Visual Stimulation (FPVS) and EEG to test whether anxiety-linked characteristics are associated with differences in neural responses to emotional facial expressions. Participants with anxiety-related characteristics showed stronger occipital responses to angry and sad faces, providing preliminary evidence that FPVS may capture trait-level differences in emotional face processing with short, high signal-to-noise recordings."
+  },
+  {
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
+    "title": "Publications",
+    "section": "",
+    "text": "Newest work appears first.\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. Brain and Cognition, 189, 106338, 2025.\nDOI | ScienceDirect\nThis study used FPVS and EEG to examine facial expression processing with diverse, naturalistic stimuli. Robust expression-related neural responses were observed with brief recordings and limited preprocessing, supporting FPVS as a sensitive framework for studying emotional face processing in both typical and clinical populations.\n\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. International Journal of Psychophysiology, 2025.\nDOI | ScienceDirect | OSF data and analysis scripts\nThis study used Fast Periodic Visual Stimulation (FPVS) and EEG to test whether anxiety-linked characteristics are associated with differences in neural responses to emotional facial expressions. Participants with anxiety-related characteristics showed stronger occipital responses to angry and sad faces, providing preliminary evidence that FPVS may capture trait-level differences in emotional face processing with short, high signal-to-noise recordings."
+  },
+  {
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\n\nInvestigating facial expression processing during fast periodic visual stimulation using highly variable stimuli\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Catherine Shi, Michael Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. bioRxiv, 2025.\nPreprint | DOI\nThis preprint tested whether FPVS could measure facial expression processing with more variable, naturalistic stimuli. The work showed robust oddball responses across participants, supporting FPVS as a sensitive method for studying emotional face processing with brief EEG recordings.\n\n\nPreliminary evidence for anxiety-linked neural sensitivity to emotional faces using fast periodic visual stimulation\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. bioRxiv, 2025.\nPreprint | DOI\nThis preprint examined whether anxiety-related characteristics are associated with altered neural responses to emotional facial expressions during FPVS. The study used EEG responses to neutral faces interspersed with emotional oddballs to evaluate FPVS as an implicit measure of emotion processing in anxiety."
+  },
+  {
+    "objectID": "publications.html#manuscripts-under-review",
+    "href": "publications.html#manuscripts-under-review",
+    "title": "Publications",
+    "section": "Manuscripts under review",
+    "text": "Manuscripts under review\n\nExploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis\nZack Murphy, Jennifer Kemp, and David Vandenheever."
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media",
+    "section": "",
+    "text": "Add your YouTube channel, selected videos, invited talks, conference recordings, podcast appearances, or public explainers here.\n\n\nReplace VIDEO_ID with the ID from a YouTube URL."
+  },
+  {
+    "objectID": "media.html#youtube-and-talks",
+    "href": "media.html#youtube-and-talks",
+    "title": "Media",
+    "section": "",
+    "text": "Add your YouTube channel, selected videos, invited talks, conference recordings, podcast appearances, or public explainers here.\n\n\nReplace VIDEO_ID with the ID from a YouTube URL."
+  },
+  {
+    "objectID": "media.html#selected-topics",
+    "href": "media.html#selected-topics",
+    "title": "Media",
+    "section": "Selected Topics",
+    "text": "Selected Topics\n\n[Topic you explain on your channel]\n[Research concept]\n[Software/tutorial topic]"
+  }
+]

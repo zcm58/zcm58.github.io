@@ -74,7 +74,7 @@
     "href": "index.html",
     "title": "Zack Murphy",
     "section": "",
-    "text": "I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers.\nResearch Publications\n\n\nCurrent focus\n\nStandardizing FPVS experiment and analysis workflows\nFPVS Toolbox\nFPVS Studio\nEEG applications in cognitive neuroscience\n\nLinks\nGoogle Scholar\nORCID\nGitHub\nNERD Lab"
+    "text": "I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers.\nResearch Publications\n\n\n\n\n\nCurrent focus\n\nStandardizing FPVS experiment and analysis workflows\nFPVS Toolbox\nFPVS Studio\nEEG applications in cognitive neuroscience\n\nLinks\nGoogle Scholar\nORCID\nGitHub\nNERD Lab"
   },
   {
     "objectID": "index.html#research-at-the-intersection-of-cognitive-neuroscience-eeg-and-fast-periodic-visual-stimulation",
@@ -82,6 +82,13 @@
     "title": "Zack Murphy",
     "section": "",
     "text": "I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers.\nResearch Publications"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Zack Murphy",
+    "section": "About Me",
+    "text": "About Me\nI am a Biomedical Engineering PhD student at Mississippi State University with experience implementing Fast Periodic Visual Stimulation (FPVS) paradigms across a range of EEG research projects. During my master’s degree, I developed FPVS Toolbox, a standalone Python-based software package designed to streamline FPVS data processing and analysis.\nMore broadly, my research focuses on making FPVS more accessible through modern software tools, helping researchers across domains apply the method more easily and expand its impact in EEG-based neuroscience research."
   },
   {
     "objectID": "index.html#selected-work",

@@ -3,7 +3,7 @@ title: "FPVS Toolbox"
 description: "Placeholder page for FPVS Toolbox."
 ---
 
-<img src="assets/fpvs-toolbox-icon-1024.ico" alt="" width="180">
+<img src="assets/fpvs-toolbox-icon-1024.png" alt="" width="180">
 
 ## About FPVS Toolbox
 

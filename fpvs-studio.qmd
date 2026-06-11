@@ -3,6 +3,8 @@ title: "FPVS Studio"
 description: "Detailed information about FPVS Studio."
 ---
 
+![FPVS Studio logo](assets/fpvs-studio-icon-1024.png){width=180}
+
 ## About FPVS Studio
 
 After spending many weeks during each semester teaching my undergraduate students basic programming concepts just to be able to understand how to run FPVS experiments, the concept of the FPVS Studio was born. The idea was to create a user-friendly interface that would allow students to easily set up and run their FPVS experiments without needing to dive into complex programming.

@@ -3,6 +3,8 @@ title: "FPVS Toolbox"
 description: "Placeholder page for FPVS Toolbox."
 ---
 
+<img src="assets/fpvs-toolbox-icon.png" alt="" width="180">
+
 ## FPVS Toolbox
 
 This page is a placeholder for FPVS Toolbox content.

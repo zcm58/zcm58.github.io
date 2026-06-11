@@ -3,7 +3,7 @@ title: "FPVS Studio"
 description: "Detailed information about FPVS Studio."
 ---
 
-![FPVS Studio logo](assets/fpvs-studio-icon-1024.png){width=180}
+<img src="assets/fpvs-studio-icon-1024.png" alt="" width="180">
 
 ## About FPVS Studio
 

@@ -5,9 +5,8 @@ description: "Research projects and scientific interests."
 
 ## Research Overview
 
-My research centers on Fast Periodic Visual Stimulation (FPVS), an powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still in its infancy, and it's only being used in a few research labs around the work. The main goal of my work is to help standardize FPVS methods and make them easier to use across cognitive neuroscience domains.
+My research centers on Fast Periodic Visual Stimulation (FPVS), an powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still in its infancy, and the scientific community is still attempting to understand the best use cases for FPVS and how it can one day be the bridge between EEG and a clinical setting. The main goal of my work is to help standardize FPVS methods and make them easier to use across cognitive neuroscience domains, and ultimately into clinical practice.
 
-I focus on both the scientific and practical sides of FPVS: designing experiments, improving analysis workflows, and building dedicated software tools that make FPVS more accessible.
 
 ## Suggested Reading
 

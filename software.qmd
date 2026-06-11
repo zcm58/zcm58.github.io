@@ -11,18 +11,18 @@ Use this page to connect your research identity to the tools you are building.
 
 FPVS Studio is a standalone package for designing and running FPVS experiments. It provides a user-friendly UI for creating FPVS conditions, managing stimuli, and currently supports BioSemi systems. This package is built on Python 3.10 and is available for installation via GitHub.
 
-[GitHub repository](https://github.com/zcm58/FPVS-Studio-2.0){target="_blank"}
+[Project page](fpvs-studio.qmd) | [GitHub repository](https://github.com/zcm58/FPVS-Studio-2.0){target="_blank"}
 
-If you use FPVS Studio in your research, please consider citing the software package:
+If you use FPVS Studio in your research, please cite the Zenodo software record:
 
-Zack Murphy. (2026). *zcm58/FPVS-Studio-2.0: v0.9.8 (v0.9.8)*. Zenodo. [https://doi.org/10.5281/zenodo.20343059](https://doi.org/10.5281/zenodo.20343059){target="_blank"}
+Zack Murphy. (2026). *zcm58/FPVS-Studio-2.0*. Zenodo. [https://doi.org/10.5281/zenodo.20343059](https://doi.org/10.5281/zenodo.20343059){target="_blank"}
 
 ### FPVS Toolbox
 
 FPVS Toolbox is a sister package to FPVS Studio designed to streamline data processing and figure creation for FPVS experiments. It outputs FPVS results in formats that work well with JASP, RStudio, and SAS for statistical analysis. FPVS Toolbox currently supports BioSemi systems and `.bdf` file formats, and is available for installation via GitHub.
 
-[GitHub repository](https://github.com/zcm58/FPVS-Toolbox-Repo){target="_blank"}
+[Project page](fpvs-toolbox.qmd) | [GitHub repository](https://github.com/zcm58/FPVS-Toolbox-Repo){target="_blank"}
 
-If you use FPVS Toolbox in your research, please consider citing the software package:
+If you use FPVS Toolbox in your research, please cite the Zenodo software record:
 
-Zack Murphy. (2026). *zcm58/FPVS-Toolbox-Repo: v2.0.0 (v2.0.0)*. Zenodo. [https://doi.org/10.5281/zenodo.20342768](https://doi.org/10.5281/zenodo.20342768){target="_blank"}
+Zack Murphy. (2026). *zcm58/FPVS-Toolbox-Repo*. Zenodo. [https://doi.org/10.5281/zenodo.20342767](https://doi.org/10.5281/zenodo.20342767){target="_blank"}

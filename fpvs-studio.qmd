@@ -1,0 +1,10 @@
+---
+title: "FPVS Studio"
+description: "Placeholder page for FPVS Studio."
+---
+
+## FPVS Studio
+
+This page is a placeholder for FPVS Studio content.
+
+More information will be added here later.

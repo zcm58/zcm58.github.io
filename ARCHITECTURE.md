@@ -14,6 +14,8 @@ presentation.
 |-- research.qmd         # Research program, projects, methods, collaborations
 |-- publications.qmd     # Publications, preprints, working papers
 |-- software.qmd         # Research software and project links
+|-- fpvs-toolbox.qmd     # Placeholder page for FPVS Toolbox
+|-- fpvs-studio.qmd      # Placeholder page for FPVS Studio
 |-- media.qmd            # Videos, talks, public-facing communication
 |-- cv.qmd               # CV download link and contact/profile links
 |-- styles.css           # Quarto SCSS variables and site-specific CSS
@@ -43,6 +45,8 @@ not source-of-truth files.
 - `publications.qmd`: verified publication metadata, links, and short summaries.
 - `software.qmd`: tools, repositories, documentation links, releases, and design
   principles.
+- `fpvs-toolbox.qmd`: placeholder page for future FPVS Toolbox content.
+- `fpvs-studio.qmd`: placeholder page for future FPVS Studio content.
 - `media.qmd`: talks, videos, tutorials, and public communication.
 - `cv.qmd`: CV download and stable contact/profile links.
 

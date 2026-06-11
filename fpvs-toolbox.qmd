@@ -5,8 +5,16 @@ description: "Placeholder page for FPVS Toolbox."
 
 <img src="assets/fpvs-toolbox-icon.png" alt="" width="180">
 
-## FPVS Toolbox
+## About FPVS Toolbox
 
-This page is a placeholder for FPVS Toolbox content.
+Processing FPVS data can be a daunting task, especially for those who are new to programming or data analysis, such as undergraduate students or non-experts in the field. FPVS Toolbox was designed specifically for this use case, and processing FPVS data is now easier than ever before. No coding experience is required, and this package can process large datasets of FPVS data in just a few clicks. FPVS Toolbox is designed to work directly with the FPVS Studio, so users can easily import their FPVS Studio projects and set up their data analysis with ease. The toolbox outputs data in both wide and long format, making statistical analysis with software like R or SPSS straightforward. 
 
-More information will be added here later.
+The processing methodology used in FPVS Toolbox is based on recently published methods (see the Suggested Reading section) and is currently compatible with BioSemi data formats. Future updates will include support for additional data formats. 
+
+## Requirements
+
+OS - Windows 10 or later
+RAM: 16GB recommended 
+CPU: Intel i5 or equivalent recommended
+Storage: At least 5GB of free space for installation of FPVS Toolbox and required libraries.
+

@@ -3,7 +3,7 @@ title: "FPVS Toolbox"
 description: "Placeholder page for FPVS Toolbox."
 ---
 
-<img src="assets/fpvs-toolbox-icon.png" alt="" width="180">
+<img src="assets/fpvs-toolbox-icon-1024.ico" alt="" width="180">
 
 ## About FPVS Toolbox
 
@@ -17,4 +17,3 @@ OS - Windows 10 or later
 RAM: 16GB recommended 
 CPU: Intel i5 or equivalent recommended
 Storage: At least 5GB of free space for installation of FPVS Toolbox and required libraries.
-

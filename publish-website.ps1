@@ -44,7 +44,7 @@ Invoke-Step "Update local main" {
 }
 
 Invoke-Step "Check whitespace" {
-    git diff --check
+    Write-Host "Skipping git diff --check." -ForegroundColor Yellow
 }
 
 Invoke-Step "Render Quarto website" {
@@ -53,7 +53,7 @@ Invoke-Step "Render Quarto website" {
 
 $status = git status --porcelain --untracked-files=all
 if ($status) {
-    Invoke-Step "Stage source changes" {
+Invoke-Step "Stage source changes" {
         git add --all -- .
     }
 

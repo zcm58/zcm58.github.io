@@ -19,7 +19,9 @@ presentation.
 |-- media.qmd            # Videos, talks, public-facing communication
 |-- cv.qmd               # CV download link and contact/profile links
 |-- styles.css           # Quarto SCSS variables and site-specific CSS
+|-- publish-website.ps1  # One-command render, commit, push, and publish helper
 |-- AGENTS.md            # Agent entry point and repo operating rules
+|-- .vscode/tasks.json   # VS Code task wrapper for publish-website.ps1
 `-- docs/agent/          # Deeper agent guidance for recurring workflows
 ```
 
@@ -71,10 +73,16 @@ The intended build command is:
 quarto render
 ```
 
-The site is expected to publish through GitHub Pages from the rendered Quarto
-site output configured outside this repo or by the hosting workflow. Do not
-change deployment behavior without first inspecting the current GitHub Pages
-settings or workflow files.
+For one-click local publishing from VS Code, run the `Publish website` task or
+run:
+
+```powershell
+.\publish-website.ps1
+```
+
+The helper renders the site, commits source changes to `main`, pushes `main`,
+and publishes the rendered output to the `gh-pages` branch with
+`quarto publish gh-pages --no-prompt --no-browser`.
 
 ## Change Policy
 

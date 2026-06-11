@@ -33,6 +33,8 @@ read first, not the full manual.
 - Page content: edit the matching root `.qmd` file.
 - Navigation, title, site URL, footer, or theme: edit `_quarto.yml`.
 - Layout, colors, fonts, buttons, cards, video embeds: edit `styles.css`.
+- Local publish workflow: run `.\publish-website.ps1` or the VS Code
+  `Publish website` task.
 - Site architecture or agent guidance: update `ARCHITECTURE.md` and this file
   together if the source-of-truth contract changes.
 
@@ -48,6 +50,12 @@ quarto render
 If Quarto is not installed in the local environment, say so and still run
 `git diff --check`. For visual or layout changes, open the rendered site and
 inspect desktop and mobile widths before claiming the UI is done.
+
+To publish source and rendered output after verification, use:
+
+```powershell
+.\publish-website.ps1
+```
 
 ## Boundaries
 

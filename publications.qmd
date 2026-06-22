@@ -23,21 +23,11 @@ This study used Fast Periodic Visual Stimulation (FPVS) and EEG to test whether 
 
 ## Preprints
 
-### Investigating facial expression processing during fast periodic visual stimulation using highly variable stimuli
+### Exploring Category Change Neural Responses Using Semantically Similar Stimuli With Fast Periodic Visual Stimulation
 
-David Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Catherine Shi, Michael Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. *bioRxiv*, 2025.  
-[Preprint](https://www.biorxiv.org/content/10.1101/2025.02.14.638300v1.abstract){target="_blank"} | [DOI](https://doi.org/10.1101/2025.02.14.638300){target="_blank"}
+Zack Murphy & David Vandenheever. Preprint submitted to BioRxiv on June 21, 2026. Awaiting Publication.
 
-This preprint tested whether FPVS could measure facial expression processing with more variable, naturalistic stimuli. The work showed robust oddball responses across participants, supporting FPVS as a sensitive method for studying emotional face processing with brief EEG recordings.
-
-### Preliminary evidence for anxiety-linked neural sensitivity to emotional faces using fast periodic visual stimulation
-
-David Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. *bioRxiv*, 2025.  
-[Preprint](https://www.biorxiv.org/content/10.1101/2025.02.15.638321v1.abstract){target="_blank"} | [DOI](https://doi.org/10.1101/2025.02.15.638321){target="_blank"}
-
-This preprint examined whether anxiety-related characteristics are associated with altered neural responses to emotional facial expressions during FPVS. The study used EEG responses to neutral faces interspersed with emotional oddballs to evaluate FPVS as an implicit measure of emotion processing in anxiety.
-
-## Accepted Publications
+## Manuscripts Accepted for Publication and In Preparation
 
 ### Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis
 

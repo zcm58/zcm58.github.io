@@ -3,9 +3,9 @@ title: "Publications"
 description: "Publications, preprints, and paper summaries."
 ---
 
-## Selected Publications
+## Publications
 
-Newest work appears first.
+Publications appear in reverse chronological order. 
 
 ### Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli
 
@@ -25,9 +25,9 @@ This study used Fast Periodic Visual Stimulation (FPVS) and EEG to test whether 
 
 ### Exploring Category Change Neural Responses Using Semantically Similar Stimuli With Fast Periodic Visual Stimulation
 
-Zack Murphy & David Vandenheever. Preprint submitted to BioRxiv on June 21, 2026. Awaiting Publication.
+Zack Murphy & David Vandenheever. [DOI](https://doi.org/10.64898/2026.06.22.733603){target="_blank"}
 
-## Manuscripts Accepted for Publication and In Preparation
+## Manuscripts Accepted for Publication
 
 ### Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis
 

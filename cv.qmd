@@ -7,7 +7,7 @@ description: "Curriculum vitae and contact links."
 
 CV available on request.
 
-## Contact
+## Contact Me
 
 - Email: [zmurphy@abe.msstate.edu](mailto:zmurphy@abe.msstate.edu)
 - GitHub: [github.com/zcm58](https://github.com/zcm58)

@@ -7,6 +7,13 @@ description: "Publications, preprints, and paper summaries."
 
 Publications appear in reverse chronological order. 
 
+### Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis
+
+Zack Murphy, Jennifer Kemp, and David Vandenheever. *Journal of Motor Behavior*, 1–12, 2026.<br>
+[Free publisher access](https://www.tandfonline.com/eprint/RDNADAIYPQBX9WHNJYN5/full?target=10.1080/00222895.2026.2691791){target="_blank"} | [DOI](https://doi.org/10.1080/00222895.2026.2691791){target="_blank"} | [Download accepted manuscript (PDF)](assets/publications/murphy-et-al-2026-table-tennis-accepted-manuscript.pdf){download=""} | [BibTeX](assets/publications/murphy-et-al-2026-table-tennis.bib){download=""}
+
+This study used EEG to compare preparatory brain activity during closed-skill serves and open-skill returns in novice table tennis players. Task- and performance-related differences in alpha, beta, and theta power suggest distinct neural demands across the two skills and potential targets for motor-skill training.
+
 ### Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli
 
 David Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. *Brain and Cognition*, 189, 106338, 2025.  
@@ -26,9 +33,3 @@ This study used Fast Periodic Visual Stimulation (FPVS) and EEG to test whether 
 ### Exploring Category Change Neural Responses Using Semantically Similar Stimuli With Fast Periodic Visual Stimulation
 
 Zack Murphy & David Vandenheever. [DOI](https://doi.org/10.64898/2026.06.22.733603){target="_blank"}
-
-## Manuscripts Accepted for Publication
-
-### Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis
-
-Zack Murphy, Jennifer Kemp, and David Vandenheever. Accepted for publication in *Journal of Motor Behavior*.

@@ -68,7 +68,7 @@ Software tools I am currently developing to support FPVS research and make the m
 
 ## Recent Updates
 
-- **June 2026** - My paper "Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis" was accepted for publication in *Journal of Motor Behavior*.
+- **July 2026** - My paper "Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis" was published online in *Journal of Motor Behavior*. [Free access and PDF](publications.qmd#exploring-brain-activity-in-novice-athletes-during-closed-and-open-skills-in-table-tennis) | [DOI](https://doi.org/10.1080/00222895.2026.2691791){target="_blank"}
 - **May 2026** - I have officially completed my Master of Science degree in Biomedical Engineering, and I am now a PhD student!
 
 - **October 2025** - Our FPVS research on facial expression processing was published in *Brain and Cognition*. [DOI](https://doi.org/10.1016/j.bandc.2025.106338){target="_blank"}

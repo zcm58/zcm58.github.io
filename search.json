@@ -4,21 +4,70 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "CV available on request."
+    "text": "Download CV (PDF)\nLast updated August 2026."
   },
   {
-    "objectID": "cv.html#curriculum-vitae",
-    "href": "cv.html#curriculum-vitae",
+    "objectID": "cv.html#research-profile",
+    "href": "cv.html#research-profile",
     "title": "CV",
-    "section": "",
-    "text": "CV available on request."
+    "section": "Research Profile",
+    "text": "Research Profile\nBiomedical Engineering PhD student specializing in EEG-based cognitive neuroscience and Fast Periodic Visual Stimulation (FPVS). My research focuses on standardizing FPVS experiment design and data analysis through accessible, reproducible software, with longer-term applications in mild cognitive impairment related to dementia."
   },
   {
-    "objectID": "cv.html#contact-me",
-    "href": "cv.html#contact-me",
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
     "title": "CV",
-    "section": "Contact Me",
-    "text": "Contact Me\n\nEmail: zmurphy@abe.msstate.edu\nGitHub: github.com/zcm58\nGoogle Scholar: scholar.google.com/citations?user=zbUyu0sAAAAJ\nORCID: orcid.org/0009-0003-3868-6888"
+    "section": "Education",
+    "text": "Education\n\nDoctor of Philosophy in Biomedical Engineering\nMississippi State University | Starkville, Mississippi | 2026-Present Research focus: Development of software for the administration and data analysis of FPVS experiments.\n\n\nMaster of Science in Biomedical Engineering\nMississippi State University | Starkville, Mississippi | 2024-2026 Research project: Investigating semantic categorization with semantically similar stimuli using Fast Periodic Visual Stimulation.\n\n\nBachelor of Science, Bagley College of Engineering (cum laude)\nMississippi State University | Starkville, Mississippi | 2017-2021"
+  },
+  {
+    "objectID": "cv.html#professional-and-research-experience",
+    "href": "cv.html#professional-and-research-experience",
+    "title": "CV",
+    "section": "Professional and Research Experience",
+    "text": "Professional and Research Experience\n\nAssistant Undergraduate Coordinator\nDepartment of Agricultural and Biological Engineering, Mississippi State University | Present I advise upper-division students in Biosystems and Biomedical Engineering and Agricultural Engineering Technology and Business.\n\n\nUndergraduate Laboratory Manager\nNeural Engineering Research Division, Mississippi State University | Present I manage the undergraduate laboratory and support ongoing FPVS and EEG research projects under David Vandenheever."
+  },
+  {
+    "objectID": "cv.html#research-software",
+    "href": "cv.html#research-software",
+    "title": "CV",
+    "section": "Research Software",
+    "text": "Research Software\n\nFPVS Studio 2.0\nCreator and developer | Python 3.10, PySide6 | 2026 Standalone application for designing and running FPVS experiments, including condition and stimulus management and BioSemi system support. GitHub | Zenodo DOI\n\n\nFPVS Toolbox\nCreator and developer | Python | 2026 Package for FPVS data processing, analysis, and figure creation. It supports BioSemi .bdf files and produces outputs for downstream analysis in JASP, R, and SAS. GitHub | Zenodo DOI"
+  },
+  {
+    "objectID": "cv.html#peer-reviewed-publications",
+    "href": "cv.html#peer-reviewed-publications",
+    "title": "CV",
+    "section": "Peer-Reviewed Publications",
+    "text": "Peer-Reviewed Publications\nMurphy, Z., Kemp, J., & Vandenheever, D. (2026). Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis. Journal of Motor Behavior, 1-12. DOI\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli. Brain and Cognition, 189, 106338. DOI\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Preliminary evidence for anxiety-linked neural sensitivity to emotional faces using fast periodic visual stimulation. International Journal of Psychophysiology, 214, 113212. DOI"
+  },
+  {
+    "objectID": "cv.html#preprints",
+    "href": "cv.html#preprints",
+    "title": "CV",
+    "section": "Preprints",
+    "text": "Preprints\nMurphy, Z., & Vandenheever, D. (2026). Exploring Category Change Neural Responses Using Semantically Similar Stimuli With Fast Periodic Visual Stimulation. Preprint. DOI"
+  },
+  {
+    "objectID": "cv.html#teaching-and-academic-service",
+    "href": "cv.html#teaching-and-academic-service",
+    "title": "CV",
+    "section": "Teaching and Academic Service",
+    "text": "Teaching and Academic Service\n\n2026 | Member, Bagley College of Engineering Strategic Planning Committee, Mississippi State University\n2026 | Participant, Preparing Future Faculty Program, Mississippi State University\n2025 | Co-instructor, Senior Seminar in Agricultural Engineering, Mississippi State University"
+  },
+  {
+    "objectID": "cv.html#technical-expertise",
+    "href": "cv.html#technical-expertise",
+    "title": "CV",
+    "section": "Technical Expertise",
+    "text": "Technical Expertise\nProgramming and software development: Python, R, MATLAB, PySide6, graphical user interface development, parallel processing, reproducible analysis workflows, and Git/GitHub.\nEEG and cognitive neuroscience: FPVS paradigm design; EEG data acquisition, analysis, and visualization; BioSemi ActiveTwo setup and troubleshooting across hundreds of participant sessions."
+  },
+  {
+    "objectID": "cv.html#contact",
+    "href": "cv.html#contact",
+    "title": "CV",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: zmurphy@abe.msstate.edu\nGitHub: github.com/zcm58\nLinkedIn: Zack Murphy\nGoogle Scholar: Zack Murphy\nORCID: 0009-0003-3868-6888"
   },
   {
     "objectID": "fpvs-toolbox.html#about-fpvs-toolbox",

@@ -35,11 +35,11 @@
     "text": "Research Software\n\nFPVS Studio 2.0\nCreator and developer | Python 3.10, PySide6 | 2026 Standalone application for designing and running FPVS experiments, including condition and stimulus management and BioSemi system support. GitHub | Zenodo DOI\n\n\nFPVS Toolbox\nCreator and developer | Python | 2026 Package for FPVS data processing, analysis, and figure creation. It supports BioSemi .bdf files and produces outputs for downstream analysis in JASP, R, and SAS. GitHub | Zenodo DOI"
   },
   {
-    "objectID": "cv.html#peer-reviewed-publications",
-    "href": "cv.html#peer-reviewed-publications",
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
     "title": "CV",
-    "section": "Peer-Reviewed Publications",
-    "text": "Peer-Reviewed Publications\nMurphy, Z., Kemp, J., & Vandenheever, D. (2026). Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis. Journal of Motor Behavior, 1-12. DOI\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli. Brain and Cognition, 189, 106338. DOI\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Preliminary evidence for anxiety-linked neural sensitivity to emotional faces using fast periodic visual stimulation. International Journal of Psychophysiology, 214, 113212. DOI"
+    "section": "Publications",
+    "text": "Publications\nMurphy, Z., Kemp, J., & Vandenheever, D. (2026). Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis. Journal of Motor Behavior, 1-12. DOI\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli. Brain and Cognition, 189, 106338. DOI\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Preliminary evidence for anxiety-linked neural sensitivity to emotional faces using fast periodic visual stimulation. International Journal of Psychophysiology, 214, 113212. DOI"
   },
   {
     "objectID": "cv.html#preprints",

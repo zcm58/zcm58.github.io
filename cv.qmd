@@ -32,12 +32,12 @@ Research project: Investigating semantic categorization with semantically simila
 ### Assistant Undergraduate Coordinator
 
 **Department of Agricultural and Biological Engineering, Mississippi State University** | Present<br>
-I advise upper-division students in Biosystems and Biomedical Engineering and Agricultural Engineering Technology and Business.
+I serve as the academic advisor for junior and senior students in the department of Agricultural and Biological Engineering at Mississippi State.
 
 ### Undergraduate Laboratory Manager
 
 **Neural Engineering Research Division, Mississippi State University** | Present<br>
-I manage the undergraduate laboratory and support ongoing FPVS and EEG research projects under David Vandenheever.
+I manage the Neural Engineering Research Division's undergraduate laboratory under the supervision of Dr. David Vandenheever. In this role, I oversee multiple active research projects and around twenty undergraduate students.
 
 ## Research Software
 

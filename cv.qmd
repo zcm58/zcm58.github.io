@@ -53,7 +53,7 @@ Standalone application for designing and running FPVS experiments, including con
 Package for FPVS data processing, analysis, and figure creation. It supports BioSemi `.bdf` files and produces outputs for downstream analysis in JASP, R, and SAS.<br>
 [GitHub](https://github.com/zcm58/FPVS-Toolbox-Repo){target="_blank"} | [Zenodo DOI](https://doi.org/10.5281/zenodo.20342767){target="_blank"}
 
-## Peer-Reviewed Publications
+## Publications
 
 **Murphy, Z.**, Kemp, J., & Vandenheever, D. (2026). Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis. *Journal of Motor Behavior*, 1-12. [DOI](https://doi.org/10.1080/00222895.2026.2691791){target="_blank"}
 

@@ -1,15 +1,86 @@
 ---
 title: "CV"
-description: "Curriculum vitae and contact links."
+description: "Curriculum vitae for Zack Murphy, including education, research, software, publications, teaching, service, and technical expertise."
 ---
 
-## Curriculum Vitae
+[Download CV (PDF)](assets/zack-murphy-cv.pdf){.btn .btn-primary download=""}
 
-CV available on request.
+*Last updated August 2026.*
 
-## Contact Me
+## Research Profile
+
+Biomedical Engineering PhD student specializing in EEG-based cognitive neuroscience and Fast Periodic Visual Stimulation (FPVS). My research focuses on standardizing FPVS experiment design and data analysis through accessible, reproducible software, with longer-term applications in mild cognitive impairment related to dementia.
+
+## Education
+
+### Doctor of Philosophy in Biomedical Engineering
+
+**Mississippi State University** | Starkville, Mississippi | 2026-Present<br>
+Research focus: Development of software for the administration and data analysis of FPVS experiments.
+
+### Master of Science in Biomedical Engineering
+
+**Mississippi State University** | Starkville, Mississippi | 2024-2026<br>
+Research project: Investigating semantic categorization with semantically similar stimuli using Fast Periodic Visual Stimulation.
+
+### Bachelor of Science, Bagley College of Engineering (cum laude)
+
+**Mississippi State University** | Starkville, Mississippi | 2017-2021
+
+## Professional and Research Experience
+
+### Assistant Undergraduate Coordinator
+
+**Department of Agricultural and Biological Engineering, Mississippi State University** | Present<br>
+I advise upper-division students in Biosystems and Biomedical Engineering and Agricultural Engineering Technology and Business.
+
+### Undergraduate Laboratory Manager
+
+**Neural Engineering Research Division, Mississippi State University** | Present<br>
+I manage the undergraduate laboratory and support ongoing FPVS and EEG research projects under David Vandenheever.
+
+## Research Software
+
+### FPVS Studio 2.0
+
+**Creator and developer** | Python 3.10, PySide6 | 2026<br>
+Standalone application for designing and running FPVS experiments, including condition and stimulus management and BioSemi system support.<br>
+[GitHub](https://github.com/zcm58/FPVS-Studio-2.0){target="_blank"} | [Zenodo DOI](https://doi.org/10.5281/zenodo.20343059){target="_blank"}
+
+### FPVS Toolbox
+
+**Creator and developer** | Python | 2026<br>
+Package for FPVS data processing, analysis, and figure creation. It supports BioSemi `.bdf` files and produces outputs for downstream analysis in JASP, R, and SAS.<br>
+[GitHub](https://github.com/zcm58/FPVS-Toolbox-Repo){target="_blank"} | [Zenodo DOI](https://doi.org/10.5281/zenodo.20342767){target="_blank"}
+
+## Peer-Reviewed Publications
+
+**Murphy, Z.**, Kemp, J., & Vandenheever, D. (2026). Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis. *Journal of Motor Behavior*, 1-12. [DOI](https://doi.org/10.1080/00222895.2026.2691791){target="_blank"}
+
+Vandenheever, D., Davidson, H., Kemp, J., **Murphy, Z.**, Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli. *Brain and Cognition, 189*, 106338. [DOI](https://doi.org/10.1016/j.bandc.2025.106338){target="_blank"}
+
+Vandenheever, D., Davidson, H., Kemp, J., **Murphy, Z.**, Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Preliminary evidence for anxiety-linked neural sensitivity to emotional faces using fast periodic visual stimulation. *International Journal of Psychophysiology, 214*, 113212. [DOI](https://doi.org/10.1016/j.ijpsycho.2025.113212){target="_blank"}
+
+## Preprints
+
+**Murphy, Z.**, & Vandenheever, D. (2026). Exploring Category Change Neural Responses Using Semantically Similar Stimuli With Fast Periodic Visual Stimulation. Preprint. [DOI](https://doi.org/10.64898/2026.06.22.733603){target="_blank"}
+
+## Teaching and Academic Service
+
+- **2026** | Member, Bagley College of Engineering Strategic Planning Committee, Mississippi State University
+- **2026** | Participant, Preparing Future Faculty Program, Mississippi State University
+- **2025** | Co-instructor, Senior Seminar in Agricultural Engineering, Mississippi State University
+
+## Technical Expertise
+
+**Programming and software development:** Python, R, MATLAB, PySide6, graphical user interface development, parallel processing, reproducible analysis workflows, and Git/GitHub.
+
+**EEG and cognitive neuroscience:** FPVS paradigm design; EEG data acquisition, analysis, and visualization; BioSemi ActiveTwo setup and troubleshooting across hundreds of participant sessions.
+
+## Contact
 
 - Email: [zmurphy@abe.msstate.edu](mailto:zmurphy@abe.msstate.edu)
-- GitHub: [github.com/zcm58](https://github.com/zcm58)
-- Google Scholar: [scholar.google.com/citations?user=zbUyu0sAAAAJ](https://scholar.google.com/citations?user=zbUyu0sAAAAJ&hl=en)
-- ORCID: [orcid.org/0009-0003-3868-6888](https://orcid.org/0009-0003-3868-6888)
+- GitHub: [github.com/zcm58](https://github.com/zcm58){target="_blank"}
+- LinkedIn: [Zack Murphy](https://www.linkedin.com/in/zack-murphy-307282146/){target="_blank"}
+- Google Scholar: [Zack Murphy](https://scholar.google.com/citations?user=zbUyu0sAAAAJ&hl=en){target="_blank"}
+- ORCID: [0009-0003-3868-6888](https://orcid.org/0009-0003-3868-6888){target="_blank"}

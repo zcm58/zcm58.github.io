@@ -34,7 +34,9 @@ read first, not the full manual.
 - Navigation, title, site URL, footer, or theme: edit `_quarto.yml`.
 - Layout, colors, fonts, buttons, cards, video embeds: edit `styles.css`.
 - Local publish workflow: run `.\publish-website.ps1` or the VS Code
-  `Publish website` task.
+  `Publish website` task. The helper clean-renders, versions browser-facing
+  output, publishes once, and verifies the deployed version; do not replace it
+  with a raw `quarto publish` call.
 - Site architecture or agent guidance: update `ARCHITECTURE.md` and this file
   together if the source-of-truth contract changes.
 

@@ -3,8 +3,8 @@
   "tasks": [
     {
       "label": "Publish website",
-      "type": "shell",
-      "command": "powershell",
+      "type": "process",
+      "command": "powershell.exe",
       "args": [
         "-NoProfile",
         "-ExecutionPolicy",
@@ -12,8 +12,21 @@
         "-File",
         "${workspaceFolder}\\publish-website.ps1"
       ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "group": "build",
-      "problemMatcher": []
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true,
+        "showReuseMessage": false
+      },
+      "runOptions": {
+        "instanceLimit": 1
+      },
+      "detail": "Clean-render, cache-version, publish, and verify the live GitHub Pages site."
     }
   ]
 }

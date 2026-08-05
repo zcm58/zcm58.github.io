@@ -20,6 +20,7 @@ presentation.
 |-- cv.qmd               # CV download link and contact/profile links
 |-- styles.css           # Quarto SCSS variables and site-specific CSS
 |-- publish-website.ps1  # One-command render, commit, push, and publish helper
+|-- scripts/             # Cache-version transform and rendered-output check
 |-- AGENTS.md            # Agent entry point and repo operating rules
 |-- .vscode/tasks.json   # VS Code task wrapper for publish-website.ps1
 `-- docs/agent/          # Deeper agent guidance for recurring workflows
@@ -80,9 +81,13 @@ run:
 .\publish-website.ps1
 ```
 
-The helper renders the site, commits source changes to `main`, pushes `main`,
-and publishes the rendered output to the `gh-pages` branch with
-`quarto publish gh-pages --no-prompt --no-browser`.
+The helper clears generated site output, performs one cache-refresh render,
+adds a deploy version to rendered pages and local assets, commits source
+changes to `main`, and publishes that exact output to `gh-pages` with
+`quarto publish gh-pages --no-render`. It then verifies that both `gh-pages`
+and the cache-busted live site expose the same version before reporting
+success. The page marker reloads a stale cached page once with the current
+deploy version, so visitors do not need to clear their browser cache.
 
 ## Change Policy
 

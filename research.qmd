@@ -8,19 +8,6 @@ description: "Research projects and scientific interests."
 My research centers on Fast Periodic Visual Stimulation (FPVS), an powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still in its infancy, and the scientific community is still attempting to understand the best use cases for FPVS and how it can one day be the bridge between EEG and a clinical setting. The main goal of my work is to help standardize FPVS methods and make them easier to use across cognitive neuroscience domains, and ultimately into clinical practice.
 
 
-## Suggested Reading
-
-If you are unfamiliar with FPVS and would like to learn more, I suggest starting with the following publications. While this is not an exhaustive list, these works provide a solid foundation for understanding the capabilities of FPVS and the strengths of this methodology.
-
-- Vandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli. *Brain and Cognition, 189*, 106338. [DOI](https://doi.org/10.1016/j.bandc.2025.106338){target="_blank"}
-- David, J., Quenon, L., Hanseeuw, B., Ivanoiu, A., Volfart, A., Koessler, L., & Rossion, B. (2025). An objective and sensitive electrophysiological marker of word semantic categorization impairment in Alzheimer's disease. *Clinical Neurophysiology, 170*, 98-109. [DOI](https://doi.org/10.1016/j.clinph.2024.12.018){target="_blank"}
-- Hauk, O., Marchive, M., Volfart, A., Schiltz, C., Rossion, B., Lambon Ralph, M. A., & Lochy, A. (2025). Word-selective EEG/MEG responses in the English language obtained with fast periodic visual stimulation (FPVS). *Imaging Neuroscience, 3*. [DOI](https://doi.org/10.1162/imag_a_00414){target="_blank"}
-- Hauk, O., Rice, G. E., Volfart, A., Magnabosco, F., Lambon Ralph, M. A., & Rossion, B. (2021). Face-selective responses in combined EEG/MEG recordings with fast periodic visual stimulation (FPVS). *NeuroImage, 242*, 118460. [DOI](https://doi.org/10.1016/j.neuroimage.2021.118460){target="_blank"}
-- Volfart, A., Rice, G. E., Lambon Ralph, M. A., & Rossion, B. (2021). Implicit, automatic semantic word categorisation in the left occipito-temporal cortex as revealed by fast periodic visual stimulation. *NeuroImage, 238*, 118228. [DOI](https://doi.org/10.1016/j.neuroimage.2021.118228){target="_blank"}
-- Stothart, G., Quadflieg, S., & Milton, A. (2017). A fast and implicit measure of semantic categorisation using steady state visual evoked potentials. *Neuropsychologia, 102*, 11-18. [DOI](https://doi.org/10.1016/j.neuropsychologia.2017.05.025){target="_blank"}
-- Rossion, B., Torfs, K., Jacques, C., & Liu-Shuang, J. (2015). Fast periodic presentation of natural images reveals a robust face-selective electrophysiological response in the human brain. *Journal of Vision, 15*(1), 18. [DOI](https://doi.org/10.1167/15.1.18){target="_blank"}
-- Rossion, B. (2014). Understanding individual face discrimination by means of fast periodic visual stimulation. *Experimental Brain Research, 232*(6), 1599-1621. [DOI](https://doi.org/10.1007/s00221-014-3934-9){target="_blank"}
-
 ## Standardizing FPVS Workflows via Software Tools
 
 FPVS has demonstrated the ability to produce strong, reliable neural responses in various research domains, but this method is still only being actively utilized in a small number of labs around the world. Increasing awareness of the effectiveness of FPVS and solving potential barriers to its adoption are important goals of my research.
@@ -47,3 +34,16 @@ Across these projects, FPVS provides a way to measure targeted neural responses 
 During my research for my M.S. degree, I completed a semantic categorization FPVS study using highly visually similar stimuli. The results suggest that FPVS can still elicit a semantic categorization response even when visual differences between categories are tightly controlled. However, the signal-to-noise ratio was weaker than in other published semantic categorization work, likely due to the low semantic distance and low visual variability of the stimuli used. This manuscript is currently in preparation.
 
 This project helped to clarify both the promise and the limits of FPVS semantic categorization designs: strong visual control is valuable, but reducing semantic distance can also reduce response strength.
+
+## Suggested Reading
+
+If you are unfamiliar with FPVS and would like to learn more, I suggest starting with the following publications. While this is not an exhaustive list, these works provide a solid foundation for understanding the capabilities of FPVS and the strengths of this methodology.
+
+- Vandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli. *Brain and Cognition, 189*, 106338. [DOI](https://doi.org/10.1016/j.bandc.2025.106338){target="_blank"}
+- David, J., Quenon, L., Hanseeuw, B., Ivanoiu, A., Volfart, A., Koessler, L., & Rossion, B. (2025). An objective and sensitive electrophysiological marker of word semantic categorization impairment in Alzheimer's disease. *Clinical Neurophysiology, 170*, 98-109. [DOI](https://doi.org/10.1016/j.clinph.2024.12.018){target="_blank"}
+- Hauk, O., Marchive, M., Volfart, A., Schiltz, C., Rossion, B., Lambon Ralph, M. A., & Lochy, A. (2025). Word-selective EEG/MEG responses in the English language obtained with fast periodic visual stimulation (FPVS). *Imaging Neuroscience, 3*. [DOI](https://doi.org/10.1162/imag_a_00414){target="_blank"}
+- Hauk, O., Rice, G. E., Volfart, A., Magnabosco, F., Lambon Ralph, M. A., & Rossion, B. (2021). Face-selective responses in combined EEG/MEG recordings with fast periodic visual stimulation (FPVS). *NeuroImage, 242*, 118460. [DOI](https://doi.org/10.1016/j.neuroimage.2021.118460){target="_blank"}
+- Volfart, A., Rice, G. E., Lambon Ralph, M. A., & Rossion, B. (2021). Implicit, automatic semantic word categorisation in the left occipito-temporal cortex as revealed by fast periodic visual stimulation. *NeuroImage, 238*, 118228. [DOI](https://doi.org/10.1016/j.neuroimage.2021.118228){target="_blank"}
+- Stothart, G., Quadflieg, S., & Milton, A. (2017). A fast and implicit measure of semantic categorisation using steady state visual evoked potentials. *Neuropsychologia, 102*, 11-18. [DOI](https://doi.org/10.1016/j.neuropsychologia.2017.05.025){target="_blank"}
+- Rossion, B., Torfs, K., Jacques, C., & Liu-Shuang, J. (2015). Fast periodic presentation of natural images reveals a robust face-selective electrophysiological response in the human brain. *Journal of Vision, 15*(1), 18. [DOI](https://doi.org/10.1167/15.1.18){target="_blank"}
+- Rossion, B. (2014). Understanding individual face discrimination by means of fast periodic visual stimulation. *Experimental Brain Research, 232*(6), 1599-1621. [DOI](https://doi.org/10.1007/s00221-014-3934-9){target="_blank"}

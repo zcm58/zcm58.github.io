@@ -174,6 +174,7 @@ Components are precise, calm, and immediately legible. Shape is gently squared, 
 - **Shadow Strategy:** Flat by default; only the profile panel receives Panel Orbit elevation.
 - **Border:** One 1px Orbit Line around the complete surface; colored side stripes are prohibited.
 - **Internal Padding:** 20px for selected-work containers and 22px for the profile panel.
+- **Selected Work Interaction:** The complete card is one link target. A right arrow signals navigation, while Solar Gold identifies hover and keyboard focus across the full boundary.
 
 ### Navigation
 

@@ -264,15 +264,56 @@ button:focus-visible,
 }
 
 .feature {
+  position: relative;
+  display: block;
   min-height: 210px;
   padding: 20px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(14, 32, 52, 0.88);
+  color: var(--starlight);
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .feature h3 {
   margin-top: 0;
+  padding-right: 42px;
+  color: var(--starlight);
+}
+
+.feature p {
+  color: var(--starlight);
+}
+
+.feature-arrow {
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  color: var(--orbital-blue);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1.55rem;
+  font-weight: 400;
+}
+
+.feature:hover {
+  border-color: var(--solar-gold);
+  background: rgba(18, 41, 68, 0.96);
+  color: var(--starlight);
+}
+
+.feature:hover h3,
+.feature:hover .feature-arrow {
+  color: var(--solar-gold);
+}
+
+.feature:focus-visible {
+  border-color: var(--solar-gold);
+}
+
+.feature:focus-visible h3,
+.feature:focus-visible .feature-arrow {
+  color: var(--solar-gold);
 }
 
 .page-footer {
@@ -338,5 +379,17 @@ button:focus-visible,
   .hero-copy p,
   .feature p {
     max-width: calc(100vw - 96px);
+  }
+
+  .feature h3 {
+    padding-right: 30px;
+    font-size: 1.45rem;
+    overflow-wrap: normal;
+  }
+
+  .feature-arrow {
+    top: 18px;
+    right: 14px;
+    font-size: 1.35rem;
   }
 }

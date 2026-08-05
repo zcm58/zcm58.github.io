@@ -2,6 +2,7 @@
 title: "Zack Murphy"
 subtitle: "Biomedical Engineering PhD student specializing in cognitive neuroscience research using EEG at Mississippi State University"
 description: "Academic homepage for Zack Murphy."
+anchor-sections: false
 ---
 
 ::: {.hero}
@@ -33,31 +34,10 @@ I am a Biomedical Engineering PhD student at Mississippi State University workin
 
 ## Selected Work
 
-::: {.feature-grid}
-::: {.feature}
-### Research
-
-Short summaries of my research interests and ongoing projects in our lab. 
-
-[Read more](research.qmd)
-:::
-
-::: {.feature}
-### Publications
-
-Recent publications and preprints from my research. 
-
-[View publications](publications.qmd)
-:::
-
-::: {.feature}
-### Software
-
-Software tools I am currently developing to support FPVS research and make the method more accessible and standardized. 
-
-[See software](software.qmd)
-:::
-:::
+<div class="feature-grid">
+<a class="feature" href="research.html"><h3>Research <span class="feature-arrow" aria-hidden="true">&rarr;</span></h3><p>Short summaries of my research interests and ongoing projects in our lab.</p></a>
+<a class="feature" href="publications.html"><h3>Publications <span class="feature-arrow" aria-hidden="true">&rarr;</span></h3><p>Recent publications and preprints from my research.</p></a>
+<a class="feature" href="software.html"><h3>Software <span class="feature-arrow" aria-hidden="true">&rarr;</span></h3><p>Software tools I am currently developing to support FPVS research and make the method more accessible and standardized.</p></a></div>
 
 ## Recent Updates
 

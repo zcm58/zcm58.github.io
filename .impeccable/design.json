@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-05T16:19:00-05:00",
+  "generatedAt": "2026-08-05T16:50:00-05:00",
   "title": "Design System: Zack Murphy Academic Portfolio",
   "extensions": {
     "colorMeta": {
@@ -60,9 +60,9 @@
       "name": "Feature Card",
       "kind": "card",
       "refersTo": "feature-card",
-      "description": "A flat selected-work container that gives related content a readable boundary.",
-      "html": "<article class=\"ds-feature\"><h3>Research</h3><p>Short summaries of current research and ongoing projects.</p><a href=\"#\">Read more</a></article>",
-      "css": ".ds-feature { max-width: 320px; min-height: 210px; padding: 20px; border: 1px solid #506c86; border-radius: 8px; background: #0e2034; color: #f5f7fa; font: 400 1.03rem/1.68 'Segoe UI', Arial, sans-serif; } .ds-feature h3 { margin-top: 0; font: 650 1.55rem/1.2 Georgia, 'Times New Roman', serif; } .ds-feature a { color: #6eb7ff; text-underline-offset: 3px; } .ds-feature a:hover { color: #ffd166; } .ds-feature a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
+      "description": "A selected-work navigation tile whose full surface is a single accessible link target.",
+      "html": "<a class=\"ds-feature\" href=\"#\"><h3>Research <span aria-hidden=\"true\">\u2192</span></h3><p>Short summaries of current research and ongoing projects.</p></a>",
+      "css": ".ds-feature { position: relative; display: block; max-width: 320px; min-height: 210px; padding: 20px; border: 1px solid #506c86; border-radius: 8px; background: #0e2034; color: #f5f7fa; font: 400 1.03rem/1.68 'Segoe UI', Arial, sans-serif; cursor: pointer; text-decoration: none; } .ds-feature h3 { margin-top: 0; padding-right: 42px; color: #f5f7fa; font: 650 1.55rem/1.2 Georgia, 'Times New Roman', serif; } .ds-feature span { position: absolute; top: 17px; right: 20px; color: #6eb7ff; } .ds-feature:hover { border-color: #ffd166; background: #122944; color: #f5f7fa; } .ds-feature:hover h3, .ds-feature:hover span { color: #ffd166; } .ds-feature:focus-visible { border-color: #ffd166; outline: 3px solid #ffd166; outline-offset: 3px; }"
     },
     {
       "name": "Hero Profile Panel",

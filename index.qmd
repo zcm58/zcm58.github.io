@@ -10,7 +10,6 @@ description: "Academic homepage for Zack Murphy."
 
 I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers.
 
-[Research](research.qmd){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-outline}
 :::
 
 ::: {.hero-panel}

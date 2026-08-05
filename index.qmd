@@ -32,12 +32,6 @@ I am a Biomedical Engineering PhD student at Mississippi State University workin
 :::
 :::
 
-## About Me
-
-I am a Biomedical Engineering PhD student at Mississippi State University with experience implementing Fast Periodic Visual Stimulation (FPVS) paradigms across a range of EEG research projects. During my master's degree, I developed FPVS Toolbox, a standalone Python-based software package designed to streamline FPVS data processing and analysis.
-
-My current research interests focus on making FPVS more accessible through easy to use software tools, helping researchers across domains apply the method more easily and expand its impact in EEG-based neuroscience research. I am also interested in applying FPVS to study mild cognitive impairment related to dementia, with the goal of improving early detection. 
-
 ## Selected Work
 
 ::: {.feature-grid}

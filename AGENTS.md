@@ -8,6 +8,8 @@ read first, not the full manual.
 
 - Read `ARCHITECTURE.md` before changing site structure, navigation, styling, or
   build behavior.
+- Read `PRODUCT.md` before visual or interaction changes; it defines the site's
+  audience, brand personality, anti-references, and accessibility target.
 - Read `docs/agent/content-workflow.md` before updating publications, research
   descriptions, media, CV links, or public profile links.
 - Inspect the relevant `.qmd` page before editing it. Do not infer current

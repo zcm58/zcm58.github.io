@@ -21,6 +21,7 @@ presentation.
 |-- styles.css           # Quarto SCSS variables and site-specific CSS
 |-- publish-website.ps1  # One-command render, commit, push, and publish helper
 |-- scripts/             # Cache-version transform and rendered-output check
+|-- PRODUCT.md           # Audience, brand, anti-references, accessibility
 |-- AGENTS.md            # Agent entry point and repo operating rules
 |-- .vscode/tasks.json   # VS Code task wrapper for publish-website.ps1
 `-- docs/agent/          # Deeper agent guidance for recurring workflows

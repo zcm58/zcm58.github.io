@@ -181,16 +181,18 @@ button:focus-visible,
 }
 
 .hero-copy h2 {
-  max-width: 800px;
+  max-width: 700px;
   margin-top: 0;
-  font-size: clamp(2.6rem, 5vw, 5.4rem);
-  line-height: 0.96;
+  font-size: clamp(2.25rem, 3.6vw, 3.75rem);
+  line-height: 1.04;
+  letter-spacing: -0.018em;
 }
 
 .hero-copy p {
-  max-width: 720px;
+  max-width: 68ch;
   color: var(--muted);
-  font-size: 1.16rem;
+  font-size: 1.08rem;
+  line-height: 1.65;
 }
 
 .hero-panel {
@@ -350,6 +352,8 @@ button:focus-visible,
   .page-columns .content {
     grid-column: body-content-start / body-content-end;
     max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .hero,
@@ -365,20 +369,45 @@ button:focus-visible,
   }
 
   .hero {
+    gap: 20px;
     min-height: auto;
-    padding-top: 42px;
-    padding-bottom: 36px;
+    padding-top: 28px;
+    padding-bottom: 24px;
   }
 
   .hero-copy h2 {
-    max-width: calc(100vw - 96px);
-    font-size: clamp(2rem, 9vw, 2.2rem);
+    max-width: 100%;
+    font-size: clamp(1.65rem, 6vw, 1.95rem);
+    line-height: 1.06;
     overflow-wrap: normal;
   }
 
-  .hero-copy p,
+  .hero-copy p {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+
   .feature p {
-    max-width: calc(100vw - 96px);
+    max-width: 100%;
+  }
+
+  .hero-panel {
+    padding: 16px;
+  }
+
+  .hero-panel p,
+  .hero-panel li {
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+
+  .headshot-block {
+    margin-bottom: 14px;
+  }
+
+  .headshot {
+    width: 128px;
+    height: 128px;
   }
 
   .feature h3 {

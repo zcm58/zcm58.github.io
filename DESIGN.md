@@ -13,9 +13,9 @@ colors:
 typography:
   display:
     fontFamily: "Georgia, Times New Roman, serif"
-    fontSize: "clamp(2.6rem, 5vw, 5.4rem)"
+    fontSize: "clamp(2.25rem, 3.6vw, 3.75rem)"
     fontWeight: 650
-    lineHeight: 0.96
+    lineHeight: 1.04
   headline:
     fontFamily: "Georgia, Times New Roman, serif"
     fontWeight: 650
@@ -130,7 +130,7 @@ The palette takes its character from deep space, instrument panels, orbit paths,
 
 ### Hierarchy
 
-- **Display** (650, fluid hero scale, 0.96 line height): The home-page research statement only.
+- **Display** (650, restrained fluid hero scale, 1.04 line height): The home-page research statement only.
 - **Headline** (650, responsive section scale, 1.15 line height): Page and section headings.
 - **Title** (650, inherited responsive scale, 1.2 line height): Card and subsection headings.
 - **Body** (400, 1.03rem, 1.68 line height): Academic prose, lists, publication information, and updates.
@@ -140,7 +140,7 @@ The palette takes its character from deep space, instrument panels, orbit paths,
 
 **The Reading First Rule.** Body copy always receives more breathing room on a dark surface; never compress line height to create artificial density.
 
-**The One Display Moment Rule.** The oversized serif display belongs to the home-page research statement, not to every section.
+**The One Display Moment Rule.** The prominent serif display belongs to the home-page research statement, but it must remain balanced with the profile panel and introductory copy at every viewport width.
 
 ## Elevation
 

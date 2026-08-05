@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-05T17:27:00-05:00",
+  "generatedAt": "2026-08-05T17:49:09-05:00",
   "title": "Design System: Zack Murphy Academic Portfolio",
   "extensions": {
     "colorMeta": {
@@ -94,6 +94,7 @@
     "rules": [
       { "name": "The Signal Discipline Rule", "body": "Orbital Blue communicates interaction, Signal Red communicates rare emphasis, and Solar Gold communicates focus; never exchange those roles for decoration.", "section": "colors" },
       { "name": "The Contrast Before Color Rule", "body": "Every functional color pair must meet WCAG 2.2 AA before it enters the stylesheet.", "section": "colors" },
+      { "name": "The Continuous Field Rule", "body": "Ambient color glows must span the page with same-hue alpha fades and explicit no-repeat behavior. Only the star field may tile, preventing visible bands where Orbital Blue, Signal Red, and Deep Space meet.", "section": "colors" },
       { "name": "The Reading First Rule", "body": "Body copy always receives more breathing room on a dark surface; never compress line height to create artificial density.", "section": "typography" },
       { "name": "The One Display Moment Rule", "body": "The prominent serif display belongs to the home-page research statement, but it must remain balanced with the profile panel and introductory copy at every viewport width.", "section": "typography" },
       { "name": "The Ambient Depth Rule", "body": "Shadows must be broad, dark, and quiet; never use a sharp shadow to simulate a clickable card.", "section": "elevation" }

@@ -120,6 +120,8 @@ The palette takes its character from deep space, instrument panels, orbit paths,
 
 **The Contrast Before Color Rule.** Every functional color pair must meet WCAG 2.2 AA before it enters the stylesheet.
 
+**The Continuous Field Rule.** Ambient color glows must span the page with same-hue alpha fades and explicit no-repeat behavior. Only the star field may tile, preventing visible bands where Orbital Blue, Signal Red, and Deep Space meet.
+
 ## Typography
 
 **Display Font:** Georgia (with Times New Roman fallback)

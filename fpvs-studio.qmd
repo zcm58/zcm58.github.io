@@ -3,10 +3,10 @@ title: "FPVS Studio"
 description: "Detailed information about FPVS Studio."
 ---
 
-<img src="assets/fpvs-studio-icon-1024.png" alt="" width="180">
+<img src="assets/fpvs-studio-icon-1024.png" alt="FPVS Studio application icon" width="180" height="180" decoding="async">
 
 ## About FPVS Studio
 
-FPVS Studio was designed with the non-expert user in mind. It is a user-friendly software package that allows users to create and run FPVS experiments with zero coding knowledge required. 
+FPVS Studio was designed with the non-expert user in mind. It is a user-friendly software package that allows users to create and run FPVS experiments with zero coding knowledge required.
 
-Once an experiment has been created, users simply need to open FPVS Studio, select their experiment, and run it. FPVS Studio logs all of the necessary information (eg., fixation cross accuracy, reaction times, image display seeds, etc) automatically, and outputs everything that is needed for a future publication. FPVS Studio is designed to work directly with the FPVS Toolbox - users can export their FPVS Studio project to be imported into FPVS Toolbox, which streamlines data analysis. 
+Once an experiment has been created, users simply need to open FPVS Studio, select their experiment, and run it. FPVS Studio logs all of the necessary information (eg., fixation cross accuracy, reaction times, image display seeds, etc) automatically, and outputs everything that is needed for a future publication. FPVS Studio is designed to work directly with the FPVS Toolbox - users can export their FPVS Studio project to be imported into FPVS Toolbox, which streamlines data analysis.

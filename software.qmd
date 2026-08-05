@@ -13,7 +13,7 @@ FPVS Studio is a standalone package for designing and running FPVS experiments. 
 
 If you use FPVS Studio in your research, please cite the Zenodo software record:
 
-Zack Murphy. (2026). *zcm58/FPVS-Studio-2.0*. Zenodo. [https://doi.org/10.5281/zenodo.20343059](https://doi.org/10.5281/zenodo.20343059){target="_blank"}
+Zack Murphy. (2026). *zcm58/FPVS-Studio-2.0*. Zenodo. [Zenodo DOI](https://doi.org/10.5281/zenodo.20343059){target="_blank"}
 
 ### FPVS Toolbox
 
@@ -23,4 +23,4 @@ FPVS Toolbox is a sister package to FPVS Studio designed to streamline data proc
 
 If you use FPVS Toolbox in your research, please cite the Zenodo software record:
 
-Zack Murphy. (2026). *zcm58/FPVS-Toolbox-Repo*. Zenodo. [https://doi.org/10.5281/zenodo.20342767](https://doi.org/10.5281/zenodo.20342767){target="_blank"}
+Zack Murphy. (2026). *zcm58/FPVS-Toolbox-Repo*. Zenodo. [Zenodo DOI](https://doi.org/10.5281/zenodo.20342767){target="_blank"}

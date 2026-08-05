@@ -12,21 +12,21 @@ colors:
   solar-gold: "#ffd166"
 typography:
   display:
-    fontFamily: "Source Serif 4, Georgia, serif"
+    fontFamily: "Georgia, Times New Roman, serif"
     fontSize: "clamp(2.6rem, 5vw, 5.4rem)"
     fontWeight: 650
     lineHeight: 0.96
   headline:
-    fontFamily: "Source Serif 4, Georgia, serif"
+    fontFamily: "Georgia, Times New Roman, serif"
     fontWeight: 650
     lineHeight: 1.15
   body:
-    fontFamily: "Public Sans, Segoe UI, sans-serif"
+    fontFamily: "Segoe UI, Arial, sans-serif"
     fontSize: "1.03rem"
     fontWeight: 400
     lineHeight: 1.68
   label:
-    fontFamily: "Public Sans, Segoe UI, sans-serif"
+    fontFamily: "Segoe UI, Arial, sans-serif"
     fontSize: "0.96rem"
     fontWeight: 600
     lineHeight: 1.5
@@ -67,6 +67,12 @@ components:
     textColor: "{colors.starlight}"
     rounded: "{rounded.surface}"
     padding: "{spacing.panel}"
+  inline-code:
+    backgroundColor: "{colors.flight-deck}"
+    textColor: "{colors.orbital-blue}"
+    typography: "{typography.body}"
+    rounded: "{rounded.focus}"
+    padding: "2px 4px"
 ---
 
 # Design System: Zack Murphy Academic Portfolio
@@ -82,7 +88,7 @@ The visual language is modern, sleek, and intentional without copying NASA marks
 **Key Characteristics:**
 
 - Deep navy surfaces with decisive light-on-dark contrast.
-- Serif academic authority paired with a highly readable public-service sans.
+- Serif academic authority paired with a highly readable system sans.
 - Vibrant accents used as signals, never decoration without purpose.
 - Precise spacing, restrained ambient depth, and visible keyboard focus.
 - Static composition and responsive reflow rather than decorative motion.
@@ -93,7 +99,7 @@ The palette takes its character from deep space, instrument panels, orbit paths,
 
 ### Primary
 
-- **Orbital Blue:** The default link, primary action, and active-state color. It is bright enough to remain readable on both dark surfaces.
+- **Orbital Blue:** The default link, inline-code, primary-action, and active-state color. It is bright enough to remain readable on both dark surfaces.
 
 ### Secondary
 
@@ -116,10 +122,11 @@ The palette takes its character from deep space, instrument panels, orbit paths,
 
 ## Typography
 
-**Display Font:** Source Serif 4 (with Georgia fallback)  
-**Body Font:** Public Sans (with Segoe UI fallback)
+**Display Font:** Georgia (with Times New Roman fallback)
 
-**Character:** Source Serif 4 gives research headings a scholarly voice without ornamental editorial styling. Public Sans gives long-form academic copy an open, neutral rhythm suited to dark surfaces and high-information pages.
+**Body Font:** Segoe UI (with Arial fallback)
+
+**Character:** Georgia gives research headings a scholarly voice without ornamental editorial styling. Segoe UI gives long-form academic copy an open, neutral rhythm suited to dark surfaces and high-information pages. Both use local system fonts so content appears immediately without external font requests.
 
 ### Hierarchy
 
@@ -179,6 +186,11 @@ Components are precise, calm, and immediately legible. Shape is gently squared, 
 
 - **Style:** Orbital Blue with a persistent underline and 3px underline offset.
 - **States:** Solar Gold on hover and a 3px Solar Gold focus outline for keyboard navigation.
+
+### Inline Code
+
+- **Style:** Orbital Blue text on a Flight Deck background with compact 2px by 4px padding.
+- **Purpose:** File extensions and literal technical identifiers only; never use monospace as decorative shorthand for technical content.
 
 ## Do's and Don'ts
 

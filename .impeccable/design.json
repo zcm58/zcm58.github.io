@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-05T15:51:51.6188771-05:00",
+  "generatedAt": "2026-08-05T16:19:00-05:00",
   "title": "Design System: Zack Murphy Academic Portfolio",
   "extensions": {
     "colorMeta": {
@@ -14,9 +14,9 @@
       "solar-gold": { "role": "tertiary", "displayName": "Solar Gold", "canonical": "#ffd166", "tonalRamp": ["#2d2203", "#5b4709", "#896d13", "#b99822", "#e2bd3d", "#ffd166", "#ffe5a1", "#fff7df"] }
     },
     "typographyMeta": {
-      "display": { "displayName": "Mission Statement", "purpose": "The home-page research statement only." },
+      "display": { "displayName": "Mission Statement", "purpose": "The home-page research statement only, rendered in Georgia." },
       "headline": { "displayName": "Academic Headline", "purpose": "Page and section headings." },
-      "body": { "displayName": "Research Body", "purpose": "Long-form academic prose and metadata." },
+      "body": { "displayName": "Research Body", "purpose": "Long-form academic prose and metadata, rendered in Segoe UI." },
       "label": { "displayName": "Interface Label", "purpose": "Navigation, controls, and compact labels." }
     },
     "shadows": [
@@ -38,7 +38,7 @@
       "refersTo": "button-primary",
       "description": "A high-contrast action used only when a page needs a dominant control.",
       "html": "<button class=\"ds-btn-primary\">View research</button>",
-      "css": ".ds-btn-primary { min-height: 44px; padding: 10px 16px; border: 1px solid #6eb7ff; border-radius: 6px; background: #6eb7ff; color: #07111f; font: 600 0.96rem/1.5 'Public Sans', 'Segoe UI', sans-serif; } .ds-btn-primary:hover { border-color: #ffd166; background: #ffd166; } .ds-btn-primary:focus-visible { outline: 3px solid #ffd166; outline-offset: 3px; } .ds-btn-primary:active { transform: translateY(1px); }"
+      "css": ".ds-btn-primary { min-height: 44px; padding: 10px 16px; border: 1px solid #6eb7ff; border-radius: 6px; background: #6eb7ff; color: #07111f; font: 600 0.96rem/1.5 'Segoe UI', Arial, sans-serif; } .ds-btn-primary:hover { border-color: #ffd166; background: #ffd166; } .ds-btn-primary:focus-visible { outline: 3px solid #ffd166; outline-offset: 3px; } .ds-btn-primary:active { transform: translateY(1px); }"
     },
     {
       "name": "Outline Button",
@@ -46,7 +46,7 @@
       "refersTo": "button-outline",
       "description": "A quieter action with a clear boundary and the same target size.",
       "html": "<button class=\"ds-btn-outline\">View publications</button>",
-      "css": ".ds-btn-outline { min-height: 44px; padding: 10px 16px; border: 1px solid #6eb7ff; border-radius: 6px; background: #07111f; color: #6eb7ff; font: 600 0.96rem/1.5 'Public Sans', 'Segoe UI', sans-serif; } .ds-btn-outline:hover { border-color: #ffd166; color: #ffd166; } .ds-btn-outline:focus-visible { outline: 3px solid #ffd166; outline-offset: 3px; } .ds-btn-outline:active { transform: translateY(1px); }"
+      "css": ".ds-btn-outline { min-height: 44px; padding: 10px 16px; border: 1px solid #6eb7ff; border-radius: 6px; background: #07111f; color: #6eb7ff; font: 600 0.96rem/1.5 'Segoe UI', Arial, sans-serif; } .ds-btn-outline:hover { border-color: #ffd166; color: #ffd166; } .ds-btn-outline:focus-visible { outline: 3px solid #ffd166; outline-offset: 3px; } .ds-btn-outline:active { transform: translateY(1px); }"
     },
     {
       "name": "Navigation",
@@ -54,7 +54,7 @@
       "refersTo": "site-navigation",
       "description": "A quiet flight-deck header with readable targets and explicit focus.",
       "html": "<nav class=\"ds-nav\" aria-label=\"Preview\"><a class=\"ds-nav-title\" href=\"#\">Zack Murphy</a><a class=\"ds-nav-link\" href=\"#\">Research</a><a class=\"ds-nav-link\" href=\"#\">Publications</a></nav>",
-      "css": ".ds-nav { display: flex; align-items: center; gap: 18px; padding: 0 24px; border-bottom: 1px solid #506c86; background: #07111f; } .ds-nav a { display: inline-flex; min-height: 44px; align-items: center; color: #f5f7fa; text-underline-offset: 3px; } .ds-nav-title { margin-right: auto; font: 650 1.15rem/1.2 'Source Serif 4', Georgia, serif; text-decoration: none; } .ds-nav-link { font: 500 0.96rem/1.5 'Public Sans', 'Segoe UI', sans-serif; } .ds-nav a:hover { color: #ffd166; } .ds-nav a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
+      "css": ".ds-nav { display: flex; align-items: center; gap: 18px; padding: 0 24px; border-bottom: 1px solid #506c86; background: #07111f; } .ds-nav a { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; color: #f5f7fa; text-underline-offset: 3px; } .ds-nav-title { margin-right: auto; font: 650 1.15rem/1.2 Georgia, 'Times New Roman', serif; text-decoration: none; } .ds-nav-link { font: 500 0.96rem/1.5 'Segoe UI', Arial, sans-serif; } .ds-nav a:hover { color: #ffd166; } .ds-nav a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
     },
     {
       "name": "Feature Card",
@@ -62,7 +62,7 @@
       "refersTo": "feature-card",
       "description": "A flat selected-work container that gives related content a readable boundary.",
       "html": "<article class=\"ds-feature\"><h3>Research</h3><p>Short summaries of current research and ongoing projects.</p><a href=\"#\">Read more</a></article>",
-      "css": ".ds-feature { max-width: 320px; min-height: 210px; padding: 20px; border: 1px solid #506c86; border-radius: 8px; background: #0e2034; color: #f5f7fa; font: 400 1.03rem/1.68 'Public Sans', 'Segoe UI', sans-serif; } .ds-feature h3 { margin-top: 0; font: 650 1.55rem/1.2 'Source Serif 4', Georgia, serif; } .ds-feature a { color: #6eb7ff; text-underline-offset: 3px; } .ds-feature a:hover { color: #ffd166; } .ds-feature a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
+      "css": ".ds-feature { max-width: 320px; min-height: 210px; padding: 20px; border: 1px solid #506c86; border-radius: 8px; background: #0e2034; color: #f5f7fa; font: 400 1.03rem/1.68 'Segoe UI', Arial, sans-serif; } .ds-feature h3 { margin-top: 0; font: 650 1.55rem/1.2 Georgia, 'Times New Roman', serif; } .ds-feature a { color: #6eb7ff; text-underline-offset: 3px; } .ds-feature a:hover { color: #ffd166; } .ds-feature a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
     },
     {
       "name": "Hero Profile Panel",
@@ -70,7 +70,15 @@
       "refersTo": "hero-panel",
       "description": "The single elevated surface that groups current interests and professional links.",
       "html": "<aside class=\"ds-hero-panel\"><strong>Current Research Interests</strong><ul><li>Accessible FPVS software tools</li><li>FPVS and mild cognitive impairment</li></ul><a href=\"#\">Google Scholar</a></aside>",
-      "css": ".ds-hero-panel { max-width: 340px; padding: 22px; border: 1px solid #506c86; border-radius: 8px; background: #0e2034; color: #f5f7fa; box-shadow: 0 20px 48px rgba(0, 0, 0, 0.34); font: 400 0.96rem/1.6 'Public Sans', 'Segoe UI', sans-serif; } .ds-hero-panel a { color: #6eb7ff; text-underline-offset: 3px; } .ds-hero-panel a:hover { color: #ffd166; } .ds-hero-panel a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
+      "css": ".ds-hero-panel { max-width: 340px; padding: 22px; border: 1px solid #506c86; border-radius: 8px; background: #0e2034; color: #f5f7fa; box-shadow: 0 20px 48px rgba(0, 0, 0, 0.34); font: 400 0.96rem/1.6 'Segoe UI', Arial, sans-serif; } .ds-hero-panel a { color: #6eb7ff; text-underline-offset: 3px; } .ds-hero-panel a:hover { color: #ffd166; } .ds-hero-panel a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
+    },
+    {
+      "name": "Inline Code",
+      "kind": "custom",
+      "refersTo": "inline-code",
+      "description": "A readable treatment for file extensions and literal technical identifiers.",
+      "html": "<p class=\"ds-code-line\">Supports <code class=\"ds-inline-code\">.bdf</code> files.</p>",
+      "css": ".ds-code-line { color: #f5f7fa; font: 400 1.03rem/1.68 'Segoe UI', Arial, sans-serif; } .ds-inline-code { padding: 2px 4px; border-radius: 3px; background: #0e2034; color: #6eb7ff; font-family: Consolas, 'Courier New', monospace; } .ds-inline-code:hover { color: #ffd166; } .ds-inline-code:focus-visible { outline: 3px solid #ffd166; outline-offset: 3px; }"
     }
   ],
   "narrative": {
@@ -78,7 +86,7 @@
     "overview": "This system frames an academic portfolio as a calm view from a flight deck: dark, focused, and information-first. Space-flight color provides identity, while generous line height, bright text, and a familiar serif-and-sans pairing keep research content effortless to read.\n\nThe visual language is modern, sleek, and intentional without copying NASA marks or implying NASA endorsement. It rejects generic SaaS aesthetics, institutional university templates, dashboard styling, ornamental editorial treatments, excessive cards and dividers, low-contrast minimalism, and decorative motion that competes with the academic content.",
     "keyCharacteristics": [
       "Deep navy surfaces with decisive light-on-dark contrast.",
-      "Serif academic authority paired with a highly readable public-service sans.",
+      "Serif academic authority paired with a highly readable system sans.",
       "Vibrant accents used as signals, never decoration without purpose.",
       "Precise spacing, restrained ambient depth, and visible keyboard focus.",
       "Static composition and responsive reflow rather than decorative motion."

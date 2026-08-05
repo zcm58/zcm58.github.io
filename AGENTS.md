@@ -8,6 +8,8 @@ read first, not the full manual.
 
 - Read `ARCHITECTURE.md` before changing site structure, navigation, styling, or
   build behavior.
+- Read `DESIGN.md` before visual changes, and keep
+  `.impeccable/design.json` synchronized when the design system changes.
 - Read `PRODUCT.md` before visual or interaction changes; it defines the site's
   audience, brand personality, anti-references, and accessibility target.
 - Read `docs/agent/content-workflow.md` before updating publications, research

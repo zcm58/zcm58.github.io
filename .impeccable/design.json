@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-05T15:51:51.6188771-05:00",
+  "title": "Design System: Zack Murphy Academic Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "deep-space": { "role": "neutral", "displayName": "Deep Space", "canonical": "#07111f", "tonalRamp": ["#02060b", "#07111f", "#122944", "#254763", "#49677f", "#7f97aa", "#bdc9d3", "#edf2f6"] },
+      "flight-deck": { "role": "neutral", "displayName": "Flight Deck", "canonical": "#0e2034", "tonalRamp": ["#050b12", "#0e2034", "#193a5d", "#315778", "#58758e", "#879caf", "#c0ccd6", "#eff3f7"] },
+      "starlight": { "role": "neutral", "displayName": "Starlight", "canonical": "#f5f7fa", "tonalRamp": ["#202225", "#414448", "#65686d", "#8b8f94", "#b2b5ba", "#d5d8dc", "#eceef1", "#f5f7fa"] },
+      "lunar-gray": { "role": "neutral", "displayName": "Lunar Gray", "canonical": "#bcc8d4", "tonalRamp": ["#1b2026", "#35404b", "#526170", "#708394", "#91a3b3", "#bcc8d4", "#d9e0e7", "#f0f3f6"] },
+      "orbit-line": { "role": "neutral", "displayName": "Orbit Line", "canonical": "#506c86", "tonalRamp": ["#101821", "#1c2b39", "#2d4357", "#405c72", "#58758d", "#7f98ae", "#b3c2cf", "#e9eef2"] },
+      "orbital-blue": { "role": "primary", "displayName": "Orbital Blue", "canonical": "#6eb7ff", "tonalRamp": ["#061a2f", "#0b3159", "#124d86", "#1d6bb2", "#358bd8", "#6eb7ff", "#add6ff", "#e8f4ff"] },
+      "signal-red": { "role": "secondary", "displayName": "Signal Red", "canonical": "#fc3d21", "tonalRamp": ["#310700", "#621006", "#951b0d", "#c72a17", "#fc3d21", "#ff745f", "#ffb1a5", "#ffebe7"] },
+      "solar-gold": { "role": "tertiary", "displayName": "Solar Gold", "canonical": "#ffd166", "tonalRamp": ["#2d2203", "#5b4709", "#896d13", "#b99822", "#e2bd3d", "#ffd166", "#ffe5a1", "#fff7df"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Mission Statement", "purpose": "The home-page research statement only." },
+      "headline": { "displayName": "Academic Headline", "purpose": "Page and section headings." },
+      "body": { "displayName": "Research Body", "purpose": "Long-form academic prose and metadata." },
+      "label": { "displayName": "Interface Label", "purpose": "Navigation, controls, and compact labels." }
+    },
+    "shadows": [
+      { "name": "panel-orbit", "value": "0 20px 48px rgba(0, 0, 0, 0.34)", "purpose": "The profile panel only." },
+      { "name": "menu-orbit", "value": "0 16px 36px rgba(0, 0, 0, 0.32)", "purpose": "Temporary navigation menus." },
+      { "name": "portrait-orbit", "value": "0 12px 28px rgba(0, 0, 0, 0.42)", "purpose": "The circular headshot only." }
+    ],
+    "motion": [
+      { "name": "state-only", "value": "none", "purpose": "No decorative motion; state changes remain immediate." }
+    ],
+    "breakpoints": [
+      { "name": "compact", "value": "820px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A high-contrast action used only when a page needs a dominant control.",
+      "html": "<button class=\"ds-btn-primary\">View research</button>",
+      "css": ".ds-btn-primary { min-height: 44px; padding: 10px 16px; border: 1px solid #6eb7ff; border-radius: 6px; background: #6eb7ff; color: #07111f; font: 600 0.96rem/1.5 'Public Sans', 'Segoe UI', sans-serif; } .ds-btn-primary:hover { border-color: #ffd166; background: #ffd166; } .ds-btn-primary:focus-visible { outline: 3px solid #ffd166; outline-offset: 3px; } .ds-btn-primary:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "A quieter action with a clear boundary and the same target size.",
+      "html": "<button class=\"ds-btn-outline\">View publications</button>",
+      "css": ".ds-btn-outline { min-height: 44px; padding: 10px 16px; border: 1px solid #6eb7ff; border-radius: 6px; background: #07111f; color: #6eb7ff; font: 600 0.96rem/1.5 'Public Sans', 'Segoe UI', sans-serif; } .ds-btn-outline:hover { border-color: #ffd166; color: #ffd166; } .ds-btn-outline:focus-visible { outline: 3px solid #ffd166; outline-offset: 3px; } .ds-btn-outline:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "site-navigation",
+      "description": "A quiet flight-deck header with readable targets and explicit focus.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Preview\"><a class=\"ds-nav-title\" href=\"#\">Zack Murphy</a><a class=\"ds-nav-link\" href=\"#\">Research</a><a class=\"ds-nav-link\" href=\"#\">Publications</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 18px; padding: 0 24px; border-bottom: 1px solid #506c86; background: #07111f; } .ds-nav a { display: inline-flex; min-height: 44px; align-items: center; color: #f5f7fa; text-underline-offset: 3px; } .ds-nav-title { margin-right: auto; font: 650 1.15rem/1.2 'Source Serif 4', Georgia, serif; text-decoration: none; } .ds-nav-link { font: 500 0.96rem/1.5 'Public Sans', 'Segoe UI', sans-serif; } .ds-nav a:hover { color: #ffd166; } .ds-nav a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
+    },
+    {
+      "name": "Feature Card",
+      "kind": "card",
+      "refersTo": "feature-card",
+      "description": "A flat selected-work container that gives related content a readable boundary.",
+      "html": "<article class=\"ds-feature\"><h3>Research</h3><p>Short summaries of current research and ongoing projects.</p><a href=\"#\">Read more</a></article>",
+      "css": ".ds-feature { max-width: 320px; min-height: 210px; padding: 20px; border: 1px solid #506c86; border-radius: 8px; background: #0e2034; color: #f5f7fa; font: 400 1.03rem/1.68 'Public Sans', 'Segoe UI', sans-serif; } .ds-feature h3 { margin-top: 0; font: 650 1.55rem/1.2 'Source Serif 4', Georgia, serif; } .ds-feature a { color: #6eb7ff; text-underline-offset: 3px; } .ds-feature a:hover { color: #ffd166; } .ds-feature a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
+    },
+    {
+      "name": "Hero Profile Panel",
+      "kind": "card",
+      "refersTo": "hero-panel",
+      "description": "The single elevated surface that groups current interests and professional links.",
+      "html": "<aside class=\"ds-hero-panel\"><strong>Current Research Interests</strong><ul><li>Accessible FPVS software tools</li><li>FPVS and mild cognitive impairment</li></ul><a href=\"#\">Google Scholar</a></aside>",
+      "css": ".ds-hero-panel { max-width: 340px; padding: 22px; border: 1px solid #506c86; border-radius: 8px; background: #0e2034; color: #f5f7fa; box-shadow: 0 20px 48px rgba(0, 0, 0, 0.34); font: 400 0.96rem/1.6 'Public Sans', 'Segoe UI', sans-serif; } .ds-hero-panel a { color: #6eb7ff; text-underline-offset: 3px; } .ds-hero-panel a:hover { color: #ffd166; } .ds-hero-panel a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Easy to read academic portfolio",
+    "overview": "This system frames an academic portfolio as a calm view from a flight deck: dark, focused, and information-first. Space-flight color provides identity, while generous line height, bright text, and a familiar serif-and-sans pairing keep research content effortless to read.\n\nThe visual language is modern, sleek, and intentional without copying NASA marks or implying NASA endorsement. It rejects generic SaaS aesthetics, institutional university templates, dashboard styling, ornamental editorial treatments, excessive cards and dividers, low-contrast minimalism, and decorative motion that competes with the academic content.",
+    "keyCharacteristics": [
+      "Deep navy surfaces with decisive light-on-dark contrast.",
+      "Serif academic authority paired with a highly readable public-service sans.",
+      "Vibrant accents used as signals, never decoration without purpose.",
+      "Precise spacing, restrained ambient depth, and visible keyboard focus.",
+      "Static composition and responsive reflow rather than decorative motion."
+    ],
+    "rules": [
+      { "name": "The Signal Discipline Rule", "body": "Orbital Blue communicates interaction, Signal Red communicates rare emphasis, and Solar Gold communicates focus; never exchange those roles for decoration.", "section": "colors" },
+      { "name": "The Contrast Before Color Rule", "body": "Every functional color pair must meet WCAG 2.2 AA before it enters the stylesheet.", "section": "colors" },
+      { "name": "The Reading First Rule", "body": "Body copy always receives more breathing room on a dark surface; never compress line height to create artificial density.", "section": "typography" },
+      { "name": "The One Display Moment Rule", "body": "The oversized serif display belongs to the home-page research statement, not to every section.", "section": "typography" },
+      { "name": "The Ambient Depth Rule", "body": "Shadows must be broad, dark, and quiet; never use a sharp shadow to simulate a clickable card.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep the Creative North Star, \"Easy to read academic portfolio,\" ahead of decorative ambition.",
+      "Do use Starlight for primary text and Lunar Gray only for secondary text on Deep Space or Flight Deck.",
+      "Do reserve Solar Gold for focus and hover orientation so keyboard position is unmistakable.",
+      "Do keep every required text contrast at 4.5:1 or higher and essential non-text contrast at 3:1 or higher.",
+      "Do preserve semantic headings, descriptive alternative text, responsive reflow, and reduced-motion behavior."
+    ],
+    "donts": [
+      "Don't use generic SaaS aesthetics.",
+      "Don't use institutional university templates.",
+      "Don't use dashboard styling.",
+      "Don't use ornamental editorial treatments.",
+      "Don't use excessive cards and dividers.",
+      "Don't use low-contrast minimalism.",
+      "Don't use decorative motion that competes with the academic content.",
+      "Don't use NASA insignia, logotype, identifiers, or any treatment that implies NASA endorsement.",
+      "Don't use a colored side stripe wider than 1px as a substitute for hierarchy."
+    ]
+  }
+}

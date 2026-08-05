@@ -22,6 +22,8 @@ presentation.
 |-- publish-website.ps1  # One-command render, commit, push, and publish helper
 |-- scripts/             # Cache-version transform and rendered-output check
 |-- PRODUCT.md           # Audience, brand, anti-references, accessibility
+|-- DESIGN.md            # Visual system, tokens, components, and guardrails
+|-- .impeccable/         # Machine-readable design-system metadata
 |-- AGENTS.md            # Agent entry point and repo operating rules
 |-- .vscode/tasks.json   # VS Code task wrapper for publish-website.ps1
 `-- docs/agent/          # Deeper agent guidance for recurring workflows
@@ -38,6 +40,8 @@ not source-of-truth files.
   from the navbar only when it is meant to be public navigation.
 - `styles.css` combines Quarto SCSS defaults and custom CSS rules. Keep shared
   visual primitives here instead of inline styles in page files.
+- `DESIGN.md` defines the visual contract and `.impeccable/design.json` mirrors
+  its machine-readable extensions. Update both when the visual system changes.
 - Assets should live under `assets/` when added. Use descriptive names such as
   `assets/cv.pdf`, `assets/headshot.jpg`, or `assets/talk-title-2026.jpg`.
 
@@ -59,9 +63,10 @@ placement before creating a new page.
 
 ## Styling Boundary
 
-The current design is an academic profile with a restrained editorial feel:
-warm paper background, serif headings, teal/rust/green accents, and simple
-cards. Preserve that identity unless the user asks for a redesign.
+The current design is a dark academic profile with a restrained space-flight
+feel: deep navy surfaces, readable light typography, blue and signal-red
+accents, solar-gold focus indicators, and simple containers. Preserve that
+identity unless the user asks for a redesign.
 
 Use page-local markdown structure for content hierarchy. Use `styles.css` only
 for repeated layout or presentation rules. Avoid one-off classes unless the

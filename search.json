@@ -74,14 +74,14 @@
     "href": "fpvs-toolbox.html#about-fpvs-toolbox",
     "title": "FPVS Toolbox",
     "section": "About FPVS Toolbox",
-    "text": "About FPVS Toolbox\nProcessing FPVS data can be a daunting task, especially for those who are new to programming or data analysis, such as undergraduate students or non-experts in the field. FPVS Toolbox was designed specifically for this use case, and processing FPVS data is now easier than ever before. No coding experience is required, and this package can process large datasets of FPVS data in just a few clicks. FPVS Toolbox is designed to work directly with the FPVS Studio, so users can easily import their FPVS Studio projects and set up their data analysis with ease. The toolbox outputs data in both wide and long format, making statistical analysis with software like R or SPSS straightforward.\nThe processing methodology used in FPVS Toolbox is based on recently published methods (see the Suggested Reading section) and is currently compatible with BioSemi data formats. Future updates will include support for additional data formats."
+    "text": "About FPVS Toolbox\nFPVS Toolbox was designed specifically for non-expert users and is intended to streamline FPVS data processing. No coding experience is required, and this package can process large FPVS datasets in just a few clicks. FPVS Toolbox is designed to work directly with the FPVS Studio, so users can easily import their FPVS Studio projects and set up their data analysis with ease. The toolbox outputs data in both wide and long format, making statistical analysis with software like R or SPSS straightforward.\nThe processing methodology used in FPVS Toolbox is based on recently published methods (see the Suggested Reading section) and is currently compatible with BioSemi data formats. Future updates will include support for additional data formats."
   },
   {
     "objectID": "fpvs-toolbox.html#requirements",
     "href": "fpvs-toolbox.html#requirements",
     "title": "FPVS Toolbox",
     "section": "Requirements",
-    "text": "Requirements\nOS - Windows 10 or later RAM: 16GB recommended CPU: Intel i5 or equivalent recommended Storage: At least 5GB of free space for installation of FPVS Toolbox and required libraries."
+    "text": "Requirements\n\nOS - Windows 10 or later\nRAM: 16GB recommended\nCPU: Intel i5 or equivalent recommended\nStorage: At least 5GB of free space for installation of FPVS Toolbox and required libraries."
   },
   {
     "objectID": "software.html",
@@ -200,7 +200,7 @@
     "href": "fpvs-studio.html#about-fpvs-studio",
     "title": "FPVS Studio",
     "section": "About FPVS Studio",
-    "text": "About FPVS Studio\nAfter spending many weeks during each semester teaching my undergraduate students basic programming concepts just to be able to understand how to run FPVS experiments, the concept of the FPVS Studio was born. The idea was to create a user-friendly interface that would allow students to easily set up and run their FPVS experiments without needing to dive into complex programming.\nFPVS Studio was therefore designed with the non-expert undergraduate user in mind. The user interface is simple and intuitive, and in practice, my students have found it much easier to use compared with python or PsychoPy for this specific task. I have built in many of the default options commonly used in FPVS experiments, and the setup wizard guides users through the process of creating their experiment step by step.\nOnce an experiment has been created, users simply need to open FPVS Studio, select their experiment, and run it. FPVS Studio logs all of the necessary information (eg., fixation cross accuracy, reaction times, image display seeds, etc) automatically, and outputs everything that is needed for a future publication.\nFPVS Studio is designed to work directly with the FPVS Toolbox - users can export their FPVS Studio project to be imported into FPVS Toolbox, which makes setting up this project for data analysis much easier.\nAll in all, FPVS Studio is a powerful tool that makes FPVS easily accessible to anyone with a computer."
+    "text": "About FPVS Studio\nFPVS Studio was designed with the non-expert user in mind. It is a user-friendly software package that allows users to create and run FPVS experiments with zero coding knowledge required.\nOnce an experiment has been created, users simply need to open FPVS Studio, select their experiment, and run it. FPVS Studio logs all of the necessary information (eg., fixation cross accuracy, reaction times, image display seeds, etc) automatically, and outputs everything that is needed for a future publication. FPVS Studio is designed to work directly with the FPVS Toolbox - users can export their FPVS Studio project to be imported into FPVS Toolbox, which streamlines data analysis."
   },
   {
     "objectID": "media.html",

@@ -5,17 +5,14 @@ description: "Research projects and scientific interests."
 
 ## Research Overview
 
-My research centers on Fast Periodic Visual Stimulation (FPVS), an powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still in its infancy, and the scientific community is still attempting to understand the best use cases for FPVS and how it can one day be the bridge between EEG and a clinical setting. The main goal of my work is to help standardize FPVS methods and make them easier to use across cognitive neuroscience domains, and ultimately into clinical practice.
+My research centers on Fast Periodic Visual Stimulation (FPVS), a powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still limited to research settings, even though it has been explicitly recommended for use in a clinical setting by George Stothart (see publications by Stothart et al.). The main goal of my current work is to help standardize FPVS methods and make them easier to deploy outside of research lab settings by non-experts to expand the utility of FPVS.
 
 
 ## Standardizing FPVS Workflows via Software Tools
 
-FPVS has demonstrated the ability to produce strong, reliable neural responses in various research domains, but this method is still only being actively utilized in a small number of labs around the world. Increasing awareness of the effectiveness of FPVS and solving potential barriers to its adoption are important goals of my research.
+FPVS has demonstrated the ability to produce strong, reliable neural responses in various research domains, but this method is still only being actively utilized in a small number of research labs. Increasing awareness of the effectiveness of FPVS and solving potential barriers to its adoption are important goals of my research.
 
-Many other EEG methods have benefited from dedicated software tools that make them easier to use and more standardized across labs. For example, EEGLAB (via MATLAB) and MNE-Python have streamlined the process of EEG data analysis and made it more accessible to researchers across domains. EEGLab, for example, was instrumental in bringing advanced EEG data analysis methods to a wider audience by reducing friction - it provided a user-friendly interface and standardized workflows that made it easier for researchers to apply complex analyses without needing to write custom code from scratch.
-
-My goal with FPVS is the same: to create dedicated software tools that make it easier for researchers to design FPVS experiments, analyze FPVS data, and share their work in a more standardized way. To learn more about my software development efforts, see the [Software](software.qmd) page.
-
+One of the main barriers to the adoption of FPVS outside of the lab is the lack of standardized software tools designed specifically for FPVS. While there are many general-purpose EEG software tools available (such as EEGLab, LetsWave, etc), they still require advanced knowledge of EEG data analysis techniques and are therefore still inaccessible to the non-expert user. Additionally, these general-purpose tools are often designed for a wide range of EEG experiments, meaning they add unnecessary complexity for FPVS-specific tasks. My goal is therefore to create dedicated software tools that make it easier for researchers to design FPVS experiments, analyze FPVS data, and share their work in a more standardized way. To learn more about my software development efforts, see the [Software](software.qmd) page.
 
 ## Ongoing FPVS Projects
 

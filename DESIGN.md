@@ -122,6 +122,8 @@ The palette takes its character from deep space, instrument panels, orbit paths,
 
 **The Continuous Field Rule.** Ambient color glows must span the page with same-hue alpha fades and explicit no-repeat behavior. Only the star field may tile, preventing visible bands where Orbital Blue, Signal Red, and Deep Space meet.
 
+**The Constellation Rule.** The star field uses irregular positions, varied brightness and scale, and occasional restrained four-point stars. No repeated row, column, or spacing interval should be visually dominant.
+
 ## Typography
 
 **Display Font:** Georgia (with Times New Roman fallback)

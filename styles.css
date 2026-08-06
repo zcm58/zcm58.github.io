@@ -53,10 +53,10 @@ body {
       rgba(252, 61, 33, 0.022) 40%,
       rgba(252, 61, 33, 0) 80%
     ),
-    radial-gradient(circle, rgba(245, 247, 250, 0.18) 1px, transparent 1.4px),
+    url("assets/constellation-field.svg"),
     var(--paper);
-  background-size: 100% 100%, 100% 100%, 72px 72px, auto;
-  background-position: top center, top center, 10px 6px, center;
+  background-size: 100% 100%, 100% 100%, 1793px 1901px, auto;
+  background-position: top center, top center, 0 0, center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 }
 

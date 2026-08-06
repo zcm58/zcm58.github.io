@@ -194,7 +194,7 @@ button:focus-visible,
 .hero-copy h2 {
   max-width: 700px;
   margin-top: 0;
-  font-size: clamp(2.25rem, 3.6vw, 3.75rem);
+  font-size: clamp(2rem, 3vw, 3.2rem);
   line-height: 1.04;
   letter-spacing: -0.018em;
 }
@@ -217,7 +217,7 @@ button:focus-visible,
 .headshot-block {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .headshot {
@@ -233,6 +233,16 @@ button:focus-visible,
 .hero-panel p,
 .hero-panel li {
   font-size: 0.96rem;
+}
+
+.hero-panel .profile-identity {
+  max-width: 30ch;
+  margin: 12px auto 24px;
+  color: var(--starlight);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .btn {
@@ -388,7 +398,7 @@ button:focus-visible,
 
   .hero-copy h2 {
     max-width: 100%;
-    font-size: clamp(1.65rem, 6vw, 1.95rem);
+    font-size: clamp(1.55rem, 5.4vw, 1.8rem);
     line-height: 1.06;
     overflow-wrap: normal;
   }
@@ -412,8 +422,9 @@ button:focus-visible,
     line-height: 1.6;
   }
 
-  .headshot-block {
-    margin-bottom: 14px;
+  .hero-panel .profile-identity {
+    margin-bottom: 20px;
+    font-size: 0.86rem;
   }
 
   .headshot {

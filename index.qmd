@@ -17,6 +17,7 @@ I am a Biomedical Engineering PhD student at Mississippi State University workin
 <div class="headshot-block">
 <img src="assets/headshot.jpg" class="headshot" alt="Zack Murphy headshot" width="160" height="160" decoding="async">
 </div>
+<p class="profile-identity">PhD Student | Biomedical Engineering | Mississippi State University</p>
 
 **Current Research Interests**
 

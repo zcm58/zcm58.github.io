@@ -7,7 +7,7 @@ anchor-sections: false
 
 ::: {.hero}
 ::: {.hero-copy}
-## Research at the intersection of cognitive neuroscience, EEG, and Fast Periodic Visual Stimulation
+## Cognitive Neuroscience Research Using EEG and FPVS
 
 I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers.
 

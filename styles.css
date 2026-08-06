@@ -185,7 +185,7 @@ button:focus-visible,
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.6fr) minmax(280px, 0.8fr);
+  grid-template-columns: minmax(0, 1fr) minmax(400px, 0.8fr);
   gap: 32px;
   min-height: 520px;
   align-items: center;
@@ -236,13 +236,14 @@ button:focus-visible,
 }
 
 .hero-panel .profile-identity {
-  max-width: 30ch;
+  max-width: none;
   margin: 12px auto 24px;
-  color: var(--starlight);
-  font-size: 0.9rem;
-  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 500;
   line-height: 1.5;
   text-align: center;
+  white-space: nowrap;
 }
 
 .btn {
@@ -423,8 +424,10 @@ button:focus-visible,
   }
 
   .hero-panel .profile-identity {
+    max-width: 30ch;
     margin-bottom: 20px;
     font-size: 0.86rem;
+    white-space: normal;
   }
 
   .headshot {

@@ -9,14 +9,15 @@ Imagine a light flashing in your eyes at six times per second. If you were to re
 
 This phenomenon is known as a [Steady State Visually Evoked Potential](https://www.sciencedirect.com/science/article/pii/S1053811926004106){target="_blank"}, or SSVEP.
 
-## Responses at tagged frequencies
-
-TBD.
+This is also where FPVS gets its name; the "Fast" in FPVS refers to the fact that the stimuli are presented at a fast rate (6 Hz, 10 Hz, etc), and the "Periodic" in FPVS refers to the fact that the stimulin are presented at a constant frequency.
 
 ## Base and target frequencies
 
-This section will introduce the roles of base and target frequencies in common
-FPVS paradigms. A labeled frequency-spectrum figure will be added here.
+FPVS oddball experiments typically produce two separate frequencies referred to as the Base Frequency and the Oddball Frequency.
+
+The Base Frequency is the frequency at which stimuli are displayed on screen. For example, if a stimulus is displayed six times per second, the base frequency is 6 Hz. When analyzing data in the frequency domain, a strong neural response is expected at the base frequency and its harmonics (in e.g., 6 Hz, 12 Hz, 18 Hz, etc). Responses at the base frequency are typically not of interest in FPVS oddball experiments, as they reflect the brain's response to the visual stimulation itself rather than the cognitive process of interest.
+
+The Oddball Frequency is the frequency at which the oddball stimulus is displayed. For example, if the oddball stimulus is displayed once every five stimuli, the oddball frequency is 1.2 Hz. When analyzing data in the frequency domain, a strong neural response is expected at the oddball frequency and its harmonics (in e.g., 1.2 Hz, 2.4 Hz, 3.6 Hz, etc). Responses at the oddball frequency are typically of interest in FPVS oddball experiments, as they reflect the brain's response to the cognitive process of interest.
 
 ## Harmonics
 

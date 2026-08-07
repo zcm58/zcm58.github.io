@@ -45,8 +45,6 @@ website:
       style: docked
       search: true
       contents:
-        - href: learn-fpvs/index.qmd
-          text: Overview
         - section: "Start Here"
           contents:
             - href: learn-fpvs/what-is-fpvs.qmd

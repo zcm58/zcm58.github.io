@@ -5,8 +5,7 @@ description: "The relationship between periodic stimulation and frequency-domain
 
 ## Periodic stimulation
 
-This section will explain how a repeating visual sequence creates a known
-stimulation frequency.
+FPVS takes advantage of a phenomenon known as [Steady State Visually Evoked Potentials](https://example.com/paper){target="_blank"}, or SSVEPs.
 
 ## Responses at tagged frequencies
 

@@ -119,7 +119,7 @@
     "href": "learn-fpvs/frequency-tagging.html",
     "title": "Frequency Tagging",
     "section": "",
-    "text": "FPVS takes advantage of a phenomenon known as Steady State Visually Evoked Potentials, or SSVEPs.",
+    "text": "Imagine a light flashing in your eyes at six times per second. If you were to record your brain activity using EEG while this light was flashing, an oscillatory neural response would be detectable at the same frequency as the flashing light (6 Hz). If we increased the speed of the flashing light to 10 times per second, the neural response would also increase to 10 Hz. This relationship between periodic stimulation (e.g., the light flashing at a fixed rate of six times per second) and frequency-domain neural responses is the basis for FPVS methodology.\nThis phenomenon is known as a Steady State Visually Evoked Potential, or SSVEP.",
     "crumbs": [
       "Learn About FPVS",
       "Start Here",
@@ -131,7 +131,7 @@
     "href": "learn-fpvs/frequency-tagging.html#periodic-stimulation",
     "title": "Frequency Tagging",
     "section": "",
-    "text": "FPVS takes advantage of a phenomenon known as Steady State Visually Evoked Potentials, or SSVEPs.",
+    "text": "Imagine a light flashing in your eyes at six times per second. If you were to record your brain activity using EEG while this light was flashing, an oscillatory neural response would be detectable at the same frequency as the flashing light (6 Hz). If we increased the speed of the flashing light to 10 times per second, the neural response would also increase to 10 Hz. This relationship between periodic stimulation (e.g., the light flashing at a fixed rate of six times per second) and frequency-domain neural responses is the basis for FPVS methodology.\nThis phenomenon is known as a Steady State Visually Evoked Potential, or SSVEP.",
     "crumbs": [
       "Learn About FPVS",
       "Start Here",
@@ -143,7 +143,7 @@
     "href": "learn-fpvs/frequency-tagging.html#responses-at-tagged-frequencies",
     "title": "Frequency Tagging",
     "section": "Responses at tagged frequencies",
-    "text": "Responses at tagged frequencies\nThis section will explain how the recorded signal is examined at the stimulation frequency and related frequencies.",
+    "text": "Responses at tagged frequencies\nTBD.",
     "crumbs": [
       "Learn About FPVS",
       "Start Here",

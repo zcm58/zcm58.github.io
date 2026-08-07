@@ -27,9 +27,9 @@ An important practical consideration when designing an FPVS experiment is the re
 
 While FPVS is a passive method that does not require active participation from the participant to elicit neural responses, it is still important to ensure that the participant is paying attention to the stimuli being presented. If the participant does not fix their gaze on the screen during a study, the resulting neural responses would likely be meaningless or difficult to interpret.
 
-A common approach to maintaining the participant's attention is to include an auxillary task that requires the participant to respond in some way during the study. A common example of this is to ask the participant to fix their gaze on a small cross in the center of the screen and to press a button whenever that cross changes colors. This task is unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.
+[One common approach](https://doi.org/10.1167/15.1.18){target="_blank"} to maintaining the participant's attention is to ask the participant to fix their gaze on a small cross in the center of the screen and to press a button whenever that cross changes colors. This task is unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.
 
-Another approach is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they notice a color change.
+[Another approach](https://www.sciencedirect.com/science/article/pii/S0010945224000327?via%3Dihub){target="_blank"} is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they notice a color change.
 
 ## Common paradigm patterns
 

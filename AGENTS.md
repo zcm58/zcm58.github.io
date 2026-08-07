@@ -35,6 +35,8 @@ read first, not the full manual.
 ## Common Tasks
 
 - Page content: edit the matching root `.qmd` file.
+- FPVS educational content: edit the matching page under `learn-fpvs/`; keep
+  its sidebar hierarchy in `_quarto.yml` synchronized when pages are added.
 - Navigation, title, site URL, footer, or theme: edit `_quarto.yml`.
 - Layout, colors, fonts, buttons, cards, video embeds: edit `styles.css`.
 - Local publish workflow: run `.\publish-website.ps1` or the VS Code

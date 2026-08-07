@@ -1,0 +1,29 @@
+---
+title: "Frequency Tagging"
+description: "The relationship between periodic stimulation and frequency-domain neural responses."
+---
+
+## Periodic stimulation
+
+This section will explain how a repeating visual sequence creates a known
+stimulation frequency.
+
+## Responses at tagged frequencies
+
+This section will explain how the recorded signal is examined at the stimulation
+frequency and related frequencies.
+
+## Base and target frequencies
+
+This section will introduce the roles of base and target frequencies in common
+FPVS paradigms. A labeled frequency-spectrum figure will be added here.
+
+## Harmonics
+
+This section will explain why responses can occur at harmonics of a stimulation
+frequency and how those responses are considered during analysis.
+
+## Terminology to keep separate
+
+This section will distinguish commonly conflated frequency-tagging terms before
+the guide moves into paradigm design.

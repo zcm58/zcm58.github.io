@@ -1,0 +1,33 @@
+---
+title: "Paradigm Design"
+description: "A guide to the components and design choices in an FPVS experiment."
+---
+
+## Anatomy of a paradigm
+
+This section will identify the major components of an FPVS stimulus sequence.
+An annotated timeline will be added here.
+
+## Choosing stimulation frequencies
+
+This section will cover the considerations involved in choosing base and target
+frequencies.
+
+## Stimulus selection and sequencing
+
+This section will address category definitions, stimulus variability, sequence
+construction, and the relationship between visual and conceptual differences.
+
+## Timing and display validation
+
+This section will cover presentation timing, refresh-rate constraints, triggers,
+and validation of the displayed sequence.
+
+## Participant task and attention
+
+This section will describe how task demands can be incorporated without losing
+the implicit or rapid character of the paradigm.
+
+## Common paradigm patterns
+
+This section will collect illustrated examples of frequently used FPVS designs.

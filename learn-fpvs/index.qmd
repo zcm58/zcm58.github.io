@@ -1,0 +1,40 @@
+---
+title: "Learn About FPVS"
+description: "A growing guide to Fast Periodic Visual Stimulation concepts, experiment design, and data analysis."
+toc: false
+---
+
+Fast Periodic Visual Stimulation (FPVS) combines periodic visual stimulation
+with frequency-domain analysis of brain activity. This guide is a growing,
+practical introduction to the method, from its core concepts through paradigm
+design and data analysis.
+
+## Start with the foundations
+
+[What Is FPVS?](what-is-fpvs.qmd) introduces the method and the questions this
+guide will address. [Frequency Tagging](frequency-tagging.qmd) explains the
+central relationship between stimulation frequencies and measured neural
+responses.
+
+## Design an FPVS experiment
+
+[Paradigm Design](paradigm-design.qmd) provides the future home for stimulus
+sequences, frequency choices, timing, task design, and illustrated paradigm
+examples.
+
+## Understand the analysis
+
+[Analysis Workflow](analysis-workflow.qmd) outlines the stages that will be
+covered from raw EEG data through response quantification and quality control.
+
+## Look up terms and sources
+
+[Glossary and References](glossary-references.qmd) will collect definitions,
+recommended reading, and sources cited throughout the guide.
+
+::: {.callout-note}
+## Guide in development
+
+This section is being expanded over time. Pages currently establish the guide's
+structure and the topics that future additions will cover.
+:::

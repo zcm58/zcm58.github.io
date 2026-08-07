@@ -132,6 +132,23 @@ body {
   border: 0;
 }
 
+body.nav-sidebar .quarto-title-block {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0 0 2rem;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+body.nav-sidebar .quarto-title-block .description {
+  max-width: 70ch;
+  color: var(--lunar-gray);
+  font-size: 1.03rem;
+  line-height: 1.68;
+}
+
 .page-columns .content {
   width: 100%;
   max-width: 1080px;
@@ -376,6 +393,11 @@ button:focus-visible,
     max-width: 100%;
     padding-right: 0;
     padding-left: 0;
+  }
+
+  body.nav-sidebar .page-columns .content {
+    padding-right: 18px;
+    padding-left: 18px;
   }
 
   .hero,

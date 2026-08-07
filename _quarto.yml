@@ -11,6 +11,7 @@ project:
     - fpvs-toolbox.qmd
     - media.qmd
     - cv.qmd
+    - learn-fpvs/*.qmd
 
 website:
   title: "Zack Murphy"
@@ -33,10 +34,38 @@ website:
             text: FPVS Toolbox
       - href: cv.qmd
         text: CV
+      - href: learn-fpvs/index.qmd
+        text: Learn About FPVS
     right:
       - icon: github
         href: https://github.com/zcm58
         aria-label: GitHub
+  sidebar:
+    - title: "Learn About FPVS"
+      style: docked
+      search: true
+      contents:
+        - href: learn-fpvs/index.qmd
+          text: Overview
+        - section: "Start Here"
+          contents:
+            - href: learn-fpvs/what-is-fpvs.qmd
+              text: What Is FPVS?
+            - href: learn-fpvs/frequency-tagging.qmd
+              text: Frequency Tagging
+        - section: "Experiment Design"
+          contents:
+            - href: learn-fpvs/paradigm-design.qmd
+              text: Paradigm Design
+        - section: "Data Analysis"
+          contents:
+            - href: learn-fpvs/analysis-workflow.qmd
+              text: Analysis Workflow
+        - section: "Reference"
+          contents:
+            - href: learn-fpvs/glossary-references.qmd
+              text: Glossary and References
+  page-navigation: true
   page-footer:
     left: "Copyright Zack Murphy"
     right: "Built with Quarto and GitHub Pages"

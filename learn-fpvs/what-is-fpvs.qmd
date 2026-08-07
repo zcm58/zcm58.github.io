@@ -1,0 +1,25 @@
+---
+title: "What Is FPVS?"
+description: "An introduction to Fast Periodic Visual Stimulation and the scope of this guide."
+---
+
+## Overview
+
+This page will introduce Fast Periodic Visual Stimulation, describe the general
+logic of an FPVS experiment, and distinguish the method from related visual EEG
+approaches.
+
+## Why use FPVS?
+
+This section will explain the kinds of research questions FPVS can address and
+the practical characteristics that make the method useful.
+
+## The basic measurement
+
+This section will connect a periodic stimulus sequence to the frequency-tagged
+response measured in EEG data. An annotated overview figure will be added here.
+
+## What this guide covers
+
+The remaining pages will move from foundational concepts to experiment design,
+data processing, response quantification, interpretation, and reporting.

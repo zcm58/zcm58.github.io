@@ -1,0 +1,44 @@
+---
+title: "Analysis Workflow"
+description: "A structured overview of FPVS EEG data processing and response quantification."
+---
+
+## Workflow overview
+
+This page will explain the path from recorded EEG data to an interpretable FPVS
+response. A complete processing diagram will be added here.
+
+## Data intake and recording checks
+
+This section will cover the information and quality checks needed before
+processing begins.
+
+## Preprocessing
+
+This section will describe the preprocessing decisions that should be reported
+and justified for an FPVS analysis.
+
+## Segmentation and averaging
+
+This section will explain how continuous recordings are organized for analysis
+and how averaging relates to the periodic response.
+
+## Frequency-domain transformation
+
+This section will introduce the transformation from time-domain EEG data to a
+frequency-domain representation.
+
+## Response quantification
+
+This section will compare approaches to baseline correction, signal-to-noise
+measurement, harmonic selection, and response summarization.
+
+## Quality control and reproducibility
+
+This section will cover visual checks, exclusion decisions, recorded parameters,
+and the outputs needed to reproduce an analysis.
+
+## Interpretation and reporting
+
+This section will connect the quantified response to cautious scientific
+interpretation and transparent reporting.

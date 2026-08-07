@@ -16,6 +16,7 @@ presentation.
 |-- software.qmd         # Research software and project links
 |-- fpvs-toolbox.qmd     # Placeholder page for FPVS Toolbox
 |-- fpvs-studio.qmd      # Placeholder page for FPVS Studio
+|-- learn-fpvs/          # Multi-page educational guide to FPVS
 |-- media.qmd            # Videos, talks, public-facing communication
 |-- cv.qmd               # CV download link and contact/profile links
 |-- styles.css           # Quarto SCSS variables and site-specific CSS
@@ -55,11 +56,20 @@ not source-of-truth files.
   principles.
 - `fpvs-toolbox.qmd`: placeholder page for future FPVS Toolbox content.
 - `fpvs-studio.qmd`: placeholder page for future FPVS Studio content.
+- `learn-fpvs/`: educational explanations of FPVS foundations, paradigm design,
+  data analysis, terminology, and supporting references. Its `index.qmd` is the
+  section landing page and `_metadata.yml` controls guide-wide page options.
 - `media.qmd`: talks, videos, tutorials, and public communication.
 - `cv.qmd`: CV download and stable contact/profile links.
 
 If content does not clearly belong to one of these pages, stop and propose the
 placement before creating a new page.
+
+The FPVS guide is the one exception to the root-page pattern. Its pages live
+under `learn-fpvs/` and use a section-specific sidebar configured in
+`_quarto.yml`. Keep research-program descriptions in `research.qmd` and
+software instructions on the matching software page or external documentation;
+link between them rather than duplicating their content in the guide.
 
 ## Styling Boundary
 

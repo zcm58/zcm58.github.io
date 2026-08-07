@@ -581,7 +581,7 @@
     "href": "learn-fpvs/paradigm-design.html#stimulus-selection-and-sequencing",
     "title": "Paradigm Design",
     "section": "Stimulus selection and sequencing",
-    "text": "Stimulus selection and sequencing\nImagine you wanted to design an FPVS experiment to study the differences between processing living objects and non-living objects. If you included images of birds, horses, dogs, cats, etc as living objects, and then images of cars, trucks, buildings, etc as non-living objects, this would technically be a valid FPVS oddball paradigm. However, there are many things could that influence the oddball responses.\nFor example, living objects like animals tend to have smooth edges, curves, and may appear in natural scenes with lots of green colors. Non-living objects like cars and buildings tend to have sharp edges, straight lines, and may feature a different color scheme than the base images. As such, these low-level visual differences could be influencing the oddball responses, and it would be difficult to determine whether the oddball responses were due to the living vs non-living distinction, due to low-level visual differences between the two categories, or some combination of both.\nPrevious Work has shown that even low-level visual differences such as this, like a slight change in vertical line orientation between base and oddball stimuli, can drastically influence oddball responses, so it is important to carefully consider the stimuli used in an FPVS experiment and to control for low-level visual differences between base and oddball stimuli.",
+    "text": "Stimulus selection and sequencing\nImagine you wanted to design an FPVS experiment to study the differences between processing living objects and non-living objects. If you included images of birds, horses, dogs, cats, etc as living objects, and then images of cars, trucks, buildings, etc as non-living objects, this would technically be a valid FPVS oddball paradigm. However, there are many things could that influence the oddball responses.\nFor example, living objects like animals tend to have smooth edges, curves, and may appear in natural scenes with lots of green colors. Non-living objects like cars and buildings tend to have sharp edges, straight lines, and may feature a different color scheme than the base images. As such, these low-level visual differences could be influencing the oddball responses, and it would be difficult to determine whether the oddball responses were due to the living vs non-living distinction, due to low-level visual differences between the two categories, or some combination of both.\nPrevious work has shown that even low-level visual differences such as this, like a slight change in vertical line orientation between base and oddball stimuli, can drastically influence oddball responses, so it is important to carefully consider the stimuli used in an FPVS experiment and to control for low-level visual differences between base and oddball stimuli.",
     "crumbs": [
       "Learn About FPVS",
       "Experiment Design",
@@ -601,11 +601,11 @@
     ]
   },
   {
-    "objectID": "learn-fpvs/paradigm-design.html#participant-task-and-attention",
-    "href": "learn-fpvs/paradigm-design.html#participant-task-and-attention",
+    "objectID": "learn-fpvs/paradigm-design.html#maintaining-the-participants-attention",
+    "href": "learn-fpvs/paradigm-design.html#maintaining-the-participants-attention",
     "title": "Paradigm Design",
-    "section": "Participant task and attention",
-    "text": "Participant task and attention\nThis section will describe how task demands can be incorporated without losing the implicit or rapid character of the paradigm.",
+    "section": "Maintaining the Participant’s Attention",
+    "text": "Maintaining the Participant’s Attention\nWhile FPVS is a passive method that does not require active participation from the participant to elicit neural responses, it is still important to ensure that the participant is paying attention to the stimuli being presented. If the participant does not fix their gaze on the screen during a study, the resulting neural responses would likely be meaningless or difficult to interpret.\nA common approach to maintaining the participant’s attention is to include an auxillary task that requires the participant to respond in some way during the study. A common example of this is to ask the participant to fix their gaze on a small cross in the center of the screen and to press a button whenever that cross changes colors. This task is unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.\nAnother approach is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they notice a color change.",
     "crumbs": [
       "Learn About FPVS",
       "Experiment Design",

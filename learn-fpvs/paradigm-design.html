@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A guide to designing FPVS experiments.">
+<meta name="description" content="An overview of the main considerations when designing an FPVS experiment.">
 
-<title>Paradigm Design – Zack Murphy</title>
+<title>Experiment Design – Zack Murphy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,24 +27,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js?site-version=20260807T185714431Z"></script>
-<script src="../site_libs/clipboard/clipboard.min.js?site-version=20260807T185714431Z"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js?site-version=20260807T185714431Z"></script>
-<script src="../site_libs/quarto-search/fuse.min.js?site-version=20260807T185714431Z"></script>
-<script src="../site_libs/quarto-search/quarto-search.js?site-version=20260807T185714431Z"></script>
+<script src="../site_libs/quarto-nav/quarto-nav.js?site-version=20260807T192210534Z"></script>
+<script src="../site_libs/clipboard/clipboard.min.js?site-version=20260807T192210534Z"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js?site-version=20260807T192210534Z"></script>
+<script src="../site_libs/quarto-search/fuse.min.js?site-version=20260807T192210534Z"></script>
+<script src="../site_libs/quarto-search/quarto-search.js?site-version=20260807T192210534Z"></script>
 <meta name="quarto:offset" content="../">
-<link href="../learn-fpvs/analysis-workflow.html?site-version=20260807T185714431Z" rel="next">
-<link href="../learn-fpvs/frequency-tagging.html?site-version=20260807T185714431Z" rel="prev">
-<script src="../site_libs/quarto-html/quarto.js?site-version=20260807T185714431Z" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js?site-version=20260807T185714431Z" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js?site-version=20260807T185714431Z"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js?site-version=20260807T185714431Z"></script>
-<script src="../site_libs/quarto-html/anchor.min.js?site-version=20260807T185714431Z"></script>
-<link href="../site_libs/quarto-html/tippy.css?site-version=20260807T185714431Z" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css?site-version=20260807T185714431Z" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js?site-version=20260807T185714431Z"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css?site-version=20260807T185714431Z" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-45b23b0bd33eac54ed98cda61fefa920.min.css?site-version=20260807T185714431Z" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../learn-fpvs/choosing-stimulation-frequencies.html?site-version=20260807T192210534Z" rel="next">
+<link href="../learn-fpvs/frequency-tagging.html?site-version=20260807T192210534Z" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js?site-version=20260807T192210534Z" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js?site-version=20260807T192210534Z" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js?site-version=20260807T192210534Z"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js?site-version=20260807T192210534Z"></script>
+<script src="../site_libs/quarto-html/anchor.min.js?site-version=20260807T192210534Z"></script>
+<link href="../site_libs/quarto-html/tippy.css?site-version=20260807T192210534Z" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css?site-version=20260807T192210534Z" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js?site-version=20260807T192210534Z"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css?site-version=20260807T192210534Z" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-45b23b0bd33eac54ed98cda61fefa920.min.css?site-version=20260807T192210534Z" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta name="site-cache-version" content="20260807T185714431Z">
+<meta name="site-cache-version" content="20260807T192210534Z">
 <script data-site-cache-refresh>
 (() => {
   const marker = document.querySelector('meta[name="site-cache-version"]');
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html?site-version=20260807T185714431Z">
+    <a class="navbar-brand" href="../index.html?site-version=20260807T192210534Z">
     <span class="navbar-title">Zack Murphy</span>
     </a>
   </div>
@@ -151,11 +151,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../research.html?site-version=20260807T185714431Z"> 
+    <a class="nav-link" href="../research.html?site-version=20260807T192210534Z"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications.html?site-version=20260807T185714431Z"> 
+    <a class="nav-link" href="../publications.html?site-version=20260807T192210534Z"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -164,25 +164,25 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-software">    
         <li>
-    <a class="dropdown-item" href="../software.html?site-version=20260807T185714431Z">
+    <a class="dropdown-item" href="../software.html?site-version=20260807T192210534Z">
  <span class="dropdown-text">Software Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../fpvs-studio.html?site-version=20260807T185714431Z">
+    <a class="dropdown-item" href="../fpvs-studio.html?site-version=20260807T192210534Z">
  <span class="dropdown-text">FPVS Studio</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../fpvs-toolbox.html?site-version=20260807T185714431Z">
+    <a class="dropdown-item" href="../fpvs-toolbox.html?site-version=20260807T192210534Z">
  <span class="dropdown-text">FPVS Toolbox</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../cv.html?site-version=20260807T185714431Z"> 
+    <a class="nav-link" href="../cv.html?site-version=20260807T192210534Z"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../learn-fpvs/index.html?site-version=20260807T185714431Z" aria-current="page"> 
+    <a class="nav-link active" href="../learn-fpvs/index.html?site-version=20260807T192210534Z" aria-current="page"> 
 <span class="menu-text">Learn About FPVS</span></a>
   </li>  
 </ul>
@@ -203,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../learn-fpvs/paradigm-design.html?site-version=20260807T185714431Z">Experiment Design</a></li><li class="breadcrumb-item"><a href="../learn-fpvs/paradigm-design.html?site-version=20260807T185714431Z">Paradigm Design</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../learn-fpvs/paradigm-design.html?site-version=20260807T192210534Z">Experiment Design</a></li><li class="breadcrumb-item"><a href="../learn-fpvs/paradigm-design.html?site-version=20260807T192210534Z">Overview</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -225,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../learn-fpvs/index.html?site-version=20260807T185714431Z" class="sidebar-item-text sidebar-link">
+  <a href="../learn-fpvs/index.html?site-version=20260807T192210534Z" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
@@ -240,13 +240,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../learn-fpvs/what-is-fpvs.html?site-version=20260807T185714431Z" class="sidebar-item-text sidebar-link">
+  <a href="../learn-fpvs/what-is-fpvs.html?site-version=20260807T192210534Z" class="sidebar-item-text sidebar-link">
  <span class="menu-text">What Is FPVS?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../learn-fpvs/frequency-tagging.html?site-version=20260807T185714431Z" class="sidebar-item-text sidebar-link">
+  <a href="../learn-fpvs/frequency-tagging.html?site-version=20260807T192210534Z" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Frequency Tagging</span></a>
   </div>
 </li>
@@ -263,8 +263,38 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../learn-fpvs/paradigm-design.html?site-version=20260807T185714431Z" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Paradigm Design</span></a>
+  <a href="../learn-fpvs/paradigm-design.html?site-version=20260807T192210534Z" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../learn-fpvs/choosing-stimulation-frequencies.html?site-version=20260807T192210534Z" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Choosing Frequencies</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../learn-fpvs/stimulus-selection-sequencing.html?site-version=20260807T192210534Z" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Stimulus Selection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../learn-fpvs/display-refresh-rate.html?site-version=20260807T192210534Z" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Display and Timing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../learn-fpvs/maintaining-attention.html?site-version=20260807T192210534Z" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Maintaining Attention</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../learn-fpvs/common-paradigm-patterns.html?site-version=20260807T192210534Z" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Common Patterns</span></a>
   </div>
 </li>
       </ul>
@@ -280,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../learn-fpvs/analysis-workflow.html?site-version=20260807T185714431Z" class="sidebar-item-text sidebar-link">
+  <a href="../learn-fpvs/analysis-workflow.html?site-version=20260807T192210534Z" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analysis Workflow</span></a>
   </div>
 </li>
@@ -297,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../learn-fpvs/glossary-references.html?site-version=20260807T185714431Z" class="sidebar-item-text sidebar-link">
+  <a href="../learn-fpvs/glossary-references.html?site-version=20260807T192210534Z" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Glossary and References</span></a>
   </div>
 </li>
@@ -314,25 +344,20 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#anatomy-of-the-fpvs-oddball-paradigm" id="toc-anatomy-of-the-fpvs-oddball-paradigm" class="nav-link active" data-scroll-target="#anatomy-of-the-fpvs-oddball-paradigm">Anatomy of the FPVS Oddball Paradigm</a></li>
-  <li><a href="#choosing-stimulation-frequencies" id="toc-choosing-stimulation-frequencies" class="nav-link" data-scroll-target="#choosing-stimulation-frequencies">Choosing stimulation frequencies</a></li>
-  <li><a href="#stimulus-selection-and-sequencing" id="toc-stimulus-selection-and-sequencing" class="nav-link" data-scroll-target="#stimulus-selection-and-sequencing">Stimulus selection and sequencing</a></li>
-  <li><a href="#display-refresh-rate-and-stimulus-timing" id="toc-display-refresh-rate-and-stimulus-timing" class="nav-link" data-scroll-target="#display-refresh-rate-and-stimulus-timing">Display Refresh Rate and Stimulus Timing</a></li>
-  <li><a href="#maintaining-the-participants-attention" id="toc-maintaining-the-participants-attention" class="nav-link" data-scroll-target="#maintaining-the-participants-attention">Maintaining the Participant’s Attention</a></li>
-  <li><a href="#common-paradigm-patterns" id="toc-common-paradigm-patterns" class="nav-link" data-scroll-target="#common-paradigm-patterns">Common paradigm patterns</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../learn-fpvs/paradigm-design.html?site-version=20260807T185714431Z">Experiment Design</a></li><li class="breadcrumb-item"><a href="../learn-fpvs/paradigm-design.html?site-version=20260807T185714431Z">Paradigm Design</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../learn-fpvs/paradigm-design.html?site-version=20260807T192210534Z">Experiment Design</a></li><li class="breadcrumb-item"><a href="../learn-fpvs/paradigm-design.html?site-version=20260807T192210534Z">Overview</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Paradigm Design</h1>
+<h1 class="title">Experiment Design</h1>
 </div>
 
 <div>
   <div class="description">
-    A guide to designing FPVS experiments.
+    An overview of the main considerations when designing an FPVS experiment.
   </div>
 </div>
 
@@ -352,30 +377,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="anatomy-of-the-fpvs-oddball-paradigm" class="level2">
 <h2 class="anchored" data-anchor-id="anatomy-of-the-fpvs-oddball-paradigm">Anatomy of the FPVS Oddball Paradigm</h2>
 <p>When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.</p>
-</section>
-<section id="choosing-stimulation-frequencies" class="level2">
-<h2 class="anchored" data-anchor-id="choosing-stimulation-frequencies">Choosing stimulation frequencies</h2>
-<p>Choosing a stimulation frequency is an important first step in designing an FPVS experiment. Research has shown that frequencies the optimal range for eliciting strong neural responses is typically between 4 Hz and 6 Hz. Frequencies outside of this range may still elicit neural responses, but they are often weaker and more variable across participants.</p>
-</section>
-<section id="stimulus-selection-and-sequencing" class="level2">
-<h2 class="anchored" data-anchor-id="stimulus-selection-and-sequencing">Stimulus selection and sequencing</h2>
-<p>Imagine you wanted to design an FPVS experiment to study the differences between processing living objects and non-living objects. If you included images of birds, horses, dogs, cats, etc as living objects, and then images of cars, trucks, buildings, etc as non-living objects, this would technically be a valid FPVS oddball paradigm. However, there are many things could that influence the oddball responses.</p>
-<p>For example, living objects like animals tend to have smooth edges, curves, and may appear in natural scenes with lots of green colors. Non-living objects like cars and buildings tend to have sharp edges, straight lines, and may feature a different color scheme than the base images. As such, these low-level visual differences could be influencing the oddball responses, and it would be difficult to determine whether the oddball responses were due to the living vs non-living distinction, due to low-level visual differences between the two categories, or some combination of both.</p>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0028393225000570" target="_blank">Previous work</a> has shown that even low-level visual differences such as this, like a slight change in vertical line orientation between base and oddball stimuli, can drastically influence oddball responses, so it is important to carefully consider the stimuli used in an FPVS experiment and to control for low-level visual differences between base and oddball stimuli.</p>
-</section>
-<section id="display-refresh-rate-and-stimulus-timing" class="level2">
-<h2 class="anchored" data-anchor-id="display-refresh-rate-and-stimulus-timing">Display Refresh Rate and Stimulus Timing</h2>
-<p>An important practical consideration when designing an FPVS experiment is the refresh rate of the display used to present the stimuli. <a href="https://www.samsung.com/uk/monitors/monitor-buying-guide/what-is-monitor-refresh-rate/" target="_blank">The refresh rate of a display</a> is the number of times per second that the image on the screen is updated, and it is typically measured in Hertz (Hz). Common refresh rates for computer monitors are 60 Hz, 120 Hz, and 144 Hz, though the most common display refresh rate is 60 Hz. This factor can limit which stimulation frequencies are viable for your lab or situation. For example, if you are using a display with a refresh rate of 60 Hz, you could present stimuli at 6 Hz (10 frames per stimulus), 10 Hz (6 frames per stimulus), or 12 Hz (5 frames per stimulus). However, if you wanted to present stimuli at 7 Hz, this would not be possible with a 60 Hz display, as each stimulus would need to be presented for approximately 8.57 frames, which is not possible and would cause inconsistencies in frame timing.</p>
-</section>
-<section id="maintaining-the-participants-attention" class="level2">
-<h2 class="anchored" data-anchor-id="maintaining-the-participants-attention">Maintaining the Participant’s Attention</h2>
-<p>While FPVS is a passive method that does not require active participation from the participant to elicit neural responses, it is still important to ensure that the participant is paying attention to the stimuli being presented. If the participant does not fix their gaze on the screen during a study, the resulting neural responses would likely be meaningless or difficult to interpret.</p>
-<p><a href="https://doi.org/10.1167/15.1.18" target="_blank">One common approach</a> to maintaining the participant’s attention is to ask the participant to fix their gaze on a small cross in the center of the screen and to press a button whenever that cross changes colors. This task is unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.</p>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0010945224000327?via%3Dihub" target="_blank">Another approach</a> is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they notice a color change.</p>
-</section>
-<section id="common-paradigm-patterns" class="level2">
-<h2 class="anchored" data-anchor-id="common-paradigm-patterns">Common paradigm patterns</h2>
-<p>This section will collect illustrated examples of frequently used FPVS designs.</p>
+<p>Use the pages in this section to explore each design consideration separately:</p>
+<ul>
+<li><a href="../learn-fpvs/choosing-stimulation-frequencies.html?site-version=20260807T192210534Z">Choosing Stimulation Frequencies</a></li>
+<li><a href="../learn-fpvs/stimulus-selection-sequencing.html?site-version=20260807T192210534Z">Stimulus Selection and Sequencing</a></li>
+<li><a href="../learn-fpvs/display-refresh-rate.html?site-version=20260807T192210534Z">Display Refresh Rate and Stimulus Timing</a></li>
+<li><a href="../learn-fpvs/maintaining-attention.html?site-version=20260807T192210534Z">Maintaining Participant Attention</a></li>
+<li><a href="../learn-fpvs/common-paradigm-patterns.html?site-version=20260807T192210534Z">Common Paradigm Patterns</a></li>
+</ul>
 
 
 </section>
@@ -783,13 +792,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../learn-fpvs/frequency-tagging.html?site-version=20260807T185714431Z" class="pagination-link" aria-label="Frequency Tagging">
+      <a href="../learn-fpvs/frequency-tagging.html?site-version=20260807T192210534Z" class="pagination-link" aria-label="Frequency Tagging">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Frequency Tagging</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../learn-fpvs/analysis-workflow.html?site-version=20260807T185714431Z" class="pagination-link" aria-label="Analysis Workflow">
-        <span class="nav-page-text">Analysis Workflow</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../learn-fpvs/choosing-stimulation-frequencies.html?site-version=20260807T192210534Z" class="pagination-link" aria-label="Choosing Frequencies">
+        <span class="nav-page-text">Choosing Frequencies</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -811,5 +820,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js?site-version=20260807T185714431Z"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js?site-version=20260807T192210534Z"></script>
 </body></html>

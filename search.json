@@ -60,6 +60,30 @@
     ]
   },
   {
+    "objectID": "learn-fpvs/paradigm-design.html",
+    "href": "learn-fpvs/paradigm-design.html",
+    "title": "Experiment Design",
+    "section": "",
+    "text": "When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.\nUse the pages in this section to explore each design consideration separately:\n\nChoosing Stimulation Frequencies\nStimulus Selection and Sequencing\nDisplay Refresh Rate and Stimulus Timing\nMaintaining Participant Attention\nCommon Paradigm Patterns",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/paradigm-design.html#anatomy-of-the-fpvs-oddball-paradigm",
+    "href": "learn-fpvs/paradigm-design.html#anatomy-of-the-fpvs-oddball-paradigm",
+    "title": "Experiment Design",
+    "section": "",
+    "text": "When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.\nUse the pages in this section to explore each design consideration separately:\n\nChoosing Stimulation Frequencies\nStimulus Selection and Sequencing\nDisplay Refresh Rate and Stimulus Timing\nMaintaining Participant Attention\nCommon Paradigm Patterns",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Overview"
+    ]
+  },
+  {
     "objectID": "learn-fpvs/index.html",
     "href": "learn-fpvs/index.html",
     "title": "Learn About FPVS",
@@ -86,7 +110,7 @@
     "href": "learn-fpvs/index.html#design-an-fpvs-experiment",
     "title": "Learn About FPVS",
     "section": "Design an FPVS experiment",
-    "text": "Design an FPVS experiment\nParadigm Design provides the future home for stimulus sequences, frequency choices, timing, task design, and illustrated paradigm examples.",
+    "text": "Design an FPVS experiment\nExperiment Design introduces dedicated pages covering frequency choices, stimulus selection and sequencing, display timing, participant attention, and common paradigm patterns.",
     "crumbs": [
       "Learn About FPVS",
       "Overview"
@@ -175,214 +199,16 @@
     ]
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
+    "objectID": "learn-fpvs/common-paradigm-patterns.html",
+    "href": "learn-fpvs/common-paradigm-patterns.html",
+    "title": "Common Paradigm Patterns",
     "section": "",
-    "text": "Download CV (PDF)\nLast updated August 2026."
-  },
-  {
-    "objectID": "cv.html#research-profile",
-    "href": "cv.html#research-profile",
-    "title": "CV",
-    "section": "Research Profile",
-    "text": "Research Profile\nBiomedical Engineering PhD student specializing in EEG-based cognitive neuroscience and Fast Periodic Visual Stimulation (FPVS). My research focuses on standardizing FPVS experiment design and data analysis through accessible, reproducible software, with longer-term applications in mild cognitive impairment related to dementia."
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "CV",
-    "section": "Education",
-    "text": "Education\n\nDoctor of Philosophy in Biomedical Engineering\nMississippi State University | Starkville, Mississippi | 2026-Present Research focus: Development of software for the administration and data analysis of FPVS experiments.\n\n\nMaster of Science in Biomedical Engineering\nMississippi State University | Starkville, Mississippi | 2024-2026 Research project: Investigating semantic categorization with semantically similar stimuli using Fast Periodic Visual Stimulation.\n\n\nBachelor of Science, Bagley College of Engineering (cum laude)\nMississippi State University | Starkville, Mississippi | 2017-2021"
-  },
-  {
-    "objectID": "cv.html#professional-and-research-experience",
-    "href": "cv.html#professional-and-research-experience",
-    "title": "CV",
-    "section": "Professional and Research Experience",
-    "text": "Professional and Research Experience\n\nAssistant Undergraduate Coordinator\nDepartment of Agricultural and Biological Engineering, Mississippi State University | Present I serve as the academic advisor for junior and senior students in the department of Agricultural and Biological Engineering at Mississippi State.\n\n\nUndergraduate Laboratory Manager\nNeural Engineering Research Division, Mississippi State University | Present I manage the Neural Engineering Research Division’s undergraduate laboratory under the supervision of Dr. David Vandenheever. In this role, I oversee multiple active research projects and around twenty undergraduate students."
-  },
-  {
-    "objectID": "cv.html#research-software",
-    "href": "cv.html#research-software",
-    "title": "CV",
-    "section": "Research Software",
-    "text": "Research Software\n\nFPVS Studio 2.0\nCreator and developer | Python 3.10, PySide6 | 2026 Standalone application for designing and running FPVS experiments, including condition and stimulus management and BioSemi system support. GitHub | Zenodo DOI\n\n\nFPVS Toolbox\nCreator and developer | Python | 2026 Package for FPVS data processing, analysis, and figure creation. It supports BioSemi .bdf files and produces outputs for downstream analysis in JASP, R, and SAS. GitHub | Zenodo DOI"
-  },
-  {
-    "objectID": "cv.html#publications",
-    "href": "cv.html#publications",
-    "title": "CV",
-    "section": "Publications",
-    "text": "Publications\nMurphy, Z., Kemp, J., & Vandenheever, D. (2026). Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis. Journal of Motor Behavior, 1-12. DOI\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli. Brain and Cognition, 189, 106338. DOI\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Preliminary evidence for anxiety-linked neural sensitivity to emotional faces using fast periodic visual stimulation. International Journal of Psychophysiology, 214, 113212. DOI"
-  },
-  {
-    "objectID": "cv.html#preprints",
-    "href": "cv.html#preprints",
-    "title": "CV",
-    "section": "Preprints",
-    "text": "Preprints\nMurphy, Z., & Vandenheever, D. (2026). Exploring Category Change Neural Responses Using Semantically Similar Stimuli With Fast Periodic Visual Stimulation. Preprint. DOI"
-  },
-  {
-    "objectID": "cv.html#teaching-and-academic-service",
-    "href": "cv.html#teaching-and-academic-service",
-    "title": "CV",
-    "section": "Teaching and Academic Service",
-    "text": "Teaching and Academic Service\n\n2026 | Member, Bagley College of Engineering Strategic Planning Committee, Mississippi State University\n2026 | Participant, Preparing Future Faculty Program, Mississippi State University\n2025 | Co-instructor, Senior Seminar in Agricultural Engineering, Mississippi State University"
-  },
-  {
-    "objectID": "cv.html#technical-expertise",
-    "href": "cv.html#technical-expertise",
-    "title": "CV",
-    "section": "Technical Expertise",
-    "text": "Technical Expertise\nProgramming and software development: Python, R, MATLAB, PySide6, graphical user interface development, parallel processing, reproducible analysis workflows, and Git/GitHub.\nEEG and cognitive neuroscience: FPVS paradigm design; EEG data acquisition, analysis, and visualization; BioSemi ActiveTwo setup and troubleshooting across hundreds of participant sessions."
-  },
-  {
-    "objectID": "cv.html#contact",
-    "href": "cv.html#contact",
-    "title": "CV",
-    "section": "Contact",
-    "text": "Contact\n\nEmail: zmurphy@abe.msstate.edu\nGitHub: github.com/zcm58\nLinkedIn: Zack Murphy\nGoogle Scholar: Zack Murphy\nORCID: 0009-0003-3868-6888"
-  },
-  {
-    "objectID": "fpvs-toolbox.html#about-fpvs-toolbox",
-    "href": "fpvs-toolbox.html#about-fpvs-toolbox",
-    "title": "FPVS Toolbox",
-    "section": "About FPVS Toolbox",
-    "text": "About FPVS Toolbox\nFPVS Toolbox was designed specifically for non-expert users and is intended to streamline FPVS data processing. No coding experience is required, and this package can process large FPVS datasets in just a few clicks. FPVS Toolbox is designed to work directly with the FPVS Studio, so users can easily import their FPVS Studio projects and set up their data analysis with ease. The toolbox outputs data in both wide and long format, making statistical analysis with software like R or SPSS straightforward.\nThe processing methodology used in FPVS Toolbox is based on recently published methods (see the Suggested Reading section) and is currently compatible with BioSemi data formats. Future updates will include support for additional data formats."
-  },
-  {
-    "objectID": "fpvs-toolbox.html#requirements",
-    "href": "fpvs-toolbox.html#requirements",
-    "title": "FPVS Toolbox",
-    "section": "Requirements",
-    "text": "Requirements\n\nOS - Windows 10 or later\nRAM: 16GB recommended\nCPU: Intel i5 or equivalent recommended\nStorage: At least 5GB of free space for installation of FPVS Toolbox and required libraries."
-  },
-  {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software",
-    "section": "",
-    "text": "FPVS Studio is a standalone package for designing and running FPVS experiments. It provides a user-friendly UI for creating FPVS conditions, managing stimuli, and currently supports BioSemi systems. This package is built on Python 3.10 and is available for installation via GitHub.\nProject page | GitHub repository\nIf you use FPVS Studio in your research, please cite the Zenodo software record:\nZack Murphy. (2026). zcm58/FPVS-Studio-2.0. Zenodo. Zenodo DOI\n\n\n\nFPVS Toolbox is a sister package to FPVS Studio designed to streamline data processing and figure creation for FPVS experiments. It outputs FPVS results in formats that work well with JASP, RStudio, and SAS for statistical analysis. FPVS Toolbox currently supports BioSemi systems and .bdf file formats, and is available for installation via GitHub.\nProject page | GitHub repository\nIf you use FPVS Toolbox in your research, please cite the Zenodo software record:\nZack Murphy. (2026). zcm58/FPVS-Toolbox-Repo. Zenodo. Zenodo DOI"
-  },
-  {
-    "objectID": "software.html#software-packages",
-    "href": "software.html#software-packages",
-    "title": "Software",
-    "section": "",
-    "text": "FPVS Studio is a standalone package for designing and running FPVS experiments. It provides a user-friendly UI for creating FPVS conditions, managing stimuli, and currently supports BioSemi systems. This package is built on Python 3.10 and is available for installation via GitHub.\nProject page | GitHub repository\nIf you use FPVS Studio in your research, please cite the Zenodo software record:\nZack Murphy. (2026). zcm58/FPVS-Studio-2.0. Zenodo. Zenodo DOI\n\n\n\nFPVS Toolbox is a sister package to FPVS Studio designed to streamline data processing and figure creation for FPVS experiments. It outputs FPVS results in formats that work well with JASP, RStudio, and SAS for statistical analysis. FPVS Toolbox currently supports BioSemi systems and .bdf file formats, and is available for installation via GitHub.\nProject page | GitHub repository\nIf you use FPVS Toolbox in your research, please cite the Zenodo software record:\nZack Murphy. (2026). zcm58/FPVS-Toolbox-Repo. Zenodo. Zenodo DOI"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "My research centers on Fast Periodic Visual Stimulation (FPVS), a powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still limited to research settings, even though it has been explicitly recommended for use in a clinical setting in recent publications (for example, see works by Stothart et al.). The main goal of my current work is to help standardize FPVS methods and make them easier to deploy outside of research lab settings by non-experts to expand the utility of FPVS."
-  },
-  {
-    "objectID": "research.html#research-overview",
-    "href": "research.html#research-overview",
-    "title": "Research",
-    "section": "",
-    "text": "My research centers on Fast Periodic Visual Stimulation (FPVS), a powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still limited to research settings, even though it has been explicitly recommended for use in a clinical setting in recent publications (for example, see works by Stothart et al.). The main goal of my current work is to help standardize FPVS methods and make them easier to deploy outside of research lab settings by non-experts to expand the utility of FPVS."
-  },
-  {
-    "objectID": "research.html#standardizing-fpvs-workflows-via-software-tools",
-    "href": "research.html#standardizing-fpvs-workflows-via-software-tools",
-    "title": "Research",
-    "section": "Standardizing FPVS Workflows via Software Tools",
-    "text": "Standardizing FPVS Workflows via Software Tools\nFPVS has demonstrated the ability to produce strong, reliable neural responses in various research domains, but this method is still only being actively utilized in a small number of research labs. Increasing awareness of the effectiveness of FPVS and solving potential barriers to its adoption are important goals of my research.\nOne of the main barriers to the adoption of FPVS outside of the lab is the lack of standardized software tools designed specifically for FPVS. While there are many general-purpose EEG software tools available (such as EEGLab, LetsWave, etc), they still require advanced knowledge of EEG data analysis techniques and are therefore still inaccessible to the non-expert user. Additionally, these general-purpose tools are often designed for a wide range of EEG experiments, meaning they add unnecessary complexity for FPVS-specific tasks. My goal is therefore to create dedicated software tools that make it easier for researchers to design FPVS experiments, analyze FPVS data, and share their work in a more standardized way. To learn more about my software development efforts, see the Software page."
-  },
-  {
-    "objectID": "research.html#ongoing-fpvs-projects",
-    "href": "research.html#ongoing-fpvs-projects",
-    "title": "Research",
-    "section": "Ongoing FPVS Projects",
-    "text": "Ongoing FPVS Projects\nOur lab is using FPVS to study how the brain responds to visual, emotional, and semantic information across several research areas:\n\nDyslexia and individual differences in language-related processing\nAnxiety-linked differences in emotional face processing\nFear of heights and visual sensitivity to height-related stimuli\nEffects of creatine on emotional processing\nEffects of hormonal birth control on emotional processing in women across different phases of the menstrual cycle\n\nAcross these projects, FPVS provides a way to measure targeted neural responses with short EEG recordings, making it useful for research questions where participant burden, clinical relevance, and reproducibility matter."
-  },
-  {
-    "objectID": "research.html#recently-completed-fpvs-work-on-semantic-categorization",
-    "href": "research.html#recently-completed-fpvs-work-on-semantic-categorization",
-    "title": "Research",
-    "section": "Recently Completed FPVS Work on Semantic Categorization",
-    "text": "Recently Completed FPVS Work on Semantic Categorization\nDuring my research for my M.S. degree, I completed a semantic categorization FPVS study using highly visually similar stimuli. The results suggest that FPVS can still elicit a semantic categorization response even when visual differences between categories are tightly controlled. However, the signal-to-noise ratio was weaker than in other published semantic categorization work, likely due to the low semantic distance and low visual variability of the stimuli used. This manuscript is currently in preparation.\nThis project helped to clarify both the promise and the limits of FPVS semantic categorization designs: strong visual control is valuable, but reducing semantic distance can also reduce response strength."
-  },
-  {
-    "objectID": "research.html#suggested-reading",
-    "href": "research.html#suggested-reading",
-    "title": "Research",
-    "section": "Suggested Reading",
-    "text": "Suggested Reading\nIf you are unfamiliar with FPVS and would like to learn more, I suggest starting with the following publications. While this is not an exhaustive list, these works provide a solid foundation for understanding the capabilities of FPVS and the strengths of this methodology.\n\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli. Brain and Cognition, 189, 106338. DOI\nDavid, J., Quenon, L., Hanseeuw, B., Ivanoiu, A., Volfart, A., Koessler, L., & Rossion, B. (2025). An objective and sensitive electrophysiological marker of word semantic categorization impairment in Alzheimer’s disease. Clinical Neurophysiology, 170, 98-109. DOI\nHauk, O., Marchive, M., Volfart, A., Schiltz, C., Rossion, B., Lambon Ralph, M. A., & Lochy, A. (2025). Word-selective EEG/MEG responses in the English language obtained with fast periodic visual stimulation (FPVS). Imaging Neuroscience, 3. DOI\nHauk, O., Rice, G. E., Volfart, A., Magnabosco, F., Lambon Ralph, M. A., & Rossion, B. (2021). Face-selective responses in combined EEG/MEG recordings with fast periodic visual stimulation (FPVS). NeuroImage, 242, 118460. DOI\nVolfart, A., Rice, G. E., Lambon Ralph, M. A., & Rossion, B. (2021). Implicit, automatic semantic word categorisation in the left occipito-temporal cortex as revealed by fast periodic visual stimulation. NeuroImage, 238, 118228. DOI\nStothart, G., Quadflieg, S., & Milton, A. (2017). A fast and implicit measure of semantic categorisation using steady state visual evoked potentials. Neuropsychologia, 102, 11-18. DOI\nRossion, B., Torfs, K., Jacques, C., & Liu-Shuang, J. (2015). Fast periodic presentation of natural images reveals a robust face-selective electrophysiological response in the human brain. Journal of Vision, 15(1), 18. DOI\nRossion, B. (2014). Understanding individual face discrimination by means of fast periodic visual stimulation. Experimental Brain Research, 232(6), 1599-1621. DOI"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Zack Murphy",
-    "section": "",
-    "text": "I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers.\n\n\n\n\n\n\nPhD Student | Biomedical Engineering | Mississippi State University\n\nCurrent Research Interests\n\nIncreasing the reach of FPVS through dedicated software tools\nApplying FPVS to study mild cognitive impairment\n\nLinks\nGoogle Scholar\nORCID\nGitHub\nNeural Engineering Research Division"
-  },
-  {
-    "objectID": "index.html#cognitive-neuroscience-research-using-eeg-and-fpvs",
-    "href": "index.html#cognitive-neuroscience-research-using-eeg-and-fpvs",
-    "title": "Zack Murphy",
-    "section": "",
-    "text": "I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers."
-  },
-  {
-    "objectID": "index.html#selected-work",
-    "href": "index.html#selected-work",
-    "title": "Zack Murphy",
-    "section": "Selected Work",
-    "text": "Selected Work\n\n\n\nResearch →\n\n\nShort summaries of my research interests and ongoing projects in our lab.\n\n \n\nPublications →\n\n\nRecent publications and preprints from my research.\n\n \n\nSoftware →\n\n\nSoftware tools I am currently developing to support FPVS research and make the method more accessible and standardized."
-  },
-  {
-    "objectID": "index.html#recent-updates",
-    "href": "index.html#recent-updates",
-    "title": "Zack Murphy",
-    "section": "Recent Updates",
-    "text": "Recent Updates\n\nJuly 2026 - My paper “Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis” was published online in Journal of Motor Behavior. Free access and PDF | DOI\nMay 2026 - I have officially completed my Master of Science degree in Biomedical Engineering, and I am now a PhD student!\nOctober 2025 - Our FPVS research on facial expression processing was published in Brain and Cognition. DOI\nAugust 2025 - Our FPVS work on anxiety-linked neural sensitivity to emotional faces was published in International Journal of Psychophysiology. DOI"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Publications appear in reverse chronological order.\n\n\nZack Murphy, Jennifer Kemp, and David Vandenheever. Journal of Motor Behavior, 1–12, 2026. Free publisher access | DOI | Download accepted manuscript (PDF) | BibTeX\nThis study used EEG to compare preparatory brain activity during closed-skill serves and open-skill returns in novice table tennis players. Task- and performance-related differences in alpha, beta, and theta power suggest distinct neural demands across the two skills and potential targets for motor-skill training.\n\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. Brain and Cognition, 189, 106338, 2025.\nDOI | ScienceDirect\nThis study used FPVS and EEG to examine facial expression processing with diverse, naturalistic stimuli. Robust expression-related neural responses were observed with brief recordings and limited preprocessing, supporting FPVS as a sensitive framework for studying emotional face processing in both typical and clinical populations.\n\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. International Journal of Psychophysiology, 2025.\nDOI | ScienceDirect | OSF data and analysis scripts\nThis study used Fast Periodic Visual Stimulation (FPVS) and EEG to test whether anxiety-linked characteristics are associated with differences in neural responses to emotional facial expressions. Participants with anxiety-related characteristics showed stronger occipital responses to angry and sad faces, providing preliminary evidence that FPVS may capture trait-level differences in emotional face processing with short, high signal-to-noise recordings."
-  },
-  {
-    "objectID": "publications.html#publications",
-    "href": "publications.html#publications",
-    "title": "Publications",
-    "section": "",
-    "text": "Publications appear in reverse chronological order.\n\n\nZack Murphy, Jennifer Kemp, and David Vandenheever. Journal of Motor Behavior, 1–12, 2026. Free publisher access | DOI | Download accepted manuscript (PDF) | BibTeX\nThis study used EEG to compare preparatory brain activity during closed-skill serves and open-skill returns in novice table tennis players. Task- and performance-related differences in alpha, beta, and theta power suggest distinct neural demands across the two skills and potential targets for motor-skill training.\n\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. Brain and Cognition, 189, 106338, 2025.\nDOI | ScienceDirect\nThis study used FPVS and EEG to examine facial expression processing with diverse, naturalistic stimuli. Robust expression-related neural responses were observed with brief recordings and limited preprocessing, supporting FPVS as a sensitive framework for studying emotional face processing in both typical and clinical populations.\n\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. International Journal of Psychophysiology, 2025.\nDOI | ScienceDirect | OSF data and analysis scripts\nThis study used Fast Periodic Visual Stimulation (FPVS) and EEG to test whether anxiety-linked characteristics are associated with differences in neural responses to emotional facial expressions. Participants with anxiety-related characteristics showed stronger occipital responses to angry and sad faces, providing preliminary evidence that FPVS may capture trait-level differences in emotional face processing with short, high signal-to-noise recordings."
-  },
-  {
-    "objectID": "publications.html#preprints",
-    "href": "publications.html#preprints",
-    "title": "Publications",
-    "section": "Preprints",
-    "text": "Preprints\n\nExploring Category Change Neural Responses Using Semantically Similar Stimuli With Fast Periodic Visual Stimulation\nZack Murphy & David Vandenheever. DOI"
-  },
-  {
-    "objectID": "fpvs-studio.html#about-fpvs-studio",
-    "href": "fpvs-studio.html#about-fpvs-studio",
-    "title": "FPVS Studio",
-    "section": "About FPVS Studio",
-    "text": "About FPVS Studio\nFPVS Studio was designed with the non-expert user in mind. It is a user-friendly software package that allows users to create and run FPVS experiments with zero coding knowledge required.\nOnce an experiment has been created, users simply need to open FPVS Studio, select their experiment, and run it. FPVS Studio logs all of the necessary information (eg., fixation cross accuracy, reaction times, image display seeds, etc) automatically, and outputs everything that is needed for a future publication. FPVS Studio is designed to work directly with the FPVS Toolbox - users can export their FPVS Studio project to be imported into FPVS Toolbox, which streamlines data analysis."
-  },
-  {
-    "objectID": "media.html",
-    "href": "media.html",
-    "title": "Media",
-    "section": "",
-    "text": "Videos, invited talks, conference recordings, podcast appearances, and public research explainers will be added here as they are published."
-  },
-  {
-    "objectID": "media.html#youtube-and-talks",
-    "href": "media.html#youtube-and-talks",
-    "title": "Media",
-    "section": "",
-    "text": "Videos, invited talks, conference recordings, podcast appearances, and public research explainers will be added here as they are published."
+    "text": "This page will collect illustrated examples of frequently used FPVS designs.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Common Patterns"
+    ]
   },
   {
     "objectID": "learn-fpvs/analysis-workflow.html",
@@ -493,6 +319,240 @@
     ]
   },
   {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media",
+    "section": "",
+    "text": "Videos, invited talks, conference recordings, podcast appearances, and public research explainers will be added here as they are published."
+  },
+  {
+    "objectID": "media.html#youtube-and-talks",
+    "href": "media.html#youtube-and-talks",
+    "title": "Media",
+    "section": "",
+    "text": "Videos, invited talks, conference recordings, podcast appearances, and public research explainers will be added here as they are published."
+  },
+  {
+    "objectID": "fpvs-studio.html#about-fpvs-studio",
+    "href": "fpvs-studio.html#about-fpvs-studio",
+    "title": "FPVS Studio",
+    "section": "About FPVS Studio",
+    "text": "About FPVS Studio\nFPVS Studio was designed with the non-expert user in mind. It is a user-friendly software package that allows users to create and run FPVS experiments with zero coding knowledge required.\nOnce an experiment has been created, users simply need to open FPVS Studio, select their experiment, and run it. FPVS Studio logs all of the necessary information (eg., fixation cross accuracy, reaction times, image display seeds, etc) automatically, and outputs everything that is needed for a future publication. FPVS Studio is designed to work directly with the FPVS Toolbox - users can export their FPVS Studio project to be imported into FPVS Toolbox, which streamlines data analysis."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications appear in reverse chronological order.\n\n\nZack Murphy, Jennifer Kemp, and David Vandenheever. Journal of Motor Behavior, 1–12, 2026. Free publisher access | DOI | Download accepted manuscript (PDF) | BibTeX\nThis study used EEG to compare preparatory brain activity during closed-skill serves and open-skill returns in novice table tennis players. Task- and performance-related differences in alpha, beta, and theta power suggest distinct neural demands across the two skills and potential targets for motor-skill training.\n\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. Brain and Cognition, 189, 106338, 2025.\nDOI | ScienceDirect\nThis study used FPVS and EEG to examine facial expression processing with diverse, naturalistic stimuli. Robust expression-related neural responses were observed with brief recordings and limited preprocessing, supporting FPVS as a sensitive framework for studying emotional face processing in both typical and clinical populations.\n\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. International Journal of Psychophysiology, 2025.\nDOI | ScienceDirect | OSF data and analysis scripts\nThis study used Fast Periodic Visual Stimulation (FPVS) and EEG to test whether anxiety-linked characteristics are associated with differences in neural responses to emotional facial expressions. Participants with anxiety-related characteristics showed stronger occipital responses to angry and sad faces, providing preliminary evidence that FPVS may capture trait-level differences in emotional face processing with short, high signal-to-noise recordings."
+  },
+  {
+    "objectID": "publications.html#publications",
+    "href": "publications.html#publications",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications appear in reverse chronological order.\n\n\nZack Murphy, Jennifer Kemp, and David Vandenheever. Journal of Motor Behavior, 1–12, 2026. Free publisher access | DOI | Download accepted manuscript (PDF) | BibTeX\nThis study used EEG to compare preparatory brain activity during closed-skill serves and open-skill returns in novice table tennis players. Task- and performance-related differences in alpha, beta, and theta power suggest distinct neural demands across the two skills and potential targets for motor-skill training.\n\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. Brain and Cognition, 189, 106338, 2025.\nDOI | ScienceDirect\nThis study used FPVS and EEG to examine facial expression processing with diverse, naturalistic stimuli. Robust expression-related neural responses were observed with brief recordings and limited preprocessing, supporting FPVS as a sensitive framework for studying emotional face processing in both typical and clinical populations.\n\n\n\nDavid Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. International Journal of Psychophysiology, 2025.\nDOI | ScienceDirect | OSF data and analysis scripts\nThis study used Fast Periodic Visual Stimulation (FPVS) and EEG to test whether anxiety-linked characteristics are associated with differences in neural responses to emotional facial expressions. Participants with anxiety-related characteristics showed stronger occipital responses to angry and sad faces, providing preliminary evidence that FPVS may capture trait-level differences in emotional face processing with short, high signal-to-noise recordings."
+  },
+  {
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\n\nExploring Category Change Neural Responses Using Semantically Similar Stimuli With Fast Periodic Visual Stimulation\nZack Murphy & David Vandenheever. DOI"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Zack Murphy",
+    "section": "",
+    "text": "I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers.\n\n\n\n\n\n\nPhD Student | Biomedical Engineering | Mississippi State University\n\nCurrent Research Interests\n\nIncreasing the reach of FPVS through dedicated software tools\nApplying FPVS to study mild cognitive impairment\n\nLinks\nGoogle Scholar\nORCID\nGitHub\nNeural Engineering Research Division"
+  },
+  {
+    "objectID": "index.html#cognitive-neuroscience-research-using-eeg-and-fpvs",
+    "href": "index.html#cognitive-neuroscience-research-using-eeg-and-fpvs",
+    "title": "Zack Murphy",
+    "section": "",
+    "text": "I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing EEG data, with workflows built for non-experts, reproducible analysis, and reuse by other scientists and engineers."
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Zack Murphy",
+    "section": "Selected Work",
+    "text": "Selected Work\n\n\n\nResearch →\n\n\nShort summaries of my research interests and ongoing projects in our lab.\n\n \n\nPublications →\n\n\nRecent publications and preprints from my research.\n\n \n\nSoftware →\n\n\nSoftware tools I am currently developing to support FPVS research and make the method more accessible and standardized."
+  },
+  {
+    "objectID": "index.html#recent-updates",
+    "href": "index.html#recent-updates",
+    "title": "Zack Murphy",
+    "section": "Recent Updates",
+    "text": "Recent Updates\n\nJuly 2026 - My paper “Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis” was published online in Journal of Motor Behavior. Free access and PDF | DOI\nMay 2026 - I have officially completed my Master of Science degree in Biomedical Engineering, and I am now a PhD student!\nOctober 2025 - Our FPVS research on facial expression processing was published in Brain and Cognition. DOI\nAugust 2025 - Our FPVS work on anxiety-linked neural sensitivity to emotional faces was published in International Journal of Psychophysiology. DOI"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research centers on Fast Periodic Visual Stimulation (FPVS), a powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still limited to research settings, even though it has been explicitly recommended for use in a clinical setting in recent publications (for example, see works by Stothart et al.). The main goal of my current work is to help standardize FPVS methods and make them easier to deploy outside of research lab settings by non-experts to expand the utility of FPVS."
+  },
+  {
+    "objectID": "research.html#research-overview",
+    "href": "research.html#research-overview",
+    "title": "Research",
+    "section": "",
+    "text": "My research centers on Fast Periodic Visual Stimulation (FPVS), a powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still limited to research settings, even though it has been explicitly recommended for use in a clinical setting in recent publications (for example, see works by Stothart et al.). The main goal of my current work is to help standardize FPVS methods and make them easier to deploy outside of research lab settings by non-experts to expand the utility of FPVS."
+  },
+  {
+    "objectID": "research.html#standardizing-fpvs-workflows-via-software-tools",
+    "href": "research.html#standardizing-fpvs-workflows-via-software-tools",
+    "title": "Research",
+    "section": "Standardizing FPVS Workflows via Software Tools",
+    "text": "Standardizing FPVS Workflows via Software Tools\nFPVS has demonstrated the ability to produce strong, reliable neural responses in various research domains, but this method is still only being actively utilized in a small number of research labs. Increasing awareness of the effectiveness of FPVS and solving potential barriers to its adoption are important goals of my research.\nOne of the main barriers to the adoption of FPVS outside of the lab is the lack of standardized software tools designed specifically for FPVS. While there are many general-purpose EEG software tools available (such as EEGLab, LetsWave, etc), they still require advanced knowledge of EEG data analysis techniques and are therefore still inaccessible to the non-expert user. Additionally, these general-purpose tools are often designed for a wide range of EEG experiments, meaning they add unnecessary complexity for FPVS-specific tasks. My goal is therefore to create dedicated software tools that make it easier for researchers to design FPVS experiments, analyze FPVS data, and share their work in a more standardized way. To learn more about my software development efforts, see the Software page."
+  },
+  {
+    "objectID": "research.html#ongoing-fpvs-projects",
+    "href": "research.html#ongoing-fpvs-projects",
+    "title": "Research",
+    "section": "Ongoing FPVS Projects",
+    "text": "Ongoing FPVS Projects\nOur lab is using FPVS to study how the brain responds to visual, emotional, and semantic information across several research areas:\n\nDyslexia and individual differences in language-related processing\nAnxiety-linked differences in emotional face processing\nFear of heights and visual sensitivity to height-related stimuli\nEffects of creatine on emotional processing\nEffects of hormonal birth control on emotional processing in women across different phases of the menstrual cycle\n\nAcross these projects, FPVS provides a way to measure targeted neural responses with short EEG recordings, making it useful for research questions where participant burden, clinical relevance, and reproducibility matter."
+  },
+  {
+    "objectID": "research.html#recently-completed-fpvs-work-on-semantic-categorization",
+    "href": "research.html#recently-completed-fpvs-work-on-semantic-categorization",
+    "title": "Research",
+    "section": "Recently Completed FPVS Work on Semantic Categorization",
+    "text": "Recently Completed FPVS Work on Semantic Categorization\nDuring my research for my M.S. degree, I completed a semantic categorization FPVS study using highly visually similar stimuli. The results suggest that FPVS can still elicit a semantic categorization response even when visual differences between categories are tightly controlled. However, the signal-to-noise ratio was weaker than in other published semantic categorization work, likely due to the low semantic distance and low visual variability of the stimuli used. This manuscript is currently in preparation.\nThis project helped to clarify both the promise and the limits of FPVS semantic categorization designs: strong visual control is valuable, but reducing semantic distance can also reduce response strength."
+  },
+  {
+    "objectID": "research.html#suggested-reading",
+    "href": "research.html#suggested-reading",
+    "title": "Research",
+    "section": "Suggested Reading",
+    "text": "Suggested Reading\nIf you are unfamiliar with FPVS and would like to learn more, I suggest starting with the following publications. While this is not an exhaustive list, these works provide a solid foundation for understanding the capabilities of FPVS and the strengths of this methodology.\n\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli. Brain and Cognition, 189, 106338. DOI\nDavid, J., Quenon, L., Hanseeuw, B., Ivanoiu, A., Volfart, A., Koessler, L., & Rossion, B. (2025). An objective and sensitive electrophysiological marker of word semantic categorization impairment in Alzheimer’s disease. Clinical Neurophysiology, 170, 98-109. DOI\nHauk, O., Marchive, M., Volfart, A., Schiltz, C., Rossion, B., Lambon Ralph, M. A., & Lochy, A. (2025). Word-selective EEG/MEG responses in the English language obtained with fast periodic visual stimulation (FPVS). Imaging Neuroscience, 3. DOI\nHauk, O., Rice, G. E., Volfart, A., Magnabosco, F., Lambon Ralph, M. A., & Rossion, B. (2021). Face-selective responses in combined EEG/MEG recordings with fast periodic visual stimulation (FPVS). NeuroImage, 242, 118460. DOI\nVolfart, A., Rice, G. E., Lambon Ralph, M. A., & Rossion, B. (2021). Implicit, automatic semantic word categorisation in the left occipito-temporal cortex as revealed by fast periodic visual stimulation. NeuroImage, 238, 118228. DOI\nStothart, G., Quadflieg, S., & Milton, A. (2017). A fast and implicit measure of semantic categorisation using steady state visual evoked potentials. Neuropsychologia, 102, 11-18. DOI\nRossion, B., Torfs, K., Jacques, C., & Liu-Shuang, J. (2015). Fast periodic presentation of natural images reveals a robust face-selective electrophysiological response in the human brain. Journal of Vision, 15(1), 18. DOI\nRossion, B. (2014). Understanding individual face discrimination by means of fast periodic visual stimulation. Experimental Brain Research, 232(6), 1599-1621. DOI"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "FPVS Studio is a standalone package for designing and running FPVS experiments. It provides a user-friendly UI for creating FPVS conditions, managing stimuli, and currently supports BioSemi systems. This package is built on Python 3.10 and is available for installation via GitHub.\nProject page | GitHub repository\nIf you use FPVS Studio in your research, please cite the Zenodo software record:\nZack Murphy. (2026). zcm58/FPVS-Studio-2.0. Zenodo. Zenodo DOI\n\n\n\nFPVS Toolbox is a sister package to FPVS Studio designed to streamline data processing and figure creation for FPVS experiments. It outputs FPVS results in formats that work well with JASP, RStudio, and SAS for statistical analysis. FPVS Toolbox currently supports BioSemi systems and .bdf file formats, and is available for installation via GitHub.\nProject page | GitHub repository\nIf you use FPVS Toolbox in your research, please cite the Zenodo software record:\nZack Murphy. (2026). zcm58/FPVS-Toolbox-Repo. Zenodo. Zenodo DOI"
+  },
+  {
+    "objectID": "software.html#software-packages",
+    "href": "software.html#software-packages",
+    "title": "Software",
+    "section": "",
+    "text": "FPVS Studio is a standalone package for designing and running FPVS experiments. It provides a user-friendly UI for creating FPVS conditions, managing stimuli, and currently supports BioSemi systems. This package is built on Python 3.10 and is available for installation via GitHub.\nProject page | GitHub repository\nIf you use FPVS Studio in your research, please cite the Zenodo software record:\nZack Murphy. (2026). zcm58/FPVS-Studio-2.0. Zenodo. Zenodo DOI\n\n\n\nFPVS Toolbox is a sister package to FPVS Studio designed to streamline data processing and figure creation for FPVS experiments. It outputs FPVS results in formats that work well with JASP, RStudio, and SAS for statistical analysis. FPVS Toolbox currently supports BioSemi systems and .bdf file formats, and is available for installation via GitHub.\nProject page | GitHub repository\nIf you use FPVS Toolbox in your research, please cite the Zenodo software record:\nZack Murphy. (2026). zcm58/FPVS-Toolbox-Repo. Zenodo. Zenodo DOI"
+  },
+  {
+    "objectID": "fpvs-toolbox.html#about-fpvs-toolbox",
+    "href": "fpvs-toolbox.html#about-fpvs-toolbox",
+    "title": "FPVS Toolbox",
+    "section": "About FPVS Toolbox",
+    "text": "About FPVS Toolbox\nFPVS Toolbox was designed specifically for non-expert users and is intended to streamline FPVS data processing. No coding experience is required, and this package can process large FPVS datasets in just a few clicks. FPVS Toolbox is designed to work directly with the FPVS Studio, so users can easily import their FPVS Studio projects and set up their data analysis with ease. The toolbox outputs data in both wide and long format, making statistical analysis with software like R or SPSS straightforward.\nThe processing methodology used in FPVS Toolbox is based on recently published methods (see the Suggested Reading section) and is currently compatible with BioSemi data formats. Future updates will include support for additional data formats."
+  },
+  {
+    "objectID": "fpvs-toolbox.html#requirements",
+    "href": "fpvs-toolbox.html#requirements",
+    "title": "FPVS Toolbox",
+    "section": "Requirements",
+    "text": "Requirements\n\nOS - Windows 10 or later\nRAM: 16GB recommended\nCPU: Intel i5 or equivalent recommended\nStorage: At least 5GB of free space for installation of FPVS Toolbox and required libraries."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV (PDF)\nLast updated August 2026."
+  },
+  {
+    "objectID": "cv.html#research-profile",
+    "href": "cv.html#research-profile",
+    "title": "CV",
+    "section": "Research Profile",
+    "text": "Research Profile\nBiomedical Engineering PhD student specializing in EEG-based cognitive neuroscience and Fast Periodic Visual Stimulation (FPVS). My research focuses on standardizing FPVS experiment design and data analysis through accessible, reproducible software, with longer-term applications in mild cognitive impairment related to dementia."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nDoctor of Philosophy in Biomedical Engineering\nMississippi State University | Starkville, Mississippi | 2026-Present Research focus: Development of software for the administration and data analysis of FPVS experiments.\n\n\nMaster of Science in Biomedical Engineering\nMississippi State University | Starkville, Mississippi | 2024-2026 Research project: Investigating semantic categorization with semantically similar stimuli using Fast Periodic Visual Stimulation.\n\n\nBachelor of Science, Bagley College of Engineering (cum laude)\nMississippi State University | Starkville, Mississippi | 2017-2021"
+  },
+  {
+    "objectID": "cv.html#professional-and-research-experience",
+    "href": "cv.html#professional-and-research-experience",
+    "title": "CV",
+    "section": "Professional and Research Experience",
+    "text": "Professional and Research Experience\n\nAssistant Undergraduate Coordinator\nDepartment of Agricultural and Biological Engineering, Mississippi State University | Present I serve as the academic advisor for junior and senior students in the department of Agricultural and Biological Engineering at Mississippi State.\n\n\nUndergraduate Laboratory Manager\nNeural Engineering Research Division, Mississippi State University | Present I manage the Neural Engineering Research Division’s undergraduate laboratory under the supervision of Dr. David Vandenheever. In this role, I oversee multiple active research projects and around twenty undergraduate students."
+  },
+  {
+    "objectID": "cv.html#research-software",
+    "href": "cv.html#research-software",
+    "title": "CV",
+    "section": "Research Software",
+    "text": "Research Software\n\nFPVS Studio 2.0\nCreator and developer | Python 3.10, PySide6 | 2026 Standalone application for designing and running FPVS experiments, including condition and stimulus management and BioSemi system support. GitHub | Zenodo DOI\n\n\nFPVS Toolbox\nCreator and developer | Python | 2026 Package for FPVS data processing, analysis, and figure creation. It supports BioSemi .bdf files and produces outputs for downstream analysis in JASP, R, and SAS. GitHub | Zenodo DOI"
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "CV",
+    "section": "Publications",
+    "text": "Publications\nMurphy, Z., Kemp, J., & Vandenheever, D. (2026). Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis. Journal of Motor Behavior, 1-12. DOI\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli. Brain and Cognition, 189, 106338. DOI\nVandenheever, D., Davidson, H., Kemp, J., Murphy, Z., Kujawa, A., Shi, J., Nadorff, M. R., Bates-Brantley, K., & Sidwell, M. (2025). Preliminary evidence for anxiety-linked neural sensitivity to emotional faces using fast periodic visual stimulation. International Journal of Psychophysiology, 214, 113212. DOI"
+  },
+  {
+    "objectID": "cv.html#preprints",
+    "href": "cv.html#preprints",
+    "title": "CV",
+    "section": "Preprints",
+    "text": "Preprints\nMurphy, Z., & Vandenheever, D. (2026). Exploring Category Change Neural Responses Using Semantically Similar Stimuli With Fast Periodic Visual Stimulation. Preprint. DOI"
+  },
+  {
+    "objectID": "cv.html#teaching-and-academic-service",
+    "href": "cv.html#teaching-and-academic-service",
+    "title": "CV",
+    "section": "Teaching and Academic Service",
+    "text": "Teaching and Academic Service\n\n2026 | Member, Bagley College of Engineering Strategic Planning Committee, Mississippi State University\n2026 | Participant, Preparing Future Faculty Program, Mississippi State University\n2025 | Co-instructor, Senior Seminar in Agricultural Engineering, Mississippi State University"
+  },
+  {
+    "objectID": "cv.html#technical-expertise",
+    "href": "cv.html#technical-expertise",
+    "title": "CV",
+    "section": "Technical Expertise",
+    "text": "Technical Expertise\nProgramming and software development: Python, R, MATLAB, PySide6, graphical user interface development, parallel processing, reproducible analysis workflows, and Git/GitHub.\nEEG and cognitive neuroscience: FPVS paradigm design; EEG data acquisition, analysis, and visualization; BioSemi ActiveTwo setup and troubleshooting across hundreds of participant sessions."
+  },
+  {
+    "objectID": "cv.html#contact",
+    "href": "cv.html#contact",
+    "title": "CV",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: zmurphy@abe.msstate.edu\nGitHub: github.com/zcm58\nLinkedIn: Zack Murphy\nGoogle Scholar: Zack Murphy\nORCID: 0009-0003-3868-6888"
+  },
+  {
+    "objectID": "learn-fpvs/choosing-stimulation-frequencies.html",
+    "href": "learn-fpvs/choosing-stimulation-frequencies.html",
+    "title": "Choosing Stimulation Frequencies",
+    "section": "",
+    "text": "Choosing a stimulation frequency is an important first step in designing an FPVS experiment. Research has shown that frequencies the optimal range for eliciting strong neural responses is typically between 4 Hz and 6 Hz. Frequencies outside of this range may still elicit neural responses, but they are often weaker and more variable across participants.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Choosing Frequencies"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/display-refresh-rate.html",
+    "href": "learn-fpvs/display-refresh-rate.html",
+    "title": "Display Refresh Rate and Stimulus Timing",
+    "section": "",
+    "text": "An important practical consideration when designing an FPVS experiment is the refresh rate of the display used to present the stimuli. The refresh rate of a display is the number of times per second that the image on the screen is updated, and it is typically measured in Hertz (Hz). Common refresh rates for computer monitors are 60 Hz, 120 Hz, and 144 Hz, though the most common display refresh rate is 60 Hz. This factor can limit which stimulation frequencies are viable for your lab or situation. For example, if you are using a display with a refresh rate of 60 Hz, you could present stimuli at 6 Hz (10 frames per stimulus), 10 Hz (6 frames per stimulus), or 12 Hz (5 frames per stimulus). However, if you wanted to present stimuli at 7 Hz, this would not be possible with a 60 Hz display, as each stimulus would need to be presented for approximately 8.57 frames, which is not possible and would cause inconsistencies in frame timing.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Display and Timing"
+    ]
+  },
+  {
     "objectID": "learn-fpvs/glossary-references.html",
     "href": "learn-fpvs/glossary-references.html",
     "title": "Glossary and References",
@@ -541,87 +601,27 @@
     ]
   },
   {
-    "objectID": "learn-fpvs/paradigm-design.html",
-    "href": "learn-fpvs/paradigm-design.html",
-    "title": "Paradigm Design",
+    "objectID": "learn-fpvs/maintaining-attention.html",
+    "href": "learn-fpvs/maintaining-attention.html",
+    "title": "Maintaining Participant Attention",
     "section": "",
-    "text": "When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.",
+    "text": "While FPVS is a passive method that does not require active participation from the participant to elicit neural responses, it is still important to ensure that the participant is paying attention to the stimuli being presented. If the participant does not fix their gaze on the screen during a study, the resulting neural responses would likely be meaningless or difficult to interpret.\nOne common approach to maintaining the participant’s attention is to ask the participant to fix their gaze on a small cross in the center of the screen and to press a button whenever that cross changes colors. This task is unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.\nAnother approach is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they notice a color change.",
     "crumbs": [
       "Learn About FPVS",
       "Experiment Design",
-      "Paradigm Design"
+      "Maintaining Attention"
     ]
   },
   {
-    "objectID": "learn-fpvs/paradigm-design.html#anatomy-of-the-fpvs-oddball-paradigm",
-    "href": "learn-fpvs/paradigm-design.html#anatomy-of-the-fpvs-oddball-paradigm",
-    "title": "Paradigm Design",
+    "objectID": "learn-fpvs/stimulus-selection-sequencing.html",
+    "href": "learn-fpvs/stimulus-selection-sequencing.html",
+    "title": "Stimulus Selection and Sequencing",
     "section": "",
-    "text": "When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.",
+    "text": "Imagine you wanted to design an FPVS experiment to study the differences between processing living objects and non-living objects. If you included images of birds, horses, dogs, cats, etc as living objects, and then images of cars, trucks, buildings, etc as non-living objects, this would technically be a valid FPVS oddball paradigm. However, there are many things could that influence the oddball responses.\nFor example, living objects like animals tend to have smooth edges, curves, and may appear in natural scenes with lots of green colors. Non-living objects like cars and buildings tend to have sharp edges, straight lines, and may feature a different color scheme than the base images. As such, these low-level visual differences could be influencing the oddball responses, and it would be difficult to determine whether the oddball responses were due to the living vs non-living distinction, due to low-level visual differences between the two categories, or some combination of both.\nPrevious work has shown that even low-level visual differences such as this, like a slight change in vertical line orientation between base and oddball stimuli, can drastically influence oddball responses, so it is important to carefully consider the stimuli used in an FPVS experiment and to control for low-level visual differences between base and oddball stimuli.",
     "crumbs": [
       "Learn About FPVS",
       "Experiment Design",
-      "Paradigm Design"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/paradigm-design.html#choosing-stimulation-frequencies",
-    "href": "learn-fpvs/paradigm-design.html#choosing-stimulation-frequencies",
-    "title": "Paradigm Design",
-    "section": "Choosing stimulation frequencies",
-    "text": "Choosing stimulation frequencies\nChoosing a stimulation frequency is an important first step in designing an FPVS experiment. Research has shown that frequencies the optimal range for eliciting strong neural responses is typically between 4 Hz and 6 Hz. Frequencies outside of this range may still elicit neural responses, but they are often weaker and more variable across participants.",
-    "crumbs": [
-      "Learn About FPVS",
-      "Experiment Design",
-      "Paradigm Design"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/paradigm-design.html#stimulus-selection-and-sequencing",
-    "href": "learn-fpvs/paradigm-design.html#stimulus-selection-and-sequencing",
-    "title": "Paradigm Design",
-    "section": "Stimulus selection and sequencing",
-    "text": "Stimulus selection and sequencing\nImagine you wanted to design an FPVS experiment to study the differences between processing living objects and non-living objects. If you included images of birds, horses, dogs, cats, etc as living objects, and then images of cars, trucks, buildings, etc as non-living objects, this would technically be a valid FPVS oddball paradigm. However, there are many things could that influence the oddball responses.\nFor example, living objects like animals tend to have smooth edges, curves, and may appear in natural scenes with lots of green colors. Non-living objects like cars and buildings tend to have sharp edges, straight lines, and may feature a different color scheme than the base images. As such, these low-level visual differences could be influencing the oddball responses, and it would be difficult to determine whether the oddball responses were due to the living vs non-living distinction, due to low-level visual differences between the two categories, or some combination of both.\nPrevious work has shown that even low-level visual differences such as this, like a slight change in vertical line orientation between base and oddball stimuli, can drastically influence oddball responses, so it is important to carefully consider the stimuli used in an FPVS experiment and to control for low-level visual differences between base and oddball stimuli.",
-    "crumbs": [
-      "Learn About FPVS",
-      "Experiment Design",
-      "Paradigm Design"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/paradigm-design.html#display-refresh-rate-and-stimulus-timing",
-    "href": "learn-fpvs/paradigm-design.html#display-refresh-rate-and-stimulus-timing",
-    "title": "Paradigm Design",
-    "section": "Display Refresh Rate and Stimulus Timing",
-    "text": "Display Refresh Rate and Stimulus Timing\nAn important practical consideration when designing an FPVS experiment is the refresh rate of the display used to present the stimuli. The refresh rate of a display is the number of times per second that the image on the screen is updated, and it is typically measured in Hertz (Hz). Common refresh rates for computer monitors are 60 Hz, 120 Hz, and 144 Hz, though the most common display refresh rate is 60 Hz. This factor can limit which stimulation frequencies are viable for your lab or situation. For example, if you are using a display with a refresh rate of 60 Hz, you could present stimuli at 6 Hz (10 frames per stimulus), 10 Hz (6 frames per stimulus), or 12 Hz (5 frames per stimulus). However, if you wanted to present stimuli at 7 Hz, this would not be possible with a 60 Hz display, as each stimulus would need to be presented for approximately 8.57 frames, which is not possible and would cause inconsistencies in frame timing.",
-    "crumbs": [
-      "Learn About FPVS",
-      "Experiment Design",
-      "Paradigm Design"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/paradigm-design.html#maintaining-the-participants-attention",
-    "href": "learn-fpvs/paradigm-design.html#maintaining-the-participants-attention",
-    "title": "Paradigm Design",
-    "section": "Maintaining the Participant’s Attention",
-    "text": "Maintaining the Participant’s Attention\nWhile FPVS is a passive method that does not require active participation from the participant to elicit neural responses, it is still important to ensure that the participant is paying attention to the stimuli being presented. If the participant does not fix their gaze on the screen during a study, the resulting neural responses would likely be meaningless or difficult to interpret.\nOne common approach to maintaining the participant’s attention is to ask the participant to fix their gaze on a small cross in the center of the screen and to press a button whenever that cross changes colors. This task is unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.\nAnother approach is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they notice a color change.",
-    "crumbs": [
-      "Learn About FPVS",
-      "Experiment Design",
-      "Paradigm Design"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/paradigm-design.html#common-paradigm-patterns",
-    "href": "learn-fpvs/paradigm-design.html#common-paradigm-patterns",
-    "title": "Paradigm Design",
-    "section": "Common paradigm patterns",
-    "text": "Common paradigm patterns\nThis section will collect illustrated examples of frequently used FPVS designs.",
-    "crumbs": [
-      "Learn About FPVS",
-      "Experiment Design",
-      "Paradigm Design"
+      "Stimulus Selection"
     ]
   }
 ]

@@ -1,5 +1,192 @@
 [
   {
+    "objectID": "learn-fpvs/what-is-fpvs.html",
+    "href": "learn-fpvs/what-is-fpvs.html",
+    "title": "What Is FPVS?",
+    "section": "",
+    "text": "This page will introduce Fast Periodic Visual Stimulation, describe the general logic of an FPVS experiment, and distinguish the method from related visual EEG approaches.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Start Here",
+      "What Is FPVS?"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/what-is-fpvs.html#overview",
+    "href": "learn-fpvs/what-is-fpvs.html#overview",
+    "title": "What Is FPVS?",
+    "section": "",
+    "text": "This page will introduce Fast Periodic Visual Stimulation, describe the general logic of an FPVS experiment, and distinguish the method from related visual EEG approaches.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Start Here",
+      "What Is FPVS?"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/what-is-fpvs.html#why-use-fpvs",
+    "href": "learn-fpvs/what-is-fpvs.html#why-use-fpvs",
+    "title": "What Is FPVS?",
+    "section": "Why use FPVS?",
+    "text": "Why use FPVS?\nThis section will explain the kinds of research questions FPVS can address and the practical characteristics that make the method useful.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Start Here",
+      "What Is FPVS?"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/what-is-fpvs.html#the-basic-measurement",
+    "href": "learn-fpvs/what-is-fpvs.html#the-basic-measurement",
+    "title": "What Is FPVS?",
+    "section": "The basic measurement",
+    "text": "The basic measurement\nThis section will connect a periodic stimulus sequence to the frequency-tagged response measured in EEG data. An annotated overview figure will be added here.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Start Here",
+      "What Is FPVS?"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/what-is-fpvs.html#what-this-guide-covers",
+    "href": "learn-fpvs/what-is-fpvs.html#what-this-guide-covers",
+    "title": "What Is FPVS?",
+    "section": "What this guide covers",
+    "text": "What this guide covers\nThe remaining pages will move from foundational concepts to experiment design, data processing, response quantification, interpretation, and reporting.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Start Here",
+      "What Is FPVS?"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/index.html",
+    "href": "learn-fpvs/index.html",
+    "title": "Learn About FPVS",
+    "section": "",
+    "text": "Fast Periodic Visual Stimulation (FPVS) combines periodic visual stimulation with frequency-domain analysis of brain activity. This guide is a growing, practical introduction to the method, from its core concepts through paradigm design and data analysis.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/index.html#start-with-the-foundations",
+    "href": "learn-fpvs/index.html#start-with-the-foundations",
+    "title": "Learn About FPVS",
+    "section": "Start with the foundations",
+    "text": "Start with the foundations\nWhat Is FPVS? introduces the method and the questions this guide will address. Frequency Tagging explains the central relationship between stimulation frequencies and measured neural responses.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/index.html#design-an-fpvs-experiment",
+    "href": "learn-fpvs/index.html#design-an-fpvs-experiment",
+    "title": "Learn About FPVS",
+    "section": "Design an FPVS experiment",
+    "text": "Design an FPVS experiment\nParadigm Design provides the future home for stimulus sequences, frequency choices, timing, task design, and illustrated paradigm examples.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/index.html#understand-the-analysis",
+    "href": "learn-fpvs/index.html#understand-the-analysis",
+    "title": "Learn About FPVS",
+    "section": "Understand the analysis",
+    "text": "Understand the analysis\nAnalysis Workflow outlines the stages that will be covered from raw EEG data through response quantification and quality control.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/index.html#look-up-terms-and-sources",
+    "href": "learn-fpvs/index.html#look-up-terms-and-sources",
+    "title": "Learn About FPVS",
+    "section": "Look up terms and sources",
+    "text": "Look up terms and sources\nGlossary and References will collect definitions, recommended reading, and sources cited throughout the guide.\n\n\n\n\n\n\nNoteGuide in development\n\n\n\nThis section is being expanded over time. Pages currently establish the guide’s structure and the topics that future additions will cover.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/frequency-tagging.html",
+    "href": "learn-fpvs/frequency-tagging.html",
+    "title": "Frequency Tagging",
+    "section": "",
+    "text": "This section will explain how a repeating visual sequence creates a known stimulation frequency.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Start Here",
+      "Frequency Tagging"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/frequency-tagging.html#periodic-stimulation",
+    "href": "learn-fpvs/frequency-tagging.html#periodic-stimulation",
+    "title": "Frequency Tagging",
+    "section": "",
+    "text": "This section will explain how a repeating visual sequence creates a known stimulation frequency.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Start Here",
+      "Frequency Tagging"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/frequency-tagging.html#responses-at-tagged-frequencies",
+    "href": "learn-fpvs/frequency-tagging.html#responses-at-tagged-frequencies",
+    "title": "Frequency Tagging",
+    "section": "Responses at tagged frequencies",
+    "text": "Responses at tagged frequencies\nThis section will explain how the recorded signal is examined at the stimulation frequency and related frequencies.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Start Here",
+      "Frequency Tagging"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/frequency-tagging.html#base-and-target-frequencies",
+    "href": "learn-fpvs/frequency-tagging.html#base-and-target-frequencies",
+    "title": "Frequency Tagging",
+    "section": "Base and target frequencies",
+    "text": "Base and target frequencies\nThis section will introduce the roles of base and target frequencies in common FPVS paradigms. A labeled frequency-spectrum figure will be added here.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Start Here",
+      "Frequency Tagging"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/frequency-tagging.html#harmonics",
+    "href": "learn-fpvs/frequency-tagging.html#harmonics",
+    "title": "Frequency Tagging",
+    "section": "Harmonics",
+    "text": "Harmonics\nThis section will explain why responses can occur at harmonics of a stimulation frequency and how those responses are considered during analysis.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Start Here",
+      "Frequency Tagging"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/frequency-tagging.html#terminology-to-keep-separate",
+    "href": "learn-fpvs/frequency-tagging.html#terminology-to-keep-separate",
+    "title": "Frequency Tagging",
+    "section": "Terminology to keep separate",
+    "text": "Terminology to keep separate\nThis section will distinguish commonly conflated frequency-tagging terms before the guide moves into paradigm design.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Start Here",
+      "Frequency Tagging"
+    ]
+  },
+  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "CV",
@@ -208,5 +395,245 @@
     "title": "Media",
     "section": "",
     "text": "Videos, invited talks, conference recordings, podcast appearances, and public research explainers will be added here as they are published."
+  },
+  {
+    "objectID": "learn-fpvs/analysis-workflow.html",
+    "href": "learn-fpvs/analysis-workflow.html",
+    "title": "Analysis Workflow",
+    "section": "",
+    "text": "This page will explain the path from recorded EEG data to an interpretable FPVS response. A complete processing diagram will be added here.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Data Analysis",
+      "Analysis Workflow"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/analysis-workflow.html#workflow-overview",
+    "href": "learn-fpvs/analysis-workflow.html#workflow-overview",
+    "title": "Analysis Workflow",
+    "section": "",
+    "text": "This page will explain the path from recorded EEG data to an interpretable FPVS response. A complete processing diagram will be added here.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Data Analysis",
+      "Analysis Workflow"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/analysis-workflow.html#data-intake-and-recording-checks",
+    "href": "learn-fpvs/analysis-workflow.html#data-intake-and-recording-checks",
+    "title": "Analysis Workflow",
+    "section": "Data intake and recording checks",
+    "text": "Data intake and recording checks\nThis section will cover the information and quality checks needed before processing begins.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Data Analysis",
+      "Analysis Workflow"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/analysis-workflow.html#preprocessing",
+    "href": "learn-fpvs/analysis-workflow.html#preprocessing",
+    "title": "Analysis Workflow",
+    "section": "Preprocessing",
+    "text": "Preprocessing\nThis section will describe the preprocessing decisions that should be reported and justified for an FPVS analysis.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Data Analysis",
+      "Analysis Workflow"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/analysis-workflow.html#segmentation-and-averaging",
+    "href": "learn-fpvs/analysis-workflow.html#segmentation-and-averaging",
+    "title": "Analysis Workflow",
+    "section": "Segmentation and averaging",
+    "text": "Segmentation and averaging\nThis section will explain how continuous recordings are organized for analysis and how averaging relates to the periodic response.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Data Analysis",
+      "Analysis Workflow"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/analysis-workflow.html#frequency-domain-transformation",
+    "href": "learn-fpvs/analysis-workflow.html#frequency-domain-transformation",
+    "title": "Analysis Workflow",
+    "section": "Frequency-domain transformation",
+    "text": "Frequency-domain transformation\nThis section will introduce the transformation from time-domain EEG data to a frequency-domain representation.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Data Analysis",
+      "Analysis Workflow"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/analysis-workflow.html#response-quantification",
+    "href": "learn-fpvs/analysis-workflow.html#response-quantification",
+    "title": "Analysis Workflow",
+    "section": "Response quantification",
+    "text": "Response quantification\nThis section will compare approaches to baseline correction, signal-to-noise measurement, harmonic selection, and response summarization.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Data Analysis",
+      "Analysis Workflow"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/analysis-workflow.html#quality-control-and-reproducibility",
+    "href": "learn-fpvs/analysis-workflow.html#quality-control-and-reproducibility",
+    "title": "Analysis Workflow",
+    "section": "Quality control and reproducibility",
+    "text": "Quality control and reproducibility\nThis section will cover visual checks, exclusion decisions, recorded parameters, and the outputs needed to reproduce an analysis.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Data Analysis",
+      "Analysis Workflow"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/analysis-workflow.html#interpretation-and-reporting",
+    "href": "learn-fpvs/analysis-workflow.html#interpretation-and-reporting",
+    "title": "Analysis Workflow",
+    "section": "Interpretation and reporting",
+    "text": "Interpretation and reporting\nThis section will connect the quantified response to cautious scientific interpretation and transparent reporting.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Data Analysis",
+      "Analysis Workflow"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/glossary-references.html",
+    "href": "learn-fpvs/glossary-references.html",
+    "title": "Glossary and References",
+    "section": "",
+    "text": "Terms will be added here as the guide develops so that definitions remain consistent across pages.\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Reference",
+      "Glossary and References"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/glossary-references.html#glossary",
+    "href": "learn-fpvs/glossary-references.html#glossary",
+    "title": "Glossary and References",
+    "section": "",
+    "text": "Terms will be added here as the guide develops so that definitions remain consistent across pages.\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Reference",
+      "Glossary and References"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/glossary-references.html#recommended-starting-points",
+    "href": "learn-fpvs/glossary-references.html#recommended-starting-points",
+    "title": "Glossary and References",
+    "section": "Recommended starting points",
+    "text": "Recommended starting points\nIntroductory and methodological readings will be collected here after their publication details and links have been verified.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Reference",
+      "Glossary and References"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/glossary-references.html#references-cited-in-this-guide",
+    "href": "learn-fpvs/glossary-references.html#references-cited-in-this-guide",
+    "title": "Glossary and References",
+    "section": "References cited in this guide",
+    "text": "References cited in this guide\nFull citations will be added here as sources are introduced on individual pages.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Reference",
+      "Glossary and References"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/paradigm-design.html",
+    "href": "learn-fpvs/paradigm-design.html",
+    "title": "Paradigm Design",
+    "section": "",
+    "text": "This section will identify the major components of an FPVS stimulus sequence. An annotated timeline will be added here.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Paradigm Design"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/paradigm-design.html#anatomy-of-a-paradigm",
+    "href": "learn-fpvs/paradigm-design.html#anatomy-of-a-paradigm",
+    "title": "Paradigm Design",
+    "section": "",
+    "text": "This section will identify the major components of an FPVS stimulus sequence. An annotated timeline will be added here.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Paradigm Design"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/paradigm-design.html#choosing-stimulation-frequencies",
+    "href": "learn-fpvs/paradigm-design.html#choosing-stimulation-frequencies",
+    "title": "Paradigm Design",
+    "section": "Choosing stimulation frequencies",
+    "text": "Choosing stimulation frequencies\nThis section will cover the considerations involved in choosing base and target frequencies.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Paradigm Design"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/paradigm-design.html#stimulus-selection-and-sequencing",
+    "href": "learn-fpvs/paradigm-design.html#stimulus-selection-and-sequencing",
+    "title": "Paradigm Design",
+    "section": "Stimulus selection and sequencing",
+    "text": "Stimulus selection and sequencing\nThis section will address category definitions, stimulus variability, sequence construction, and the relationship between visual and conceptual differences.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Paradigm Design"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/paradigm-design.html#timing-and-display-validation",
+    "href": "learn-fpvs/paradigm-design.html#timing-and-display-validation",
+    "title": "Paradigm Design",
+    "section": "Timing and display validation",
+    "text": "Timing and display validation\nThis section will cover presentation timing, refresh-rate constraints, triggers, and validation of the displayed sequence.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Paradigm Design"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/paradigm-design.html#participant-task-and-attention",
+    "href": "learn-fpvs/paradigm-design.html#participant-task-and-attention",
+    "title": "Paradigm Design",
+    "section": "Participant task and attention",
+    "text": "Participant task and attention\nThis section will describe how task demands can be incorporated without losing the implicit or rapid character of the paradigm.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Paradigm Design"
+    ]
+  },
+  {
+    "objectID": "learn-fpvs/paradigm-design.html#common-paradigm-patterns",
+    "href": "learn-fpvs/paradigm-design.html#common-paradigm-patterns",
+    "title": "Paradigm Design",
+    "section": "Common paradigm patterns",
+    "text": "Common paradigm patterns\nThis section will collect illustrated examples of frequently used FPVS designs.",
+    "crumbs": [
+      "Learn About FPVS",
+      "Experiment Design",
+      "Paradigm Design"
+    ]
   }
 ]

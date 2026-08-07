@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zack-murphy.com/learn-fpvs/what-is-fpvs.html</loc>
+    <lastmod>2026-08-07T14:06:19.334Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zack-murphy.com/learn-fpvs/index.html</loc>
+    <lastmod>2026-08-07T14:10:21.150Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zack-murphy.com/learn-fpvs/frequency-tagging.html</loc>
+    <lastmod>2026-08-07T14:06:19.342Z</lastmod>
+  </url>
+  <url>
     <loc>https://zack-murphy.com/cv.html</loc>
     <lastmod>2026-08-04T21:42:02.511Z</lastmod>
   </url>
@@ -31,5 +43,17 @@
   <url>
     <loc>https://zack-murphy.com/media.html</loc>
     <lastmod>2026-08-05T21:32:21.855Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zack-murphy.com/learn-fpvs/analysis-workflow.html</loc>
+    <lastmod>2026-08-07T14:06:19.345Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zack-murphy.com/learn-fpvs/glossary-references.html</loc>
+    <lastmod>2026-08-07T14:06:19.346Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zack-murphy.com/learn-fpvs/paradigm-design.html</loc>
+    <lastmod>2026-08-07T14:06:19.344Z</lastmod>
   </url>
 </urlset>

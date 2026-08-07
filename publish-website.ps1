@@ -33,6 +33,37 @@ function Remove-GeneratedDirectory {
     }
 }
 
+function Remove-TrailingWhitespaceFromChanges {
+    $textExtensions = @(
+        ".css", ".html", ".js", ".json", ".md", ".mjs", ".ps1",
+        ".qmd", ".scss", ".txt", ".yaml", ".yml"
+    )
+    $changedFiles = @(
+        git diff --name-only --diff-filter=ACMR
+        git diff --cached --name-only --diff-filter=ACMR
+        git ls-files --others --exclude-standard
+    ) | Where-Object { $_ } | Sort-Object -Unique
+    $utf8WithoutBom = New-Object System.Text.UTF8Encoding($false)
+
+    foreach ($relativePath in $changedFiles) {
+        if ([System.IO.Path]::GetExtension($relativePath) -notin $textExtensions) {
+            continue
+        }
+
+        $targetPath = Join-Path $repoRoot $relativePath
+        if (-not (Test-Path -LiteralPath $targetPath -PathType Leaf)) {
+            continue
+        }
+
+        $content = [System.IO.File]::ReadAllText($targetPath)
+        $trimmedContent = [regex]::Replace($content, "[ `t]+(?=`r?$)", "", "Multiline")
+        if ($trimmedContent -ne $content) {
+            [System.IO.File]::WriteAllText($targetPath, $trimmedContent, $utf8WithoutBom)
+            Write-Host "Trimmed trailing whitespace: $relativePath" -ForegroundColor Yellow
+        }
+    }
+}
+
 function Confirm-LiveVersion {
     param(
         [string]$SiteUrl,
@@ -103,6 +134,10 @@ Invoke-Step "Fetch latest GitHub state" {
 
 Invoke-Step "Update local main" {
     git pull --ff-only origin main
+}
+
+Invoke-Step "Trim trailing whitespace" {
+    Remove-TrailingWhitespaceFromChanges
 }
 
 Invoke-Step "Check whitespace" {

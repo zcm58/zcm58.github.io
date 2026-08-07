@@ -97,9 +97,10 @@ run:
 .\publish-website.ps1
 ```
 
-The helper clears generated site output, performs one cache-refresh render,
-adds a deploy version to rendered pages and local assets, commits source
-changes to `main`, and publishes that exact output to `gh-pages` with
+The helper trims trailing whitespace from changed text files, clears generated
+site output, performs one cache-refresh render, adds a deploy version to rendered
+pages and local assets, commits source changes to `main`, and publishes that
+exact output to `gh-pages` with
 `quarto publish gh-pages --no-render`. It then verifies that both `gh-pages`
 and the cache-busted live site expose the same version before reporting
 success. The page marker reloads a stale cached page once with the current

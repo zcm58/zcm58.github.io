@@ -155,7 +155,7 @@
     "href": "learn-fpvs/frequency-tagging.html#harmonics",
     "title": "Frequency Tagging",
     "section": "Harmonics",
-    "text": "Harmonics\nThis section will explain why responses can occur at harmonics of a stimulation frequency and how those responses are considered during analysis.",
+    "text": "Harmonics\nThe Fourier transform breaks a repeating EEG waveform into a set of sine waves at different frequencies. The stimulation frequency, F, is the fundamental frequency. If the measured response were a perfect sine wave, its spectrum would contain a response only at F. Real visual stimuli and neural responses are often not perfectly sinusoidal, however, so additional sine waves are needed to describe their shape. Because the complete waveform repeats once every cycle, these additional components occur at integer multiples of the fundamental frequency: 2F, 3F, 4F, and so on. These are called harmonics.\nThe fast Fourier transform (FFT) does not create the harmonics; it reveals the frequency components already present in the recorded waveform. Harmonics can reflect features of the stimulus, such as abrupt on-off modulation, as well as nonlinear processing in the visual system. Norcia et al. (2015) provide a detailed explanation and time- and frequency-domain illustrations of this relationship.",
     "crumbs": [
       "Learn About FPVS",
       "Start Here",

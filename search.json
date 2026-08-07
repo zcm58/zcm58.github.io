@@ -6,7 +6,6 @@
     "section": "",
     "text": "Fast Periodic Visual Stimulation (FPVS) is a powerful method that can elicit strong neural responses to stimuli in just a few minutes of recording time. This method is non-invasive, requires no active participation from the participant, and has been used to study a wide range cognitive processes in the brain from facial expression processing, memory, anxiety, semantic categorization, and more using electroencephalography (EEG).",
     "crumbs": [
-      "Learn About FPVS",
       "Start Here",
       "What Is FPVS?"
     ]
@@ -18,7 +17,6 @@
     "section": "",
     "text": "Fast Periodic Visual Stimulation (FPVS) is a powerful method that can elicit strong neural responses to stimuli in just a few minutes of recording time. This method is non-invasive, requires no active participation from the participant, and has been used to study a wide range cognitive processes in the brain from facial expression processing, memory, anxiety, semantic categorization, and more using electroencephalography (EEG).",
     "crumbs": [
-      "Learn About FPVS",
       "Start Here",
       "What Is FPVS?"
     ]
@@ -30,7 +28,6 @@
     "section": "Why use FPVS?",
     "text": "Why use FPVS?\nFPVS combined with EEG offers several important advantages over current EEG techniques. First, when compared with traditional EEG methodology such as event-related potentials (ERPs), FPVS can elicit strong neural responses in a fraction of the time. Second, unlike ERP based methods, FPVS can be sensitive on the level of the individual, which provides future opportunity for use in a clinical setting to aid in the detection and diagnosis of various cognitive conditions. Finally, when compared with other neuroimaging methods such as fMRI or PET scans, FPVS and EEG is comparatively inexpensive, portable, and can be used in a wider range of populations and locations.",
     "crumbs": [
-      "Learn About FPVS",
       "Start Here",
       "What Is FPVS?"
     ]
@@ -42,7 +39,6 @@
     "section": "The “Oddball” Paradigm",
     "text": "The “Oddball” Paradigm\nTo elicit strong neural responses, many FPVS experiments use what’s called an “oddball” paradigm.\nIn this design, a base stimulus is presented at a fixed rate (say, six times per second, or 6 Hz), and a different stimulus is presented within that visual stream at a less frequent rate (say, once every five stimuli, or 1.2 Hz). If the brain detects a difference between the base stimuli and the oddball stimuli, a neural response will be detectable exactly at the oddball freuqency (1.2 Hz in this example) and its frequency harmonics (2.4 Hz, 3.6 Hz, etc). This response can then be measured using EEG.\nBecause the response to the oddball stimuli is known prior to the start of the study, we can transform the time series data into the frequency domain using a Fourier transform and extract the signal found at the oddball frequency. This design provides a relatively straightforward way to quantify this response and to compare it across participants, experimental conditions, and groups.",
     "crumbs": [
-      "Learn About FPVS",
       "Start Here",
       "What Is FPVS?"
     ]
@@ -54,7 +50,6 @@
     "section": "What this guide covers",
     "text": "What this guide covers\nThis guide will cover key FPVS concepts and terminology that are important to understanding the advantages and limitations of FPVS. It will also provide a brief overview of the FPVS workflow, including how to design an FPVS experiment, how to analyze FPVS data, and how to interpret the results. Finally, this guide will provide a list of suggested readings for those who want to learn more about FPVS and its applications in cognitive neuroscience research.",
     "crumbs": [
-      "Learn About FPVS",
       "Start Here",
       "What Is FPVS?"
     ]
@@ -66,7 +61,6 @@
     "section": "",
     "text": "When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.\nUse the pages in this section to explore each design consideration separately:\n\nChoosing Stimulation Frequencies\nStimulus Selection and Sequencing\nDisplay Refresh Rate and Stimulus Timing\nMaintaining Participant Attention\nCommon Paradigm Patterns",
     "crumbs": [
-      "Learn About FPVS",
       "Experiment Design",
       "Overview"
     ]
@@ -78,7 +72,6 @@
     "section": "",
     "text": "When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.\nUse the pages in this section to explore each design consideration separately:\n\nChoosing Stimulation Frequencies\nStimulus Selection and Sequencing\nDisplay Refresh Rate and Stimulus Timing\nMaintaining Participant Attention\nCommon Paradigm Patterns",
     "crumbs": [
-      "Learn About FPVS",
       "Experiment Design",
       "Overview"
     ]
@@ -88,55 +81,35 @@
     "href": "learn-fpvs/index.html",
     "title": "Learn About FPVS",
     "section": "",
-    "text": "Fast Periodic Visual Stimulation (FPVS) combines periodic visual stimulation with frequency-domain analysis of brain activity. This guide is a growing, practical introduction to the method, from its core concepts through paradigm design and data analysis.",
-    "crumbs": [
-      "Learn About FPVS",
-      "Overview"
-    ]
+    "text": "Fast Periodic Visual Stimulation (FPVS) combines periodic visual stimulation with frequency-domain analysis of brain activity. This guide is a growing, practical introduction to the method, from its core concepts through paradigm design and data analysis."
   },
   {
     "objectID": "learn-fpvs/index.html#start-with-the-foundations",
     "href": "learn-fpvs/index.html#start-with-the-foundations",
     "title": "Learn About FPVS",
     "section": "Start with the foundations",
-    "text": "Start with the foundations\nWhat Is FPVS? introduces the method and the questions this guide will address. Frequency Tagging explains the central relationship between stimulation frequencies and measured neural responses.",
-    "crumbs": [
-      "Learn About FPVS",
-      "Overview"
-    ]
+    "text": "Start with the foundations\nWhat Is FPVS? introduces the method and the questions this guide will address. Frequency Tagging explains the central relationship between stimulation frequencies and measured neural responses."
   },
   {
     "objectID": "learn-fpvs/index.html#design-an-fpvs-experiment",
     "href": "learn-fpvs/index.html#design-an-fpvs-experiment",
     "title": "Learn About FPVS",
     "section": "Design an FPVS experiment",
-    "text": "Design an FPVS experiment\nExperiment Design introduces dedicated pages covering frequency choices, stimulus selection and sequencing, display timing, participant attention, and common paradigm patterns.",
-    "crumbs": [
-      "Learn About FPVS",
-      "Overview"
-    ]
+    "text": "Design an FPVS experiment\nExperiment Design introduces dedicated pages covering frequency choices, stimulus selection and sequencing, display timing, participant attention, and common paradigm patterns."
   },
   {
     "objectID": "learn-fpvs/index.html#understand-the-analysis",
     "href": "learn-fpvs/index.html#understand-the-analysis",
     "title": "Learn About FPVS",
     "section": "Understand the analysis",
-    "text": "Understand the analysis\nAnalysis Workflow outlines the stages that will be covered from raw EEG data through response quantification and quality control.",
-    "crumbs": [
-      "Learn About FPVS",
-      "Overview"
-    ]
+    "text": "Understand the analysis\nAnalysis Workflow outlines the stages that will be covered from raw EEG data through response quantification and quality control."
   },
   {
     "objectID": "learn-fpvs/index.html#look-up-terms-and-sources",
     "href": "learn-fpvs/index.html#look-up-terms-and-sources",
     "title": "Learn About FPVS",
     "section": "Look up terms and sources",
-    "text": "Look up terms and sources\nGlossary and References will collect definitions, recommended reading, and sources cited throughout the guide.\n\n\n\n\n\n\nNoteGuide in development\n\n\n\nThis section is being expanded over time. Pages currently establish the guide’s structure and the topics that future additions will cover.",
-    "crumbs": [
-      "Learn About FPVS",
-      "Overview"
-    ]
+    "text": "Look up terms and sources\nGlossary and References will collect definitions, recommended reading, and sources cited throughout the guide.\n\n\n\n\n\n\nNoteGuide in development\n\n\n\nThis section is being expanded over time. Pages currently establish the guide’s structure and the topics that future additions will cover."
   },
   {
     "objectID": "learn-fpvs/frequency-tagging.html",
@@ -145,7 +118,6 @@
     "section": "",
     "text": "Imagine a light flashing in your eyes at six times per second. If you were to record your brain activity using EEG while this light was flashing, an oscillatory neural response would be detectable at the same frequency as the flashing light (6 Hz). If we increased the speed of the flashing light to 10 times per second, the neural response would also increase to 10 Hz. This relationship between periodic stimulation (e.g., the light flashing at a fixed rate of six times per second) and frequency-domain neural responses is the basis for FPVS methodology.\nThis phenomenon is known as a Steady State Visually Evoked Potential, or SSVEP.\nThis is also where FPVS gets its name; the “Fast” in FPVS refers to the fact that the stimuli are presented at a fast rate (6 Hz, 10 Hz, etc), and the “Periodic” in FPVS refers to the fact that the stimulin are presented at a constant frequency.",
     "crumbs": [
-      "Learn About FPVS",
       "Start Here",
       "Frequency Tagging"
     ]
@@ -157,7 +129,6 @@
     "section": "",
     "text": "Imagine a light flashing in your eyes at six times per second. If you were to record your brain activity using EEG while this light was flashing, an oscillatory neural response would be detectable at the same frequency as the flashing light (6 Hz). If we increased the speed of the flashing light to 10 times per second, the neural response would also increase to 10 Hz. This relationship between periodic stimulation (e.g., the light flashing at a fixed rate of six times per second) and frequency-domain neural responses is the basis for FPVS methodology.\nThis phenomenon is known as a Steady State Visually Evoked Potential, or SSVEP.\nThis is also where FPVS gets its name; the “Fast” in FPVS refers to the fact that the stimuli are presented at a fast rate (6 Hz, 10 Hz, etc), and the “Periodic” in FPVS refers to the fact that the stimulin are presented at a constant frequency.",
     "crumbs": [
-      "Learn About FPVS",
       "Start Here",
       "Frequency Tagging"
     ]
@@ -169,7 +140,6 @@
     "section": "Base and target frequencies",
     "text": "Base and target frequencies\nFPVS oddball experiments typically produce two separate frequencies referred to as the Base Frequency and the Oddball Frequency.\nThe Base Frequency is the frequency at which stimuli are displayed on screen. For example, if a stimulus is displayed six times per second, the base frequency is 6 Hz. When analyzing data in the frequency domain, a strong neural response is expected at the base frequency and its harmonics (in e.g., 6 Hz, 12 Hz, 18 Hz, etc). Responses at the base frequency are typically not of interest in FPVS oddball experiments, as they reflect the brain’s response to the visual stimulation itself rather than the cognitive process of interest.\nThe Oddball Frequency is the frequency at which the oddball stimulus is displayed. For example, if the oddball stimulus is displayed once every five stimuli, the oddball frequency is 1.2 Hz. When analyzing data in the frequency domain, a strong neural response is expected at the oddball frequency and its harmonics (in e.g., 1.2 Hz, 2.4 Hz, 3.6 Hz, etc). Responses at the oddball frequency are typically of interest in FPVS oddball experiments, as they reflect the brain’s response to the cognitive process of interest.",
     "crumbs": [
-      "Learn About FPVS",
       "Start Here",
       "Frequency Tagging"
     ]
@@ -181,7 +151,6 @@
     "section": "Harmonics",
     "text": "Harmonics",
     "crumbs": [
-      "Learn About FPVS",
       "Start Here",
       "Frequency Tagging"
     ]
@@ -193,7 +162,6 @@
     "section": "Harmonics",
     "text": "Harmonics\nA harmonic is a frequency that is an exact whole-number multiple of a repeating signal’s fundamental frequency, F. For example, if a visual stimulus repeats at 6 Hz, its harmonics occur at 12 Hz (2F), 18 Hz (3F), 24 Hz (4F), and so on.\nOne way to understand harmonics is to imagine building a repeating waveform by combining several smooth sine waves. A single sine wave at F produces a simple, smooth waveform. Real visual stimuli and brain responses are usually more complex. Additional, faster sine waves are needed to reproduce features such as sharper peaks, asymmetry, or abrupt changes. Because the complete waveform repeats at the same regular interval, these additional waves fit a whole number of cycles within each repetition. This places them at integer multiples of F.\nA fast Fourier transform (FFT) separates the recorded EEG waveform into these individual frequency components. The FFT does not create the harmonics; it reveals components that are already present in the signal. Harmonics may reflect properties of the stimulus, such as rapid on-off flashing, as well as nonlinear processing in the visual system. Measuring responses across several harmonics can therefore capture neural activity that would be missed by examining only the fundamental frequency.\nNorcia et al. (2015) provide more detailed explanations and illustrations showing how complex repeating responses produce harmonics at F, 2F, 3F, and so on.",
     "crumbs": [
-      "Learn About FPVS",
       "Start Here",
       "Frequency Tagging"
     ]
@@ -205,7 +173,6 @@
     "section": "",
     "text": "This page will collect illustrated examples of frequently used FPVS designs.",
     "crumbs": [
-      "Learn About FPVS",
       "Experiment Design",
       "Common Patterns"
     ]
@@ -217,7 +184,6 @@
     "section": "",
     "text": "This page will explain the path from recorded EEG data to an interpretable FPVS response. A complete processing diagram will be added here.",
     "crumbs": [
-      "Learn About FPVS",
       "Data Analysis",
       "Analysis Workflow"
     ]
@@ -229,7 +195,6 @@
     "section": "",
     "text": "This page will explain the path from recorded EEG data to an interpretable FPVS response. A complete processing diagram will be added here.",
     "crumbs": [
-      "Learn About FPVS",
       "Data Analysis",
       "Analysis Workflow"
     ]
@@ -241,7 +206,6 @@
     "section": "Data intake and recording checks",
     "text": "Data intake and recording checks\nThis section will cover the information and quality checks needed before processing begins.",
     "crumbs": [
-      "Learn About FPVS",
       "Data Analysis",
       "Analysis Workflow"
     ]
@@ -253,7 +217,6 @@
     "section": "Preprocessing",
     "text": "Preprocessing\nThis section will describe the preprocessing decisions that should be reported and justified for an FPVS analysis.",
     "crumbs": [
-      "Learn About FPVS",
       "Data Analysis",
       "Analysis Workflow"
     ]
@@ -265,7 +228,6 @@
     "section": "Segmentation and averaging",
     "text": "Segmentation and averaging\nThis section will explain how continuous recordings are organized for analysis and how averaging relates to the periodic response.",
     "crumbs": [
-      "Learn About FPVS",
       "Data Analysis",
       "Analysis Workflow"
     ]
@@ -277,7 +239,6 @@
     "section": "Frequency-domain transformation",
     "text": "Frequency-domain transformation\nThis section will introduce the transformation from time-domain EEG data to a frequency-domain representation.",
     "crumbs": [
-      "Learn About FPVS",
       "Data Analysis",
       "Analysis Workflow"
     ]
@@ -289,7 +250,6 @@
     "section": "Response quantification",
     "text": "Response quantification\nThis section will compare approaches to baseline correction, signal-to-noise measurement, harmonic selection, and response summarization.",
     "crumbs": [
-      "Learn About FPVS",
       "Data Analysis",
       "Analysis Workflow"
     ]
@@ -301,7 +261,6 @@
     "section": "Quality control and reproducibility",
     "text": "Quality control and reproducibility\nThis section will cover visual checks, exclusion decisions, recorded parameters, and the outputs needed to reproduce an analysis.",
     "crumbs": [
-      "Learn About FPVS",
       "Data Analysis",
       "Analysis Workflow"
     ]
@@ -313,7 +272,6 @@
     "section": "Interpretation and reporting",
     "text": "Interpretation and reporting\nThis section will connect the quantified response to cautious scientific interpretation and transparent reporting.",
     "crumbs": [
-      "Learn About FPVS",
       "Data Analysis",
       "Analysis Workflow"
     ]
@@ -535,7 +493,6 @@
     "section": "",
     "text": "Choosing a stimulation frequency is an important first step in designing an FPVS experiment. Research has shown that frequencies the optimal range for eliciting strong neural responses is typically between 4 Hz and 6 Hz. Frequencies outside of this range may still elicit neural responses, but they are often weaker and more variable across participants.",
     "crumbs": [
-      "Learn About FPVS",
       "Experiment Design",
       "Choosing Frequencies"
     ]
@@ -547,7 +504,6 @@
     "section": "",
     "text": "An important practical consideration when designing an FPVS experiment is the refresh rate of the display used to present the stimuli. The refresh rate of a display is the number of times per second that the image on the screen is updated, and it is typically measured in Hertz (Hz). Common refresh rates for computer monitors are 60 Hz, 120 Hz, and 144 Hz, though the most common display refresh rate is 60 Hz. This factor can limit which stimulation frequencies are viable for your lab or situation. For example, if you are using a display with a refresh rate of 60 Hz, you could present stimuli at 6 Hz (10 frames per stimulus), 10 Hz (6 frames per stimulus), or 12 Hz (5 frames per stimulus). However, if you wanted to present stimuli at 7 Hz, this would not be possible with a 60 Hz display, as each stimulus would need to be presented for approximately 8.57 frames, which is not possible and would cause inconsistencies in frame timing.",
     "crumbs": [
-      "Learn About FPVS",
       "Experiment Design",
       "Display and Timing"
     ]
@@ -559,7 +515,6 @@
     "section": "",
     "text": "Terms will be added here as the guide develops so that definitions remain consistent across pages.\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.",
     "crumbs": [
-      "Learn About FPVS",
       "Reference",
       "Glossary and References"
     ]
@@ -571,7 +526,6 @@
     "section": "",
     "text": "Terms will be added here as the guide develops so that definitions remain consistent across pages.\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.",
     "crumbs": [
-      "Learn About FPVS",
       "Reference",
       "Glossary and References"
     ]
@@ -583,7 +537,6 @@
     "section": "Recommended starting points",
     "text": "Recommended starting points\nIntroductory and methodological readings will be collected here after their publication details and links have been verified.",
     "crumbs": [
-      "Learn About FPVS",
       "Reference",
       "Glossary and References"
     ]
@@ -595,7 +548,6 @@
     "section": "References cited in this guide",
     "text": "References cited in this guide\nFull citations will be added here as sources are introduced on individual pages.",
     "crumbs": [
-      "Learn About FPVS",
       "Reference",
       "Glossary and References"
     ]
@@ -607,7 +559,6 @@
     "section": "",
     "text": "While FPVS is a passive method that does not require active participation from the participant to elicit neural responses, it is still important to ensure that the participant is paying attention to the stimuli being presented. If the participant does not fix their gaze on the screen during a study, the resulting neural responses would likely be meaningless or difficult to interpret.\nOne common approach to maintaining the participant’s attention is to ask the participant to fix their gaze on a small cross in the center of the screen and to press a button whenever that cross changes colors. This task is unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.\nAnother approach is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they notice a color change.",
     "crumbs": [
-      "Learn About FPVS",
       "Experiment Design",
       "Maintaining Attention"
     ]
@@ -619,7 +570,6 @@
     "section": "",
     "text": "Imagine you wanted to design an FPVS experiment to study the differences between processing living objects and non-living objects. If you included images of birds, horses, dogs, cats, etc as living objects, and then images of cars, trucks, buildings, etc as non-living objects, this would technically be a valid FPVS oddball paradigm. However, there are many things could that influence the oddball responses.\nFor example, living objects like animals tend to have smooth edges, curves, and may appear in natural scenes with lots of green colors. Non-living objects like cars and buildings tend to have sharp edges, straight lines, and may feature a different color scheme than the base images. As such, these low-level visual differences could be influencing the oddball responses, and it would be difficult to determine whether the oddball responses were due to the living vs non-living distinction, due to low-level visual differences between the two categories, or some combination of both.\nPrevious work has shown that even low-level visual differences such as this, like a slight change in vertical line orientation between base and oddball stimuli, can drastically influence oddball responses, so it is important to carefully consider the stimuli used in an FPVS experiment and to control for low-level visual differences between base and oddball stimuli.",
     "crumbs": [
-      "Learn About FPVS",
       "Experiment Design",
       "Stimulus Selection"
     ]

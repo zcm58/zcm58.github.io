@@ -141,10 +141,12 @@ body.nav-sidebar .quarto-title-block {
   position: static;
   width: auto;
   height: auto;
-  margin: 0 0 2.75rem;
+  margin: 0 0 2.25rem;
+  padding-bottom: 1.25rem;
   overflow: visible;
   clip: auto;
   white-space: normal;
+  border-bottom: 1px solid var(--orbit-line);
 }
 
 body.nav-sidebar .quarto-title-block .title {
@@ -405,6 +407,11 @@ button:focus-visible,
   body.nav-sidebar .page-columns .content {
     padding-right: 18px;
     padding-left: 18px;
+  }
+
+  body.nav-sidebar .quarto-title-block {
+    padding-bottom: 0;
+    border-bottom: 0;
   }
 
   .hero,

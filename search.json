@@ -155,7 +155,7 @@
     "href": "learn-fpvs/frequency-tagging.html#harmonics",
     "title": "Frequency Tagging",
     "section": "Harmonics",
-    "text": "Harmonics\nThe Fourier transform breaks a repeating EEG waveform into a set of sine waves at different frequencies. The stimulation frequency, F, is the fundamental frequency. If the measured response were a perfect sine wave, its spectrum would contain a response only at F. Real visual stimuli and neural responses are often not perfectly sinusoidal, however, so additional sine waves are needed to describe their shape. Because the complete waveform repeats once every cycle, these additional components occur at integer multiples of the fundamental frequency: 2F, 3F, 4F, and so on. These are called harmonics.\nThe fast Fourier transform (FFT) does not create the harmonics; it reveals the frequency components already present in the recorded waveform. Harmonics can reflect features of the stimulus, such as abrupt on-off modulation, as well as nonlinear processing in the visual system. Norcia et al. (2015) provide a detailed explanation and time- and frequency-domain illustrations of this relationship.",
+    "text": "Harmonics",
     "crumbs": [
       "Learn About FPVS",
       "Start Here",
@@ -163,11 +163,11 @@
     ]
   },
   {
-    "objectID": "learn-fpvs/frequency-tagging.html#terminology-to-keep-separate",
-    "href": "learn-fpvs/frequency-tagging.html#terminology-to-keep-separate",
+    "objectID": "learn-fpvs/frequency-tagging.html#harmonics-1",
+    "href": "learn-fpvs/frequency-tagging.html#harmonics-1",
     "title": "Frequency Tagging",
-    "section": "Terminology to keep separate",
-    "text": "Terminology to keep separate\nThis section will distinguish commonly conflated frequency-tagging terms before the guide moves into paradigm design.",
+    "section": "Harmonics",
+    "text": "Harmonics\nA harmonic is a frequency that is an exact whole-number multiple of a repeating signal’s fundamental frequency, F. For example, if a visual stimulus repeats at 6 Hz, its harmonics occur at 12 Hz (2F), 18 Hz (3F), 24 Hz (4F), and so on.\nOne way to understand harmonics is to imagine building a repeating waveform by combining several smooth sine waves. A single sine wave at F produces a simple, smooth waveform. Real visual stimuli and brain responses are usually more complex. Additional, faster sine waves are needed to reproduce features such as sharper peaks, asymmetry, or abrupt changes. Because the complete waveform repeats at the same regular interval, these additional waves fit a whole number of cycles within each repetition. This places them at integer multiples of F.\nA fast Fourier transform (FFT) separates the recorded EEG waveform into these individual frequency components. The FFT does not create the harmonics; it reveals components that are already present in the signal. Harmonics may reflect properties of the stimulus, such as rapid on-off flashing, as well as nonlinear processing in the visual system. Measuring responses across several harmonics can therefore capture neural activity that would be missed by examining only the fundamental frequency.\nNorcia et al. (2015) provide more detailed explanations and illustrations showing how complex repeating responses produce harmonics at F, 2F, 3F, and higher multiples.",
     "crumbs": [
       "Learn About FPVS",
       "Start Here",

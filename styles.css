@@ -141,17 +141,19 @@ body.nav-sidebar .quarto-title-block {
   position: static;
   width: auto;
   height: auto;
-  margin: 0 0 2rem;
+  margin: 0 0 2.75rem;
   overflow: visible;
   clip: auto;
   white-space: normal;
 }
 
+body.nav-sidebar .quarto-title-block .title {
+  font-size: clamp(2.5rem, 4vw, 3.4rem);
+  line-height: 1.08;
+}
+
 body.nav-sidebar .quarto-title-block .description {
-  max-width: 70ch;
-  color: var(--lunar-gray);
-  font-size: 1.03rem;
-  line-height: 1.68;
+  display: none;
 }
 
 .page-columns .content {

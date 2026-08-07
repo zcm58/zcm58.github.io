@@ -5,7 +5,7 @@ description: "The relationship between periodic stimulation and frequency-domain
 
 ## Periodic stimulation
 
-FPVS takes advantage of a phenomenon known as [Steady State Visually Evoked Potentials](https://example.com/paper){target="_blank"}, or SSVEPs.
+FPVS takes advantage of a phenomenon known as [Steady State Visually Evoked Potentials](https://www.sciencedirect.com/science/article/pii/S1053811926004106){target="_blank"}, or SSVEPs.
 
 ## Responses at tagged frequencies
 

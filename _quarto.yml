@@ -41,7 +41,8 @@ website:
         href: https://github.com/zcm58
         aria-label: GitHub
   sidebar:
-    - title: "Learn About FPVS"
+    - id: learn-fpvs
+      title: "Learn About FPVS"
       style: docked
       search: true
       contents:

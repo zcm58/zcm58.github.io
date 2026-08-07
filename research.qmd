@@ -5,7 +5,7 @@ description: "Research projects and scientific interests."
 
 ## Research Overview
 
-My research centers on Fast Periodic Visual Stimulation (FPVS), a powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still limited to research settings, even though it has been explicitly recommended for use in a clinical setting by George Stothart (see publications by Stothart et al.). The main goal of my current work is to help standardize FPVS methods and make them easier to deploy outside of research lab settings by non-experts to expand the utility of FPVS.
+My research centers on Fast Periodic Visual Stimulation (FPVS), a powerful EEG method for measuring rapid, frequency-tagged neural responses to visual stimuli in just a few minutes of recording time. FPVS seems to be still limited to research settings, even though it has been explicitly recommended for use in a clinical setting in recent publications (for example, see works by Stothart et al.). The main goal of my current work is to help standardize FPVS methods and make them easier to deploy outside of research lab settings by non-experts to expand the utility of FPVS.
 
 
 ## Standardizing FPVS Workflows via Software Tools

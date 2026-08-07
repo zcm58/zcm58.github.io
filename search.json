@@ -119,7 +119,7 @@
     "href": "learn-fpvs/frequency-tagging.html",
     "title": "Frequency Tagging",
     "section": "",
-    "text": "Imagine a light flashing in your eyes at six times per second. If you were to record your brain activity using EEG while this light was flashing, an oscillatory neural response would be detectable at the same frequency as the flashing light (6 Hz). If we increased the speed of the flashing light to 10 times per second, the neural response would also increase to 10 Hz. This relationship between periodic stimulation (e.g., the light flashing at a fixed rate of six times per second) and frequency-domain neural responses is the basis for FPVS methodology.\nThis phenomenon is known as a Steady State Visually Evoked Potential, or SSVEP.",
+    "text": "Imagine a light flashing in your eyes at six times per second. If you were to record your brain activity using EEG while this light was flashing, an oscillatory neural response would be detectable at the same frequency as the flashing light (6 Hz). If we increased the speed of the flashing light to 10 times per second, the neural response would also increase to 10 Hz. This relationship between periodic stimulation (e.g., the light flashing at a fixed rate of six times per second) and frequency-domain neural responses is the basis for FPVS methodology.\nThis phenomenon is known as a Steady State Visually Evoked Potential, or SSVEP.\nThis is also where FPVS gets its name; the “Fast” in FPVS refers to the fact that the stimuli are presented at a fast rate (6 Hz, 10 Hz, etc), and the “Periodic” in FPVS refers to the fact that the stimulin are presented at a constant frequency.",
     "crumbs": [
       "Learn About FPVS",
       "Start Here",
@@ -131,19 +131,7 @@
     "href": "learn-fpvs/frequency-tagging.html#periodic-stimulation",
     "title": "Frequency Tagging",
     "section": "",
-    "text": "Imagine a light flashing in your eyes at six times per second. If you were to record your brain activity using EEG while this light was flashing, an oscillatory neural response would be detectable at the same frequency as the flashing light (6 Hz). If we increased the speed of the flashing light to 10 times per second, the neural response would also increase to 10 Hz. This relationship between periodic stimulation (e.g., the light flashing at a fixed rate of six times per second) and frequency-domain neural responses is the basis for FPVS methodology.\nThis phenomenon is known as a Steady State Visually Evoked Potential, or SSVEP.",
-    "crumbs": [
-      "Learn About FPVS",
-      "Start Here",
-      "Frequency Tagging"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/frequency-tagging.html#responses-at-tagged-frequencies",
-    "href": "learn-fpvs/frequency-tagging.html#responses-at-tagged-frequencies",
-    "title": "Frequency Tagging",
-    "section": "Responses at tagged frequencies",
-    "text": "Responses at tagged frequencies\nTBD.",
+    "text": "Imagine a light flashing in your eyes at six times per second. If you were to record your brain activity using EEG while this light was flashing, an oscillatory neural response would be detectable at the same frequency as the flashing light (6 Hz). If we increased the speed of the flashing light to 10 times per second, the neural response would also increase to 10 Hz. This relationship between periodic stimulation (e.g., the light flashing at a fixed rate of six times per second) and frequency-domain neural responses is the basis for FPVS methodology.\nThis phenomenon is known as a Steady State Visually Evoked Potential, or SSVEP.\nThis is also where FPVS gets its name; the “Fast” in FPVS refers to the fact that the stimuli are presented at a fast rate (6 Hz, 10 Hz, etc), and the “Periodic” in FPVS refers to the fact that the stimulin are presented at a constant frequency.",
     "crumbs": [
       "Learn About FPVS",
       "Start Here",
@@ -155,7 +143,7 @@
     "href": "learn-fpvs/frequency-tagging.html#base-and-target-frequencies",
     "title": "Frequency Tagging",
     "section": "Base and target frequencies",
-    "text": "Base and target frequencies\nThis section will introduce the roles of base and target frequencies in common FPVS paradigms. A labeled frequency-spectrum figure will be added here.",
+    "text": "Base and target frequencies\nFPVS oddball experiments typically produce two separate frequencies referred to as the Base Frequency and the Oddball Frequency.\nThe Base Frequency is the frequency at which stimuli are displayed on screen. For example, if a stimulus is displayed six times per second, the base frequency is 6 Hz. When analyzing data in the frequency domain, a strong neural response is expected at the base frequency and its harmonics (in e.g., 6 Hz, 12 Hz, 18 Hz, etc). Responses at the base frequency are typically not of interest in FPVS oddball experiments, as they reflect the brain’s response to the visual stimulation itself rather than the cognitive process of interest.\nThe Oddball Frequency is the frequency at which the oddball stimulus is displayed. For example, if the oddball stimulus is displayed once every five stimuli, the oddball frequency is 1.2 Hz. When analyzing data in the frequency domain, a strong neural response is expected at the oddball frequency and its harmonics (in e.g., 1.2 Hz, 2.4 Hz, 3.6 Hz, etc). Responses at the oddball frequency are typically of interest in FPVS oddball experiments, as they reflect the brain’s response to the cognitive process of interest.",
     "crumbs": [
       "Learn About FPVS",
       "Start Here",

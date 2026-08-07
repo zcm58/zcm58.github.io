@@ -167,7 +167,7 @@
     "href": "learn-fpvs/frequency-tagging.html#harmonics-1",
     "title": "Frequency Tagging",
     "section": "Harmonics",
-    "text": "Harmonics\nA harmonic is a frequency that is an exact whole-number multiple of a repeating signal’s fundamental frequency, F. For example, if a visual stimulus repeats at 6 Hz, its harmonics occur at 12 Hz (2F), 18 Hz (3F), 24 Hz (4F), and so on.\nOne way to understand harmonics is to imagine building a repeating waveform by combining several smooth sine waves. A single sine wave at F produces a simple, smooth waveform. Real visual stimuli and brain responses are usually more complex. Additional, faster sine waves are needed to reproduce features such as sharper peaks, asymmetry, or abrupt changes. Because the complete waveform repeats at the same regular interval, these additional waves fit a whole number of cycles within each repetition. This places them at integer multiples of F.\nA fast Fourier transform (FFT) separates the recorded EEG waveform into these individual frequency components. The FFT does not create the harmonics; it reveals components that are already present in the signal. Harmonics may reflect properties of the stimulus, such as rapid on-off flashing, as well as nonlinear processing in the visual system. Measuring responses across several harmonics can therefore capture neural activity that would be missed by examining only the fundamental frequency.\nNorcia et al. (2015) provide more detailed explanations and illustrations showing how complex repeating responses produce harmonics at F, 2F, 3F, and higher multiples.",
+    "text": "Harmonics\nA harmonic is a frequency that is an exact whole-number multiple of a repeating signal’s fundamental frequency, F. For example, if a visual stimulus repeats at 6 Hz, its harmonics occur at 12 Hz (2F), 18 Hz (3F), 24 Hz (4F), and so on.\nOne way to understand harmonics is to imagine building a repeating waveform by combining several smooth sine waves. A single sine wave at F produces a simple, smooth waveform. Real visual stimuli and brain responses are usually more complex. Additional, faster sine waves are needed to reproduce features such as sharper peaks, asymmetry, or abrupt changes. Because the complete waveform repeats at the same regular interval, these additional waves fit a whole number of cycles within each repetition. This places them at integer multiples of F.\nA fast Fourier transform (FFT) separates the recorded EEG waveform into these individual frequency components. The FFT does not create the harmonics; it reveals components that are already present in the signal. Harmonics may reflect properties of the stimulus, such as rapid on-off flashing, as well as nonlinear processing in the visual system. Measuring responses across several harmonics can therefore capture neural activity that would be missed by examining only the fundamental frequency.\nNorcia et al. (2015) provide more detailed explanations and illustrations showing how complex repeating responses produce harmonics at F, 2F, 3F, and so on.",
     "crumbs": [
       "Learn About FPVS",
       "Start Here",
@@ -545,7 +545,7 @@
     "href": "learn-fpvs/paradigm-design.html",
     "title": "Paradigm Design",
     "section": "",
-    "text": "This section will identify the major components of an FPVS stimulus sequence. An annotated timeline will be added here.",
+    "text": "When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.",
     "crumbs": [
       "Learn About FPVS",
       "Experiment Design",
@@ -553,11 +553,11 @@
     ]
   },
   {
-    "objectID": "learn-fpvs/paradigm-design.html#anatomy-of-a-paradigm",
-    "href": "learn-fpvs/paradigm-design.html#anatomy-of-a-paradigm",
+    "objectID": "learn-fpvs/paradigm-design.html#anatomy-of-the-fpvs-oddball-paradigm",
+    "href": "learn-fpvs/paradigm-design.html#anatomy-of-the-fpvs-oddball-paradigm",
     "title": "Paradigm Design",
     "section": "",
-    "text": "This section will identify the major components of an FPVS stimulus sequence. An annotated timeline will be added here.",
+    "text": "When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.",
     "crumbs": [
       "Learn About FPVS",
       "Experiment Design",
@@ -569,7 +569,7 @@
     "href": "learn-fpvs/paradigm-design.html#choosing-stimulation-frequencies",
     "title": "Paradigm Design",
     "section": "Choosing stimulation frequencies",
-    "text": "Choosing stimulation frequencies\nThis section will cover the considerations involved in choosing base and target frequencies.",
+    "text": "Choosing stimulation frequencies\nChoosing a stimulation frequency is an important first step in designing an FPVS experiment. Research has shown that frequencies the optimal range for eliciting strong neural responses is typically between 4 Hz and 6 Hz. Frequencies outside of this range may still elicit neural responses, but they are often weaker and more variable across participants.",
     "crumbs": [
       "Learn About FPVS",
       "Experiment Design",
@@ -581,7 +581,7 @@
     "href": "learn-fpvs/paradigm-design.html#stimulus-selection-and-sequencing",
     "title": "Paradigm Design",
     "section": "Stimulus selection and sequencing",
-    "text": "Stimulus selection and sequencing\nThis section will address category definitions, stimulus variability, sequence construction, and the relationship between visual and conceptual differences.",
+    "text": "Stimulus selection and sequencing\nImagine you wanted to design an FPVS experiment to study the differences between processing living objects and non-living objects. If you included images of birds, horses, dogs, cats, etc as living objects, and then images of cars, trucks, buildings, etc as non-living objects, this would technically be a valid FPVS oddball paradigm. However, there are many things could that influence the oddball responses.\nFor example, living objects like animals tend to have smooth edges, curves, and may appear in natural scenes with lots of green colors. Non-living objects like cars and buildings tend to have sharp edges, straight lines, and may feature a different color scheme than the base images. As such, these low-level visual differences could be influencing the oddball responses, and it would be difficult to determine whether the oddball responses were due to the living vs non-living distinction, due to low-level visual differences between the two categories, or some combination of both.\nPrevious Work has shown that even low-level visual differences such as this, like a slight change in vertical line orientation between base and oddball stimuli, can drastically influence oddball responses, so it is important to carefully consider the stimuli used in an FPVS experiment and to control for low-level visual differences between base and oddball stimuli.",
     "crumbs": [
       "Learn About FPVS",
       "Experiment Design",

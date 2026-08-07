@@ -29,4 +29,4 @@ One way to understand harmonics is to imagine building a repeating waveform by c
 
 A fast Fourier transform (FFT) separates the recorded EEG waveform into these individual frequency components. The FFT does not create the harmonics; it reveals components that are already present in the signal. Harmonics may reflect properties of the stimulus, such as rapid on-off flashing, as well as nonlinear processing in the visual system. Measuring responses across several harmonics can therefore capture neural activity that would be missed by examining only the fundamental frequency.
 
-[Norcia et al. (2015)](https://doi.org/10.1167/15.6.4){target="_blank"} provide more detailed explanations and illustrations showing how complex repeating responses produce harmonics at *F*, *2F*, *3F*, and higher multiples.
+[Norcia et al. (2015)](https://doi.org/10.1167/15.6.4){target="_blank"} provide more detailed explanations and illustrations showing how complex repeating responses produce harmonics at *F*, *2F*, *3F*, and so on.

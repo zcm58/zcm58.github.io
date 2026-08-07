@@ -1,0 +1,6 @@
+---
+title: "Display Refresh Rate and Stimulus Timing"
+description: "How display refresh rate constrains FPVS stimulation frequencies and timing."
+---
+
+An important practical consideration when designing an FPVS experiment is the refresh rate of the display used to present the stimuli. [The refresh rate of a display](https://www.samsung.com/uk/monitors/monitor-buying-guide/what-is-monitor-refresh-rate/){target="_blank"} is the number of times per second that the image on the screen is updated, and it is typically measured in Hertz (Hz). Common refresh rates for computer monitors are 60 Hz, 120 Hz, and 144 Hz, though the most common display refresh rate is 60 Hz. This factor can limit which stimulation frequencies are viable for your lab or situation. For example, if you are using a display with a refresh rate of 60 Hz, you could present stimuli at 6 Hz (10 frames per stimulus), 10 Hz (6 frames per stimulus), or 12 Hz (5 frames per stimulus). However, if you wanted to present stimuli at 7 Hz, this would not be possible with a 60 Hz display, as each stimulus would need to be presented for approximately 8.57 frames, which is not possible and would cause inconsistencies in frame timing.

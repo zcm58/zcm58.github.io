@@ -56,7 +56,17 @@ website:
         - section: "Experiment Design"
           contents:
             - href: learn-fpvs/paradigm-design.qmd
-              text: Paradigm Design
+              text: Overview
+            - href: learn-fpvs/choosing-stimulation-frequencies.qmd
+              text: Choosing Frequencies
+            - href: learn-fpvs/stimulus-selection-sequencing.qmd
+              text: Stimulus Selection
+            - href: learn-fpvs/display-refresh-rate.qmd
+              text: Display and Timing
+            - href: learn-fpvs/maintaining-attention.qmd
+              text: Maintaining Attention
+            - href: learn-fpvs/common-paradigm-patterns.qmd
+              text: Common Patterns
         - section: "Data Analysis"
           contents:
             - href: learn-fpvs/analysis-workflow.qmd

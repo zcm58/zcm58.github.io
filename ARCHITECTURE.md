@@ -56,9 +56,11 @@ not source-of-truth files.
   principles.
 - `fpvs-toolbox.qmd`: placeholder page for future FPVS Toolbox content.
 - `fpvs-studio.qmd`: placeholder page for future FPVS Studio content.
-- `learn-fpvs/`: educational explanations of FPVS foundations, paradigm design,
-  data analysis, terminology, and supporting references. Its `index.qmd` is the
-  section landing page and `_metadata.yml` controls guide-wide page options.
+- `learn-fpvs/`: educational explanations of FPVS foundations, experiment-design
+  topics, data analysis, terminology, and supporting references. Its
+  `index.qmd` is the section landing page, `paradigm-design.qmd` is the
+  experiment-design overview, and `_metadata.yml` controls guide-wide page
+  options.
 - `media.qmd`: talks, videos, tutorials, and public communication.
 - `cv.qmd`: CV download and stable contact/profile links.
 

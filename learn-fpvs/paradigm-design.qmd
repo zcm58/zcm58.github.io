@@ -1,36 +1,16 @@
 ---
-title: "Paradigm Design"
-description: "A guide to designing FPVS experiments."
+title: "Experiment Design"
+description: "An overview of the main considerations when designing an FPVS experiment."
 ---
 
 ## Anatomy of the FPVS Oddball Paradigm
 
 When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.
 
-## Choosing stimulation frequencies
+Use the pages in this section to explore each design consideration separately:
 
-Choosing a stimulation frequency is an important first step in designing an FPVS experiment. Research has shown that frequencies the optimal range for eliciting strong neural responses is typically between 4 Hz and 6 Hz. Frequencies outside of this range may still elicit neural responses, but they are often weaker and more variable across participants.
-
-## Stimulus selection and sequencing
-
-Imagine you wanted to design an FPVS experiment to study the differences between processing living objects and non-living objects. If you included images of birds, horses, dogs, cats, etc as living objects, and then images of cars, trucks, buildings, etc as non-living objects, this would technically be a valid FPVS oddball paradigm. However, there are many things could that influence the oddball responses.
-
-For example, living objects like animals tend to have smooth edges, curves, and may appear in natural scenes with lots of green colors. Non-living objects like cars and buildings tend to have sharp edges, straight lines, and may feature a different color scheme than the base images. As such, these low-level visual differences could be influencing the oddball responses, and it would be difficult to determine whether the oddball responses were due to the living vs non-living distinction, due to low-level visual differences between the two categories, or some combination of both.
-
-[Previous work](https://www.sciencedirect.com/science/article/pii/S0028393225000570){target="_blank"} has shown that even low-level visual differences such as this, like a slight change in vertical line orientation between base and oddball stimuli, can drastically influence oddball responses, so it is important to carefully consider the stimuli used in an FPVS experiment and to control for low-level visual differences between base and oddball stimuli.
-
-## Display Refresh Rate and Stimulus Timing
-
-An important practical consideration when designing an FPVS experiment is the refresh rate of the display used to present the stimuli. [The refresh rate of a display](https://www.samsung.com/uk/monitors/monitor-buying-guide/what-is-monitor-refresh-rate/){target="_blank"} is the number of times per second that the image on the screen is updated, and it is typically measured in Hertz (Hz). Common refresh rates for computer monitors are 60 Hz, 120 Hz, and 144 Hz, though the most common display refresh rate is 60 Hz. This factor can limit which stimulation frequencies are viable for your lab or situation. For example, if you are using a display with a refresh rate of 60 Hz, you could present stimuli at 6 Hz (10 frames per stimulus), 10 Hz (6 frames per stimulus), or 12 Hz (5 frames per stimulus). However, if you wanted to present stimuli at 7 Hz, this would not be possible with a 60 Hz display, as each stimulus would need to be presented for approximately 8.57 frames, which is not possible and would cause inconsistencies in frame timing.
-
-## Maintaining the Participant's Attention
-
-While FPVS is a passive method that does not require active participation from the participant to elicit neural responses, it is still important to ensure that the participant is paying attention to the stimuli being presented. If the participant does not fix their gaze on the screen during a study, the resulting neural responses would likely be meaningless or difficult to interpret.
-
-[One common approach](https://doi.org/10.1167/15.1.18){target="_blank"} to maintaining the participant's attention is to ask the participant to fix their gaze on a small cross in the center of the screen and to press a button whenever that cross changes colors. This task is unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.
-
-[Another approach](https://www.sciencedirect.com/science/article/pii/S0010945224000327?via%3Dihub){target="_blank"} is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they notice a color change.
-
-## Common paradigm patterns
-
-This section will collect illustrated examples of frequently used FPVS designs.
+- [Choosing Stimulation Frequencies](choosing-stimulation-frequencies.qmd)
+- [Stimulus Selection and Sequencing](stimulus-selection-sequencing.qmd)
+- [Display Refresh Rate and Stimulus Timing](display-refresh-rate.qmd)
+- [Maintaining Participant Attention](maintaining-attention.qmd)
+- [Common Paradigm Patterns](common-paradigm-patterns.qmd)

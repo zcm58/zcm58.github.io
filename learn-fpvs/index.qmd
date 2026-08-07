@@ -18,9 +18,9 @@ responses.
 
 ## Design an FPVS experiment
 
-[Paradigm Design](paradigm-design.qmd) provides the future home for stimulus
-sequences, frequency choices, timing, task design, and illustrated paradigm
-examples.
+[Experiment Design](paradigm-design.qmd) introduces dedicated pages covering
+frequency choices, stimulus selection and sequencing, display timing,
+participant attention, and common paradigm patterns.
 
 ## Understand the analysis
 

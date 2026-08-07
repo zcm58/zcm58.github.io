@@ -1,0 +1,6 @@
+---
+title: "Common Paradigm Patterns"
+description: "Illustrated examples of frequently used FPVS experiment designs."
+---
+
+This page will collect illustrated examples of frequently used FPVS designs.

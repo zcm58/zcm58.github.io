@@ -120,6 +120,11 @@ body {
   font-weight: 650;
 }
 
+#quarto-sidebar > .sidebar-menu-container > ul > .sidebar-item >
+  .sidebar-item-container > .sidebar-item-text .menu-text {
+  font-weight: 600;
+}
+
 .quarto-title-block {
   position: absolute;
   width: 1px;

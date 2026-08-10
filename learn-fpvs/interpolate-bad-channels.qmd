@@ -1,0 +1,6 @@
+---
+title: "Interpolate Bad Channels"
+description: "Interpolating bad EEG channels during FPVS preprocessing."
+---
+
+This guide is currently under development. Please check back later for updates.

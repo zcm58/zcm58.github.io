@@ -1,0 +1,6 @@
+---
+title: "Apply Electrode Montage"
+description: "Applying an electrode montage during FPVS EEG preprocessing."
+---
+
+This guide is currently under development. Please check back later for updates.

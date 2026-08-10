@@ -69,7 +69,31 @@ website:
         - section: "Data Analysis"
           contents:
             - href: learn-fpvs/analysis-workflow.qmd
-              text: Analysis Workflow
+              text: Analysis Overview
+            - href: learn-fpvs/import-raw-data.qmd
+              text: Import Raw Data
+            - href: learn-fpvs/electrode-montage.qmd
+              text: Electrode Montage
+            - href: learn-fpvs/downsample-data.qmd
+              text: Downsample Data
+            - href: learn-fpvs/frequency-filtering.qmd
+              text: Frequency Filtering
+            - href: learn-fpvs/identify-bad-channels.qmd
+              text: Identify Bad Channels
+            - href: learn-fpvs/interpolate-bad-channels.qmd
+              text: Interpolate Bad Channels
+            - href: learn-fpvs/average-reference.qmd
+              text: Average Reference
+            - href: learn-fpvs/extract-condition-epochs.qmd
+              text: Extract Condition Epochs
+            - href: learn-fpvs/frequency-domain-transformation.qmd
+              text: Frequency-Domain Transformation
+            - href: learn-fpvs/response-metrics.qmd
+              text: Response Metrics
+            - href: learn-fpvs/export-analysis-data.qmd
+              text: Export Analysis Data
+            - href: learn-fpvs/statistical-analysis.qmd
+              text: Statistical Analysis
         - section: "Reference"
           contents:
             - href: learn-fpvs/glossary-references.qmd

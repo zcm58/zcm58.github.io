@@ -1,0 +1,6 @@
+---
+title: "Downsample Data"
+description: "Downsampling EEG data during FPVS preprocessing."
+---
+
+This guide is currently under development. Please check back later for updates.

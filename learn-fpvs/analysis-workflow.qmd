@@ -1,16 +1,30 @@
 ---
-title: "Analysis Workflow"
-description: "A structured overview of FPVS EEG data processing and response quantification."
+title: "Analysis Overview"
+description: "An overview of FPVS EEG data processing and response quantification phases."
 ---
 
 This guide is currently under development. Please check back later for updates.
 
-The figure below summarizes a typical FPVS EEG processing and response-quantification workflow.
+The interactive figure below summarizes a typical FPVS EEG processing and response-quantification workflow. Select any step to open its dedicated page.
 
 <figure class="fpvs-method-figure fpvs-analysis-figure">
-  <div class="fpvs-analysis-scroll" role="group" aria-label="Scrollable FPVS analysis workflow diagram" tabindex="0">
-  <img src="../assets/figures/fpvs-analysis-workflow.svg" width="1440" height="690" loading="lazy" decoding="async" alt="Flowchart showing twelve FPVS EEG analysis steps, from importing raw data and preprocessing channels to frequency-domain analysis, response metrics, spreadsheet output, and statistical analysis.">
-  </div>
+<div class="fpvs-analysis-scroll" role="group" aria-label="Scrollable FPVS analysis workflow diagram" tabindex="0">
+<div class="fpvs-analysis-map">
+<img src="../assets/figures/fpvs-analysis-workflow.svg" width="1440" height="690" loading="lazy" decoding="async" alt="Flowchart showing twelve FPVS EEG analysis steps, from importing raw data and preprocessing channels to frequency-domain analysis, response metrics, spreadsheet output, and statistical analysis.">
+<a class="fpvs-analysis-step step-1" href="import-raw-data.html" aria-label="Open Import Raw Data"></a>
+<a class="fpvs-analysis-step step-2" href="electrode-montage.html" aria-label="Open Apply Electrode Montage"></a>
+<a class="fpvs-analysis-step step-3" href="downsample-data.html" aria-label="Open Downsample Data"></a>
+<a class="fpvs-analysis-step step-4" href="frequency-filtering.html" aria-label="Open Apply High-Pass and Low-Pass Filters"></a>
+<a class="fpvs-analysis-step step-5" href="identify-bad-channels.html" aria-label="Open Identify Bad Channels"></a>
+<a class="fpvs-analysis-step step-6" href="interpolate-bad-channels.html" aria-label="Open Interpolate Bad Channels"></a>
+<a class="fpvs-analysis-step step-7" href="average-reference.html" aria-label="Open Apply Average Reference"></a>
+<a class="fpvs-analysis-step step-8" href="extract-condition-epochs.html" aria-label="Open Extract Conditions as Separate Epochs"></a>
+<a class="fpvs-analysis-step step-9" href="frequency-domain-transformation.html" aria-label="Open Transform Data to the Frequency Domain"></a>
+<a class="fpvs-analysis-step step-10" href="response-metrics.html" aria-label="Open Calculate BCA, SNR, and Z Scores"></a>
+<a class="fpvs-analysis-step step-11" href="export-analysis-data.html" aria-label="Open Output Data to XLSX"></a>
+<a class="fpvs-analysis-step step-12" href="statistical-analysis.html" aria-label="Open Prepare Data for Statistical Analysis"></a>
+</div>
+</div>
   <figcaption>
     Example FPVS EEG analysis workflow. Specific preprocessing choices should be adapted to the recording system, study design, and prespecified analysis plan. On smaller screens, scroll the diagram horizontally or <a href="../assets/figures/fpvs-analysis-workflow.svg">view it full size</a>.
   </figcaption>

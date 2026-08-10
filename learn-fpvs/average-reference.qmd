@@ -1,0 +1,6 @@
+---
+title: "Apply Average Reference"
+description: "Applying an average reference during FPVS EEG preprocessing."
+---
+
+This guide is currently under development. Please check back later for updates.

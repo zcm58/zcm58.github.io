@@ -1,0 +1,6 @@
+---
+title: "Transform Data to the Frequency Domain"
+description: "Transforming FPVS EEG data to the frequency domain using an FFT."
+---
+
+This guide is currently under development. Please check back later for updates.

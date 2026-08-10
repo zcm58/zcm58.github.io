@@ -1,0 +1,6 @@
+---
+title: "Apply High-Pass and Low-Pass Filters"
+description: "Applying frequency filters during FPVS EEG preprocessing."
+---
+
+This guide is currently under development. Please check back later for updates.

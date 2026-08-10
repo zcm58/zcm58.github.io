@@ -59,8 +59,9 @@ not source-of-truth files.
 - `learn-fpvs/`: educational explanations of FPVS foundations, experiment-design
   topics, data analysis, terminology, and supporting references. Its
   `index.qmd` is the section landing page, `paradigm-design.qmd` is the
-  experiment-design overview, and `_metadata.yml` controls guide-wide page
-  options.
+  experiment-design overview, `analysis-workflow.qmd` is the data-analysis
+  overview, the remaining analysis pages correspond to its twelve workflow
+  steps, and `_metadata.yml` controls guide-wide page options.
 - `media.qmd`: talks, videos, tutorials, and public communication.
 - `cv.qmd`: CV download and stable contact/profile links.
 

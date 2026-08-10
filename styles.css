@@ -401,6 +401,76 @@ button:focus-visible,
   border-radius: 4px;
 }
 
+.fpvs-analysis-map {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1440 / 690;
+}
+
+.fpvs-analysis-map img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.fpvs-analysis-step {
+  position: absolute;
+  width: 20.8333%;
+  height: 17.3913%;
+  border-radius: 8px;
+}
+
+.fpvs-analysis-step:hover,
+.fpvs-analysis-step:focus-visible {
+  background: rgba(110, 183, 255, 0.1);
+  box-shadow: inset 0 0 0 3px var(--solar-gold);
+}
+
+.fpvs-analysis-step.step-1,
+.fpvs-analysis-step.step-8,
+.fpvs-analysis-step.step-9 {
+  left: 2.0833%;
+}
+
+.fpvs-analysis-step.step-2,
+.fpvs-analysis-step.step-7,
+.fpvs-analysis-step.step-10 {
+  left: 27.0833%;
+}
+
+.fpvs-analysis-step.step-3,
+.fpvs-analysis-step.step-6,
+.fpvs-analysis-step.step-11 {
+  left: 52.0833%;
+}
+
+.fpvs-analysis-step.step-4,
+.fpvs-analysis-step.step-5,
+.fpvs-analysis-step.step-12 {
+  left: 77.0833%;
+}
+
+.fpvs-analysis-step.step-1,
+.fpvs-analysis-step.step-2,
+.fpvs-analysis-step.step-3,
+.fpvs-analysis-step.step-4 {
+  top: 5.7971%;
+}
+
+.fpvs-analysis-step.step-5,
+.fpvs-analysis-step.step-6,
+.fpvs-analysis-step.step-7,
+.fpvs-analysis-step.step-8 {
+  top: 38.4058%;
+}
+
+.fpvs-analysis-step.step-9,
+.fpvs-analysis-step.step-10,
+.fpvs-analysis-step.step-11,
+.fpvs-analysis-step.step-12 {
+  top: 71.0145%;
+}
+
 #publications > section.level3 + section.level3 {
   margin-top: 2rem;
   padding-top: 1.75rem;
@@ -435,7 +505,7 @@ button:focus-visible,
     scrollbar-color: var(--orbit-line) var(--deep-space);
   }
 
-  .fpvs-analysis-scroll img {
+  .fpvs-analysis-map {
     min-width: 720px;
   }
 

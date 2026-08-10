@@ -1,0 +1,6 @@
+---
+title: "Identify Bad Channels"
+description: "Identifying bad EEG channels during FPVS preprocessing."
+---
+
+This guide is currently under development. Please check back later for updates.

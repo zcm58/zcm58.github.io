@@ -19,8 +19,8 @@ In a typical FPVS experiment, stimuli (usually images or, [in some studies, word
 <section class="fpvs-demo" data-fpvs-demo aria-labelledby="fpvs-demo-title">
 <div class="fpvs-demo-heading">
 <div>
-<h2 id="fpvs-demo-title">Try a 30-second FPVS demonstration</h2>
-<p>This abbreviated example recreates the green-vegetable versus red-vegetable condition. Keep your eyes on the fixation cross and press <kbd>Space</kbd> whenever it changes from blue to red.</p>
+<h2 id="fpvs-demo-title">FPVS Demo</h2>
+<p>Here is an example of an FPVS condition designed to measure the brain's response to color changes.</p>
 </div>
 <dl class="fpvs-demo-specs" aria-label="Demonstration timing">
 <div><dt>Base rate</dt><dd>6 Hz</dd></div>
@@ -29,9 +29,9 @@ In a typical FPVS experiment, stimuli (usually images or, [in some studies, word
 </dl>
 </div>
 
-<p class="fpvs-demo-warning"><strong>Rapid-image warning:</strong> This demonstration contains rapidly changing images. Do not start it if you are sensitive to visual flicker.</p>
+<p class="fpvs-demo-warning"><strong>WARNING:</strong> If you are sensitive to flashing images, lights, or have a history of seizures induced by FPVS, <strong>DO NOT</strong> watch this demonstration.</p>
 
-<div class="fpvs-demo-stage" data-demo-stage tabindex="-1" aria-label="FPVS stimulus display. Rapidly changing vegetable images appear here after the demonstration starts.">
+<div class="fpvs-demo-stage" data-demo-stage aria-label="FPVS stimulus display. Rapidly changing vegetable images appear here after the demonstration starts.">
 <img class="fpvs-demo-stimulus" data-demo-stimulus src="../assets/fpvs-demo/green-vegetable-01.png" alt="" aria-hidden="true">
 <span class="fpvs-demo-fixation" data-demo-fixation aria-hidden="true">+</span>
 <div class="fpvs-demo-curtain" data-demo-curtain>
@@ -42,7 +42,6 @@ In a typical FPVS experiment, stimuli (usually images or, [in some studies, word
 <div class="fpvs-demo-controls">
 <button class="fpvs-demo-button fpvs-demo-button-primary" type="button" data-demo-start disabled>Loading images...</button>
 <button class="fpvs-demo-button" type="button" data-demo-stop disabled>Stop</button>
-<button class="fpvs-demo-button" type="button" data-demo-response disabled>I saw red</button>
 <span class="fpvs-demo-timer" data-demo-timer aria-label="Time remaining">30.0 s</span>
 </div>
 

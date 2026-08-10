@@ -392,6 +392,16 @@ button:focus-visible,
   text-align: left;
 }
 
+#publications > section.level3 + section.level3 {
+  margin-top: 2rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid rgba(80, 108, 134, 0.42);
+}
+
+#publications > section.level3 + section.level3 > h3 {
+  margin-top: 0;
+}
+
 .page-footer {
   border-top-color: var(--orbit-line);
   background: rgba(7, 17, 31, 0.96);

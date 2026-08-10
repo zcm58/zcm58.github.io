@@ -109,7 +109,7 @@
     "href": "learn-fpvs/index.html#look-up-terms-and-sources",
     "title": "Learn About FPVS",
     "section": "Look up terms and sources",
-    "text": "Look up terms and sources\nGlossary and References will collect definitions, recommended reading, and sources cited throughout the guide.\n\n\n\n\n\n\nNoteGuide in development\n\n\n\nThis section is being expanded over time. Pages currently establish the guide’s structure and the topics that future additions will cover."
+    "text": "Look up terms and sources\nGlossary and References will collect definitions, recommended reading, and sources cited throughout the guide.\n\n\n\n\n\n\nNoteGuide in development\n\n\n\nThis guide is currently under development. Please check back later for updates."
   },
   {
     "objectID": "learn-fpvs/frequency-tagging.html",
@@ -149,17 +149,6 @@
     "href": "learn-fpvs/frequency-tagging.html#harmonics",
     "title": "Frequency Tagging",
     "section": "Harmonics",
-    "text": "Harmonics",
-    "crumbs": [
-      "Start Here",
-      "Frequency Tagging"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/frequency-tagging.html#harmonics-1",
-    "href": "learn-fpvs/frequency-tagging.html#harmonics-1",
-    "title": "Frequency Tagging",
-    "section": "Harmonics",
     "text": "Harmonics\nA harmonic is a frequency that is an exact whole-number multiple of a repeating signal’s fundamental frequency, F. For example, if a visual stimulus repeats at 6 Hz, its harmonics occur at 12 Hz (2F), 18 Hz (3F), 24 Hz (4F), and so on.\nOne way to understand harmonics is to imagine building a repeating waveform by combining several smooth sine waves. A single sine wave at F produces a simple, smooth waveform. Real visual stimuli and brain responses are usually more complex. Additional, faster sine waves are needed to reproduce features such as sharper peaks, asymmetry, or abrupt changes. Because the complete waveform repeats at the same regular interval, these additional waves fit a whole number of cycles within each repetition. This places them at integer multiples of F.\nA fast Fourier transform (FFT) separates the recorded EEG waveform into these individual frequency components. The FFT does not create the harmonics; it reveals components that are already present in the signal. Harmonics may reflect properties of the stimulus, such as rapid on-off flashing, as well as nonlinear processing in the visual system. Measuring responses across several harmonics can therefore capture neural activity that would be missed by examining only the fundamental frequency.\nNorcia et al. (2015) provide more detailed explanations and illustrations showing how complex repeating responses produce harmonics at F, 2F, 3F, and so on.",
     "crumbs": [
       "Start Here",
@@ -171,7 +160,7 @@
     "href": "learn-fpvs/common-paradigm-patterns.html",
     "title": "Common Paradigm Patterns",
     "section": "",
-    "text": "This page will collect illustrated examples of frequently used FPVS designs.",
+    "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Experiment Design",
       "Common Patterns"
@@ -182,95 +171,7 @@
     "href": "learn-fpvs/analysis-workflow.html",
     "title": "Analysis Workflow",
     "section": "",
-    "text": "This page will explain the path from recorded EEG data to an interpretable FPVS response. A complete processing diagram will be added here.",
-    "crumbs": [
-      "Data Analysis",
-      "Analysis Workflow"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/analysis-workflow.html#workflow-overview",
-    "href": "learn-fpvs/analysis-workflow.html#workflow-overview",
-    "title": "Analysis Workflow",
-    "section": "",
-    "text": "This page will explain the path from recorded EEG data to an interpretable FPVS response. A complete processing diagram will be added here.",
-    "crumbs": [
-      "Data Analysis",
-      "Analysis Workflow"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/analysis-workflow.html#data-intake-and-recording-checks",
-    "href": "learn-fpvs/analysis-workflow.html#data-intake-and-recording-checks",
-    "title": "Analysis Workflow",
-    "section": "Data intake and recording checks",
-    "text": "Data intake and recording checks\nThis section will cover the information and quality checks needed before processing begins.",
-    "crumbs": [
-      "Data Analysis",
-      "Analysis Workflow"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/analysis-workflow.html#preprocessing",
-    "href": "learn-fpvs/analysis-workflow.html#preprocessing",
-    "title": "Analysis Workflow",
-    "section": "Preprocessing",
-    "text": "Preprocessing\nThis section will describe the preprocessing decisions that should be reported and justified for an FPVS analysis.",
-    "crumbs": [
-      "Data Analysis",
-      "Analysis Workflow"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/analysis-workflow.html#segmentation-and-averaging",
-    "href": "learn-fpvs/analysis-workflow.html#segmentation-and-averaging",
-    "title": "Analysis Workflow",
-    "section": "Segmentation and averaging",
-    "text": "Segmentation and averaging\nThis section will explain how continuous recordings are organized for analysis and how averaging relates to the periodic response.",
-    "crumbs": [
-      "Data Analysis",
-      "Analysis Workflow"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/analysis-workflow.html#frequency-domain-transformation",
-    "href": "learn-fpvs/analysis-workflow.html#frequency-domain-transformation",
-    "title": "Analysis Workflow",
-    "section": "Frequency-domain transformation",
-    "text": "Frequency-domain transformation\nThis section will introduce the transformation from time-domain EEG data to a frequency-domain representation.",
-    "crumbs": [
-      "Data Analysis",
-      "Analysis Workflow"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/analysis-workflow.html#response-quantification",
-    "href": "learn-fpvs/analysis-workflow.html#response-quantification",
-    "title": "Analysis Workflow",
-    "section": "Response quantification",
-    "text": "Response quantification\nThis section will compare approaches to baseline correction, signal-to-noise measurement, harmonic selection, and response summarization.",
-    "crumbs": [
-      "Data Analysis",
-      "Analysis Workflow"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/analysis-workflow.html#quality-control-and-reproducibility",
-    "href": "learn-fpvs/analysis-workflow.html#quality-control-and-reproducibility",
-    "title": "Analysis Workflow",
-    "section": "Quality control and reproducibility",
-    "text": "Quality control and reproducibility\nThis section will cover visual checks, exclusion decisions, recorded parameters, and the outputs needed to reproduce an analysis.",
-    "crumbs": [
-      "Data Analysis",
-      "Analysis Workflow"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/analysis-workflow.html#interpretation-and-reporting",
-    "href": "learn-fpvs/analysis-workflow.html#interpretation-and-reporting",
-    "title": "Analysis Workflow",
-    "section": "Interpretation and reporting",
-    "text": "Interpretation and reporting\nThis section will connect the quantified response to cautious scientific interpretation and transparent reporting.",
+    "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
       "Analysis Workflow"
@@ -513,40 +414,7 @@
     "href": "learn-fpvs/glossary-references.html",
     "title": "Glossary and References",
     "section": "",
-    "text": "Terms will be added here as the guide develops so that definitions remain consistent across pages.\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.",
-    "crumbs": [
-      "Reference",
-      "Glossary and References"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/glossary-references.html#glossary",
-    "href": "learn-fpvs/glossary-references.html#glossary",
-    "title": "Glossary and References",
-    "section": "",
-    "text": "Terms will be added here as the guide develops so that definitions remain consistent across pages.\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.\n\n\n\nDefinition forthcoming.",
-    "crumbs": [
-      "Reference",
-      "Glossary and References"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/glossary-references.html#recommended-starting-points",
-    "href": "learn-fpvs/glossary-references.html#recommended-starting-points",
-    "title": "Glossary and References",
-    "section": "Recommended starting points",
-    "text": "Recommended starting points\nIntroductory and methodological readings will be collected here after their publication details and links have been verified.",
-    "crumbs": [
-      "Reference",
-      "Glossary and References"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/glossary-references.html#references-cited-in-this-guide",
-    "href": "learn-fpvs/glossary-references.html#references-cited-in-this-guide",
-    "title": "Glossary and References",
-    "section": "References cited in this guide",
-    "text": "References cited in this guide\nFull citations will be added here as sources are introduced on individual pages.",
+    "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Reference",
       "Glossary and References"

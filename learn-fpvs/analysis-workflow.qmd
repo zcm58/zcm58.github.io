@@ -4,3 +4,14 @@ description: "A structured overview of FPVS EEG data processing and response qua
 ---
 
 This guide is currently under development. Please check back later for updates.
+
+The figure below summarizes a typical FPVS EEG processing and response-quantification workflow.
+
+<figure class="fpvs-method-figure fpvs-analysis-figure">
+  <div class="fpvs-analysis-scroll" role="group" aria-label="Scrollable FPVS analysis workflow diagram" tabindex="0">
+  <img src="../assets/figures/fpvs-analysis-workflow.svg" width="1440" height="690" loading="lazy" decoding="async" alt="Flowchart showing twelve FPVS EEG analysis steps, from importing raw data and preprocessing channels to frequency-domain analysis, response metrics, spreadsheet output, and statistical analysis.">
+  </div>
+  <figcaption>
+    Example FPVS EEG analysis workflow. Specific preprocessing choices should be adapted to the recording system, study design, and prespecified analysis plan. On smaller screens, scroll the diagram horizontally or <a href="../assets/figures/fpvs-analysis-workflow.svg">view it full size</a>.
+  </figcaption>
+</figure>

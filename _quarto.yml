@@ -72,29 +72,29 @@ website:
             - href: learn-fpvs/analysis-workflow.qmd
               text: Analysis Overview
             - href: learn-fpvs/import-raw-data.qmd
-              text: Import Raw Data
+              text: "1: Import Raw Data"
             - href: learn-fpvs/electrode-montage.qmd
-              text: Electrode Montage
+              text: "2: Apply Electrode Montage"
             - href: learn-fpvs/downsample-data.qmd
-              text: Downsample Data
+              text: "3: Downsample Data"
             - href: learn-fpvs/frequency-filtering.qmd
-              text: Frequency Filtering
+              text: "4: Filter The Data"
             - href: learn-fpvs/identify-bad-channels.qmd
-              text: Identify Bad Channels
+              text: "5: Identify Bad Channels"
             - href: learn-fpvs/interpolate-bad-channels.qmd
-              text: Interpolate Bad Channels
+              text: "6: Interpolate Bad Channels"
             - href: learn-fpvs/average-reference.qmd
-              text: Average Reference
+              text: "7: Re-Reference The Data"
             - href: learn-fpvs/extract-condition-epochs.qmd
-              text: Extract Condition Epochs
+              text: "8: Extract Condition Epochs"
             - href: learn-fpvs/frequency-domain-transformation.qmd
-              text: Frequency-Domain Transformation
+              text: "9: Frequency-Domain Transformation"
             - href: learn-fpvs/response-metrics.qmd
-              text: Response Metrics
+              text: "10: Calculate SNR and BCA"
             - href: learn-fpvs/export-analysis-data.qmd
-              text: Export Analysis Data
+              text: "11: Export Data For Analysis"
             - href: learn-fpvs/statistical-analysis.qmd
-              text: Statistical Analysis
+              text: "12: Statistical Analysis"
         - section: "Reference"
           contents:
             - href: learn-fpvs/glossary-references.qmd

@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - CNAME
+    - assets/fpvs-demo
   render:
     - index.qmd
     - research.qmd

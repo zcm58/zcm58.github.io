@@ -17,6 +17,7 @@ presentation.
 |-- fpvs-toolbox.qmd     # Placeholder page for FPVS Toolbox
 |-- fpvs-studio.qmd      # Placeholder page for FPVS Studio
 |-- learn-fpvs/          # Multi-page educational guide to FPVS
+|-- assets/js/           # Small page-specific browser interactions
 |-- media.qmd            # Videos, talks, public-facing communication
 |-- cv.qmd               # CV download link and contact/profile links
 |-- styles.css           # Quarto SCSS variables and site-specific CSS
@@ -45,6 +46,8 @@ not source-of-truth files.
   its machine-readable extensions. Update both when the visual system changes.
 - Assets should live under `assets/` when added. Use descriptive names such as
   `assets/cv.pdf`, `assets/headshot.jpg`, or `assets/talk-title-2026.jpg`.
+- Keep page-specific browser behavior in a small vanilla JavaScript file under
+  `assets/js/`; do not introduce a client framework for a single interaction.
 
 ## Page Responsibilities
 

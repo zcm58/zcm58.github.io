@@ -392,6 +392,203 @@ button:focus-visible,
   text-align: left;
 }
 
+.fpvs-demo {
+  max-width: 960px;
+  margin: 2.5rem auto 2.75rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border: 1px solid var(--orbit-line);
+  border-radius: 8px;
+  background: rgba(14, 32, 52, 0.88);
+}
+
+.fpvs-demo-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: end;
+}
+
+.fpvs-demo-heading h2 {
+  margin-top: 0;
+}
+
+.fpvs-demo-heading p {
+  max-width: 68ch;
+  margin-bottom: 0;
+  color: var(--lunar-gray);
+}
+
+.fpvs-demo kbd {
+  padding: 0.12rem 0.38rem;
+  border: 1px solid var(--orbit-line);
+  border-radius: 3px;
+  background: var(--deep-space);
+  color: var(--starlight);
+  font-family: inherit;
+  font-size: 0.9em;
+  box-shadow: 0 1px 0 var(--orbit-line);
+}
+
+.fpvs-demo-specs {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  gap: 1.15rem;
+  margin: 0;
+}
+
+.fpvs-demo-specs div {
+  display: grid;
+  gap: 0.08rem;
+}
+
+.fpvs-demo-specs dt {
+  color: var(--lunar-gray);
+  font-size: 0.78rem;
+  line-height: 1.25;
+}
+
+.fpvs-demo-specs dd {
+  margin: 0;
+  color: var(--starlight);
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.fpvs-demo-warning {
+  margin: 1.25rem 0 1rem;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid rgba(252, 61, 33, 0.56);
+  border-radius: 6px;
+  background: rgba(252, 61, 33, 0.08);
+  color: var(--starlight);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.fpvs-demo-stage {
+  position: relative;
+  display: grid;
+  aspect-ratio: 16 / 9;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid var(--orbit-line);
+  border-radius: 6px;
+  background: #02070d;
+  isolation: isolate;
+}
+
+.fpvs-demo-stimulus {
+  display: block;
+  width: min(68%, 430px);
+  max-height: 78%;
+  object-fit: contain;
+  opacity: 0;
+  user-select: none;
+}
+
+.fpvs-demo-stimulus.is-visible {
+  opacity: 1;
+}
+
+.fpvs-demo-fixation {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  color: #2797ff;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 600;
+  line-height: 1;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.84);
+  transform: translate(-50%, -54%);
+}
+
+.fpvs-demo-fixation.is-target {
+  color: var(--signal-red);
+}
+
+.fpvs-demo-curtain {
+  position: absolute;
+  z-index: 3;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: #02070d;
+  color: var(--lunar-gray);
+  text-align: center;
+}
+
+.fpvs-demo-curtain[hidden] {
+  display: none;
+}
+
+.fpvs-demo-curtain p {
+  margin: 0;
+}
+
+.fpvs-demo-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.fpvs-demo-button {
+  min-height: 44px;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--orbital-blue);
+  border-radius: 6px;
+  background: var(--deep-space);
+  color: var(--orbital-blue);
+  font: inherit;
+  font-size: 0.94rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fpvs-demo-button-primary {
+  background: var(--orbital-blue);
+  color: var(--deep-space);
+}
+
+.fpvs-demo-button:hover:not(:disabled) {
+  border-color: var(--solar-gold);
+  background: var(--solar-gold);
+  color: var(--deep-space);
+}
+
+.fpvs-demo-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.fpvs-demo-timer {
+  min-width: 5.5ch;
+  margin-left: auto;
+  color: var(--starlight);
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  text-align: right;
+}
+
+.fpvs-demo-status {
+  min-height: 1.6em;
+  margin: 0.8rem 0 0;
+  color: var(--starlight);
+  font-size: 0.94rem;
+}
+
+.fpvs-demo-note {
+  margin: 0.2rem 0 0;
+  color: var(--lunar-gray);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
 .fpvs-analysis-figure {
   max-width: 1120px;
 }
@@ -499,6 +696,31 @@ button:focus-visible,
 }
 
 @media (max-width: 820px) {
+  .fpvs-demo-heading {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .fpvs-demo-specs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .fpvs-demo-stage {
+    aspect-ratio: 4 / 3;
+  }
+
+  .fpvs-demo-stimulus {
+    width: min(76%, 430px);
+    max-height: 76%;
+  }
+
+  .fpvs-demo-timer {
+    flex: 1 0 100%;
+    order: -1;
+    margin-left: 0;
+    text-align: left;
+  }
+
   .fpvs-analysis-scroll {
     overflow-x: auto;
     overscroll-behavior-inline: contain;

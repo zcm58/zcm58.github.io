@@ -160,7 +160,7 @@
     "href": "learn-fpvs/analysis-workflow.html",
     "title": "Analysis Workflow",
     "section": "",
-    "text": "This guide is currently under development. Please check back later for updates.",
+    "text": "This guide is currently under development. Please check back later for updates.\nThe figure below summarizes a typical FPVS EEG processing and response-quantification workflow.\n\n\n\n\n\nExample FPVS EEG analysis workflow. Specific preprocessing choices should be adapted to the recording system, study design, and prespecified analysis plan. On smaller screens, scroll the diagram horizontally or view it full size.",
     "crumbs": [
       "Data Analysis",
       "Analysis Workflow"

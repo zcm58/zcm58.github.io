@@ -26,18 +26,7 @@
     "href": "learn-fpvs/what-is-fpvs.html#why-use-fpvs",
     "title": "What Is FPVS?",
     "section": "Why use FPVS?",
-    "text": "Why use FPVS?\nFPVS combined with EEG offers several important advantages over current EEG techniques. First, when compared with traditional EEG methodology such as event-related potentials (ERPs), FPVS can elicit strong neural responses in a fraction of the time. Second, unlike ERP based methods, FPVS can be sensitive on the level of the individual, which provides future opportunity for use in a clinical setting to aid in the detection and diagnosis of various cognitive conditions. Emerging evidence) also suggests that FPVS may index a separate, later stage of cognitive processing than traditional ERPs. Finally, when compared with other neuroimaging methods such as fMRI or PET scans, FPVS and EEG is comparatively inexpensive, portable, and can be used in a wider range of populations and locations.",
-    "crumbs": [
-      "Start Here",
-      "What Is FPVS?"
-    ]
-  },
-  {
-    "objectID": "learn-fpvs/what-is-fpvs.html#the-oddball-paradigm",
-    "href": "learn-fpvs/what-is-fpvs.html#the-oddball-paradigm",
-    "title": "What Is FPVS?",
-    "section": "The “Oddball” Paradigm",
-    "text": "The “Oddball” Paradigm\nTo elicit strong neural responses, many FPVS experiments use what’s called an “oddball” paradigm.\nIn this design, a base stimulus is presented at a fixed rate (say, six times per second, or 6 Hz), and a different stimulus is presented within that visual stream at a less frequent rate (say, once every five stimuli, or 1.2 Hz). If the brain detects a difference between the base stimuli and the oddball stimuli, a neural response will be detectable exactly at the oddball freuqency (1.2 Hz in this example) and its frequency harmonics (2.4 Hz, 3.6 Hz, etc). This response can then be measured using EEG.\nBecause the response to the oddball stimuli is known prior to the start of the study, we can transform the time series data into the frequency domain using a Fourier transform and extract the signal found at the oddball frequency. This design provides a relatively straightforward way to quantify this response and to compare it across participants, experimental conditions, and groups.",
+    "text": "Why use FPVS?\nFPVS combined with EEG offers several important advantages over current EEG techniques. First, when compared with traditional EEG methodology such as event-related potentials (ERPs), FPVS can elicit strong neural responses in a fraction of the time. Second, unlike ERP based methods, FPVS can be sensitive on the level of the individual, which provides future opportunity for use in a clinical setting to aid in the detection and diagnosis of various cognitive conditions. Emerging evidence) also suggests that FPVS may index a separate, later stage of cognitive processing than traditional ERPs. Finally, when compared with other neuroimaging methods such as fMRI or PET scans, FPVS + EEG is comparatively inexpensive, portable, and can be used in a wider range of populations and locations.",
     "crumbs": [
       "Start Here",
       "What Is FPVS?"
@@ -48,7 +37,7 @@
     "href": "learn-fpvs/what-is-fpvs.html#what-this-guide-covers",
     "title": "What Is FPVS?",
     "section": "What this guide covers",
-    "text": "What this guide covers\nThis guide will cover key FPVS concepts and terminology that are important to understanding the advantages and limitations of FPVS. It will also provide a brief overview of the FPVS workflow, including how to design an FPVS experiment, how to analyze FPVS data, and how to interpret the results. Finally, this guide will provide a list of suggested readings for those who want to learn more about FPVS and its applications in cognitive neuroscience research.",
+    "text": "What this guide covers\nThis guide will cover key FPVS concepts and terminology that are important to understanding the advantages and limitations of FPVS. It will also provide a brief overview of the FPVS workflow, including how to design an FPVS experiment, how to analyze FPVS data, and how to interpret the results. Finally, this guide will provide a list of suggested readings for those who want to learn more about FPVS and its potentialm applications in cognitive neuroscience research and clinical settings.",
     "crumbs": [
       "Start Here",
       "What Is FPVS?"

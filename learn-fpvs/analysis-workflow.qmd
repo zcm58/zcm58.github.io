@@ -11,18 +11,18 @@ The interactive figure below summarizes a typical FPVS EEG processing and respon
 <div class="fpvs-analysis-scroll" role="group" aria-label="Scrollable FPVS analysis workflow diagram" tabindex="0">
 <div class="fpvs-analysis-map">
 <img src="../assets/figures/fpvs-analysis-workflow.svg" width="1440" height="690" loading="lazy" decoding="async" alt="Flowchart showing twelve FPVS EEG analysis steps, from importing raw data and preprocessing channels to frequency-domain analysis, response metrics, spreadsheet output, and statistical analysis.">
-<a class="fpvs-analysis-step step-1" href="import-raw-data.html" aria-label="Open Import Raw Data"></a>
-<a class="fpvs-analysis-step step-2" href="electrode-montage.html" aria-label="Open Apply Electrode Montage"></a>
-<a class="fpvs-analysis-step step-3" href="downsample-data.html" aria-label="Open Downsample Data"></a>
-<a class="fpvs-analysis-step step-4" href="frequency-filtering.html" aria-label="Open Apply High-Pass and Low-Pass Filters"></a>
-<a class="fpvs-analysis-step step-5" href="identify-bad-channels.html" aria-label="Open Identify Bad Channels"></a>
-<a class="fpvs-analysis-step step-6" href="interpolate-bad-channels.html" aria-label="Open Interpolate Bad Channels"></a>
-<a class="fpvs-analysis-step step-7" href="average-reference.html" aria-label="Open Apply Average Reference"></a>
-<a class="fpvs-analysis-step step-8" href="extract-condition-epochs.html" aria-label="Open Extract Conditions as Separate Epochs"></a>
-<a class="fpvs-analysis-step step-9" href="frequency-domain-transformation.html" aria-label="Open Transform Data to the Frequency Domain"></a>
-<a class="fpvs-analysis-step step-10" href="response-metrics.html" aria-label="Open Calculate BCA, SNR, and Z Scores"></a>
-<a class="fpvs-analysis-step step-11" href="export-analysis-data.html" aria-label="Open Output Data to XLSX"></a>
-<a class="fpvs-analysis-step step-12" href="statistical-analysis.html" aria-label="Open Prepare Data for Statistical Analysis"></a>
+<a class="fpvs-analysis-step step-1" href="import-raw-data.html" aria-label="Open step 1: Import Raw Data"></a>
+<a class="fpvs-analysis-step step-2" href="electrode-montage.html" aria-label="Open step 2: Electrode Montage"></a>
+<a class="fpvs-analysis-step step-3" href="downsample-data.html" aria-label="Open step 3: Downsample Data"></a>
+<a class="fpvs-analysis-step step-4" href="frequency-filtering.html" aria-label="Open step 4: Frequency Filtering"></a>
+<a class="fpvs-analysis-step step-5" href="identify-bad-channels.html" aria-label="Open step 5: Identify Bad Channels"></a>
+<a class="fpvs-analysis-step step-6" href="interpolate-bad-channels.html" aria-label="Open step 6: Interpolate Bad Channels"></a>
+<a class="fpvs-analysis-step step-7" href="average-reference.html" aria-label="Open step 7: Average Reference"></a>
+<a class="fpvs-analysis-step step-8" href="extract-condition-epochs.html" aria-label="Open step 8: Extract Condition Epochs"></a>
+<a class="fpvs-analysis-step step-9" href="frequency-domain-transformation.html" aria-label="Open step 9: Frequency-Domain Transformation"></a>
+<a class="fpvs-analysis-step step-10" href="response-metrics.html" aria-label="Open step 10: Response Metrics"></a>
+<a class="fpvs-analysis-step step-11" href="export-analysis-data.html" aria-label="Open step 11: Export Analysis Data"></a>
+<a class="fpvs-analysis-step step-12" href="statistical-analysis.html" aria-label="Open step 12: Statistical Analysis"></a>
 </div>
 </div>
   <figcaption>

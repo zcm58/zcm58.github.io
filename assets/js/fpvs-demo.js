@@ -11,7 +11,6 @@
   const curtainText = demo.querySelector("[data-demo-curtain-text]");
   const startButton = demo.querySelector("[data-demo-start]");
   const stopButton = demo.querySelector("[data-demo-stop]");
-  const responseButton = demo.querySelector("[data-demo-response]");
   const timer = demo.querySelector("[data-demo-timer]");
   const status = demo.querySelector("[data-demo-status]");
 
@@ -40,9 +39,6 @@
   let baseSequence = [];
   let oddballSequence = [];
   let colorChangeCycles = new Set();
-  let respondedCycles = new Set();
-  let hits = 0;
-  let falseAlarms = 0;
 
   function shuffle(items) {
     const shuffled = [...items];
@@ -65,7 +61,6 @@
   function setControls(isRunning) {
     startButton.disabled = isRunning;
     stopButton.disabled = !isRunning;
-    responseButton.disabled = !isRunning;
   }
 
   function setIdleStage(message) {
@@ -84,12 +79,7 @@
     setControls(false);
     startButton.textContent = "Run again";
     setIdleStage("Demonstration complete.");
-
-    const colorChangeSummary = `${hits} of ${colorChangeCycles.size} color changes detected`;
-    const falseAlarmSummary = falseAlarms === 1
-      ? "1 response while the cross was blue"
-      : `${falseAlarms} responses while the cross was blue`;
-    status.textContent = `${colorChangeSummary}; ${falseAlarmSummary}.`;
+    status.textContent = "Demonstration complete.";
   }
 
   function stopDemo(message = "Demonstration stopped. Select start to begin again.") {
@@ -101,27 +91,6 @@
     timer.textContent = "30.0 s";
     setIdleStage("Demonstration stopped.");
     status.textContent = message;
-  }
-
-  function recordResponse() {
-    if (!running) return;
-
-    const elapsed = performance.now() - startTime;
-    const stimulusIndex = Math.min(
-      Math.floor(elapsed / periodMs),
-      stimulusRate * (durationMs / 1000) - 1,
-    );
-    const cycleIndex = Math.floor(stimulusIndex / oddballInterval);
-
-    if (colorChangeCycles.has(cycleIndex) && !respondedCycles.has(cycleIndex)) {
-      hits += 1;
-      respondedCycles.add(cycleIndex);
-      status.textContent = "Color change detected.";
-      return;
-    }
-
-    falseAlarms += 1;
-    status.textContent = "The cross is currently blue. Keep watching for red.";
   }
 
   function updateStimulus(stimulusIndex) {
@@ -166,17 +135,13 @@
     baseSequence = shuffle(baseImages);
     oddballSequence = shuffle(oddballImages);
     colorChangeCycles = selectColorChangeCycles();
-    respondedCycles = new Set();
-    hits = 0;
-    falseAlarms = 0;
     currentStimulusIndex = -1;
     timer.textContent = "30.0 s";
-    status.textContent = "Running. Press Space or select “I saw red” when the cross turns red.";
+    status.textContent = "Demonstration running.";
     curtain.hidden = true;
     setControls(true);
     running = true;
     startTime = performance.now();
-    stage.focus({ preventScroll: true });
     animationFrame = requestAnimationFrame(renderFrame);
   }
 
@@ -192,13 +157,6 @@
 
   startButton.addEventListener("click", startDemo);
   stopButton.addEventListener("click", () => stopDemo());
-  responseButton.addEventListener("click", recordResponse);
-
-  window.addEventListener("keydown", (event) => {
-    if (event.code !== "Space" || event.repeat || !running) return;
-    event.preventDefault();
-    recordResponse();
-  });
 
   document.addEventListener("visibilitychange", () => {
     if (document.hidden && running) {

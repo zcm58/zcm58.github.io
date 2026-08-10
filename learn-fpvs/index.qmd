@@ -36,6 +36,5 @@ recommended reading, and sources cited throughout the guide.
 ::: {.callout-note}
 ## Guide in development
 
-This section is being expanded over time. Pages currently establish the guide's
-structure and the topics that future additions will cover.
+This guide is currently under development. Please check back later for updates.
 :::

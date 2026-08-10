@@ -21,8 +21,6 @@ The Oddball Frequency is the frequency at which the oddball stimulus is displaye
 
 ## Harmonics
 
-## Harmonics
-
 A harmonic is a frequency that is an exact whole-number multiple of a repeating signal’s fundamental frequency, *F*. For example, if a visual stimulus repeats at 6 Hz, its harmonics occur at 12 Hz (*2F*), 18 Hz (*3F*), 24 Hz (*4F*), and so on.
 
 One way to understand harmonics is to imagine building a repeating waveform by combining several smooth sine waves. A single sine wave at *F* produces a simple, smooth waveform. Real visual stimuli and brain responses are usually more complex. Additional, faster sine waves are needed to reproduce features such as sharper peaks, asymmetry, or abrupt changes. Because the complete waveform repeats at the same regular interval, these additional waves fit a whole number of cycles within each repetition. This places them at integer multiples of *F*.

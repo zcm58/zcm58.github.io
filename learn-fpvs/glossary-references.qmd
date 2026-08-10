@@ -3,33 +3,4 @@ title: "Glossary and References"
 description: "Definitions and supporting sources for the FPVS guide."
 ---
 
-## Glossary
-
-Terms will be added here as the guide develops so that definitions remain
-consistent across pages.
-
-### Base frequency
-
-Definition forthcoming.
-
-### Frequency tagging
-
-Definition forthcoming.
-
-### Harmonic
-
-Definition forthcoming.
-
-### Target frequency
-
-Definition forthcoming.
-
-## Recommended starting points
-
-Introductory and methodological readings will be collected here after their
-publication details and links have been verified.
-
-## References cited in this guide
-
-Full citations will be added here as sources are introduced on individual
-pages.
+This guide is currently under development. Please check back later for updates.

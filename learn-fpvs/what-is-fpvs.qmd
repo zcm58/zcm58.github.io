@@ -7,7 +7,7 @@ description: "An introduction to Fast Periodic Visual Stimulation."
 
 Fast Periodic Visual Stimulation (FPVS) is a powerful method that can elicit strong neural responses to stimuli in just a few minutes of recording time. This method is non-invasive, requires no active participation from the participant, and has been used to study a wide range cognitive processes in the brain from facial expression processing, memory, anxiety, semantic categorization, and more using [electroencephalography](https://www.ncbi.nlm.nih.gov/books/NBK390346/){target="_blank"} (EEG).
 
-In a typical FPVS experiment, stimuli (usually images or, [in some studies, words](https://pubmed.ncbi.nlm.nih.gov/39708534/){target="_blank"}) are presented on screen to a participant at a fast rate (e.g., 6 Hz, or six times per second). The participant's brain activity is recorded using EEG, and the resulting data is analyzed to study the neural responses to the stimuli.
+In a typical FPVS experiment, stimuli (usually images or, [in some studies, words](https://pubmed.ncbi.nlm.nih.gov/39708534/){target="_blank"}) are presented on screen to a participant at a fast rate (e.g., 6 Hz, or six times per second). Recent FPVS experiments typically follow an 'oddball' design, in which a base stimulus is presented at a fixed rate (e.g., 6 times per second), and a different stimlulus type is presented at a less frequent rate (e.g., once every five stimuli, or 1.2 Hz). If the brain detects a difference between the base and oddball stimuli, a neural response will be detectable exactly at the oddball frequency (1.2 Hz in this example) and its frequency harmonics (2.4 Hz, 3.6 Hz, etc). This response can then be measured using EEG. See the figure below for an example of a typical FPVS oddball sequence.
 
 <figure class="fpvs-method-figure">
   <img src="../assets/figures/fpvs-oddball-sequence.webp" width="1940" height="818" loading="lazy" decoding="async" alt="Flow diagram showing four randomly selected base images followed by one oddball image, after which the sequence repeats.">
@@ -15,8 +15,6 @@ In a typical FPVS experiment, stimuli (usually images or, [in some studies, word
     Example FPVS oddball sequence. Four base images are followed by one oddball image, and the sequence repeats. <a href="../assets/figures/fpvs-oddball-sequence.webp">View the full-size diagram</a>.
   </figcaption>
 </figure>
-
-Many FPVS studies have demonstrated that meaningful responses can be measured in less than two minutes of recording time, offering a significant advantage over other EEG methods that require recording times of over an hour.
 
 ## Why use FPVS?
 

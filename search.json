@@ -51,7 +51,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Statistical Analysis"
+      "12: Statistical Analysis"
     ]
   },
   {
@@ -84,7 +84,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Interpolate Bad Channels"
+      "6: Interpolate Bad Channels"
     ]
   },
   {
@@ -95,7 +95,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Import Raw Data"
+      "1: Import Raw Data"
     ]
   },
   {
@@ -117,7 +117,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Frequency Filtering"
+      "4: Filter The Data"
     ]
   },
   {
@@ -128,7 +128,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Extract Condition Epochs"
+      "8: Extract Condition Epochs"
     ]
   },
   {
@@ -139,7 +139,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Electrode Montage"
+      "2: Apply Electrode Montage"
     ]
   },
   {
@@ -386,7 +386,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Average Reference"
+      "7: Re-Reference The Data"
     ]
   },
   {
@@ -408,7 +408,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Downsample Data"
+      "3: Downsample Data"
     ]
   },
   {
@@ -419,7 +419,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Export Analysis Data"
+      "11: Export Data For Analysis"
     ]
   },
   {
@@ -430,7 +430,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Frequency-Domain Transformation"
+      "9: Frequency-Domain Transformation"
     ]
   },
   {
@@ -485,7 +485,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Identify Bad Channels"
+      "5: Identify Bad Channels"
     ]
   },
   {
@@ -542,7 +542,7 @@
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
       "Data Analysis",
-      "Response Metrics"
+      "10: Calculate SNR and BCA"
     ]
   },
   {

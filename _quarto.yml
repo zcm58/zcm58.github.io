@@ -35,7 +35,7 @@ website:
             text: FPVS Toolbox
       - href: cv.qmd
         text: CV
-      - href: learn-fpvs/index.qmd
+      - href: learn-fpvs/what-is-fpvs.qmd
         text: Learn About FPVS
     right:
       - icon: github

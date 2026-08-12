@@ -95,6 +95,32 @@ body {
   color: var(--solar-gold);
 }
 
+.navbar .nav-link[href*="scholar.google.com"] {
+  color: #4285f4;
+}
+
+.navbar .nav-link[href*="orcid.org"] {
+  color: #a6ce39;
+  font-weight: 700;
+  letter-spacing: -0.08em;
+}
+
+.navbar .nav-link[href*="orcid.org"] .menu-text {
+  font-size: 0;
+}
+
+.navbar .nav-link[href*="orcid.org"] .menu-text::before {
+  content: "iD";
+  font-size: 1rem;
+}
+
+.navbar .nav-link[href*="scholar.google.com"]:hover,
+.navbar .nav-link[href*="scholar.google.com"]:focus,
+.navbar .nav-link[href*="orcid.org"]:hover,
+.navbar .nav-link[href*="orcid.org"]:focus {
+  color: var(--solar-gold);
+}
+
 .navbar .dropdown-item:hover,
 .navbar .dropdown-item:focus {
   background: rgba(110, 183, 255, 0.12);
@@ -270,49 +296,6 @@ button:focus-visible,
   line-height: 1.5;
   text-align: center;
   white-space: nowrap;
-}
-
-.profile-links {
-  margin-top: 6px;
-}
-
-.profile-links p {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0;
-}
-
-.profile-links a {
-  display: inline-flex;
-  width: 44px;
-  height: 44px;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--line);
-  border-radius: 50%;
-  color: var(--orbital-blue);
-  font-size: 1.45rem;
-  line-height: 1;
-  text-decoration: none;
-}
-
-.profile-links a:hover {
-  border-color: var(--solar-gold);
-  color: var(--solar-gold);
-}
-
-.profile-links a:focus-visible {
-  border-color: var(--solar-gold);
-  color: var(--solar-gold);
-  outline: 3px solid var(--solar-gold);
-  outline-offset: 3px;
-}
-
-.orcid-icon {
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: -0.08em;
 }
 
 .btn {

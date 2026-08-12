@@ -19,7 +19,7 @@ This study used EEG to compare preparatory brain activity during closed-skill se
 David Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. *Brain and Cognition*, 189, 106338, 2025.
 [DOI](https://doi.org/10.1016/j.bandc.2025.106338){target="_blank"} | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0278262625000788){target="_blank"}
 
-This study used FPVS and EEG to examine facial expression processing with diverse, naturalistic stimuli. Robust expression-related neural responses were observed with brief recordings and limited preprocessing, supporting FPVS as a sensitive framework for studying emotional face processing in both typical and clinical populations.
+This study used FPVS and EEG to examine facial expression processing with diverse, naturalistic stimuli. Robust expression-related neural responses were observed, supporting FPVS as a sensitive framework for studying emotional face processing.
 
 ### Preliminary evidence for anxiety-linked neural sensitivity to emotional faces using fast periodic visual stimulation
 

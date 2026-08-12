@@ -38,6 +38,11 @@ website:
       - href: learn-fpvs/what-is-fpvs.qmd
         text: Learn About FPVS
     right:
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=zbUyu0sAAAAJ&hl=en
+        aria-label: Google Scholar
+      - text: ORCID
+        href: https://orcid.org/0009-0003-3868-6888
       - icon: github
         href: https://github.com/zcm58
         aria-label: GitHub

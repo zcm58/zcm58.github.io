@@ -5,7 +5,7 @@ description: "Publications, preprints, and paper summaries."
 
 ## Publications
 
-Publications appear in reverse chronological order. 
+Publications appear in reverse chronological order.
 
 ### Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis
 
@@ -16,20 +16,14 @@ This study used EEG to compare preparatory brain activity during closed-skill se
 
 ### Exploring facial expression processing with fast periodic visual stimulation and diverse stimuli
 
-David Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. *Brain and Cognition*, 189, 106338, 2025.  
+David Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. *Brain and Cognition*, 189, 106338, 2025.
 [DOI](https://doi.org/10.1016/j.bandc.2025.106338){target="_blank"} | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0278262625000788){target="_blank"}
 
 This study used FPVS and EEG to examine facial expression processing with diverse, naturalistic stimuli. Robust expression-related neural responses were observed with brief recordings and limited preprocessing, supporting FPVS as a sensitive framework for studying emotional face processing in both typical and clinical populations.
 
 ### Preliminary evidence for anxiety-linked neural sensitivity to emotional faces using fast periodic visual stimulation
 
-David Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. *International Journal of Psychophysiology*, 2025.  
+David Vandenheever, Haleigh Davidson, Jennifer Kemp, Zack Murphy, Autumn Kujawa, Jingyi Shi, Michael R. Nadorff, Kayla Bates-Brantley, and MacKenzie Sidwell. *International Journal of Psychophysiology*, 2025.
 [DOI](https://doi.org/10.1016/j.ijpsycho.2025.113212){target="_blank"} | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0167876025007081){target="_blank"} | [OSF data and analysis scripts](https://osf.io/5xkae/files/osfstorage){target="_blank"}
 
 This study used Fast Periodic Visual Stimulation (FPVS) and EEG to test whether anxiety-linked characteristics are associated with differences in neural responses to emotional facial expressions. Participants with anxiety-related characteristics showed stronger occipital responses to angry and sad faces, providing preliminary evidence that FPVS may capture trait-level differences in emotional face processing with short, high signal-to-noise recordings.
-
-## Preprints
-
-### Exploring Category Change Neural Responses Using Semantically Similar Stimuli With Fast Periodic Visual Stimulation
-
-Zack Murphy & David Vandenheever. [DOI](https://doi.org/10.64898/2026.06.22.733603){target="_blank"}

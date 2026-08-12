@@ -4,3 +4,5 @@ description: "Applying an electrode montage during FPVS EEG preprocessing."
 ---
 
 This guide is currently under development. Please check back later for updates.
+
+Your electrode montage is essentially the 3D coordinates of each electrode on the scalp. You cannot accurately analyze your data if your software or scripts do not account for the spatial positioning of each electrode on the scalp. claude

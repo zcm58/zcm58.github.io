@@ -3,7 +3,7 @@
   "tasks": [
     {
       "label": "Publish website",
-      "type": "process",
+      "type": "shell",
       "command": "quarto",
       "args": [
         "run",

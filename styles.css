@@ -236,32 +236,17 @@ button:focus-visible,
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(400px, 0.8fr);
-  gap: 32px;
-  min-height: 520px;
-  align-items: center;
-}
-
-.hero-copy h2 {
-  max-width: 700px;
-  margin-top: 0;
-  font-size: clamp(2rem, 3vw, 3.2rem);
-  line-height: 1.04;
-  letter-spacing: -0.018em;
-}
-
-.hero-copy p {
-  max-width: 68ch;
-  color: var(--muted);
-  font-size: 1.08rem;
-  line-height: 1.65;
+  padding: 54px 0 42px;
 }
 
 .hero-panel {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.34fr) minmax(0, 1fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: center;
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 22px;
+  padding: clamp(28px, 4vw, 52px);
   background: rgba(14, 32, 52, 0.94);
   box-shadow: 0 20px 48px rgba(0, 0, 0, 0.34);
 }
@@ -284,18 +269,29 @@ button:focus-visible,
 
 .hero-panel p,
 .hero-panel li {
-  font-size: 0.96rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
 
 .hero-panel .profile-identity {
-  max-width: none;
-  margin: 12px auto 24px;
+  max-width: 32ch;
+  margin: 16px auto 0;
   color: var(--muted);
-  font-size: 0.76rem;
+  font-size: 0.82rem;
   font-weight: 500;
   line-height: 1.5;
   text-align: center;
-  white-space: nowrap;
+}
+
+.profile-details > p:first-child {
+  max-width: 72ch;
+  margin-top: 0;
+  color: var(--muted);
+  font-size: 1.12rem;
+}
+
+.profile-details > p:last-of-type {
+  margin-top: 28px;
 }
 
 .btn {
@@ -787,12 +783,10 @@ button:focus-visible,
     border-bottom: 0;
   }
 
-  .hero,
   .feature-grid {
     grid-template-columns: 1fr;
   }
 
-  .hero-copy,
   .hero-panel,
   .feature {
     min-width: 0;
@@ -800,22 +794,8 @@ button:focus-visible,
   }
 
   .hero {
-    gap: 20px;
-    min-height: auto;
     padding-top: 28px;
     padding-bottom: 24px;
-  }
-
-  .hero-copy h2 {
-    max-width: 100%;
-    font-size: clamp(1.55rem, 5.4vw, 1.8rem);
-    line-height: 1.06;
-    overflow-wrap: normal;
-  }
-
-  .hero-copy p {
-    max-width: 100%;
-    font-size: 1rem;
   }
 
   .feature p {
@@ -823,6 +803,8 @@ button:focus-visible,
   }
 
   .hero-panel {
+    grid-template-columns: 1fr;
+    gap: 28px;
     padding: 16px;
   }
 
@@ -834,9 +816,12 @@ button:focus-visible,
 
   .hero-panel .profile-identity {
     max-width: 30ch;
-    margin-bottom: 20px;
     font-size: 0.86rem;
     white-space: normal;
+  }
+
+  .profile-details > p:first-child {
+    font-size: 1rem;
   }
 
   .headshot {

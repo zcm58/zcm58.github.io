@@ -29,7 +29,7 @@ In a typical FPVS experiment, stimuli (usually images or, [in some studies, word
 </dl>
 </div>
 
-<p class="fpvs-demo-warning"><strong>WARNING:</strong> If you are sensitive to flashing images, lights, or have a history of seizures induced by FPVS, <strong>DO NOT</strong> watch this demonstration.</p>
+<p class="fpvs-demo-warning"><strong>WARNING:</strong> If you are sensitive to flashing images, lights, or have a history of seizures induced by FPVS, please <strong>DO NOT</strong> watch this demonstration.</p>
 
 <div class="fpvs-demo-stage" data-demo-stage aria-label="FPVS stimulus display. Rapidly changing vegetable images appear here after the demonstration starts.">
 <img class="fpvs-demo-stimulus" data-demo-stimulus src="../assets/fpvs-demo/green-vegetable-01.png" alt="" aria-hidden="true">
@@ -46,7 +46,7 @@ In a typical FPVS experiment, stimuli (usually images or, [in some studies, word
 </div>
 
 <p class="fpvs-demo-status" data-demo-status role="status" aria-live="polite">Preparing the demonstration.</p>
-<p class="fpvs-demo-note">As in the PsychoPy condition, each image is visible for about 83 ms and followed by about 83 ms of blank screen. This browser demonstration is educational and does not provide laboratory-validated stimulus timing.</p>
+<p class="fpvs-demo-note">In this example of an FPVS oddball experiment, each image is visible for 83 ms and followed by 83 ms of blank screen.</p>
 </section>
 
 <script src="../assets/js/fpvs-demo.js" defer></script>
@@ -55,6 +55,6 @@ In a typical FPVS experiment, stimuli (usually images or, [in some studies, word
 
 FPVS combined with EEG offers several important advantages over current EEG techniques. First, when compared with traditional EEG methodology such as event-related potentials (ERPs), FPVS can elicit strong neural responses in a fraction of the time. Second, unlike ERP based methods, FPVS can be sensitive on the level of the individual, which provides future opportunity for use in a clinical setting to aid in the detection and diagnosis of various cognitive conditions. [Emerging evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC11781244/){target="_blank"} also suggests that FPVS may index a separate, later stage of cognitive processing than traditional ERPs. Finally, when compared with other neuroimaging methods such as fMRI or PET scans, FPVS + EEG is comparatively inexpensive, portable, and can be used in a wider range of populations and locations.
 
-## What this guide covers
+## Important Note
 
-This guide will cover key FPVS concepts and terminology that are important to understanding the advantages and limitations of FPVS. It will also provide a brief overview of the FPVS workflow, including how to design an FPVS experiment, how to analyze FPVS data, and how to interpret the results. Finally, this guide will provide a list of suggested readings for those who want to learn more about FPVS and its potentialm applications in cognitive neuroscience research and clinical settings.
+This guide will cover key FPVS concepts and terminology that are important to understanding the advantages and limitations of FPVS, but the guide was built primarily for undergraduate students. As such, certain concepts may be simplified for the sake of explanation. For more detailed and highly technical explanations of FPVS, please refer to the suggested readings or read through the publications linked throughout the guide.

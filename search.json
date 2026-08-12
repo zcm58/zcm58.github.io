@@ -445,7 +445,7 @@
     "href": "learn-fpvs/electrode-montage.html",
     "title": "Apply Electrode Montage",
     "section": "",
-    "text": "This guide is currently under development. Please check back later for updates.",
+    "text": "This guide is currently under development. Please check back later for updates.\nYour electrode montage is essentially the 3D coordinates of each electrode on the scalp. You cannot accurately analyze your data if your software or scripts do not account for the spatial positioning of each electrode on the scalp. claude",
     "crumbs": [
       "Learn About FPVS",
       "Data Analysis",

@@ -4,13 +4,10 @@
     {
       "label": "Publish website",
       "type": "process",
-      "command": "powershell.exe",
+      "command": "quarto",
       "args": [
-        "-NoProfile",
-        "-ExecutionPolicy",
-        "Bypass",
-        "-File",
-        "${workspaceFolder}\\publish-website.ps1"
+        "run",
+        "${workspaceFolder}/publish-website.ts"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
@@ -26,7 +23,7 @@
       "runOptions": {
         "instanceLimit": 1
       },
-      "detail": "Trim changed text files, clean-render, cache-version, publish, and verify the live GitHub Pages site."
+      "detail": "Cross-platform clean-render, cache-version, publish, and live verification for Windows and Linux."
     }
   ]
 }

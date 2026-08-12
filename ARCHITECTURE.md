@@ -21,13 +21,13 @@ presentation.
 |-- media.qmd            # Videos, talks, public-facing communication
 |-- cv.qmd               # CV download link and contact/profile links
 |-- styles.css           # Quarto SCSS variables and site-specific CSS
-|-- publish-website.ps1  # One-command render, commit, push, and publish helper
-|-- scripts/             # Cache-version transform and rendered-output check
+|-- publish-website.ts   # Cross-platform render, commit, push, and publish helper
+|-- publish-website.ps1  # Backward-compatible Windows wrapper
 |-- PRODUCT.md           # Audience, brand, anti-references, accessibility
 |-- DESIGN.md            # Visual system, tokens, components, and guardrails
 |-- .impeccable/         # Machine-readable design-system metadata
 |-- AGENTS.md            # Agent entry point and repo operating rules
-|-- .vscode/tasks.json   # VS Code task wrapper for publish-website.ps1
+|-- .vscode/tasks.json   # Cross-platform VS Code publish task
 `-- docs/agent/          # Deeper agent guidance for recurring workflows
 ```
 
@@ -99,14 +99,15 @@ quarto render
 For one-click local publishing from VS Code, run the `Publish website` task or
 run:
 
-```powershell
-.\publish-website.ps1
+```shell
+quarto run publish-website.ts
 ```
 
-The helper trims trailing whitespace from changed text files, clears generated
-site output, performs one cache-refresh render, adds a deploy version to rendered
-pages and local assets, commits source changes to `main`, and publishes that
-exact output to `gh-pages` with
+The TypeScript helper runs through Quarto's bundled cross-platform runtime on
+Windows or Linux. It trims trailing whitespace from changed text files, clears
+generated site output, performs one cache-refresh render, adds a deploy version
+to rendered pages and local assets, commits source changes to `main`, and
+publishes that exact output to `gh-pages` with
 `quarto publish gh-pages --no-render`. It then verifies that both `gh-pages`
 and the cache-busted live site expose the same version before reporting
 success. The page marker reloads a stale cached page once with the current

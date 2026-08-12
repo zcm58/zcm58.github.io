@@ -39,7 +39,7 @@ read first, not the full manual.
   its sidebar hierarchy in `_quarto.yml` synchronized when pages are added.
 - Navigation, title, site URL, footer, or theme: edit `_quarto.yml`.
 - Layout, colors, fonts, buttons, cards, video embeds: edit `styles.css`.
-- Local publish workflow: run `.\publish-website.ps1` or the VS Code
+- Local publish workflow: run `quarto run publish-website.ts` or the VS Code
   `Publish website` task. The helper clean-renders, versions browser-facing
   output, publishes once, and verifies the deployed version; do not replace it
   with a raw `quarto publish` call.
@@ -61,8 +61,8 @@ inspect desktop and mobile widths before claiming the UI is done.
 
 To publish source and rendered output after verification, use:
 
-```powershell
-.\publish-website.ps1
+```shell
+quarto run publish-website.ts
 ```
 
 ## Boundaries

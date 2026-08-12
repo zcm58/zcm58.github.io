@@ -192,6 +192,13 @@ body.nav-sidebar .quarto-title-block .description {
   box-sizing: border-box;
 }
 
+@media (min-width: 821px) {
+  body.nav-sidebar .page-columns .content {
+    grid-column: body-start / screen-end;
+    justify-self: center;
+  }
+}
+
 h1,
 h2,
 h3 {

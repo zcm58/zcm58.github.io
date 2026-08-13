@@ -639,10 +639,6 @@ button:focus-visible,
   margin-inline: auto;
 }
 
-.attention-task-screen-wide {
-  aspect-ratio: 16 / 9;
-}
-
 .attention-fixation-cross {
   color: var(--orbital-blue);
   font-family: "Segoe UI", Arial, sans-serif;
@@ -668,14 +664,6 @@ button:focus-visible,
   right: 8%;
 }
 
-.attention-letter-string {
-  color: var(--starlight);
-  font-family: "Segoe UI", Arial, sans-serif;
-  font-size: clamp(1.25rem, 5vw, 2.5rem);
-  font-weight: 600;
-  letter-spacing: 0.12em;
-}
-
 .attention-fixation-cross.is-target {
   color: var(--signal-red);
 }
@@ -690,27 +678,6 @@ button:focus-visible,
   color: var(--lunar-gray);
   font-size: 0.92rem;
   line-height: 1.55;
-}
-
-.attention-task-toggle {
-  display: inline-flex;
-  min-height: 44px;
-  align-items: center;
-  margin: 0.55rem 0 0;
-  padding: 0.45rem 0.75rem;
-  border: 1px solid var(--orbit-line);
-  border-radius: 6px;
-  background: var(--flight-deck);
-  color: var(--orbital-blue);
-  font: inherit;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.attention-task-toggle:hover,
-.attention-task-toggle:focus-visible {
-  border-color: var(--solar-gold);
-  color: var(--solar-gold);
 }
 
 .fpvs-analysis-figure {

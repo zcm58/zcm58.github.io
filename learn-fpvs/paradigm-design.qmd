@@ -9,8 +9,7 @@ When designing an FPVS experiment, there are several key considerations that wil
 
 Use the pages in this section to explore each design consideration separately:
 
-- [Choosing Stimulation Frequencies](choosing-stimulation-frequencies.qmd)
 - [Stimulus Selection and Sequencing](stimulus-selection-sequencing.qmd)
-- [Display Refresh Rate and Stimulus Timing](display-refresh-rate.qmd)
+- [Display and Timing](display-refresh-rate.qmd)
 - [Maintaining Participant Attention](maintaining-attention.qmd)
 - [Common Paradigm Patterns](common-paradigm-patterns.qmd)

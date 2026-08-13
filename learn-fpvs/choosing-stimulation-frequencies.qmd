@@ -1,6 +1,0 @@
----
-title: "Choosing Stimulation Frequencies"
-description: "Considerations for selecting the stimulation rate in an FPVS experiment."
----
-
-Choosing a stimulation frequency is an important first step in designing an FPVS experiment. Research has shown that frequencies the optimal range for eliciting strong neural responses is typically between 4 Hz and 6 Hz. Frequencies outside of this range may still elicit neural responses, but they are often weaker and more variable across participants.

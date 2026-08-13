@@ -1,8 +1,14 @@
 ---
-title: "Display Refresh Rate and Stimulus Timing"
-description: "How display refresh rate constrains FPVS stimulation frequencies and timing."
+title: "Display and Timing"
+description: "How stimulation frequency, display refresh rate, and timing shape an FPVS experiment."
 ---
 
-An important practical consideration when designing an FPVS experiment [the refresh rate of a display](https://www.samsung.com/uk/monitors/monitor-buying-guide/what-is-monitor-refresh-rate/).{target="_blank"} This factor can limit which stimulation frequencies are viable for your lab or situation. For example, if you are using a display with a refresh rate of 60 Hz, you could present stimuli at 6 Hz (10 frames per stimulus), 10 Hz (6 frames per stimulus), or 12 Hz (5 frames per stimulus). However, if you wanted to present stimuli at 7 Hz, this would not be possible with a 60 Hz display, as each stimulus would need to be presented for approximately 8.57 frames, which is not possible and would cause inconsistencies in frame timing.
+## Choosing a Stimulation Frequency
 
-FPVS Studio automatically detects your device's refresh rate and validates that refresh rate each time an experiment is launched, preventing frame timing issues from occuring.
+Choosing a stimulation frequency is an important first step in designing an FPVS experiment. Research has shown that the optimal range for eliciting strong neural responses is typically between 4 Hz and 6 Hz. Frequencies outside this range may still elicit neural responses, but they are often weaker and more variable across participants.
+
+## Display Refresh Rate and Stimulus Timing
+
+An important practical consideration when designing an FPVS experiment is [the refresh rate of the display](https://www.samsung.com/uk/monitors/monitor-buying-guide/what-is-monitor-refresh-rate/).{target="_blank"} This factor can limit which stimulation frequencies are viable for your lab or situation. For example, if you are using a display with a refresh rate of 60 Hz, you could present stimuli at 6 Hz (10 frames per stimulus), 10 Hz (6 frames per stimulus), or 12 Hz (5 frames per stimulus). However, if you wanted to present stimuli at 7 Hz, this would not be possible with a 60 Hz display, as each stimulus would need to be presented for approximately 8.57 frames, which would cause inconsistencies in frame timing.
+
+FPVS Studio automatically detects your device's refresh rate and validates it each time an experiment is launched, preventing frame-timing issues from occurring.

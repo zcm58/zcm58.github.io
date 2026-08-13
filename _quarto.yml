@@ -62,8 +62,6 @@ website:
           contents:
             - href: learn-fpvs/paradigm-design.qmd
               text: Overview
-            - href: learn-fpvs/choosing-stimulation-frequencies.qmd
-              text: Choosing Frequencies
             - href: learn-fpvs/stimulus-selection-sequencing.qmd
               text: Stimulus Selection
             - href: learn-fpvs/display-refresh-rate.qmd

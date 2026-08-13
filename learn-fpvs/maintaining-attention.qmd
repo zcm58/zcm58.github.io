@@ -7,4 +7,32 @@ While FPVS is a passive method that does not require active participation from t
 
 [One common approach](https://doi.org/10.1167/15.1.18){target="_blank"} to maintaining the participant's attention is to ask the participant to fix their gaze on a small cross in the center of the screen and to press a button whenever that cross changes colors. This task is unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.
 
+```{=html}
+<figure class="attention-task-demo" data-attention-demo>
+  <div class="attention-task-screen attention-task-screen-square" role="img" aria-label="Blue fixation cross centered on a black display. The cross briefly changes to red at random intervals.">
+    <span class="attention-fixation-cross" data-attention-target aria-hidden="true">+</span>
+  </div>
+  <figcaption>
+    The fixation cross briefly changes from blue to red at random intervals.
+    <button class="attention-task-toggle" type="button" data-attention-toggle aria-pressed="false">Pause color changes</button>
+  </figcaption>
+</figure>
+```
+
 [Another approach](https://www.sciencedirect.com/science/article/pii/S0010945224000327?via%3Dihub){target="_blank"} is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they notice a color change.
+
+```{=html}
+<figure class="attention-task-demo" data-attention-demo>
+  <div class="attention-task-screen attention-task-screen-wide" role="img" aria-label="Two blue vertical bars flank a five-letter string on a black display. Both bars briefly change to red together at random intervals.">
+    <span class="attention-edge-bar attention-edge-bar-left" data-attention-target aria-hidden="true"></span>
+    <span class="attention-letter-string" aria-hidden="true">KELUP</span>
+    <span class="attention-edge-bar attention-edge-bar-right" data-attention-target aria-hidden="true"></span>
+  </div>
+  <figcaption>
+    Following the linked study, two vertical bars flank the letter string and briefly turn red at the same time.
+    <button class="attention-task-toggle" type="button" data-attention-toggle aria-pressed="false">Pause color changes</button>
+  </figcaption>
+</figure>
+
+<script src="../assets/js/attention-task-demos.js" defer></script>
+```

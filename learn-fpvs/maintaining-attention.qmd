@@ -22,12 +22,13 @@ While FPVS is a passive method that does not require active participation from t
 
 ```{=html}
 <figure class="attention-task-demo" data-attention-demo>
-  <div class="attention-task-screen attention-task-screen-square" role="img" aria-label="Two blue vertical bars appear near the left and right edges of a black square display. Both bars briefly change to red together at random intervals.">
+  <div class="attention-task-screen attention-task-screen-square" role="img" aria-label="A blue fixation cross remains centered between two blue vertical bars near the left and right edges of a black square display. Both bars briefly change to red together at random intervals while the cross remains blue.">
     <span class="attention-edge-bar attention-edge-bar-left" data-attention-target aria-hidden="true"></span>
+    <span class="attention-fixation-cross" aria-hidden="true">+</span>
     <span class="attention-edge-bar attention-edge-bar-right" data-attention-target aria-hidden="true"></span>
   </div>
   <figcaption>
-    Following the linked study, two vertical bars briefly turn red at the same time.
+    Following the linked study, two vertical bars briefly turn red at the same time while the central fixation cross remains blue.
   </figcaption>
 </figure>
 

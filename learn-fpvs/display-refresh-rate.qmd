@@ -28,11 +28,10 @@ An important factor when designing your FPVS experiments is the base stimulation
 
 - **Visual periodicity reveals distinct attentional signatures for face and non-face categories** (Quek & de Heering, 2024). Base rate: 6 Hz; periodic category rates: 1.2 and 1.5 Hz. [DOI](https://doi.org/10.1093/cercor/bhae228){target="_blank"}
 - **Fast Periodic Visual Stimulation indexes preserved semantic memory in healthy ageing** (Milton et al., 2020). Base rate: 6 Hz; oddball rate: 1.2 Hz. [DOI](https://doi.org/10.1038/s41598-020-69929-5){target="_blank"}
-- **Using fast periodic visual stimulation to investigate the processing of health-related images in the human brain** (Castellano et al., 2025). Base rate: 6.075 Hz; oddball rate: 1.215 Hz. [DOI](https://doi.org/10.1038/s41598-025-29515-z){target="_blank"}
 
 ### 8 Hz
 
-- **Ensemble size perception: Its neural signature and the role of global interaction over individual items** (Jia et al., 2022). Base rate: 8 Hz; oddball rate: 1 Hz. The authors describe the method as frequency-tagging EEG/SSVEP rather than FPVS. [DOI](https://doi.org/10.1016/j.neuropsychologia.2022.108290){target="_blank"}
+- **Ensemble size perception: Its neural signature and the role of global interaction over individual items** (Jia et al., 2022). Base rate: 8 Hz; oddball rate: 1 Hz. [DOI](https://doi.org/10.1016/j.neuropsychologia.2022.108290){target="_blank"}
 
 ### 10 Hz
 
@@ -40,8 +39,8 @@ An important factor when designing your FPVS experiments is the base stimulation
 - **Word-selective EEG/MEG responses in the English language obtained with fast periodic visual stimulation (FPVS)** (Marchive et al., 2025). Base rate: 10 Hz; word rate: 2 Hz. [DOI](https://doi.org/10.1162/imag_a_00414){target="_blank"}
 - **Tracking novel visual word learning via different methods with an original FPVS-EEG approach** (Barillon et al., 2025). Base rate: 10 Hz; word rate: 2 Hz. [DOI](https://doi.org/10.3389/fnhum.2025.1647925){target="_blank"}
 
-::: {.callout-note title="There is no universally optimal base rate"}
-[Retter and Schiltz (2025)](https://doi.org/10.1523/ENEURO.0426-24.2025){target="_blank"} show why the answer depends on how the response is measured. The response at the fundamental frequency, *F*, often peaks near 10 Hz, whereas the total baseline-corrected amplitude summed across harmonics often peaks below approximately 4 Hz. The rate that maximizes a general visual response may also differ from the rate that best isolates an oddball or category-selective response.
+::: {.callout-note title="Base Rate Varies Among Recent Studies"}
+[Retter and Schiltz (2025)](https://doi.org/10.1523/ENEURO.0426-24.2025){target="_blank"} demonstrated that the strength of the base rate response, *F*, often peaks near 10 Hz, whereas the total summed BCA amplitude often peaks below approximately 4 Hz.
 :::
 
 ## Display Refresh Rate

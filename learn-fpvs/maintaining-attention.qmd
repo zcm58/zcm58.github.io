@@ -18,7 +18,7 @@ While FPVS is a passive method that does not require active participation from t
 </figure>
 ```
 
-[Another approach](https://www.sciencedirect.com/science/article/pii/S0010945224000327?via%3Dihub){target="_blank"} is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they notice a color change.
+[Another approach](https://www.sciencedirect.com/science/article/pii/S0010945224000327?via%3Dihub){target="_blank"} is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they both bars change colors at the same time. This approach is also unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.
 
 ```{=html}
 <figure class="attention-task-demo" data-attention-demo data-attention-mode="independent-bars">
@@ -28,7 +28,7 @@ While FPVS is a passive method that does not require active participation from t
     <span class="attention-edge-bar attention-edge-bar-right" data-attention-target aria-hidden="true"></span>
   </div>
   <figcaption>
-    Following the linked study, the left bar, right bar, or both bars briefly turn red at random. The participant responds only when both bars turn red together; the central fixation cross remains blue.
+    In this method, both bars change from blue to red at random intervals, and the participant is asked to press a button only when both bars change colors at the same time. This method avoids visually covering part of the stimuli, and encourages broader processing of stimuli that take up more information on the screen.
   </figcaption>
 </figure>
 

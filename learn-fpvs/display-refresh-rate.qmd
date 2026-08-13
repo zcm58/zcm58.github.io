@@ -5,9 +5,7 @@ description: "How stimulation frequency, display refresh rate, and timing shape 
 
 ## Choosing a Stimulation Frequency
 
-The base rate determines how many stimuli appear each second. FPVS studies have used a wide range of base rates, and the best choice depends on the visual process being measured, the oddball rate, the analysis strategy, and the timing limits of the display.
-
-The examples below are organized by **base stimulation frequency**. The oddball frequency is listed when the study used a periodic oddball design.
+An important factor when designing your FPVS experiments is the base stimulation frequency, or the rate at which your stimuli are shown on screen. Recent FPVS experiments have used a wide range of base frequencies from 3 Hz to 10 Hz as see in the examples below.
 
 ### 3 Hz
 
@@ -48,7 +46,9 @@ The examples below are organized by **base stimulation frequency**. The oddball 
 
 ## Display Refresh Rate
 
-A display can present an FPVS base rate with perfectly even frame timing only when its refresh rate divided by the desired stimulation frequency produces a whole number. For a 60 Hz display:
+Your display's refresh rate also determines which base stimulation frequencies are available to you. If your display has a refresh rate of 60 Hz (which is a very common display refresh rate for pc monitors), then each frame on this monitor is visible for 16.67 ms. This means that FPVS stimuli presented at 3 Hz would be visible for 333 ms (20 frames), stimuli presented at 4 Hz would be visible for 250 ms (15 frames), and so on.
+
+However, some frequencies cannot be displayed with a constant number of frames per stimulus on a 60 Hz display, which would cause some inconsistencies in the apparent length of time each stimulus is visible on screen.
 
 | Base rate | Frames per stimulus | Frame-perfect at 60 Hz? |
 |---:|---:|:---:|
@@ -60,6 +60,6 @@ A display can present an FPVS base rate with perfectly even frame timing only wh
 | 10 Hz | 6 | Yes |
 | 12 Hz | 5 | Yes |
 
-An 8 Hz sequence, for example, cannot use a constant number of frames per stimulus on a 60 Hz display. Alternating between frame counts would introduce timing variability. The same 8 Hz rate is frame-perfect on a 120 Hz display because each stimulus can remain visible for exactly 15 frames.
+An 8 Hz sequence, for example, cannot use a constant number of frames per stimulus on a 60 Hz display. Alternating between frame counts would introduce timing variability. However, if you have a display capable of a 120 Hz refresh rate, the 8 Hz rate is now feasible for your setup as each stimulus can remain visible for exactly 15 frames rather than alternating between 7 and 8 frames.
 
 FPVS Studio detects the device's measured refresh rate and validates the requested timing whenever an experiment is launched. This prevents an incompatible stimulation rate from silently producing uneven frame timing.

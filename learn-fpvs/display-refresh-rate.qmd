@@ -5,10 +5,45 @@ description: "How stimulation frequency, display refresh rate, and timing shape 
 
 ## Choosing a Stimulation Frequency
 
-Choosing a stimulation frequency is an important first step in designing an FPVS experiment. Research has shown that the optimal range for eliciting strong neural responses is typically between 4 Hz and 6 Hz. Frequencies outside this range may still elicit neural responses, but they are often weaker and more variable across participants.
+Choosing a stimulation frequency is an important first step in designing an FPVS experiment. Recent FPVS experiments have used a wide range of base rate frequencies. For example:
 
-## Display Refresh Rate and Stimulus Timing
+3 Hz:
 
-An important practical consideration when designing an FPVS experiment is [the refresh rate of the display](https://www.samsung.com/uk/monitors/monitor-buying-guide/what-is-monitor-refresh-rate/).{target="_blank"} This factor can limit which stimulation frequencies are viable for your lab or situation. For example, if you are using a display with a refresh rate of 60 Hz, you could present stimuli at 6 Hz (10 frames per stimulus), 10 Hz (6 frames per stimulus), or 12 Hz (5 frames per stimulus). However, if you wanted to present stimuli at 7 Hz, this would not be possible with a 60 Hz display, as each stimulus would need to be presented for approximately 8.57 frames, which would cause inconsistencies in frame timing.
+- https://link.springer.com/article/10.1007/s10548-025-01136-9
+- https://www.nature.com/articles/s41539-025-00371-w#Sec7
+- https://onlinelibrary.wiley.com/doi/10.1111/psyp.70361
+
+4 Hz:
+
+- https://doi.org/10.1016/j.isci.2025.113562
+- https://doi.org/10.1016/j.neuroimage.2021.118228
+- https://doi.org/10.1371/journal.pbio.3000659
+
+5 Hz:
+
+- https://doi.org/10.1017/S0033291725000029
+- https://doi.org/10.1016/j.biopsycho.2018.10.004
+
+6 Hz:
+
+- https://www.sciencedirect.com/science/article/pii/S0167876025007081?via%3Dihub
+- https://www.sciencedirect.com/science/article/pii/S0167876025007081?via%3Dihub
+- https://www.nature.com/articles/s41598-025-29515-z
+
+8 Hz:
+
+- https://doi.org/10.1016/j.neuropsychologia.2022.108290
+
+10 Hz:
+
+- https://doi.org/10.1016/j.cortex.2024.01.007
+- https://doi.org/10.1162/imag_a_00414
+- https://doi.org/10.3389/fnhum.2025.1647925
+
+
+
+## Display Refresh Rate
+
+An important practical consideration when designing an FPVS experiment is [the refresh rate of the display](https://www.samsung.com/uk/monitors/monitor-buying-guide/what-is-monitor-refresh-rate/){target="_blank"}. This factor can limit which stimulation frequencies are viable for your lab or situation. For example, if you are using a display with a refresh rate of 60 Hz, you could present stimuli at 6 Hz (10 frames per stimulus), 10 Hz (6 frames per stimulus), or 12 Hz (5 frames per stimulus). However, if you wanted to present stimuli at 7 Hz, this would not be possible with a 60 Hz display, as each stimulus would need to be presented for approximately 8.57 frames, which would cause inconsistencies in frame timing.
 
 FPVS Studio automatically detects your device's refresh rate and validates it each time an experiment is launched, preventing frame-timing issues from occurring.

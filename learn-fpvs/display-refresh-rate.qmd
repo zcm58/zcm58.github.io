@@ -40,7 +40,7 @@ Choosing a stimulation frequency is an important first step in designing an FPVS
 - https://doi.org/10.1162/imag_a_00414
 - https://doi.org/10.3389/fnhum.2025.1647925
 
-Importantly, [some evidence suggests](https://www.samsung.com/uk/monitors/monitor-buying-guide/what-is-monitor-refresh-rate/){target="_blank"} that stimulation frequency can have an impact on the overall strength of the oddball responses, but frequencies below at or below 6 Hz seem to be ideal.
+Importantly, [some evidence suggests](https://www.samsung.com/uk/monitors/monitor-buying-guide/what-is-monitor-refresh-rate/){target="_blank"} that stimulation frequency can have an impact on the overall strength of the oddball responses, and that frequencies below at or below 4 Hz seem to be ideal.
 
 ## Display Refresh Rate
 

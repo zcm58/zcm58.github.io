@@ -6,6 +6,7 @@
 
   demos.forEach((demo) => {
     const targets = demo.querySelectorAll("[data-attention-target]");
+    const usesIndependentBars = demo.dataset.attentionMode === "independent-bars";
     let changeTimer = 0;
     let resetTimer = 0;
 
@@ -19,7 +20,14 @@
 
       const delay = 1300 + Math.random() * 1900;
       changeTimer = window.setTimeout(() => {
-        setTargetState(true);
+        if (usesIndependentBars) {
+          const pattern = Math.floor(Math.random() * 3);
+          targets.forEach((target, index) => {
+            target.classList.toggle("is-target", pattern === 2 || pattern === index);
+          });
+        } else {
+          setTargetState(true);
+        }
         resetTimer = window.setTimeout(() => {
           setTargetState(false);
           scheduleChange();

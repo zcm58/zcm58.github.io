@@ -12,4 +12,3 @@ Use the pages in this section to explore each design consideration separately:
 - [Stimulus Selection and Sequencing](stimulus-selection-sequencing.qmd)
 - [Display and Timing](display-refresh-rate.qmd)
 - [Maintaining Participant Attention](maintaining-attention.qmd)
-- [Common Paradigm Patterns](common-paradigm-patterns.qmd)

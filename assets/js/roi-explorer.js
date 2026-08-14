@@ -33,19 +33,23 @@
   var regions = {
     lot: {
       name: "Left occipito-temporal",
-      electrodes: ["PO7", "P7", "P9"]
+      electrodes: ["PO3", "P7", "PO7", "P9", "O1"]
     },
     rot: {
       name: "Right occipito-temporal",
-      electrodes: ["PO8", "P8", "P10"]
+      electrodes: ["PO4", "P8", "PO8", "P10", "O2"]
     },
     central: {
-      name: "Central / centro-parietal",
-      electrodes: ["CPz", "CP1", "CP3"]
+      name: "Central",
+      electrodes: ["C1", "Cz", "C2", "CP1", "CPz", "CP2"]
     },
     frontal: {
-      name: "Frontal",
-      electrodes: ["AFz", "Fz", "FCz"]
+      name: "Fronto-central",
+      electrodes: ["Fz", "FC1", "FC2", "Cz"]
+    },
+    occipital: {
+      name: "Occipital",
+      electrodes: ["O1", "Oz", "O2"]
     },
     lpo: {
       name: "Left parieto-occipital",
@@ -55,11 +59,6 @@
       name: "Right parieto-occipital",
       electrodes: ["PO8", "P6", "P8"]
     }
-  };
-
-  regions.bilateral = {
-    name: "Bilateral occipito-temporal",
-    electrodes: regions.lot.electrodes.concat(regions.rot.electrodes)
   };
 
   var views = {
@@ -72,8 +71,8 @@
       regions: ["lpo", "rpo"]
     },
     occipital: {
-      name: "Occipital (LOT + ROT) view",
-      regions: ["bilateral"]
+      name: "Occipital view",
+      regions: ["occipital"]
     }
   };
 
@@ -286,16 +285,23 @@
 
     visibleRegions.forEach(function (regionId) {
       regions[regionId].electrodes.forEach(function (label) {
-        memberships.set(label, regionId);
+        var electrodeRegions = memberships.get(label) || [];
+        electrodeRegions.push(regionId);
+        memberships.set(label, electrodeRegions);
       });
     });
 
     electrodeNodes.forEach(function (node, label) {
-      var regionId = memberships.get(label) || "";
+      var electrodeRegions = memberships.get(label) || [];
+      var regionId = electrodeRegions.indexOf(selectedRegion) !== -1
+        ? selectedRegion
+        : electrodeRegions[0] || "";
       node.group.setAttribute("data-region", regionId);
       node.group.setAttribute("data-selected", String(regionId === selectedRegion));
-      node.title.textContent = regionId
-        ? label + "; " + regions[regionId].name + " ROI"
+      node.title.textContent = electrodeRegions.length
+        ? label + "; included in " + electrodeRegions.map(function (id) {
+          return regions[id].name;
+        }).join(" and ") + (electrodeRegions.length > 1 ? " ROIs" : " ROI")
         : label + "; not included in this map view";
     });
 

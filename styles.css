@@ -625,7 +625,7 @@ button:focus-visible,
   --roi-frontal: #d5a7ff;
   --roi-lpo: #86c9ff;
   --roi-rpo: #ffb17d;
-  --roi-bilateral: #9ed7c4;
+  --roi-occipital: #9ed7c4;
   max-width: 1000px;
   margin: 2.5rem auto 2.75rem;
   padding: clamp(1rem, 3vw, 1.5rem);
@@ -844,10 +844,10 @@ button:focus-visible,
   --roi-color: var(--roi-rpo);
 }
 
-.roi-electrode[data-region="bilateral"],
-[data-roi-select="bilateral"],
-[data-roi-detail="bilateral"] {
-  --roi-color: var(--roi-bilateral);
+.roi-electrode[data-region="occipital"],
+[data-roi-select="occipital"],
+[data-roi-detail="occipital"] {
+  --roi-color: var(--roi-occipital);
 }
 
 .roi-electrode:not([data-region=""]) {
@@ -955,7 +955,7 @@ button:focus-visible,
   border-left: 3px solid var(--roi-color);
 }
 
-.roi-detail + .roi-detail {
+.roi-detail:not([hidden]) + .roi-detail:not([hidden]) {
   margin-top: 1.5rem;
 }
 

@@ -61,8 +61,10 @@ not source-of-truth files.
 - `fpvs-studio.qmd`: placeholder page for future FPVS Studio content.
 - `learn-fpvs/`: educational explanations of FPVS foundations, experiment-design
   topics, data analysis, terminology, and supporting references. Its
-  `what-is-fpvs.qmd` page is the section entry point, `paradigm-design.qmd` is
-  the experiment-design overview, and `display-refresh-rate.qmd` combines
+  `what-is-fpvs.qmd` page is the section entry point,
+  `regions-of-interest.qmd` introduces common scalp ROIs with an interactive
+  BioSemi 64 map, `paradigm-design.qmd` is the experiment-design overview, and
+  `display-refresh-rate.qmd` combines
   stimulation-frequency selection with display and timing guidance.
   `analysis-workflow.qmd` is the data-analysis overview, the remaining analysis
   pages correspond to its twelve workflow steps, and `_metadata.yml` controls

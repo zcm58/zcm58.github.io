@@ -618,6 +618,386 @@ button:focus-visible,
   line-height: 1.5;
 }
 
+.roi-explorer {
+  --roi-lot: #69d2ff;
+  --roi-rot: #ff9b73;
+  --roi-central: #7de0b8;
+  --roi-frontal: #d5a7ff;
+  --roi-lpo: #86c9ff;
+  --roi-rpo: #ffb17d;
+  --roi-bilateral: #9ed7c4;
+  max-width: 1000px;
+  margin: 2.5rem auto 2.75rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border: 1px solid var(--orbit-line);
+  border-radius: 8px;
+  background: rgba(14, 32, 52, 0.9);
+}
+
+.roi-explorer-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: end;
+}
+
+.roi-explorer-header h2 {
+  margin: 0.15rem 0 0.35rem;
+}
+
+.roi-explorer-header > div > p:last-child {
+  max-width: 68ch;
+  margin: 0;
+  color: var(--lunar-gray);
+}
+
+.roi-explorer-kicker,
+.roi-detail-label {
+  margin: 0;
+  color: var(--orbital-blue);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.roi-explorer-count {
+  display: grid;
+  justify-items: end;
+  margin: 0;
+  color: var(--lunar-gray);
+  font-size: 0.72rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.roi-explorer-count span:first-child {
+  color: var(--starlight);
+  font-size: 2.15rem;
+  font-weight: 750;
+  letter-spacing: -0.04em;
+}
+
+.roi-view-selector {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.8rem 1rem;
+  align-items: center;
+  margin: 1.35rem 0 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(80, 108, 134, 0.55);
+}
+
+.roi-view-selector > p {
+  margin: 0;
+  color: var(--lunar-gray);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.roi-view-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.roi-view-buttons button,
+.roi-region-controls button {
+  min-height: 44px;
+  border: 1px solid var(--orbit-line);
+  border-radius: 6px;
+  background: var(--deep-space);
+  color: var(--starlight);
+  font: inherit;
+  cursor: pointer;
+}
+
+.roi-view-buttons button {
+  padding: 0.55rem 0.8rem;
+  color: var(--lunar-gray);
+  font-size: 0.85rem;
+  font-weight: 650;
+}
+
+.roi-view-buttons button[aria-pressed="true"] {
+  border-color: var(--orbital-blue);
+  background: rgba(110, 183, 255, 0.14);
+  color: var(--starlight);
+  box-shadow: inset 0 -2px 0 var(--orbital-blue);
+}
+
+.roi-view-buttons button:hover,
+.roi-region-controls button:hover {
+  border-color: var(--solar-gold);
+  color: var(--solar-gold);
+}
+
+.roi-explorer-workspace {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(1rem, 2.4vw, 1.5rem);
+  align-items: flex-start;
+}
+
+.roi-map-column {
+  flex: 1.25 1 520px;
+  min-width: 0;
+}
+
+.roi-detail-stack {
+  flex: 0.85 1 320px;
+  min-width: 0;
+}
+
+.roi-map-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--orbit-line);
+  border-radius: 6px;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(110, 183, 255, 0.07), transparent 58%),
+    #050c16;
+  scrollbar-color: var(--orbit-line) var(--deep-space);
+  overscroll-behavior-inline: contain;
+}
+
+.roi-map {
+  min-width: 560px;
+}
+
+.roi-scalp-map {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.roi-head-outline {
+  fill: none;
+  stroke: rgba(188, 200, 212, 0.62);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5;
+}
+
+.roi-head-outline line {
+  stroke: rgba(188, 200, 212, 0.28);
+  stroke-width: 1;
+}
+
+.roi-map-orientation {
+  fill: var(--lunar-gray);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.roi-electrode circle {
+  fill: #142a40;
+  stroke: rgba(188, 200, 212, 0.55);
+  stroke-width: 1.25;
+}
+
+.roi-electrode text {
+  fill: var(--starlight);
+  font-size: 8.4px;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.roi-electrode[data-region="lot"],
+[data-roi-select="lot"],
+[data-roi-detail="lot"] {
+  --roi-color: var(--roi-lot);
+}
+
+.roi-electrode[data-region="rot"],
+[data-roi-select="rot"],
+[data-roi-detail="rot"] {
+  --roi-color: var(--roi-rot);
+}
+
+.roi-electrode[data-region="central"],
+[data-roi-select="central"],
+[data-roi-detail="central"] {
+  --roi-color: var(--roi-central);
+}
+
+.roi-electrode[data-region="frontal"],
+[data-roi-select="frontal"],
+[data-roi-detail="frontal"] {
+  --roi-color: var(--roi-frontal);
+}
+
+.roi-electrode[data-region="lpo"],
+[data-roi-select="lpo"],
+[data-roi-detail="lpo"] {
+  --roi-color: var(--roi-lpo);
+}
+
+.roi-electrode[data-region="rpo"],
+[data-roi-select="rpo"],
+[data-roi-detail="rpo"] {
+  --roi-color: var(--roi-rpo);
+}
+
+.roi-electrode[data-region="bilateral"],
+[data-roi-select="bilateral"],
+[data-roi-detail="bilateral"] {
+  --roi-color: var(--roi-bilateral);
+}
+
+.roi-electrode:not([data-region=""]) {
+  cursor: pointer;
+}
+
+.roi-electrode:not([data-region=""]) circle {
+  fill: var(--roi-color);
+  stroke: var(--deep-space);
+  stroke-width: 2;
+}
+
+.roi-electrode:not([data-region=""]) text {
+  fill: var(--deep-space);
+}
+
+.roi-electrode[data-selected="false"] {
+  opacity: 0.58;
+}
+
+.roi-electrode[data-selected="true"] circle {
+  stroke: var(--starlight);
+  stroke-width: 3;
+}
+
+.roi-electrode:not([data-region=""]):hover {
+  opacity: 1;
+}
+
+.roi-electrode:not([data-region=""]):hover circle {
+  stroke: var(--solar-gold);
+  stroke-width: 3;
+}
+
+.roi-map-fallback {
+  max-width: 46ch;
+  margin: 0;
+  padding: 2rem;
+  color: var(--lunar-gray);
+}
+
+.roi-map-note {
+  margin: 0.55rem 0 0;
+  color: var(--lunar-gray);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.roi-region-controls {
+  margin-top: 0.85rem;
+}
+
+.roi-region-controls > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.roi-region-controls > div[hidden] {
+  display: none;
+}
+
+.roi-region-controls button {
+  display: grid;
+  grid-template-columns: 0.78rem minmax(0, 1fr);
+  gap: 0.65rem;
+  align-items: center;
+  width: 100%;
+  padding: 0.58rem 0.65rem;
+  text-align: left;
+}
+
+.roi-region-controls button[aria-pressed="true"] {
+  border-color: var(--roi-color);
+  box-shadow: inset 3px 0 0 var(--roi-color);
+}
+
+.roi-control-swatch {
+  width: 0.72rem;
+  height: 0.72rem;
+  border: 2px solid var(--deep-space);
+  border-radius: 50%;
+  background: var(--roi-color);
+  outline: 1px solid var(--roi-color);
+}
+
+.roi-region-controls button > span:last-child {
+  display: grid;
+  color: var(--starlight);
+  font-size: 0.82rem;
+  font-weight: 650;
+  line-height: 1.3;
+}
+
+.roi-region-controls small {
+  color: var(--lunar-gray);
+  font-size: 0.72rem;
+  font-weight: 500;
+}
+
+.roi-detail {
+  margin: 0;
+  padding: 1rem 0 0 1rem;
+  border-top: 1px solid var(--roi-color);
+  border-left: 3px solid var(--roi-color);
+}
+
+.roi-detail + .roi-detail {
+  margin-top: 1.5rem;
+}
+
+.roi-detail[hidden] {
+  display: none;
+}
+
+.roi-detail h3 {
+  margin: 0.18rem 0 0.65rem;
+  color: var(--starlight);
+  font-size: clamp(1.35rem, 2.7vw, 1.8rem);
+}
+
+.roi-detail p {
+  color: var(--lunar-gray);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.roi-electrode-list {
+  margin: 0 0 0.8rem;
+  color: var(--starlight) !important;
+  font-variant-numeric: tabular-nums;
+}
+
+.roi-detail-source {
+  margin-bottom: 0;
+  padding-top: 0.7rem;
+  border-top: 1px solid rgba(80, 108, 134, 0.5);
+  font-size: 0.82rem !important;
+}
+
+.roi-explorer-status {
+  min-height: 1.4em;
+  margin: 1rem 0 0;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(80, 108, 134, 0.55);
+  color: var(--lunar-gray);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
 .attention-task-demo {
   width: min(100%, 680px);
   margin: 1.5rem auto 2rem;
@@ -792,6 +1172,30 @@ button:focus-visible,
     gap: 1rem;
   }
 
+  .roi-explorer-header {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .roi-explorer-count {
+    grid-template-columns: auto auto;
+    gap: 0.5rem;
+    align-items: baseline;
+    justify-content: start;
+  }
+
+  .roi-explorer-count span:first-child {
+    font-size: 1.5rem;
+  }
+
+  .roi-view-selector {
+    grid-template-columns: 1fr;
+  }
+
+  .roi-view-buttons button {
+    flex: 1 1 190px;
+  }
+
   .fpvs-demo-specs {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -908,5 +1312,16 @@ button:focus-visible,
     top: 18px;
     right: 14px;
     font-size: 1.35rem;
+  }
+
+}
+
+@media (max-width: 520px) {
+  .roi-region-controls > div {
+    grid-template-columns: 1fr;
+  }
+
+  .roi-detail {
+    padding-left: 0.8rem;
   }
 }

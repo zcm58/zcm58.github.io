@@ -56,6 +56,8 @@ website:
           contents:
             - href: learn-fpvs/what-is-fpvs.qmd
               text: What Is FPVS?
+            - href: learn-fpvs/regions-of-interest.qmd
+              text: Regions of Interest
             - href: learn-fpvs/frequency-tagging.qmd
               text: Frequency Tagging
         - section: "Experiment Design"

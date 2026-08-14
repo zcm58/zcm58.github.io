@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Importing raw EEG data for FPVS analysis.">
+<meta name="description" content="An interactive introduction to common EEG regions of interest in FPVS research.">
 
-<title>Import Raw Data – Zack Murphy</title>
+<title>Regions of Interest (ROIs) – Zack Murphy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js?site-version=20260814T144942293Z"></script>
 <script src="../site_libs/quarto-search/quarto-search.js?site-version=20260814T144942293Z"></script>
 <meta name="quarto:offset" content="../">
-<link href="../learn-fpvs/electrode-montage.html?site-version=20260814T144942293Z" rel="next">
-<link href="../learn-fpvs/analysis-workflow.html?site-version=20260814T144942293Z" rel="prev">
+<link href="../learn-fpvs/frequency-tagging.html?site-version=20260814T144942293Z" rel="next">
+<link href="../learn-fpvs/what-is-fpvs.html?site-version=20260814T144942293Z" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js?site-version=20260814T144942293Z" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js?site-version=20260814T144942293Z" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js?site-version=20260814T144942293Z"></script>
@@ -212,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <h1 class="quarto-secondary-nav-title no-breadcrumbs">Import Raw Data</h1>
+        <h1 class="quarto-secondary-nav-title no-breadcrumbs">Regions of Interest (ROIs)</h1>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -249,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../learn-fpvs/regions-of-interest.html?site-version=20260814T144942293Z" class="sidebar-item-text sidebar-link">
+  <a href="../learn-fpvs/regions-of-interest.html?site-version=20260814T144942293Z" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Regions of Interest</span></a>
   </div>
 </li>
@@ -313,7 +313,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../learn-fpvs/import-raw-data.html?site-version=20260814T144942293Z" class="sidebar-item-text sidebar-link active">
+  <a href="../learn-fpvs/import-raw-data.html?site-version=20260814T144942293Z" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1: Import Raw Data</span></a>
   </div>
 </li>
@@ -413,12 +413,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Import Raw Data</h1>
+<h1 class="title d-none d-lg-block">Regions of Interest (ROIs)</h1>
 </div>
 
 <div>
   <div class="description">
-    Importing raw EEG data for FPVS analysis.
+    An interactive introduction to common EEG regions of interest in FPVS research.
   </div>
 </div>
 
@@ -435,9 +435,134 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This guide is currently under development. Please check back later for updates.</p>
+<section id="from-electrodes-to-regions" class="level2">
+<h2 class="anchored" data-anchor-id="from-electrodes-to-regions">From electrodes to regions</h2>
+<p>EEG records tiny voltage changes at many points on the scalp. Instead of interpreting every electrode separately, researchers often combine neighboring electrodes into a <strong>region of interest (ROI)</strong> and summarize their responses. In FPVS, this can make a response shared across nearby electrodes easier to describe and can reduce the number of separate statistical comparisons.</p>
+<p>An ROI is an analysis choice, not a sharp boundary in the brain. Electrical activity spreads through the head, and the electrodes included in an ROI can change with the montage, stimuli, research question, and previous evidence. The highlighted groups below are representative examples from FPVS studies, not universal definitions.</p>
+<section class="roi-explorer" data-roi-explorer="" aria-labelledby="roi-explorer-title">
+  <header class="roi-explorer-header">
+    <div>
+      <p class="roi-explorer-kicker">Interactive scalp map · BioSemi 64</p>
+      <h2 id="roi-explorer-title" class="anchored">Explore a region of interest</h2>
+      <p>Choose a map view, then select a region name or one of its colored electrodes. The nose is at the top of the map.</p>
+    </div>
+    <p class="roi-explorer-count"><span aria-hidden="true">64</span><span>scalp electrodes</span></p>
+  </header>
+
+  <div class="roi-view-selector" aria-labelledby="roi-view-label">
+    <p id="roi-view-label">Map view</p>
+    <div class="roi-view-buttons" role="group" aria-labelledby="roi-view-label">
+      <button type="button" data-roi-view="core" aria-pressed="true">Common ROI set</button>
+      <button type="button" data-roi-view="parieto-occipital" aria-pressed="false">Parieto-occipital</button>
+      <button type="button" data-roi-view="occipital" aria-pressed="false">Occipital (LOT + ROT)</button>
+    </div>
+  </div>
+
+  <div class="roi-explorer-workspace">
+    <div class="roi-map-column">
+      <div class="roi-map-scroll" tabindex="0" aria-label="Scrollable BioSemi 64 electrode map">
+        <div class="roi-map" data-roi-map="">
+          <p class="roi-map-fallback" data-roi-map-fallback="">The interactive electrode map requires JavaScript. The ROI explanations and electrode lists remain available below.</p>
+        </div>
+      </div>
+      <p class="roi-map-note"><span aria-hidden="true">↑</span> Front of head <span aria-hidden="true">·</span> Left side of the map = left side of the head</p>
+      <p class="roi-map-note">P9, P10, and Iz sit outside the circular head-equator outline because BioSemi places them below that plane.</p>
+
+      <div class="roi-region-controls" aria-label="Region selections">
+        <div data-roi-controls="core">
+          <button type="button" data-roi-select="lot" aria-pressed="true"><span class="roi-control-swatch" aria-hidden="true"></span><span>Left occipito-temporal <small>LOT</small></span></button>
+          <button type="button" data-roi-select="rot" aria-pressed="false"><span class="roi-control-swatch" aria-hidden="true"></span><span>Right occipito-temporal <small>ROT</small></span></button>
+          <button type="button" data-roi-select="central" aria-pressed="false"><span class="roi-control-swatch" aria-hidden="true"></span><span>Central <small>centro-parietal example</small></span></button>
+          <button type="button" data-roi-select="frontal" aria-pressed="false"><span class="roi-control-swatch" aria-hidden="true"></span><span>Frontal <small>mid-frontal example</small></span></button>
+        </div>
+        <div data-roi-controls="parieto-occipital">
+          <button type="button" data-roi-select="lpo" aria-pressed="false"><span class="roi-control-swatch" aria-hidden="true"></span><span>Left parieto-occipital <small>LPO</small></span></button>
+          <button type="button" data-roi-select="rpo" aria-pressed="false"><span class="roi-control-swatch" aria-hidden="true"></span><span>Right parieto-occipital <small>RPO</small></span></button>
+        </div>
+        <div data-roi-controls="occipital">
+          <button type="button" data-roi-select="bilateral" aria-pressed="false"><span class="roi-control-swatch" aria-hidden="true"></span><span>Occipital (LOT + ROT) <small>bilateral view</small></span></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="roi-detail-stack">
+      <article class="roi-detail" data-roi-detail="lot">
+        <p class="roi-detail-label">Selected ROI · left hemisphere</p>
+        <h3 class="anchored">Left occipito-temporal (LOT)</h3>
+        <p class="roi-electrode-list"><strong>Electrodes:</strong> PO7, P7, P9</p>
+        <p>Responses recorded over the left occipito-temporal scalp are often prominent when FPVS distinguishes written words or semantic word categories. Volfart and colleagues, for example, found a strongly left-lateralized response when words from one semantic category appeared periodically among other words.</p>
+        <p>LOT can also respond in face paradigms, so it should not be treated as a dedicated “language area.” Its meaning depends on which stimuli are being contrasted and on the response frequency being measured.</p>
+        <p class="roi-detail-source">Examples: <a href="https://doi.org/10.1016/j.neuropsychologia.2014.11.007" target="_blank">Lochy et al. (2015)</a> and <a href="https://doi.org/10.1016/j.neuroimage.2021.118228" target="_blank">Volfart et al. (2021)</a></p>
+      </article>
+
+      <article class="roi-detail" data-roi-detail="rot">
+        <p class="roi-detail-label">Selected ROI · right hemisphere</p>
+        <h3 class="anchored">Right occipito-temporal (ROT)</h3>
+        <p class="roi-electrode-list"><strong>Electrodes:</strong> PO8, P8, P10</p>
+        <p>Right occipito-temporal electrodes often show strong FPVS responses when the brain distinguishes one face identity from another or detects changes in facial expression. A right-sided bias is common in face studies, although it is not present in every task or participant.</p>
+        <p>In a recent facial-expression FPVS study, occipital and ROT responses were the most prominent, supporting the use of this region for rapid expression-change responses.</p>
+        <p class="roi-detail-source">Examples: <a href="https://doi.org/10.1016/j.neuropsychologia.2013.10.022" target="_blank">Liu-Shuang et al. (2014)</a> and <a href="https://doi.org/10.1016/j.bandc.2025.106338" target="_blank">Vandenheever et al. (2025)</a></p>
+      </article>
+
+      <article class="roi-detail" data-roi-detail="central">
+        <p class="roi-detail-label">Selected ROI · study-specific centro-parietal</p>
+        <h3 class="anchored">Central / centro-parietal</h3>
+        <p class="roi-electrode-list"><strong>Electrodes:</strong> CPz, CP1, CP3</p>
+        <p>Some FPVS emotion studies find responses over central or centro-parietal electrodes. One emotional-face study, for example, reported group differences in a centro-parietal ROI for angry and happy expressions.</p>
+        <p>This grouping is more study-specific than the posterior visual ROIs. Activity recorded here should not automatically be interpreted as a signal from one “central” brain area.</p>
+        <p class="roi-detail-source">Example: <a href="https://doi.org/10.1016/j.ijpsycho.2025.113212" target="_blank">Vandenheever et al. (2025)</a></p>
+      </article>
+
+      <article class="roi-detail" data-roi-detail="frontal">
+        <p class="roi-detail-label">Selected ROI · anterior midline</p>
+        <h3 class="anchored">Frontal</h3>
+        <p class="roi-electrode-list"><strong>Electrodes:</strong> AFz, Fz, FCz</p>
+        <p>This teaching map uses three standard BioSemi midline channels to illustrate a frontal group. Published FPVS studies use different frontal definitions, so this trio should not be treated as a universal preset.</p>
+        <p>Frontal and fronto-central FPVS responses have been reported when participants explicitly judge facial expressions or when attention and other top-down processes may influence visual processing. Facial-expression work has found smaller but reliable frontal responses alongside stronger posterior responses.</p>
+        <p>Frontal effects are less consistent than early posterior visual responses. These electrodes do not identify a single “emotion center,” and scalp EEG alone cannot precisely locate the neural generators.</p>
+        <p class="roi-detail-source">Examples: <a href="https://doi.org/10.1037/emo0001223" target="_blank">Baudouin et al. (2023)</a> and <a href="https://doi.org/10.1016/j.bandc.2025.106338" target="_blank">Vandenheever et al. (2025)</a></p>
+      </article>
+
+      <article class="roi-detail" data-roi-detail="lpo">
+        <p class="roi-detail-label">Selected ROI · left posterior scalp</p>
+        <h3 class="anchored">Left parieto-occipital (LPO)</h3>
+        <p class="roi-electrode-list"><strong>Electrodes:</strong> PO7, P5, P7</p>
+        <p>Parieto-occipital ROIs sample lateral posterior scalp sites. A scene-perception study used this grouping to capture frequency-tagged responses to rapidly changing complex scenes, although exact ROI boundaries vary across studies.</p>
+        <p>Notice that this example overlaps with LOT. The different name reflects a different analysis question—not a sharp border between two pieces of cortex.</p>
+        <p class="roi-detail-source">Example: <a href="https://doi.org/10.1016/j.biopsycho.2018.10.004" target="_blank">Valentini and Gyimes (2018)</a></p>
+      </article>
+
+      <article class="roi-detail" data-roi-detail="rpo">
+        <p class="roi-detail-label">Selected ROI · right posterior scalp</p>
+        <h3 class="anchored">Right parieto-occipital (RPO)</h3>
+        <p class="roi-electrode-list"><strong>Electrodes:</strong> PO8, P6, P8</p>
+        <p>Right parieto-occipital groups provide a matching posterior region in the right hemisphere. A scene-perception FPVS study used this region together with its left-hemisphere counterpart to summarize responses to rapidly changing scenes.</p>
+        <p>As with LPO, the label describes an electrode grouping. It does not prove that the measured signal originated directly beneath those electrodes.</p>
+        <p class="roi-detail-source">Example: <a href="https://doi.org/10.1016/j.biopsycho.2018.10.004" target="_blank">Valentini and Gyimes (2018)</a></p>
+      </article>
+
+      <article class="roi-detail" data-roi-detail="bilateral">
+        <p class="roi-detail-label">Selected ROI · both hemispheres</p>
+        <h3 class="anchored">Bilateral occipito-temporal (LOT + ROT)</h3>
+        <p class="roi-electrode-list"><strong>Electrodes:</strong> PO7, P7, P9, PO8, P8, P10</p>
+        <p>Researchers sometimes combine left and right posterior electrodes when the main question concerns the overall category or identity response rather than a hemispheric difference. This provides one concise summary, but it can also hide meaningful left-right differences.</p>
+        <p>On this page, the “Occipital” option means the union of LOT and ROT. Many FPVS papers instead reserve <em>occipital ROI</em> for medial electrodes such as O1, Oz, and O2, so the more precise name for this selection is <strong>bilateral occipito-temporal</strong>.</p>
+        <p class="roi-detail-source">Example: <a href="https://doi.org/10.1007/s10548-025-01136-9" target="_blank">Nador et al. (2025)</a></p>
+      </article>
+    </div>
+  </div>
+
+  <p class="roi-explorer-status" data-roi-status="" role="status">Common ROI set shown. Left occipito-temporal ROI selected.</p>
+</section>
+<script src="../assets/js/roi-explorer.js?site-version=20260814T144942293Z" defer=""></script>
+</section>
+<section id="reading-the-map-carefully" class="level2">
+<h2 class="anchored" data-anchor-id="reading-the-map-carefully">Reading the map carefully</h2>
+<p>The map uses the official <a href="https://www.biosemi.com/download/Cap_coords_all.xls" target="_blank">BioSemi standard headcap coordinates</a> for the 64 scalp channels. BioSemi also uses two additional electrodes, <a href="https://www.biosemi.com/faq/make_headcap.htm" target="_blank">CMS and DRL</a>, to operate the recording system; they are not part of the 64 scalp channels shown here.</p>
+<p>The selected electrode sets are deliberately small teaching examples informed by published FPVS work. The frontal trio is a standard-montage teaching adaptation rather than a claimed universal published preset. Before using an ROI in an analysis, researchers should define it from a prior study, an independent dataset, or a clearly documented analysis plan—not simply choose the electrodes that produce the preferred result.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -842,13 +967,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../learn-fpvs/analysis-workflow.html?site-version=20260814T144942293Z" class="pagination-link" aria-label="Analysis Overview">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Analysis Overview</span>
+      <a href="../learn-fpvs/what-is-fpvs.html?site-version=20260814T144942293Z" class="pagination-link" aria-label="What Is FPVS?">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">What Is FPVS?</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../learn-fpvs/electrode-montage.html?site-version=20260814T144942293Z" class="pagination-link" aria-label="2: Apply Electrode Montage">
-        <span class="nav-page-text">2: Apply Electrode Montage</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../learn-fpvs/frequency-tagging.html?site-version=20260814T144942293Z" class="pagination-link" aria-label="Frequency Tagging">
+        <span class="nav-page-text">Frequency Tagging</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

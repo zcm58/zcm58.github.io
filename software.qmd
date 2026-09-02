@@ -24,3 +24,9 @@ FPVS Toolbox is a sister package to FPVS Studio designed to streamline data proc
 If you use FPVS Toolbox in your research, please cite the Zenodo software record:
 
 Zack Murphy. (2026). *zcm58/FPVS-Toolbox-Repo*. Zenodo. [Zenodo DOI](https://doi.org/10.5281/zenodo.20342767){target="_blank"}
+
+### MooneyMaker Desktop
+
+MooneyMaker Desktop is a desktop tool for creating, comparing, and exporting ambiguous two-tone images. Built as an independent fork of [MooneyMaker](https://github.com/ag-perception-wallis-lab/mooney_maker){target="_blank"}, it adds a user-friendly interface with image previews, batch processing, and PNG exports with recorded settings. A standalone Windows download is available with no Python installation required.
+
+[GitHub repository](https://github.com/zcm58/mooney_maker){target="_blank"} | [Windows download](https://github.com/zcm58/mooney_maker/releases/latest){target="_blank"}

@@ -13,9 +13,9 @@ colors:
 typography:
   display:
     fontFamily: "Georgia, Times New Roman, serif"
-    fontSize: "clamp(2.25rem, 3.6vw, 3.75rem)"
-    fontWeight: 650
-    lineHeight: 1.04
+    fontSize: "clamp(40px, 5.3cqw, 64px)"
+    fontWeight: 400
+    lineHeight: 1.09
   headline:
     fontFamily: "Georgia, Times New Roman, serif"
     fontWeight: 650
@@ -57,16 +57,6 @@ components:
     rounded: "{rounded.control}"
     padding: "10px 16px"
     height: "44px"
-  feature-card:
-    backgroundColor: "{colors.flight-deck}"
-    textColor: "{colors.starlight}"
-    rounded: "{rounded.surface}"
-    padding: "{spacing.surface}"
-  hero-panel:
-    backgroundColor: "{colors.flight-deck}"
-    textColor: "{colors.starlight}"
-    rounded: "{rounded.surface}"
-    padding: "{spacing.panel}"
   inline-code:
     backgroundColor: "{colors.flight-deck}"
     textColor: "{colors.orbital-blue}"
@@ -91,7 +81,8 @@ The visual language is modern, sleek, and intentional without copying NASA marks
 - Serif academic authority paired with a highly readable system sans.
 - Vibrant accents used as signals, never decoration without purpose.
 - Precise spacing, restrained ambient depth, and visible keyboard focus.
-- Static composition and responsive reflow rather than decorative motion.
+- Responsive reflow and calm reading surfaces, with one slow neural
+  constellation animation on the homepage.
 
 ## Colors
 
@@ -109,7 +100,7 @@ The palette takes its character from deep space, instrument panels, orbit paths,
 ### Neutral
 
 - **Deep Space:** The page canvas and navigation background.
-- **Flight Deck:** The raised surface for the profile panel, selected-work containers, and dropdowns.
+- **Flight Deck:** The shared raised surface for guide controls and dropdowns.
 - **Starlight:** Primary headings and body text.
 - **Lunar Gray:** Secondary prose and supporting metadata.
 - **Orbit Line:** Borders, dividers, and control outlines that must remain perceivable in the dark theme.
@@ -134,7 +125,7 @@ The palette takes its character from deep space, instrument panels, orbit paths,
 
 ### Hierarchy
 
-- **Display** (650, restrained fluid hero scale, 1.04 line height): The home-page research statement only.
+- **Display** (400, `clamp(40px, 5.3cqw, 64px)`, 1.09 line height): The Neural Constellation home-page research statement only; see its scoped rules below.
 - **Headline** (650, responsive section scale, 1.15 line height): Page and section headings.
 - **Title** (650, inherited responsive scale, 1.2 line height): Card and subsection headings.
 - **Body** (400, 1.03rem, 1.68 line height): Academic prose, lists, publication information, and updates.
@@ -144,17 +135,15 @@ The palette takes its character from deep space, instrument panels, orbit paths,
 
 **The Reading First Rule.** Body copy always receives more breathing room on a dark surface; never compress line height to create artificial density.
 
-**The One Display Moment Rule.** The prominent serif display belongs to the home-page research statement, but it must remain balanced with the profile panel and introductory copy at every viewport width.
+**The One Display Moment Rule.** The prominent serif display belongs to the home-page research statement, balanced with the neural constellation and introductory copy at every viewport width.
 
 ## Elevation
 
-Depth is restrained and ambient. Tonal layering does most of the work: Flight Deck surfaces separate from Deep Space with a clear border, while shadows appear only on the profile panel, dropdown, and headshot where physical separation improves hierarchy.
+Depth is restrained and ambient. Tonal layering does most of the work: Flight Deck surfaces separate from Deep Space with a clear border, while navigation dropdowns use a quiet shadow. The homepage portrait and software rows remain flat.
 
 ### Shadow Vocabulary
 
-- **Panel orbit** (`0 20px 48px rgba(0, 0, 0, 0.34)`): The profile panel only.
 - **Menu orbit** (`0 16px 36px rgba(0, 0, 0, 0.32)`): Temporary navigation menus.
-- **Portrait orbit** (`0 12px 28px rgba(0, 0, 0, 0.42)`): The circular headshot only.
 
 ### Named Rules
 
@@ -171,21 +160,18 @@ Components are precise, calm, and immediately legible. Shape is gently squared, 
 - **Hover / Focus:** Solar Gold replaces the blue signal; a 3px Solar Gold external outline makes keyboard focus explicit.
 - **Secondary:** Transparent Deep Space surface with an Orbital Blue border and text; hover changes both to Solar Gold.
 
-### Cards / Containers
+### Homepage Software Rows
 
-- **Corner Style:** Restrained 8px radius.
-- **Background:** Flight Deck above Deep Space.
-- **Shadow Strategy:** Flat by default; only the profile panel receives Panel Orbit elevation.
-- **Border:** One 1px Orbit Line around the complete surface; colored side stripes are prohibited.
-- **Internal Padding:** 20px for selected-work containers and 22px for the profile panel.
-- **Selected Work Interaction:** The complete card is one link target. A right arrow signals navigation, while Solar Gold identifies hover and keyboard focus across the full boundary.
+- **Shape:** Compact rows with a 6px radius, flat tonal background, and no enclosing panel border.
+- **Interaction:** The complete row is one link target. An arrow signals navigation, while the gold focus outline identifies the full boundary.
+- **Tokens:** Use the scoped homepage palette and spacing described below.
 
 ### Navigation
 
 - **Style:** Pinned Deep Space bar with a single Orbit Line divider and a serif site title.
 - **Targets:** Navigation links and controls are at least 44px high.
-- **States:** Starlight at rest, Solar Gold for hover, active, and visible focus.
-- **Mobile Treatment:** The collapsed menu remains a single dark surface with no horizontal overflow.
+- **States:** Lunar Gray at rest, Solar Gold for hover, active, and visible focus.
+- **Mobile Treatment:** The five navigation links remain visible in a row below the site title; they do not require opening a collapsed menu.
 
 ### Links
 
@@ -196,6 +182,57 @@ Components are precise, calm, and immediately legible. Shape is gently squared, 
 
 - **Style:** Orbital Blue text on a Flight Deck background with compact 2px by 4px padding.
 - **Purpose:** File extensions and literal technical identifiers only; never use monospace as decorative shorthand for technical content.
+
+## Neural Constellation Homepage
+
+The approved homepage composition uses an open two-column hero: the research
+statement, introduction, actions, and compact portrait row sit beside a brain
+drawn with starlight. Below it, two compact software rows balance one publication
+summary, followed by the FPVS learning link. On narrow screens these sections
+stack in reading order. Retain the native Quarto navigation and its accessible
+mobile behavior.
+
+The content composition is scoped to `#zm-constellation` and its palette to
+`body.neural-home`. Shared navbar spacing and its visible mobile links match
+the homepage; other pages retain their existing content styles and palette.
+
+| Homepage token | Value | Purpose |
+| --- | --- | --- |
+| `--zm-bg` | `oklch(17% .03 253)` | Calm page canvas |
+| `--zm-fg` | `oklch(97% .007 250)` | Headings and primary text |
+| `--zm-muted` | `oklch(79% .025 252)` | Introductory prose and metadata |
+| `--zm-blue` | `oklch(79% .115 250)` | Links and primary action |
+| `--zm-line` | `oklch(35% .04 252)` | Quiet section boundaries |
+| `--zm-surface` | `oklch(21.5% .038 253)` | Selected software rows |
+| `--zm-gold` | `oklch(87% .13 85)` | Hover and visible keyboard focus |
+
+Homepage headings use Georgia at weight 400. The desktop hero headline uses
+`clamp(40px, 5.3cqw, 64px)`, a 1.09 line height, and -0.035em letter spacing.
+Body text uses Segoe UI at 16px with a 1.65 base line height; the introduction
+uses 1.75. Software rows have a restrained 6px radius without surrounding
+panel borders. The small portrait identifies the researcher without competing
+with the main research statement.
+
+### Motion
+
+The canvas automatically repeats a 20-second brain-to-orbit-to-brain transition.
+No play action is required. Give the reformed brain a clear, readable phase
+and ease the dispersion and return so the seam is smooth. This is
+the page's single ambient animation; stars remain within the artwork and text
+does not animate on scroll.
+
+- Provide an accessible pause button in the artwork caption with an accurate
+  current state. Its `data-brain-motion` attribute connects it to the script.
+- Respect `prefers-reduced-motion` on load and when that setting changes.
+  Show the disabled caption control as "Motion reduced" while it applies.
+- Suspend frame scheduling while the artwork is offscreen or the page is
+  hidden; resume only when motion is enabled and the artwork is visible.
+- Limit link color feedback to 180ms and small arrow movement to 200ms, and
+  disable those transitions for reduced motion.
+- Keep content, links, and the static brain useful without animation.
+
+The implementation belongs in `assets/js/brain-constellation.js`; content stays
+in `index.qmd` and all homepage layout and state styling stays in `styles.css`.
 
 ## Do's and Don'ts
 

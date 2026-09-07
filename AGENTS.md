@@ -39,12 +39,18 @@ read first, not the full manual.
   its sidebar hierarchy in `_quarto.yml` synchronized when pages are added.
 - Navigation, title, site URL, footer, or theme: edit `_quarto.yml`.
 - Layout, colors, fonts, buttons, cards, video embeds: edit `styles.css`.
+- Home-page neural constellation: content stays in `index.qmd`, styling is
+  scoped to `#zm-constellation` and `body.neural-home` in `styles.css`, and
+  motion lives in `assets/js/brain-constellation.js`. Preserve automatic slow
+  playback, a pause control, and reduced-motion behavior.
 - Local publish workflow: run `quarto run publish-website.ts` or the VS Code
   `Publish website` task. The helper clean-renders, versions browser-facing
   output, publishes once, and verifies the deployed version; do not replace it
   with a raw `quarto publish` call.
 - Site architecture or agent guidance: update `ARCHITECTURE.md` and this file
   together if the source-of-truth contract changes.
+- Neural-home rollback: follow `docs/agent/rollback-neural-home.md` to restore
+  the pre-redesign site through a new commit and the normal publish helper.
 
 ## Verification
 

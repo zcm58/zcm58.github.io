@@ -1,40 +1,65 @@
 ---
 title: "Zack Murphy"
-subtitle: "Biomedical Engineering PhD student specializing in cognitive neuroscience research using EEG at Mississippi State University"
-description: "Academic homepage for Zack Murphy."
+description: "Biomedical Engineering PhD student at Mississippi State University developing accessible FPVS and EEG research software."
+body-classes: neural-home
+title-block-style: none
 anchor-sections: false
+include-after-body:
+  text: |
+    <script src="assets/js/brain-constellation.js" defer></script>
 ---
 
-::: {.hero}
-::: {.hero-panel}
-::: {.profile-portrait}
-<div class="headshot-block">
-<img src="assets/headshot.jpg" class="headshot" alt="Zack Murphy headshot" width="160" height="160" decoding="async">
+```{=html}
+<div id="zm-constellation">
+  <div class="zm-main">
+
+    <section class="zm-hero" aria-labelledby="zm-research-title">
+      <div class="zm-intro">
+        <p class="zm-eyebrow">Cognitive neuroscience · Research software</p>
+        <h1 id="zm-research-title">Making FPVS<br>easier to use.</h1>
+        <p class="zm-lead">I build tools for designing visual experiments and analyzing EEG data, with a focus on making Fast Periodic Visual Stimulation more accessible.</p>
+        <div class="zm-actions">
+          <a class="zm-primary" href="research.html">Explore my research <span aria-hidden="true">↗</span></a>
+          <a class="zm-text-link" href="software.html">View software <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="zm-profile">
+          <img src="assets/headshot.jpg" alt="Zack Murphy" width="54" height="54">
+          <div><strong>Zack Murphy</strong><p>Biomedical Engineering PhD student<br>Mississippi State University</p></div>
+        </div>
+      </div>
+      <div class="zm-art" aria-label="Brain constellation artwork">
+        <div class="zm-art-trigger">
+          <img class="zm-brain-fallback" src="assets/brain-constellation.svg" alt="" width="450" height="400">
+          <canvas class="zm-brain" aria-hidden="true"></canvas>
+        </div>
+        <div class="zm-art-caption"><span>Brain, in a different light.</span><button type="button" class="zm-motion" data-brain-motion hidden>Pause animation</button></div>
+      </div>
+    </section>
+    <section class="zm-work" aria-labelledby="zm-work-title">
+      <div class="zm-section-heading"><h2 id="zm-work-title">Selected work</h2><a href="software.html">All software <span aria-hidden="true">↗</span></a></div>
+      <div class="zm-work-layout">
+        <div class="zm-tools">
+          <a class="zm-tool" href="fpvs-studio.html">
+            <img src="assets/fpvs-studio-icon-1024.png" alt="" width="58" height="58">
+            <div><h3>FPVS Studio</h3><p>Design and run FPVS experiments.</p></div><span class="zm-go" aria-hidden="true">↗</span>
+          </a>
+          <a class="zm-tool" href="fpvs-toolbox.html">
+            <img src="assets/fpvs-toolbox-icon-1024.png" alt="" width="58" height="58">
+            <div><h3>FPVS Toolbox</h3><p>Process EEG data and create figures.</p></div><span class="zm-go" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <article class="zm-paper">
+          <p class="zm-paper-meta">Latest publication · 2026</p>
+          <h3><a href="publications.html#exploring-brain-activity-in-novice-athletes-during-closed-and-open-skills-in-table-tennis">Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis</a></h3>
+          <p class="zm-journal">Journal of Motor Behavior</p>
+          <a class="zm-text-link" href="publications.html#exploring-brain-activity-in-novice-athletes-during-closed-and-open-skills-in-table-tennis">Read the paper <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+    <section class="zm-learning" aria-labelledby="zm-learn-title">
+      <div><h2 id="zm-learn-title">New to FPVS?</h2><p>A practical guide to the method, experiment design, and data analysis.</p></div>
+      <a class="zm-text-link" href="learn-fpvs/what-is-fpvs.html">Start learning <span aria-hidden="true">→</span></a>
+    </section>
+  </div>
 </div>
-<p class="profile-identity">PhD Student | Biomedical Engineering | Mississippi State University</p>
-:::
-
-::: {.profile-details}
-I am a Biomedical Engineering PhD student at Mississippi State University working to standardize Fast Periodic Visual Stimulation (FPVS) for use across various cognitive neuroscience domains. My work focuses on end-to-end software for designing FPVS experiments and processing the subsequent EEG data, with easy-to-use tools built for non-experts.
-
-**Current Research Interests**
-
-- Increasing the reach of FPVS through dedicated software tools
-:::
-:::
-:::
-
-## Selected Work
-
-<div class="feature-grid">
-<a class="feature" href="research.html"><h3>Research <span class="feature-arrow" aria-hidden="true">&rarr;</span></h3><p>Short summaries of my research interests and ongoing projects in our lab.</p></a>
-<a class="feature" href="publications.html"><h3>Publications <span class="feature-arrow" aria-hidden="true">&rarr;</span></h3><p>Recent publications and preprints from my research.</p></a>
-<a class="feature" href="software.html"><h3>Software <span class="feature-arrow" aria-hidden="true">&rarr;</span></h3><p>Software tools I am currently developing to support FPVS research and make the method more accessible and standardized.</p></a></div>
-
-## Recent Updates
-
-- **July 2026** - My paper "Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis" was published online in *Journal of Motor Behavior*. [Free access and PDF](publications.qmd#exploring-brain-activity-in-novice-athletes-during-closed-and-open-skills-in-table-tennis) | [DOI](https://doi.org/10.1080/00222895.2026.2691791){target="_blank"}
-- **May 2026** - I have officially completed my Master of Science degree in Biomedical Engineering, and I am now a PhD student!
-
-- **October 2025** - Our FPVS research on facial expression processing was published in *Brain and Cognition*. [DOI](https://doi.org/10.1016/j.bandc.2025.106338){target="_blank"}
-- **August 2025** - Our FPVS work on anxiety-linked neural sensitivity to emotional faces was published in *International Journal of Psychophysiology*. [DOI](https://doi.org/10.1016/j.ijpsycho.2025.113212){target="_blank"}
+```

@@ -14,19 +14,41 @@
       "solar-gold": { "role": "tertiary", "displayName": "Solar Gold", "canonical": "#ffd166", "tonalRamp": ["#2d2203", "#5b4709", "#896d13", "#b99822", "#e2bd3d", "#ffd166", "#ffe5a1", "#fff7df"] }
     },
     "typographyMeta": {
-      "display": { "displayName": "Mission Statement", "purpose": "The restrained home-page research statement, balanced against the profile panel and introductory copy." },
+      "display": { "displayName": "Mission Statement", "purpose": "The home-page research statement, balanced against the neural constellation and introductory copy. Georgia 400, clamp(40px, 5.3cqw, 64px), 1.09 line height, -0.035em letter spacing." },
       "headline": { "displayName": "Academic Headline", "purpose": "Page and section headings." },
       "body": { "displayName": "Research Body", "purpose": "Long-form academic prose and metadata, rendered in Segoe UI." },
       "label": { "displayName": "Interface Label", "purpose": "Navigation, controls, and compact labels." }
     },
     "shadows": [
-      { "name": "panel-orbit", "value": "0 20px 48px rgba(0, 0, 0, 0.34)", "purpose": "The profile panel only." },
-      { "name": "menu-orbit", "value": "0 16px 36px rgba(0, 0, 0, 0.32)", "purpose": "Temporary navigation menus." },
-      { "name": "portrait-orbit", "value": "0 12px 28px rgba(0, 0, 0, 0.42)", "purpose": "The circular headshot only." }
+      { "name": "menu-orbit", "value": "0 16px 36px rgba(0, 0, 0, 0.32)", "purpose": "Temporary navigation menus." }
     ],
     "motion": [
-      { "name": "state-only", "value": "none", "purpose": "No decorative motion; state changes remain immediate." }
+      { "name": "state-only", "value": "none", "purpose": "Shared page components keep their existing immediate states." },
+      { "name": "neural-constellation", "value": "20s", "purpose": "Homepage-only automatic brain-to-orbit-to-brain loop. Caption pause control uses data-brain-motion; reduced-motion preference keeps a static brain and disables the control with Motion reduced text. Frame scheduling suspends offscreen and when the page is hidden." },
+      { "name": "neural-link-feedback", "value": "180ms ease-out", "purpose": "Homepage link color feedback; disabled for reduced motion." },
+      { "name": "neural-arrow-feedback", "value": "200ms cubic-bezier(.22,1,.36,1)", "purpose": "Homepage link arrow moves 3px on hover; disabled for reduced motion." }
     ],
+    "neuralHomepage": {
+      "scope": ["#zm-constellation", "body.neural-home"],
+      "description": "Approved Neural Constellation homepage extension. Keep the shared global palette and other pages' content styles unchanged. Native Quarto navbar and footer remain configured in _quarto.yml. Navbar spacing and visible mobile links are shared; homepage colors and footer styling are scoped.",
+      "colors": {
+        "--zm-bg": "oklch(17% .03 253)",
+        "--zm-fg": "oklch(97% .007 250)",
+        "--zm-muted": "oklch(79% .025 252)",
+        "--zm-blue": "oklch(79% .115 250)",
+        "--zm-line": "oklch(35% .04 252)",
+        "--zm-surface": "oklch(21.5% .038 253)",
+        "--zm-gold": "oklch(87% .13 85)"
+      },
+      "layout": "Open two-column hero with research statement and compact portrait row beside brain artwork. Two software rows beside one publication summary, then FPVS learning link; sections stack in reading order on small screens.",
+      "typography": {
+        "display": { "fontFamily": "Georgia, Times New Roman, serif", "fontSize": "clamp(40px, 5.3cqw, 64px)", "fontWeight": 400, "lineHeight": 1.09, "letterSpacing": "-0.035em" },
+        "body": { "fontFamily": "Segoe UI, sans-serif", "fontSize": "16px", "fontWeight": 400, "lineHeight": 1.65 },
+        "lead": { "lineHeight": 1.75 }
+      },
+      "softwareRowRadius": "6px",
+      "source": { "content": "index.qmd", "style": "styles.css", "motion": "assets/js/brain-constellation.js" }
+    },
     "breakpoints": [
       { "name": "compact", "value": "820px" }
     ]
@@ -52,25 +74,9 @@
       "name": "Navigation",
       "kind": "nav",
       "refersTo": "site-navigation",
-      "description": "A quiet flight-deck header with readable targets and explicit focus.",
+      "description": "A shared flight-deck header with five visible navigation links, readable targets, and explicit focus. Links form a second row at mobile widths.",
       "html": "<nav class=\"ds-nav\" aria-label=\"Preview\"><a class=\"ds-nav-title\" href=\"#\">Zack Murphy</a><a class=\"ds-nav-link\" href=\"#\">Research</a><a class=\"ds-nav-link\" href=\"#\">Publications</a></nav>",
-      "css": ".ds-nav { display: flex; align-items: center; gap: 18px; padding: 0 24px; border-bottom: 1px solid #506c86; background: #07111f; } .ds-nav a { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; color: #f5f7fa; text-underline-offset: 3px; } .ds-nav-title { margin-right: auto; font: 650 1.15rem/1.2 Georgia, 'Times New Roman', serif; text-decoration: none; } .ds-nav-link { font: 500 0.96rem/1.5 'Segoe UI', Arial, sans-serif; } .ds-nav a:hover { color: #ffd166; } .ds-nav a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
-    },
-    {
-      "name": "Feature Card",
-      "kind": "card",
-      "refersTo": "feature-card",
-      "description": "A selected-work navigation tile whose full surface is a single accessible link target.",
-      "html": "<a class=\"ds-feature\" href=\"#\"><h3>Research <span aria-hidden=\"true\">\u2192</span></h3><p>Short summaries of current research and ongoing projects.</p></a>",
-      "css": ".ds-feature { position: relative; display: block; max-width: 320px; min-height: 210px; padding: 20px; border: 1px solid #506c86; border-radius: 8px; background: #0e2034; color: #f5f7fa; font: 400 1.03rem/1.68 'Segoe UI', Arial, sans-serif; cursor: pointer; text-decoration: none; } .ds-feature h3 { margin-top: 0; padding-right: 42px; color: #f5f7fa; font: 650 1.55rem/1.2 Georgia, 'Times New Roman', serif; } .ds-feature span { position: absolute; top: 17px; right: 20px; color: #6eb7ff; } .ds-feature:hover { border-color: #ffd166; background: #122944; color: #f5f7fa; } .ds-feature:hover h3, .ds-feature:hover span { color: #ffd166; } .ds-feature:focus-visible { border-color: #ffd166; outline: 3px solid #ffd166; outline-offset: 3px; }"
-    },
-    {
-      "name": "Hero Profile Panel",
-      "kind": "card",
-      "refersTo": "hero-panel",
-      "description": "The single elevated surface that groups current interests and professional links.",
-      "html": "<aside class=\"ds-hero-panel\"><strong>Current Research Interests</strong><ul><li>Accessible FPVS software tools</li><li>FPVS and mild cognitive impairment</li></ul><a href=\"#\">Google Scholar</a></aside>",
-      "css": ".ds-hero-panel { max-width: 340px; padding: 22px; border: 1px solid #506c86; border-radius: 8px; background: #0e2034; color: #f5f7fa; box-shadow: 0 20px 48px rgba(0, 0, 0, 0.34); font: 400 0.96rem/1.6 'Segoe UI', Arial, sans-serif; } .ds-hero-panel a { color: #6eb7ff; text-underline-offset: 3px; } .ds-hero-panel a:hover { color: #ffd166; } .ds-hero-panel a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
+      "css": ".ds-nav { display: flex; align-items: center; gap: 24px; padding: 17px 5%; min-height: 82px; border-bottom: 1px solid #506c86; background: #07111f; } .ds-nav a { display: inline-flex; min-height: 44px; align-items: center; color: #bcc8d4; text-underline-offset: 3px; } .ds-nav-title { margin-right: auto; color: #f5f7fa; font: 600 23px/1.3 Georgia, 'Times New Roman', serif; text-decoration: none; } .ds-nav-link { font: 400 14px/1.65 'Segoe UI', Arial, sans-serif; } .ds-nav a:hover { color: #ffd166; } .ds-nav a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
     },
     {
       "name": "Inline Code",
@@ -89,7 +95,7 @@
       "Serif academic authority paired with a highly readable system sans.",
       "Vibrant accents used as signals, never decoration without purpose.",
       "Precise spacing, restrained ambient depth, and visible keyboard focus.",
-      "Static composition and responsive reflow rather than decorative motion."
+      "Responsive reflow and calm reading surfaces, with one slow neural constellation animation on the homepage."
     ],
     "rules": [
       { "name": "The Signal Discipline Rule", "body": "Orbital Blue communicates interaction, Signal Red communicates rare emphasis, and Solar Gold communicates focus; never exchange those roles for decoration.", "section": "colors" },
@@ -97,7 +103,7 @@
       { "name": "The Continuous Field Rule", "body": "Ambient color glows must span the page with same-hue alpha fades and explicit no-repeat behavior. Only the star field may tile, preventing visible bands where Orbital Blue, Signal Red, and Deep Space meet.", "section": "colors" },
       { "name": "The Constellation Rule", "body": "The star field uses irregular positions, varied brightness and scale, and occasional restrained four-point stars. No repeated row, column, or spacing interval should be visually dominant.", "section": "colors" },
       { "name": "The Reading First Rule", "body": "Body copy always receives more breathing room on a dark surface; never compress line height to create artificial density.", "section": "typography" },
-      { "name": "The One Display Moment Rule", "body": "The prominent serif display belongs to the home-page research statement, but it must remain balanced with the profile panel and introductory copy at every viewport width.", "section": "typography" },
+      { "name": "The One Display Moment Rule", "body": "The prominent serif display belongs to the home-page research statement, balanced with the neural constellation and introductory copy at every viewport width.", "section": "typography" },
       { "name": "The Ambient Depth Rule", "body": "Shadows must be broad, dark, and quiet; never use a sharp shadow to simulate a clickable card.", "section": "elevation" }
     ],
     "dos": [

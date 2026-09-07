@@ -48,11 +48,18 @@ not source-of-truth files.
   `assets/cv.pdf`, `assets/headshot.jpg`, or `assets/talk-title-2026.jpg`.
 - Keep page-specific browser behavior in a small vanilla JavaScript file under
   `assets/js/`; do not introduce a client framework for a single interaction.
+- `assets/js/brain-constellation.js` owns the home-page canvas and its automatic
+  20-second brain-to-orbit loop. It handles motion preference changes, the
+  caption's `data-brain-motion` pause button, resizing, and suspending animation
+  when offscreen or hidden.
+- `assets/brain-constellation.svg` supplies the static brain before canvas
+  initialization and when JavaScript or a canvas context is unavailable.
 
 ## Page Responsibilities
 
-- `index.qmd`: identity, research positioning, current focus, selected work,
-  and recent updates.
+- `index.qmd`: research statement beside the neural constellation, a compact
+  identity row, selected software and publication, and the FPVS guide link.
+  The native Quarto navbar and footer remain configured in `_quarto.yml`.
 - `research.qmd`: durable descriptions of research directions and methods.
 - `publications.qmd`: verified publication metadata, links, and short summaries.
 - `software.qmd`: tools, repositories, documentation links, releases, and design
@@ -92,6 +99,16 @@ Use page-local markdown structure for content hierarchy. Use `styles.css` only
 for repeated layout or presentation rules. Avoid one-off classes unless the
 pattern is likely to recur.
 
+The approved Neural Constellation homepage is a deliberate page-specific
+composition. Its `#zm-constellation` main content and `body.neural-home` shell rules
+use the scoped palette and typography documented in `DESIGN.md`; they do not
+replace the shared palette used by other pages. Shared navbar spacing and its
+visible mobile links match the homepage; shell rules adapt navbar colors and
+the native footer for the homepage. Keep star imagery in the hero
+artwork and reading surfaces calm. The canvas adds one slow repeating motion;
+it starts without user action, offers a pause control, and stays still for
+reduced-motion preferences. No framework or animation dependency is required.
+
 ## Build And Deploy
 
 The intended build command is:
@@ -116,6 +133,11 @@ publishes that exact output to `gh-pages` with
 and the cache-busted live site expose the same version before reporting
 success. The page marker reloads a stale cached page once with the current
 deploy version, so visitors do not need to clear their browser cache.
+
+The pre-neural-home source is preserved at
+`pre-neural-home-2026-09-07` (`bb7b5923a853eb14f27e57391457f179294ffcac`).
+See `docs/agent/rollback-neural-home.md` for a history-preserving rollback and
+republish procedure.
 
 ## Change Policy
 

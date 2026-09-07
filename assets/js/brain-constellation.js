@@ -4,7 +4,6 @@
   const root = document.querySelector('#zm-constellation');
   if (!root) return;
   const canvas = root.querySelector('.zm-brain');
-  const motionControl = root.querySelector('[data-brain-motion]');
   const ctx = canvas.getContext('2d', { alpha: true });
   if (!ctx) return;
 
@@ -47,9 +46,8 @@
   }
 
   const paths = contours.map(makePath);
-  const loopDuration = 48000;
+  const loopDuration = 24000;
   const frameInterval = 1000 / 30;
-  let paused = false;
   let frame = 0;
   let elapsed = 0;
   let lastTime = null;
@@ -57,7 +55,7 @@
   let width = 450;
   let height = 400;
   let dpr = 1;
-  let inView = false;
+  let inView = true;
   let seed = 19870321;
   const random = () => {
     seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
@@ -175,8 +173,8 @@
       ctx.save();
       ctx.clip(region.path);
       for (const p of region.points) {
-        const x = p.x + Math.cos(p.phase + phase) * 2.6;
-        const y = p.y + Math.sin(p.phase + phase) * 1.6;
+        const x = p.x + Math.cos(p.phase + phase) * 8;
+        const y = p.y + Math.sin(p.phase + phase) * 5;
         const alpha = p.bright ? 0.98 : p.alpha;
         ctx.globalAlpha = alpha;
         ctx.fillStyle = p.gold ? '#dec49c' : p.bright ? '#f0f8ff' : p.tint;
@@ -228,9 +226,7 @@
   }
 
   function syncPlayback() {
-    motionControl.setAttribute('aria-label', paused ? 'Resume star motion' : 'Pause star motion');
-    motionControl.dataset.paused = String(paused);
-    if (paused || !inView || document.hidden) {
+    if (!inView || document.hidden) {
       stop();
     } else if (!frame) {
       canvas.dataset.animating = 'true';
@@ -238,10 +234,6 @@
     }
   }
 
-  motionControl.addEventListener('click', () => {
-    paused = !paused;
-    syncPlayback();
-  });
   document.addEventListener('visibilitychange', syncPlayback);
 
   const resizeObserver = new ResizeObserver(resize);
@@ -253,6 +245,5 @@
   visibilityObserver.observe(canvas);
   resize();
   root.classList.add('has-brain-canvas');
-  motionControl.hidden = false;
   syncPlayback();
 })();

@@ -48,9 +48,10 @@ not source-of-truth files.
   `assets/cv.pdf`, `assets/headshot.jpg`, or `assets/talk-title-2026.jpg`.
 - Keep page-specific browser behavior in a small vanilla JavaScript file under
   `assets/js/`; do not introduce a client framework for a single interaction.
-- `assets/js/brain-constellation.js` owns the home-page canvas and its automatic
-  20-second brain-to-orbit loop. It handles the caption's `data-brain-motion`
-  pause button, resizing, and suspending animation when offscreen or hidden.
+- `assets/js/brain-constellation.js` owns the home-page canvas and its seamless
+  48-second loop of interior star drift within a stable brain shape. It handles
+  the artwork's icon-only `data-brain-motion` pause button, its `aria-label` and `data-paused`
+  state, resizing, and suspending animation when offscreen or hidden.
   The site owner explicitly requested autoplay regardless of the system or
   browser reduced-motion preference.
 - `assets/brain-constellation.svg` supplies the static brain before canvas
@@ -107,9 +108,11 @@ replace the shared palette used by other pages. Preserve the pre-redesign
 Quarto navbar: Research Interests, Publications, Software dropdown, CV, and
 Learn About FPVS on the left; Google Scholar, ORCID, and GitHub on the right;
 normal Quarto mobile collapse. Homepage rules adapt the native footer only.
-Keep star imagery in the hero artwork and reading surfaces calm. The canvas
-starts without user action regardless of reduced-motion preferences and
-offers a manual pause control. No framework or animation dependency is required.
+Keep star imagery in the hero artwork and reading surfaces calm. The brain
+remains recognizable while its interior stars drift slowly; do not draw its
+outer contour or add a caption. The canvas starts without user action regardless
+of reduced-motion preferences and offers a small icon-only manual pause control.
+No framework or animation dependency is required.
 
 ## Build And Deploy
 

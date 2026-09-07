@@ -1372,17 +1372,6 @@ button:focus-visible,
   inset: 0;
 }
 
-#zm-constellation .zm-art-caption {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  column-gap: 20px;
-  color: var(--zm-muted);
-  font-size: 12px;
-  margin-top: 0;
-}
-
 #zm-constellation .zm-work {
   padding: 32px 0 40px;
   border-top: 1px solid var(--zm-line);
@@ -1622,11 +1611,6 @@ button:focus-visible,
     aspect-ratio: 1.25;
   }
 
-  #zm-constellation .zm-art-caption {
-    font-size: 11px;
-    gap: 17px;
-  }
-
   #zm-constellation .zm-work {
     padding-top: 25px;
     padding-bottom: 28px;
@@ -1765,10 +1749,32 @@ footer.footer .nav-footer .nav-link:focus-visible {
 }
 
 #zm-constellation .zm-motion {
-  min-height: 44px;
-  padding: 4px;
-  color: var(--zm-blue);
-  font-size: 12px;
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  color: var(--zm-muted);
+}
+
+#zm-constellation .zm-motion-icon::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 10px;
+  border-left: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+}
+
+#zm-constellation .zm-motion[data-paused="true"] .zm-motion-icon::before {
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-left: 8px solid currentColor;
+  border-right: 0;
 }
 
 #zm-constellation .zm-motion[hidden] {

@@ -217,14 +217,15 @@ with the main research statement.
 
 ### Motion
 
-The canvas automatically repeats a 20-second brain-to-orbit-to-brain transition.
-No play action is required. Give the reformed brain a clear, readable phase
-and ease the dispersion and return so the seam is smooth. This is
-the page's single ambient animation; stars remain within the artwork and text
-does not animate on scroll.
+The brain keeps a stable, recognizable shape while its interior stars drift
+slowly in a seamless 48-second loop. Keep the small particle movements inside
+the brain silhouette. Do not disperse it into a galaxy or draw an outer contour.
+This is the page's single ambient animation; stars remain within the artwork and
+text does not animate on scroll. The artwork has no caption or visible pause/resume text.
 
-- Provide an accessible pause button in the artwork caption with an accurate
-  current state. Its `data-brain-motion` attribute connects it to the script.
+- Provide a small icon-only pause button in the artwork with an accurate
+  accessible name. Its `data-brain-motion` attribute connects it to the script;
+  update its `aria-label` and `data-paused` state when the visitor pauses or resumes.
 - Autoplay the brain even when the system or browser requests reduced motion,
   as explicitly requested by the site owner. The manual pause button remains
   available; there is no automatic "Motion reduced" disabled state.

@@ -41,9 +41,11 @@ read first, not the full manual.
 - Layout, colors, fonts, buttons, cards, video embeds: edit `styles.css`.
 - Home-page neural constellation: content stays in `index.qmd`, styling is
   scoped to `#zm-constellation` and `body.neural-home` in `styles.css`, and
-  motion lives in `assets/js/brain-constellation.js`. Preserve automatic slow
-  playback even with a system reduced-motion preference, as requested by the
-  site owner; retain the manual pause control and offscreen/hidden suspension.
+  motion lives in `assets/js/brain-constellation.js`. Keep the brain shape stable
+  with slow interior star drift, no drawn outer contour, and no caption text.
+  Preserve autoplay even with a system reduced-motion preference, as requested
+  by the site owner; retain the small icon-only pause control and
+  offscreen/hidden suspension.
 - Local publish workflow: run `quarto run publish-website.ts` or the VS Code
   `Publish website` task. The helper clean-renders, versions browser-facing
   output, publishes once, and verifies the deployed version; do not replace it

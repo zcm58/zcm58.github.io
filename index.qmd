@@ -31,8 +31,8 @@ include-after-body:
         <div class="zm-art-trigger">
           <img class="zm-brain-fallback" src="assets/brain-constellation.svg" alt="" width="450" height="400">
           <canvas class="zm-brain" aria-hidden="true"></canvas>
+          <button type="button" class="zm-motion" data-brain-motion aria-label="Pause star motion" hidden><span class="zm-motion-icon" aria-hidden="true"></span></button>
         </div>
-        <div class="zm-art-caption"><span>Brain, in a different light.</span><button type="button" class="zm-motion" data-brain-motion hidden>Pause animation</button></div>
       </div>
     </section>
     <section class="zm-work" aria-labelledby="zm-work-title">

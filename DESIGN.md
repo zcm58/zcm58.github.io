@@ -81,8 +81,8 @@ The visual language is modern, sleek, and intentional without copying NASA marks
 - Serif academic authority paired with a highly readable system sans.
 - Vibrant accents used as signals, never decoration without purpose.
 - Precise spacing, restrained ambient depth, and visible keyboard focus.
-- Responsive reflow and calm reading surfaces, with one slow neural
-  constellation animation on the homepage.
+- Responsive reflow and calm reading surfaces, with a static neural
+  constellation image on the homepage.
 
 ## Colors
 
@@ -217,25 +217,20 @@ with the main research statement.
 
 ### Motion
 
-The brain keeps a stable, recognizable shape while its interior stars drift
-slowly in a seamless 24-second loop, with local orbit radii of 8 horizontal and
-5 vertical canvas units. Keep the particle movements perceptible at desktop
-and mobile sizes and clipped inside the brain silhouette. Do not disperse it
-into a galaxy or draw an outer contour.
-This is the page's single ambient animation; stars remain within the artwork and
-text does not animate on scroll. The artwork has no caption or playback controls.
+The homepage is static, as requested by the site owner. Use a recognizable
+brain resembling the original constellation artwork, with a clearly visible
+brain stem. The artwork has no caption or playback controls.
 
-- Autoplay the brain even when the system or browser requests reduced motion,
-  as explicitly requested by the site owner. Playback requires no user action;
-  there is no automatic "Motion reduced" disabled state.
-- Suspend frame scheduling while the artwork is offscreen or the page is
-  hidden; resume automatically when the artwork is visible.
-- Limit link color feedback to 180ms and small arrow movement to 200ms, and
-  disable those transitions for reduced motion.
-- Keep content, links, and the static brain useful without animation.
+- Display `assets/brain-constellation.svg` directly as an image; do not use a
+  canvas or brain JavaScript.
+- Disable animations and transitions throughout the homepage, including
+  smooth scrolling, header motion, and hover arrow movement.
+- Preserve native navigation interactions, visible keyboard focus, and
+  immediate hover/focus color changes.
+- Keep content, links, and the brain image useful without JavaScript.
 
-The implementation belongs in `assets/js/brain-constellation.js`; content stays
-in `index.qmd` and all homepage layout and state styling stays in `styles.css`.
+The artwork belongs in `assets/brain-constellation.svg`; content stays in
+`index.qmd` and all homepage layout and state styling stays in `styles.css`.
 
 ## Do's and Don'ts
 
@@ -245,7 +240,7 @@ in `index.qmd` and all homepage layout and state styling stays in `styles.css`.
 - **Do** use Starlight for primary text and Lunar Gray only for secondary text on Deep Space or Flight Deck.
 - **Do** reserve Solar Gold for focus and hover orientation so keyboard position is unmistakable.
 - **Do** keep every required text contrast at 4.5:1 or higher and essential non-text contrast at 3:1 or higher.
-- **Do** preserve semantic headings, descriptive alternative text, and responsive reflow. Reduced-motion preferences still disable small CSS transitions; the brain autoplays without controls as requested by the site owner.
+- **Do** preserve semantic headings, descriptive alternative text, and responsive reflow. Keep the homepage static, with immediate navigation and color/focus feedback.
 
 ### Don't
 

@@ -7,9 +7,11 @@ The initial redesign is tagged `neural-home-2026-09-07`. Its navigation and
 autoplay revision is tagged `neural-home-2026-09-07-v2`. The stable brain revision
 with slowly drifting interior stars is tagged `neural-home-2026-09-07-v3`.
 The revision with more perceptible star motion and no playback control is
-tagged `neural-home-2026-09-07-v4`. These tags are immutable.
+tagged `neural-home-2026-09-07-v4`. The static brain revision, with a visible
+stem and no homepage motion, is tagged `neural-home-2026-09-07-v5`.
+These tags are immutable.
 
-To undo all four revisions, revert the full tagged range
+To undo all five revisions, revert the full tagged range
 and use the normal website updater. This creates new revert commits.
 This preserves published Git history and allows the redesign to be restored
 later. Run from the repository root; these guards require `main` and a clean
@@ -27,8 +29,8 @@ command reports an error:
 ```powershell
 git pull --ff-only
 git fetch origin tag pre-neural-home-2026-09-07
-git fetch origin tag neural-home-2026-09-07-v4
-git revert --no-edit pre-neural-home-2026-09-07..neural-home-2026-09-07-v4
+git fetch origin tag neural-home-2026-09-07-v5
+git revert --no-edit pre-neural-home-2026-09-07..neural-home-2026-09-07-v5
 git diff --check
 git push origin main
 quarto run publish-website.ts

@@ -1225,10 +1225,6 @@ button:focus-visible,
   outline-offset: 4px;
 }
 
-#zm-constellation a,#zm-constellation button {
-  transition: color 180ms ease-out,background-color 180ms ease-out;
-}
-
 #zm-constellation a:hover,#zm-constellation button:hover {
   color: var(--zm-gold);
 }
@@ -1312,11 +1308,6 @@ button:focus-visible,
 
 #zm-constellation .zm-text-link span,#zm-constellation .zm-go {
   display: inline-block;
-  transition: transform 200ms cubic-bezier(.22,1,.36,1);
-}
-
-#zm-constellation a:hover .zm-go,#zm-constellation .zm-text-link:hover span {
-  transform: translateX(3px);
 }
 
 #zm-constellation .zm-profile {
@@ -1355,7 +1346,7 @@ button:focus-visible,
   margin-right: -3%;
 }
 
-#zm-constellation .zm-art-trigger {
+#zm-constellation .zm-art-frame {
   position: relative;
   width: 100%;
   display: block;
@@ -1370,6 +1361,7 @@ button:focus-visible,
   height: 100%;
   position: absolute;
   inset: 0;
+  object-fit: contain;
 }
 
 #zm-constellation .zm-work {
@@ -1607,7 +1599,7 @@ button:focus-visible,
     justify-self: center;
   }
 
-  #zm-constellation .zm-art-trigger {
+  #zm-constellation .zm-art-frame {
     aspect-ratio: 1.25;
   }
 
@@ -1647,13 +1639,13 @@ button:focus-visible,
 
 }
 
-@media(prefers-reduced-motion:reduce) {
-  #zm-constellation *,#zm-constellation *::after {
-    animation: none!important;
-    transition: none!important;
-    transform: none!important;
-  }
+html:has(body.neural-home) {
+  scroll-behavior: auto !important;
+}
 
+body.neural-home *,body.neural-home *::before,body.neural-home *::after {
+  animation: none !important;
+  transition: none !important;
 }
 
 /* Keep Quarto's navigation and footer, with the approved home composition. */
@@ -1734,18 +1726,6 @@ footer.footer .nav-footer .footer-items .nav-link {
 footer.footer .nav-footer .nav-link:hover,
 footer.footer .nav-footer .nav-link:focus-visible {
   color: var(--solar-gold);
-}
-
-#zm-constellation .zm-brain-fallback {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-#zm-constellation.has-brain-canvas .zm-brain-fallback {
-  display: none;
 }
 
 @media (max-width: 590px) {

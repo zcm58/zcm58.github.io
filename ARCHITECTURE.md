@@ -48,15 +48,11 @@ not source-of-truth files.
   `assets/cv.pdf`, `assets/headshot.jpg`, or `assets/talk-title-2026.jpg`.
 - Keep page-specific browser behavior in a small vanilla JavaScript file under
   `assets/js/`; do not introduce a client framework for a single interaction.
-- `assets/js/brain-constellation.js` owns the home-page canvas and its seamless
-  24-second loop of interior star drift within a stable brain shape. The stars
-  follow local orbits with horizontal and vertical radii of 8 and 5 canvas
-  units. The script handles resizing, suspends animation when offscreen or
-  hidden, and resumes automatically when visible. The site owner explicitly
-  requested autoplay without playback controls, regardless of the system or
-  browser reduced-motion preference.
-- `assets/brain-constellation.svg` supplies the static brain before canvas
-  initialization and when JavaScript or a canvas context is unavailable.
+- `assets/brain-constellation.svg` supplies the home-page static brain image,
+  resembling the original constellation artwork with a visible brain stem.
+  The artwork uses no canvas or brain JavaScript. Homepage styling disables
+  animations, transitions, smooth scrolling, and header motion while keeping
+  native navigation and immediate color/focus feedback functional.
 
 ## Page Responsibilities
 
@@ -108,12 +104,12 @@ use the scoped palette and typography documented in `DESIGN.md`; they do not
 replace the shared palette used by other pages. Preserve the pre-redesign
 Quarto navbar: Research Interests, Publications, Software dropdown, CV, and
 Learn About FPVS on the left; Google Scholar, ORCID, and GitHub on the right;
-normal Quarto mobile collapse. Homepage rules adapt the native footer only.
-Keep star imagery in the hero artwork and reading surfaces calm. The brain
-remains recognizable while its interior stars drift slowly; do not draw its
-outer contour or add a caption. The canvas starts without user action regardless
-of reduced-motion preferences and has no playback controls.
-No framework or animation dependency is required.
+normal Quarto mobile collapse with immediate state changes. Homepage rules
+adapt the native footer and disable motion throughout the homepage shell.
+Keep star imagery in the static hero artwork and reading surfaces calm. The
+brain should resemble the original artwork and have a clearly visible stem,
+with no caption or playback controls. No canvas, brain script, or animation
+dependency is required.
 
 ## Build And Deploy
 

@@ -6,7 +6,7 @@
     "section": "",
     "text": "Fast Periodic Visual Stimulation (FPVS) is a powerful method that can elicit strong neural responses to stimuli in just a few minutes of recording time. This method is non-invasive, requires no active participation from the participant, and has been used to study a wide range cognitive processes in the brain from facial expression processing, memory, anxiety, semantic categorization, and more using electroencephalography (EEG).\nIn a typical FPVS experiment, stimuli (usually images or, in some studies, words) are presented on screen to a participant at a fast rate (e.g., 6 Hz, or six times per second). Many recent FPVS experiments follow an ‘oddball’ design, in which a base stimulus is presented at a fixed rate (e.g., 6 times per second), and a different stimlulus type is presented at a less frequent rate (e.g., once every five stimuli, or 1.2 Hz). If the brain detects a difference between the base and oddball stimuli, a neural response will be detectable exactly at the oddball frequency (1.2 Hz in this example) and its frequency harmonics (2.4 Hz, 3.6 Hz, etc). This response can then be measured using EEG. See the figures below for an example of an FPVS oddball sequence.\n\n\n\nExample FPVS oddball sequence. Four base images are followed by one oddball image, and the sequence repeats. View the full-size diagram.\n\n\n\n\n\n\n\nHere is an example of an FPVS condition designed to measure the brain’s response to color changes.\n\n\n\n\n\nBase rate\n\n\n6 Hz\n\n\n\n\nOddball rate\n\n\n1.2 Hz\n\n\n\n\nDuration\n\n\n30 s\n\n\n\n\n\nWARNING: If you are sensitive to flashing images, lights, or have a history of seizures induced by FPVS, please DO NOT watch this demonstration.\n\n\n +\n\n\nReady when you are.\n\n\n\n\n\nLoading images…\n\n\nStop\n\n30.0 s\n\n\nPreparing the demonstration.\n\n\nIn this example of an FPVS oddball experiment, each image is visible for 83 ms and followed by 83 ms of blank screen.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Start Here",
       "What Is FPVS?"
     ]
@@ -18,7 +18,7 @@
     "section": "",
     "text": "Fast Periodic Visual Stimulation (FPVS) is a powerful method that can elicit strong neural responses to stimuli in just a few minutes of recording time. This method is non-invasive, requires no active participation from the participant, and has been used to study a wide range cognitive processes in the brain from facial expression processing, memory, anxiety, semantic categorization, and more using electroencephalography (EEG).\nIn a typical FPVS experiment, stimuli (usually images or, in some studies, words) are presented on screen to a participant at a fast rate (e.g., 6 Hz, or six times per second). Many recent FPVS experiments follow an ‘oddball’ design, in which a base stimulus is presented at a fixed rate (e.g., 6 times per second), and a different stimlulus type is presented at a less frequent rate (e.g., once every five stimuli, or 1.2 Hz). If the brain detects a difference between the base and oddball stimuli, a neural response will be detectable exactly at the oddball frequency (1.2 Hz in this example) and its frequency harmonics (2.4 Hz, 3.6 Hz, etc). This response can then be measured using EEG. See the figures below for an example of an FPVS oddball sequence.\n\n\n\nExample FPVS oddball sequence. Four base images are followed by one oddball image, and the sequence repeats. View the full-size diagram.\n\n\n\n\n\n\n\nHere is an example of an FPVS condition designed to measure the brain’s response to color changes.\n\n\n\n\n\nBase rate\n\n\n6 Hz\n\n\n\n\nOddball rate\n\n\n1.2 Hz\n\n\n\n\nDuration\n\n\n30 s\n\n\n\n\n\nWARNING: If you are sensitive to flashing images, lights, or have a history of seizures induced by FPVS, please DO NOT watch this demonstration.\n\n\n +\n\n\nReady when you are.\n\n\n\n\n\nLoading images…\n\n\nStop\n\n30.0 s\n\n\nPreparing the demonstration.\n\n\nIn this example of an FPVS oddball experiment, each image is visible for 83 ms and followed by 83 ms of blank screen.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Start Here",
       "What Is FPVS?"
     ]
@@ -30,7 +30,7 @@
     "section": "Why use FPVS?",
     "text": "Why use FPVS?\nFPVS combined with EEG offers several important advantages over current EEG techniques. First, when compared with traditional EEG methodology such as event-related potentials (ERPs), FPVS can elicit strong neural responses in a fraction of the time. Second, unlike ERP based methods, FPVS can be sensitive on the level of the individual, which provides future opportunity for use in a clinical setting to aid in the detection and diagnosis of various cognitive conditions. Emerging evidence also suggests that FPVS may index a separate, later stage of cognitive processing than traditional ERPs. Finally, when compared with other neuroimaging methods such as fMRI or PET scans, FPVS + EEG is comparatively inexpensive, portable, and can be used in a wider range of populations and locations.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Start Here",
       "What Is FPVS?"
     ]
@@ -42,7 +42,7 @@
     "section": "Important Note",
     "text": "Important Note\nThis guide will cover key FPVS concepts and terminology that are important to understanding the advantages and limitations of FPVS, but the guide was built primarily for undergraduate students. As such, certain concepts may be simplified for the sake of explanation. For more detailed and highly technical explanations of FPVS, please refer to the suggested readings or read through the publications linked throughout the guide.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Start Here",
       "What Is FPVS?"
     ]
@@ -54,7 +54,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "12: Statistical Analysis"
     ]
@@ -66,7 +66,7 @@
     "section": "",
     "text": "EEG records tiny voltage changes at many points on the scalp. Instead of interpreting every electrode separately, researchers often combine neighboring electrodes into a region of interest (ROI) and summarize their responses. In FPVS, this can make a response shared across nearby electrodes easier to describe and can reduce the number of separate statistical comparisons.\nAn ROI is an analysis choice, not a sharp boundary in the brain. Electrical activity spreads through the head, and the electrodes included in an ROI can change with the montage, stimuli, research question, and previous evidence. Each highlighted group below reproduces one published FPVS definition, but none is a universal definition.\n\n  \n    \n      Interactive scalp map · BioSemi 64\n      \n      Choose a map view, then select a region name or one of its colored electrodes. The nose is at the top of the map.\n    \n    64scalp electrodes\n  \n\n  \n    Map view\n    \n      Common ROI set\n      Parieto-occipital\n      Occipital\n    \n  \n\n  \n    \n      \n        \n          The interactive electrode map requires JavaScript. The ROI explanations and electrode lists remain available below.\n        \n      \n      ↑ Front of head · Left side of the map = left side of the head\n      P9, P10, and Iz sit outside the circular head-equator outline because BioSemi places them below that plane.\n\n      \n        \n          Left occipito-temporal LOT\n          Right occipito-temporal ROT\n          Central published example\n          Fronto-central published example\n        \n        \n          Left parieto-occipital LPO\n          Right parieto-occipital RPO\n        \n        \n          Occipital O1, Oz, O2\n        \n      \n    \n\n    \n      \n        Selected ROI · left hemisphere\n        \n        Electrodes: PO3, P7, PO7, P9, O1\n        Left occipito-temporal electrodes often capture category-selective visual responses. Quek and de Heering used this exact group to summarize FPVS responses that distinguished faces and birds from the rapidly presented background category.\n        This published LOT includes O1. The same electrode can belong to more than one reasonable ROI when the groupings answer different analysis questions.\n        Definition source: Quek and de Heering (2024)\n      \n\n      \n        Selected ROI · right hemisphere\n        \n        Electrodes: PO4, P8, PO8, P10, O2\n        Right occipito-temporal electrodes are commonly used for category-selective FPVS responses, especially in face paradigms. Quek and de Heering used this exact group alongside LOT to compare face- and bird-selective signals.\n        This ROT includes O2, mirroring the inclusion of O1 in LOT. A stronger response on one side of the map does not by itself identify the neural source beneath that electrode group.\n        Definition source: Quek and de Heering (2024)\n      \n\n      \n        Selected ROI · central scalp\n        \n        Electrodes: C1, Cz, C2, CP1, CPz, CP2\n        Central ROIs are less common than posterior visual ROIs in FPVS. Coll and colleagues used this exact six-electrode group in a supplementary analysis of responses to fixed- and mixed-expression face sequences.\n        The experimental pattern differed between their central and occipital groups, showing why ROI choice should follow the research question. This scalp label does not identify one “central” brain area.\n        Definition source: Coll et al. (2019)\n      \n\n      \n        Selected ROI · study-specific anterior cluster\n        \n        Electrodes: Fz, FC1, FC2, Cz\n        Nijhof and colleagues used this exact fronto-central group in an FPVS study of responses to a person's own face and name. In this cluster, responses were larger for faces than names, and own-face responses were larger than responses to close-other and stranger faces.\n        The authors selected these electrodes with a collapsed localizer, so this is a study-specific published example rather than a universal frontal preset. Cz also belongs to the central example on this map; when either overlapping ROI is selected, Cz takes that ROI's color.\n        Definition source: Nijhof et al. (2024)\n      \n\n      \n        Selected ROI · left posterior scalp\n        \n        Electrodes: PO7, P5, P7\n        Parieto-occipital ROIs sample lateral posterior scalp sites. Valentini and Gyimes used this exact group for the 1-Hz deviant response to periodically presented threatening or non-threatening scenes.\n        Notice that this example overlaps with LOT. The different name reflects a different analysis question—not a sharp border between two pieces of cortex.\n        Definition source: Valentini and Gyimes (2018)\n      \n\n      \n        Selected ROI · right posterior scalp\n        \n        Electrodes: PO8, P6, P8\n        Right parieto-occipital groups provide a matching posterior region in the right hemisphere. Valentini and Gyimes used this exact group with its left-hemisphere counterpart for the 1-Hz deviant response to rapidly presented scenes.\n        As with LPO, the label describes an electrode grouping. It does not prove that the measured signal originated directly beneath those electrodes.\n        Definition source: Valentini and Gyimes (2018)\n      \n\n      \n        Selected ROI · posterior midline\n        \n        Electrodes: O1, Oz, O2\n        Occipital ROIs commonly summarize the response to the rapid visual stimulation itself. Quek and de Heering used this exact group because the common 6-Hz visual response was expected to be strongest there.\n        O1 and O2 also appear in their LOT and ROT definitions. This overlap is intentional: the occipital group addressed the common visual response, while the lateral groups addressed category-selective responses.\n        Definition source: Quek and de Heering (2024)\n      \n    \n  \n\n  Common ROI set shown. Left occipito-temporal ROI selected.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Start Here",
       "Regions of Interest"
     ]
@@ -78,7 +78,7 @@
     "section": "",
     "text": "EEG records tiny voltage changes at many points on the scalp. Instead of interpreting every electrode separately, researchers often combine neighboring electrodes into a region of interest (ROI) and summarize their responses. In FPVS, this can make a response shared across nearby electrodes easier to describe and can reduce the number of separate statistical comparisons.\nAn ROI is an analysis choice, not a sharp boundary in the brain. Electrical activity spreads through the head, and the electrodes included in an ROI can change with the montage, stimuli, research question, and previous evidence. Each highlighted group below reproduces one published FPVS definition, but none is a universal definition.\n\n  \n    \n      Interactive scalp map · BioSemi 64\n      \n      Choose a map view, then select a region name or one of its colored electrodes. The nose is at the top of the map.\n    \n    64scalp electrodes\n  \n\n  \n    Map view\n    \n      Common ROI set\n      Parieto-occipital\n      Occipital\n    \n  \n\n  \n    \n      \n        \n          The interactive electrode map requires JavaScript. The ROI explanations and electrode lists remain available below.\n        \n      \n      ↑ Front of head · Left side of the map = left side of the head\n      P9, P10, and Iz sit outside the circular head-equator outline because BioSemi places them below that plane.\n\n      \n        \n          Left occipito-temporal LOT\n          Right occipito-temporal ROT\n          Central published example\n          Fronto-central published example\n        \n        \n          Left parieto-occipital LPO\n          Right parieto-occipital RPO\n        \n        \n          Occipital O1, Oz, O2\n        \n      \n    \n\n    \n      \n        Selected ROI · left hemisphere\n        \n        Electrodes: PO3, P7, PO7, P9, O1\n        Left occipito-temporal electrodes often capture category-selective visual responses. Quek and de Heering used this exact group to summarize FPVS responses that distinguished faces and birds from the rapidly presented background category.\n        This published LOT includes O1. The same electrode can belong to more than one reasonable ROI when the groupings answer different analysis questions.\n        Definition source: Quek and de Heering (2024)\n      \n\n      \n        Selected ROI · right hemisphere\n        \n        Electrodes: PO4, P8, PO8, P10, O2\n        Right occipito-temporal electrodes are commonly used for category-selective FPVS responses, especially in face paradigms. Quek and de Heering used this exact group alongside LOT to compare face- and bird-selective signals.\n        This ROT includes O2, mirroring the inclusion of O1 in LOT. A stronger response on one side of the map does not by itself identify the neural source beneath that electrode group.\n        Definition source: Quek and de Heering (2024)\n      \n\n      \n        Selected ROI · central scalp\n        \n        Electrodes: C1, Cz, C2, CP1, CPz, CP2\n        Central ROIs are less common than posterior visual ROIs in FPVS. Coll and colleagues used this exact six-electrode group in a supplementary analysis of responses to fixed- and mixed-expression face sequences.\n        The experimental pattern differed between their central and occipital groups, showing why ROI choice should follow the research question. This scalp label does not identify one “central” brain area.\n        Definition source: Coll et al. (2019)\n      \n\n      \n        Selected ROI · study-specific anterior cluster\n        \n        Electrodes: Fz, FC1, FC2, Cz\n        Nijhof and colleagues used this exact fronto-central group in an FPVS study of responses to a person's own face and name. In this cluster, responses were larger for faces than names, and own-face responses were larger than responses to close-other and stranger faces.\n        The authors selected these electrodes with a collapsed localizer, so this is a study-specific published example rather than a universal frontal preset. Cz also belongs to the central example on this map; when either overlapping ROI is selected, Cz takes that ROI's color.\n        Definition source: Nijhof et al. (2024)\n      \n\n      \n        Selected ROI · left posterior scalp\n        \n        Electrodes: PO7, P5, P7\n        Parieto-occipital ROIs sample lateral posterior scalp sites. Valentini and Gyimes used this exact group for the 1-Hz deviant response to periodically presented threatening or non-threatening scenes.\n        Notice that this example overlaps with LOT. The different name reflects a different analysis question—not a sharp border between two pieces of cortex.\n        Definition source: Valentini and Gyimes (2018)\n      \n\n      \n        Selected ROI · right posterior scalp\n        \n        Electrodes: PO8, P6, P8\n        Right parieto-occipital groups provide a matching posterior region in the right hemisphere. Valentini and Gyimes used this exact group with its left-hemisphere counterpart for the 1-Hz deviant response to rapidly presented scenes.\n        As with LPO, the label describes an electrode grouping. It does not prove that the measured signal originated directly beneath those electrodes.\n        Definition source: Valentini and Gyimes (2018)\n      \n\n      \n        Selected ROI · posterior midline\n        \n        Electrodes: O1, Oz, O2\n        Occipital ROIs commonly summarize the response to the rapid visual stimulation itself. Quek and de Heering used this exact group because the common 6-Hz visual response was expected to be strongest there.\n        O1 and O2 also appear in their LOT and ROT definitions. This overlap is intentional: the occipital group addressed the common visual response, while the lateral groups addressed category-selective responses.\n        Definition source: Quek and de Heering (2024)\n      \n    \n  \n\n  Common ROI set shown. Left occipito-temporal ROI selected.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Start Here",
       "Regions of Interest"
     ]
@@ -90,7 +90,7 @@
     "section": "Reading the map carefully",
     "text": "Reading the map carefully\nThe map uses the official BioSemi standard headcap coordinates for the 64 scalp channels. BioSemi also uses two additional electrodes, CMS and DRL, to operate the recording system; they are not part of the 64 scalp channels shown here.\nThe selected electrode sets reproduce the definitions used in the FPVS papers cited on their cards. They can overlap, and other studies may use different boundaries or choose electrodes from an independent localizer. Before using an ROI in an analysis, researchers should define it from a prior study, an independent dataset, or a clearly documented analysis plan—not simply choose the electrodes that produce the preferred result.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Start Here",
       "Regions of Interest"
     ]
@@ -102,7 +102,7 @@
     "section": "",
     "text": "While FPVS is a passive method that does not require active participation from the participant to elicit neural responses, it is still important to ensure that the participant is paying attention to the stimuli being presented. If the participant does not fix their gaze on the screen during a study, the resulting neural responses would likely be meaningless or difficult to interpret.\nOne common approach to maintaining the participant’s attention is to ask the participant to fix their gaze on a small cross in the center of the screen and to press a button whenever that cross changes colors. This task is unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.\n\n  \n    +\n  \n  \n    The fixation cross briefly changes from blue to red at random intervals.\n  \n\nAnother approach is to include bars around the edges of the screen that change colors at random intervals, and similarly, to ask the participant to press a button whenever they both bars change colors at the same time. This approach is also unrelated to the stimuli being presented on screen, but it ensures that the participant is paying attention to the screen.\n\n  \n    \n    +\n    \n  \n  \n    In this method, both bars change from blue to red at random intervals, and the participant is asked to press a button only when both bars change colors at the same time. This method avoids visually covering part of the stimuli, and encourages broader processing of stimuli that take up more information on the screen such as word based FPVS paradigms.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Experiment Design",
       "Maintaining Attention"
     ]
@@ -114,7 +114,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "1: Import Raw Data"
     ]
@@ -126,7 +126,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Reference",
       "Glossary and References"
     ]
@@ -138,7 +138,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "4: Filter The Data"
     ]
@@ -150,7 +150,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "8: Extract Condition Epochs"
     ]
@@ -162,7 +162,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.\nYour electrode montage is essentially the 3D coordinates of each electrode on the scalp. You cannot accurately analyze your data if your software or scripts do not account for the spatial positioning of each electrode on the scalp. claude",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "2: Apply Electrode Montage"
     ]
@@ -174,7 +174,7 @@
     "section": "",
     "text": "An important factor when designing your FPVS experiments is the base stimulation frequency, or the rate at which your stimuli are shown on screen. Recent FPVS experiments have used a wide range of base frequencies from 3 Hz to 10 Hz as see in the examples below.\n\n\n\nSuper-Recognizers, or Su-Perceivers? Insights from fast periodic visual stimulation (FPVS) EEG (Nador et al., 2025). Included a 3 Hz condition within a 3, 6, 9, and 12 Hz frequency comparison. DOI\nSteady-state EEG captures how elementary classroom instruction drives plasticity for novel visual words (Wang et al., 2025). Base rate: 3 Hz. DOI\nPreserving Harmonic Structure in FPVS-Oddball: A Two-Dimensional Cluster-Based Permutation Approach (Hermann et al., 2026). Base rate: 3 Hz; oddball rate: 0.5 Hz. DOI\n\n\n\n\n\nFrequency-tagging EEG reveals spontaneous categorical discrimination of visual self-identity (Galigani et al., 2025). Base rate: 4 Hz; oddball rate: 0.8 Hz. DOI\nImplicit, automatic semantic word categorisation in the left occipito-temporal cortex as revealed by fast periodic visual stimulation (Volfart et al., 2021). Base rate: 4 Hz; category rate: 1 Hz. DOI\nNeurophysiological evidence for crossmodal (face-name) person-identity representation in the human left ventral temporal cortex (2020). Face and name stimuli were presented at 4 Hz. DOI\n\n\n\n\n\nImplicit neural sensitivity for negatively valued social and non-social visual scenes in young adults exposed to childhood adversity (Qiao et al., 2025). Base rate: 5 Hz; oddball rate: 1.25 Hz. DOI\nVisual cues of threat elicit greater steady-state electroencephalographic responses than visual reminders of death (Valentini & Gyimes, 2019). Base rate: 5 Hz; deviant rate: 1 Hz. DOI\n\n\n\n\n\nVisual periodicity reveals distinct attentional signatures for face and non-face categories (Quek & de Heering, 2024). Base rate: 6 Hz; periodic category rates: 1.2 and 1.5 Hz. DOI\nFast Periodic Visual Stimulation indexes preserved semantic memory in healthy ageing (Milton et al., 2020). Base rate: 6 Hz; oddball rate: 1.2 Hz. DOI\n\n\n\n\n\nEnsemble size perception: Its neural signature and the role of global interaction over individual items (Jia et al., 2022). Base rate: 8 Hz; oddball rate: 1 Hz. DOI\n\n\n\n\n\nLinguistic and attentional factors, not statistical regularities, contribute to word-selective neural responses with FPVS-oddball paradigms (2024). Base rate: 10 Hz; word rate: 2 Hz. DOI\nWord-selective EEG/MEG responses in the English language obtained with fast periodic visual stimulation (FPVS) (Marchive et al., 2025). Base rate: 10 Hz; word rate: 2 Hz. DOI\nTracking novel visual word learning via different methods with an original FPVS-EEG approach (Barillon et al., 2025). Base rate: 10 Hz; word rate: 2 Hz. DOI\n\n\n\n\n\n\n\nNoteBase Rate Varies Among Recent Studies\n\n\n\nRetter and Schiltz (2025) demonstrated that the strength of the base rate response, F, often peaks near 10 Hz, whereas the total summed BCA amplitude often peaks below approximately 4 Hz.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Experiment Design",
       "Display and Timing"
     ]
@@ -186,7 +186,7 @@
     "section": "",
     "text": "An important factor when designing your FPVS experiments is the base stimulation frequency, or the rate at which your stimuli are shown on screen. Recent FPVS experiments have used a wide range of base frequencies from 3 Hz to 10 Hz as see in the examples below.\n\n\n\nSuper-Recognizers, or Su-Perceivers? Insights from fast periodic visual stimulation (FPVS) EEG (Nador et al., 2025). Included a 3 Hz condition within a 3, 6, 9, and 12 Hz frequency comparison. DOI\nSteady-state EEG captures how elementary classroom instruction drives plasticity for novel visual words (Wang et al., 2025). Base rate: 3 Hz. DOI\nPreserving Harmonic Structure in FPVS-Oddball: A Two-Dimensional Cluster-Based Permutation Approach (Hermann et al., 2026). Base rate: 3 Hz; oddball rate: 0.5 Hz. DOI\n\n\n\n\n\nFrequency-tagging EEG reveals spontaneous categorical discrimination of visual self-identity (Galigani et al., 2025). Base rate: 4 Hz; oddball rate: 0.8 Hz. DOI\nImplicit, automatic semantic word categorisation in the left occipito-temporal cortex as revealed by fast periodic visual stimulation (Volfart et al., 2021). Base rate: 4 Hz; category rate: 1 Hz. DOI\nNeurophysiological evidence for crossmodal (face-name) person-identity representation in the human left ventral temporal cortex (2020). Face and name stimuli were presented at 4 Hz. DOI\n\n\n\n\n\nImplicit neural sensitivity for negatively valued social and non-social visual scenes in young adults exposed to childhood adversity (Qiao et al., 2025). Base rate: 5 Hz; oddball rate: 1.25 Hz. DOI\nVisual cues of threat elicit greater steady-state electroencephalographic responses than visual reminders of death (Valentini & Gyimes, 2019). Base rate: 5 Hz; deviant rate: 1 Hz. DOI\n\n\n\n\n\nVisual periodicity reveals distinct attentional signatures for face and non-face categories (Quek & de Heering, 2024). Base rate: 6 Hz; periodic category rates: 1.2 and 1.5 Hz. DOI\nFast Periodic Visual Stimulation indexes preserved semantic memory in healthy ageing (Milton et al., 2020). Base rate: 6 Hz; oddball rate: 1.2 Hz. DOI\n\n\n\n\n\nEnsemble size perception: Its neural signature and the role of global interaction over individual items (Jia et al., 2022). Base rate: 8 Hz; oddball rate: 1 Hz. DOI\n\n\n\n\n\nLinguistic and attentional factors, not statistical regularities, contribute to word-selective neural responses with FPVS-oddball paradigms (2024). Base rate: 10 Hz; word rate: 2 Hz. DOI\nWord-selective EEG/MEG responses in the English language obtained with fast periodic visual stimulation (FPVS) (Marchive et al., 2025). Base rate: 10 Hz; word rate: 2 Hz. DOI\nTracking novel visual word learning via different methods with an original FPVS-EEG approach (Barillon et al., 2025). Base rate: 10 Hz; word rate: 2 Hz. DOI\n\n\n\n\n\n\n\nNoteBase Rate Varies Among Recent Studies\n\n\n\nRetter and Schiltz (2025) demonstrated that the strength of the base rate response, F, often peaks near 10 Hz, whereas the total summed BCA amplitude often peaks below approximately 4 Hz.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Experiment Design",
       "Display and Timing"
     ]
@@ -198,7 +198,7 @@
     "section": "Display Refresh Rate",
     "text": "Display Refresh Rate\nYour display’s refresh rate also determines which base stimulation frequencies are available to you. If your display has a refresh rate of 60 Hz (which is a very common display refresh rate for pc monitors), then each frame on this monitor is visible for 16.67 ms. This means that FPVS stimuli presented at 3 Hz would be visible for 333 ms (20 frames), stimuli presented at 4 Hz would be visible for 250 ms (15 frames), and so on.\nHowever, some frequencies cannot be displayed with a constant number of frames per stimulus on a 60 Hz display, which would cause some inconsistencies in the apparent length of time each stimulus is visible on screen.\n\n\n\nBase rate\nFrames per stimulus\nFrame-perfect at 60 Hz?\n\n\n\n\n3 Hz\n20\nYes\n\n\n4 Hz\n15\nYes\n\n\n5 Hz\n12\nYes\n\n\n6 Hz\n10\nYes\n\n\n8 Hz\n7.5\nNo\n\n\n10 Hz\n6\nYes\n\n\n12 Hz\n5\nYes\n\n\n\nAn 8 Hz sequence, for example, cannot use a constant number of frames per stimulus on a 60 Hz display. Alternating between frame counts would introduce timing variability. However, if you have a display capable of a 120 Hz refresh rate, the 8 Hz rate is now feasible for your setup as each stimulus can remain visible for exactly 15 frames rather than alternating between 7 and 8 frames.\nFPVS Studio detects the device’s measured refresh rate and validates the requested timing whenever an experiment is launched. This prevents an incompatible stimulation rate from silently producing uneven frame timing.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Experiment Design",
       "Display and Timing"
     ]
@@ -210,7 +210,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.\nThe interactive figure below summarizes a typical FPVS EEG processing and response-quantification workflow. Select any step to open its dedicated page.\n\n\n\n            \n\n\n\nExample FPVS EEG analysis workflow. Specific preprocessing choices should be adapted to the recording system, study design, and prespecified analysis plan. On smaller screens, scroll the diagram horizontally or view it full size.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "Analysis Overview"
     ]
@@ -397,7 +397,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "7: Re-Reference The Data"
     ]
@@ -409,7 +409,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "3: Downsample Data"
     ]
@@ -421,7 +421,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "11: Export Data For Analysis"
     ]
@@ -433,7 +433,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "9: Frequency-Domain Transformation"
     ]
@@ -445,7 +445,7 @@
     "section": "",
     "text": "Imagine a light flashing in your eyes at six times per second. If we recorded your brain activity using EEG while this light was flashing, an oscillatory neural response would be detectable at the same frequency as the flashing light (6 Hz) in the occipital region of your brain, which is typically the region associated with visual processing.\nIf we increased the speed of the flashing light to 10 times per second, the neural response would also increase to 10 Hz. This relationship between periodic stimulation and the neural response at that same frequency is the basis for FPVS experiments. This phenomenon is known as a Steady State Visually Evoked Potential, or SSVEP.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Start Here",
       "Frequency Tagging"
     ]
@@ -457,7 +457,7 @@
     "section": "",
     "text": "Imagine a light flashing in your eyes at six times per second. If we recorded your brain activity using EEG while this light was flashing, an oscillatory neural response would be detectable at the same frequency as the flashing light (6 Hz) in the occipital region of your brain, which is typically the region associated with visual processing.\nIf we increased the speed of the flashing light to 10 times per second, the neural response would also increase to 10 Hz. This relationship between periodic stimulation and the neural response at that same frequency is the basis for FPVS experiments. This phenomenon is known as a Steady State Visually Evoked Potential, or SSVEP.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Start Here",
       "Frequency Tagging"
     ]
@@ -469,7 +469,7 @@
     "section": "Base and Oddball frequencies",
     "text": "Base and Oddball frequencies\nFPVS oddball experiments typically produce two separate frequencies referred to as the Base Frequency and the Oddball Frequency.\nThe Base Frequency is the frequency at which stimuli are displayed on screen. For example, if a stimulus is displayed six times per second, like the flashing light used in the previous example, the base frequency would be 6 Hz. The Oddball frequency is the frequency at which the oddball stimulus is displayed. For example, if the oddball stimulus is displayed once every five stimuli at a base presentation rate of 6 Hz, the oddball frequency would be 1.2 Hz.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Start Here",
       "Frequency Tagging"
     ]
@@ -481,7 +481,7 @@
     "section": "Harmonics",
     "text": "Harmonics\nA harmonic is a frequency that is an exact whole-number multiple of a repeating signal’s fundamental frequency, hereafter referred to as F. For example, if a visual stimulus repeats at 6 Hz, its harmonics occur at 12 Hz (2F), 18 Hz (3F), 24 Hz (4F), and so on.\nOne way to understand harmonics is to imagine building a repeating waveform by combining several smooth sine waves. A single sine wave at F produces a simple, smooth waveform. Real visual stimuli and brain responses are usually more complex. Additional, faster sine waves are needed to reproduce features such as sharper peaks, asymmetry, or abrupt changes. Because the complete waveform repeats at the same regular interval, these additional waves fit a whole number of cycles within each repetition. This places them at integer multiples of F.\nA fast Fourier transform (FFT) separates the recorded EEG waveform into these individual frequency components. Harmonics may reflect various properties of the stimulus in question.\nNorcia et al. (2015) provide more detailed explanations and illustrations showing how complex repeating responses produce harmonics at F, 2F, 3F, and so on.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Start Here",
       "Frequency Tagging"
     ]
@@ -493,7 +493,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "5: Identify Bad Channels"
     ]
@@ -505,7 +505,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "6: Interpolate Bad Channels"
     ]
@@ -517,7 +517,7 @@
     "section": "",
     "text": "When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.\nUse the pages in this section to explore each design consideration separately:\n\nStimulus Selection and Sequencing\nDisplay and Timing\nMaintaining Participant Attention",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Experiment Design",
       "Overview"
     ]
@@ -529,7 +529,7 @@
     "section": "",
     "text": "When designing an FPVS experiment, there are several key considerations that will influence the success of the study. This section will provide an overview of the components of a typical FPVS oddball paradigm and how they may affect the resulting neural responses.\nUse the pages in this section to explore each design consideration separately:\n\nStimulus Selection and Sequencing\nDisplay and Timing\nMaintaining Participant Attention",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Experiment Design",
       "Overview"
     ]
@@ -541,7 +541,7 @@
     "section": "",
     "text": "This guide is currently under development. Please check back later for updates.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Data Analysis",
       "10: Calculate SNR and BCA"
     ]
@@ -553,7 +553,7 @@
     "section": "",
     "text": "Imagine you wanted to design an FPVS experiment to study the differences between processing living objects and non-living objects. If you included images of birds, horses, dogs, cats, etc as living objects, and then images of cars, trucks, buildings, etc as non-living objects, this would technically be a valid FPVS oddball paradigm. However, there are many things could that influence the oddball responses.\nFor example, living objects like animals tend to have smooth edges, curves, and may appear in natural scenes with lots of green colors. Non-living objects like cars and buildings tend to have sharp edges, straight lines, and may feature a different color scheme than the base images. As such, these low-level visual differences could be influencing the oddball responses, and it would be difficult to determine whether the oddball responses were due to the living vs non-living distinction, due to low-level visual differences between the two categories, or some combination of both.\nPrevious work has shown that even low-level visual differences such as this, like a slight change in vertical line orientation between base and oddball stimuli, can drastically influence oddball responses, so it is important to carefully consider the stimuli used in an FPVS experiment and to control for low-level visual differences between base and oddball stimuli.",
     "crumbs": [
-      "Learn FPVS",
+      "Learn About FPVS",
       "Experiment Design",
       "Stimulus Selection"
     ]

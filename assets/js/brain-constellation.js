@@ -51,10 +51,8 @@
   }
 
   const paths = contours.map(makePath);
-  const media = window.matchMedia('(prefers-reduced-motion: reduce)');
   const loopDuration = 20000;
   const frameInterval = 1000 / 30;
-  let reduced = media.matches;
   let paused = false;
   let frame = 0;
   let elapsed = 0;
@@ -160,7 +158,7 @@
   }
 
   function draw() {
-    const phase = (reduced ? 0 : elapsed) / loopDuration * Math.PI * 2;
+    const phase = elapsed / loopDuration * Math.PI * 2;
     // Cosine brings both shape and velocity back to their start at the seam.
     const spreading = (1 - Math.cos(phase)) / 2;
     const theta = -0.26 + Math.sin(phase) * 0.25;
@@ -283,10 +281,8 @@
   }
 
   function syncPlayback() {
-    canvas.dataset.reducedMotion = String(reduced);
-    motionControl.disabled = reduced;
-    motionControl.textContent = reduced ? 'Motion reduced' : paused ? 'Resume animation' : 'Pause animation';
-    if (reduced || paused || !inView || document.hidden) {
+    motionControl.textContent = paused ? 'Resume animation' : 'Pause animation';
+    if (paused || !inView || document.hidden) {
       stop();
     } else if (!frame) {
       canvas.dataset.animating = 'true';
@@ -296,14 +292,6 @@
 
   motionControl.addEventListener('click', () => {
     paused = !paused;
-    syncPlayback();
-  });
-  media.addEventListener('change', event => {
-    reduced = event.matches;
-    // Enter and leave the motion preference on the same static brain frame.
-    elapsed = 0;
-    stop();
-    draw();
     syncPlayback();
   });
   document.addEventListener('visibilitychange', syncPlayback);

@@ -24,7 +24,7 @@
     ],
     "motion": [
       { "name": "state-only", "value": "none", "purpose": "Shared page components keep their existing immediate states." },
-      { "name": "neural-constellation", "value": "48s", "purpose": "Homepage-only seamless loop of slow interior star drift clipped within a stable brain shape, with no drawn outer contour, galaxy dispersion, caption, or visible pause/resume text. The site owner explicitly requested autoplay even with a system or browser reduced-motion preference. A small icon-only manual pause control uses data-brain-motion, updated aria-label, and data-paused state. Frame scheduling suspends offscreen and when the page is hidden." },
+      { "name": "neural-constellation", "value": "24s", "purpose": "Homepage-only seamless loop of slow interior star drift clipped within a stable brain shape, with horizontal and vertical orbit radii of 8 and 5 canvas units. Keep motion perceptible at desktop and mobile sizes. There is no drawn outer contour, galaxy dispersion, caption, or playback control. The site owner explicitly requested autoplay even with a system or browser reduced-motion preference. Frame scheduling suspends offscreen and when the page is hidden, then resumes automatically when visible." },
       { "name": "neural-link-feedback", "value": "180ms ease-out", "purpose": "Homepage link color feedback; disabled for reduced motion." },
       { "name": "neural-arrow-feedback", "value": "200ms cubic-bezier(.22,1,.36,1)", "purpose": "Homepage link arrow moves 3px on hover; disabled for reduced motion." }
     ],
@@ -111,7 +111,7 @@
       "Do use Starlight for primary text and Lunar Gray only for secondary text on Deep Space or Flight Deck.",
       "Do reserve Solar Gold for focus and hover orientation so keyboard position is unmistakable.",
       "Do keep every required text contrast at 4.5:1 or higher and essential non-text contrast at 3:1 or higher.",
-      "Do preserve semantic headings, descriptive alternative text, responsive reflow, and manual control of the brain animation. Reduced-motion preferences still disable small CSS transitions."
+      "Do preserve semantic headings, descriptive alternative text, and responsive reflow. Reduced-motion preferences still disable small CSS transitions; the brain autoplays without controls as requested by the site owner."
     ],
     "donts": [
       "Don't use generic SaaS aesthetics.",

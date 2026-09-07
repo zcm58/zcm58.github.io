@@ -1748,39 +1748,6 @@ footer.footer .nav-footer .nav-link:focus-visible {
   display: none;
 }
 
-#zm-constellation .zm-motion {
-  position: absolute;
-  bottom: 8px;
-  right: 12px;
-  width: 44px;
-  height: 44px;
-  display: grid;
-  place-items: center;
-  padding: 0;
-  color: var(--zm-muted);
-}
-
-#zm-constellation .zm-motion-icon::before {
-  content: "";
-  display: block;
-  width: 8px;
-  height: 10px;
-  border-left: 2px solid currentColor;
-  border-right: 2px solid currentColor;
-}
-
-#zm-constellation .zm-motion[data-paused="true"] .zm-motion-icon::before {
-  width: 0;
-  height: 0;
-  border: 5px solid transparent;
-  border-left: 8px solid currentColor;
-  border-right: 0;
-}
-
-#zm-constellation .zm-motion[hidden] {
-  display: none;
-}
-
 @media (max-width: 590px) {
   footer.footer .nav-footer {
     padding: 15px 6%;

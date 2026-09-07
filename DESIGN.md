@@ -218,19 +218,18 @@ with the main research statement.
 ### Motion
 
 The brain keeps a stable, recognizable shape while its interior stars drift
-slowly in a seamless 48-second loop. Keep the small particle movements inside
-the brain silhouette. Do not disperse it into a galaxy or draw an outer contour.
+slowly in a seamless 24-second loop, with local orbit radii of 8 horizontal and
+5 vertical canvas units. Keep the particle movements perceptible at desktop
+and mobile sizes and clipped inside the brain silhouette. Do not disperse it
+into a galaxy or draw an outer contour.
 This is the page's single ambient animation; stars remain within the artwork and
-text does not animate on scroll. The artwork has no caption or visible pause/resume text.
+text does not animate on scroll. The artwork has no caption or playback controls.
 
-- Provide a small icon-only pause button in the artwork with an accurate
-  accessible name. Its `data-brain-motion` attribute connects it to the script;
-  update its `aria-label` and `data-paused` state when the visitor pauses or resumes.
 - Autoplay the brain even when the system or browser requests reduced motion,
-  as explicitly requested by the site owner. The manual pause button remains
-  available; there is no automatic "Motion reduced" disabled state.
+  as explicitly requested by the site owner. Playback requires no user action;
+  there is no automatic "Motion reduced" disabled state.
 - Suspend frame scheduling while the artwork is offscreen or the page is
-  hidden; resume when the artwork is visible unless the visitor paused it.
+  hidden; resume automatically when the artwork is visible.
 - Limit link color feedback to 180ms and small arrow movement to 200ms, and
   disable those transitions for reduced motion.
 - Keep content, links, and the static brain useful without animation.
@@ -246,7 +245,7 @@ in `index.qmd` and all homepage layout and state styling stays in `styles.css`.
 - **Do** use Starlight for primary text and Lunar Gray only for secondary text on Deep Space or Flight Deck.
 - **Do** reserve Solar Gold for focus and hover orientation so keyboard position is unmistakable.
 - **Do** keep every required text contrast at 4.5:1 or higher and essential non-text contrast at 3:1 or higher.
-- **Do** preserve semantic headings, descriptive alternative text, responsive reflow, and manual control of the brain animation. Reduced-motion preferences still disable small CSS transitions.
+- **Do** preserve semantic headings, descriptive alternative text, and responsive reflow. Reduced-motion preferences still disable small CSS transitions; the brain autoplays without controls as requested by the site owner.
 
 ### Don't
 

@@ -24,13 +24,13 @@
     ],
     "motion": [
       { "name": "state-only", "value": "none", "purpose": "Shared page components keep their existing immediate states." },
-      { "name": "neural-constellation", "value": "20s", "purpose": "Homepage-only automatic brain-to-orbit-to-brain loop. Caption pause control uses data-brain-motion; reduced-motion preference keeps a static brain and disables the control with Motion reduced text. Frame scheduling suspends offscreen and when the page is hidden." },
+      { "name": "neural-constellation", "value": "20s", "purpose": "Homepage-only automatic brain-to-orbit-to-brain loop. The site owner explicitly requested autoplay even with a system or browser reduced-motion preference. Caption manual pause control uses data-brain-motion and remains available. Frame scheduling suspends offscreen and when the page is hidden." },
       { "name": "neural-link-feedback", "value": "180ms ease-out", "purpose": "Homepage link color feedback; disabled for reduced motion." },
       { "name": "neural-arrow-feedback", "value": "200ms cubic-bezier(.22,1,.36,1)", "purpose": "Homepage link arrow moves 3px on hover; disabled for reduced motion." }
     ],
     "neuralHomepage": {
       "scope": ["#zm-constellation", "body.neural-home"],
-      "description": "Approved Neural Constellation homepage extension. Keep the shared global palette and other pages' content styles unchanged. Native Quarto navbar and footer remain configured in _quarto.yml. Navbar spacing and visible mobile links are shared; homepage colors and footer styling are scoped.",
+      "description": "Approved Neural Constellation homepage extension. Keep the shared global palette and other pages' content styles unchanged. Preserve the original native Quarto navbar layout, Software dropdown, profile icons, and normal mobile collapse. Navbar and footer remain configured in _quarto.yml; homepage content colors and footer styling are scoped.",
       "colors": {
         "--zm-bg": "oklch(17% .03 253)",
         "--zm-fg": "oklch(97% .007 250)",
@@ -74,9 +74,9 @@
       "name": "Navigation",
       "kind": "nav",
       "refersTo": "site-navigation",
-      "description": "A shared flight-deck header with five visible navigation links, readable targets, and explicit focus. Links form a second row at mobile widths.",
-      "html": "<nav class=\"ds-nav\" aria-label=\"Preview\"><a class=\"ds-nav-title\" href=\"#\">Zack Murphy</a><a class=\"ds-nav-link\" href=\"#\">Research</a><a class=\"ds-nav-link\" href=\"#\">Publications</a></nav>",
-      "css": ".ds-nav { display: flex; align-items: center; gap: 24px; padding: 17px 5%; min-height: 82px; border-bottom: 1px solid #506c86; background: #07111f; } .ds-nav a { display: inline-flex; min-height: 44px; align-items: center; color: #bcc8d4; text-underline-offset: 3px; } .ds-nav-title { margin-right: auto; color: #f5f7fa; font: 600 23px/1.3 Georgia, 'Times New Roman', serif; text-decoration: none; } .ds-nav-link { font: 400 14px/1.65 'Segoe UI', Arial, sans-serif; } .ds-nav a:hover { color: #ffd166; } .ds-nav a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
+      "description": "Original shared Quarto navbar: Research Interests, Publications, Software dropdown, CV, and Learn About FPVS on the left; Google Scholar, ORCID, and GitHub on the right. Preserve its existing profile icon treatments and normal mobile collapse.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Preview\"><a class=\"ds-nav-title\" href=\"#\">Zack Murphy</a><a class=\"ds-nav-link\" href=\"#\">Research Interests</a><a class=\"ds-nav-link\" href=\"#\">Publications</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 18px; padding: 0 24px; border-bottom: 1px solid #506c86; background: #07111f; } .ds-nav a { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; color: #f5f7fa; text-underline-offset: 3px; } .ds-nav-title { margin-right: auto; font: 650 1.15rem/1.2 Georgia, 'Times New Roman', serif; text-decoration: none; } .ds-nav-link { font: 500 0.96rem/1.5 'Segoe UI', Arial, sans-serif; } .ds-nav a:hover { color: #ffd166; } .ds-nav a:focus-visible { border-radius: 3px; outline: 3px solid #ffd166; outline-offset: 3px; }"
     },
     {
       "name": "Inline Code",
@@ -111,7 +111,7 @@
       "Do use Starlight for primary text and Lunar Gray only for secondary text on Deep Space or Flight Deck.",
       "Do reserve Solar Gold for focus and hover orientation so keyboard position is unmistakable.",
       "Do keep every required text contrast at 4.5:1 or higher and essential non-text contrast at 3:1 or higher.",
-      "Do preserve semantic headings, descriptive alternative text, responsive reflow, and reduced-motion behavior."
+      "Do preserve semantic headings, descriptive alternative text, responsive reflow, and manual control of the brain animation. Reduced-motion preferences still disable small CSS transitions."
     ],
     "donts": [
       "Don't use generic SaaS aesthetics.",

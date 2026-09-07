@@ -1690,82 +1690,6 @@ button:focus-visible,
   display: none;
 }
 
-#quarto-header > .navbar {
-  padding: 0;
-}
-
-.navbar > .navbar-container {
-  min-height: 82px;
-  gap: 24px;
-  padding: 17px 5%;
-  margin: 0;
-  width: 100%;
-  align-items: center;
-}
-
-.navbar .navbar-brand-container {
-  margin: 0 !important;
-  max-width: none;
-}
-
-.navbar .navbar-brand {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 0;
-  margin: 0;
-  font: 600 23px/1.3 Georgia, "Times New Roman", serif;
-}
-
-.navbar .navbar-title {
-  font: inherit;
-}
-
-.neural-home .navbar-brand::after {
-  content: "✧";
-  color: var(--zm-blue);
-  font: 400 30px/1 Georgia, serif;
-}
-
-.navbar .quarto-navbar-tools:not(:has(*)) {
-  display: none;
-}
-
-.navbar .navbar-nav {
-  align-items: center;
-  gap: clamp(12px, 2.3vw, 27px);
-  margin: 0 !important;
-  padding: 0;
-  overflow: visible;
-}
-
-.navbar.navbar-expand .navbar-nav .nav-link {
-  min-width: 0;
-  padding: 0;
-  font: 400 14px/1.65 "Segoe UI", Arial, sans-serif;
-}
-
-.navbar .nav-link {
-  color: var(--lunar-gray);
-}
-
-.neural-home .navbar {
-  background: var(--zm-bg);
-  border-color: var(--zm-line);
-}
-
-.neural-home .navbar .navbar-brand {
-  color: var(--zm-fg);
-}
-
-.neural-home .navbar .nav-link {
-  color: var(--zm-muted);
-}
-
-.navbar .nav-link:hover, .navbar .nav-link:focus-visible {
-  color: var(--solar-gold);
-}
-
 footer.footer .nav-footer {
   padding: 17px 5%;
   min-height: 78px;
@@ -1851,47 +1775,7 @@ footer.footer .nav-footer .nav-link:focus-visible {
   display: none;
 }
 
-#zm-constellation .zm-motion:disabled {
-  color: var(--zm-muted);
-  cursor: default;
-}
-
-@media (max-width: 760px) {
-  .navbar > .navbar-container {
-    flex-wrap: wrap;
-    gap: 6px;
-    padding-top: 14px;
-    padding-bottom: 10px;
-  }
-
-  .navbar .navbar-nav {
-    flex: 1 0 100%;
-    width: 100%;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 22px;
-  }
-
-  .navbar.navbar-expand .navbar-nav .nav-link {
-    font-size: 13px;
-  }
-
-}
-
 @media (max-width: 590px) {
-  .navbar > .navbar-container {
-    padding-right: 6%;
-    padding-left: 6%;
-  }
-
-  .navbar .navbar-nav {
-    gap: 4px;
-  }
-
-  .navbar.navbar-expand .navbar-nav .nav-link {
-    font-size: 12px;
-  }
-
   footer.footer .nav-footer {
     padding: 15px 6%;
     justify-content: flex-start;

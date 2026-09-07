@@ -52,7 +52,7 @@ include-after-body:
           <p class="zm-paper-meta">Latest publication · 2026</p>
           <h3><a href="publications.html#exploring-brain-activity-in-novice-athletes-during-closed-and-open-skills-in-table-tennis">Exploring Brain Activity in Novice Athletes During Closed and Open Skills in Table Tennis</a></h3>
           <p class="zm-journal">Journal of Motor Behavior</p>
-          <a class="zm-text-link" href="publications.html#exploring-brain-activity-in-novice-athletes-during-closed-and-open-skills-in-table-tennis">Read the paper <span aria-hidden="true">↗</span></a>
+          <a class="zm-text-link" href="https://doi.org/10.1080/00222895.2026.2691791" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
         </article>
       </div>
     </section>

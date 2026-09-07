@@ -3,9 +3,12 @@
 The source immediately before the redesign is preserved at
 `pre-neural-home-2026-09-07`, commit
 `bb7b5923a853eb14f27e57391457f179294ffcac`.
-The completed redesign is tagged `neural-home-2026-09-07`.
+The initial redesign is tagged `neural-home-2026-09-07`. The completed revision,
+including autoplay regardless of reduced-motion preferences and the restored
+original navbar, is tagged `neural-home-2026-09-07-v2`. These tags are immutable.
 
-To undo this redesign, use a new revert commit and the normal website updater.
+To undo the original redesign and its follow-up, revert the full tagged range
+and use the normal website updater. This creates new revert commits.
 This preserves published Git history and allows the redesign to be restored
 later. Run from the repository root; these guards require `main` and a clean
 working tree:
@@ -22,14 +25,14 @@ command reports an error:
 ```powershell
 git pull --ff-only
 git fetch origin tag pre-neural-home-2026-09-07
-git fetch origin tag neural-home-2026-09-07
-git revert --no-edit neural-home-2026-09-07
+git fetch origin tag neural-home-2026-09-07-v2
+git revert --no-edit pre-neural-home-2026-09-07..neural-home-2026-09-07-v2
 git diff --check
 git push origin main
 quarto run publish-website.ts
 ```
 
-The explicit push publishes the revert commit to `main`; the updater only
+The explicit push publishes the revert commits to `main`; the updater only
 pushes source when it finds uncommitted changes. The updater then clean-renders,
 publishes `gh-pages`, and checks the deployed version. Inspect the restored
 homepage at desktop and phone widths. If the redesign is the only source change since the baseline,

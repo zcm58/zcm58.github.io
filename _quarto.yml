@@ -20,19 +20,32 @@ website:
   site-url: "https://zack-murphy.com"
   navbar:
     pinned: true
-    search: false
-    collapse: false
-    right:
+    left:
       - href: research.qmd
-        text: Research
+        text: Research Interests
       - href: publications.qmd
         text: Publications
-      - href: software.qmd
-        text: Software
-      - href: learn-fpvs/what-is-fpvs.qmd
-        text: Learn FPVS
+      - text: Software
+        menu:
+          - href: software.qmd
+            text: Software Overview
+          - href: fpvs-studio.qmd
+            text: FPVS Studio
+          - href: fpvs-toolbox.qmd
+            text: FPVS Toolbox
       - href: cv.qmd
         text: CV
+      - href: learn-fpvs/what-is-fpvs.qmd
+        text: Learn About FPVS
+    right:
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=zbUyu0sAAAAJ&hl=en
+        aria-label: Google Scholar
+      - text: ORCID
+        href: https://orcid.org/0009-0003-3868-6888
+      - icon: github
+        href: https://github.com/zcm58
+        aria-label: GitHub
   sidebar:
     - id: learn-fpvs
       title: "Learn About FPVS"

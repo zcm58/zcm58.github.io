@@ -170,8 +170,9 @@ Components are precise, calm, and immediately legible. Shape is gently squared, 
 
 - **Style:** Pinned Deep Space bar with a single Orbit Line divider and a serif site title.
 - **Targets:** Navigation links and controls are at least 44px high.
-- **States:** Lunar Gray at rest, Solar Gold for hover, active, and visible focus.
-- **Mobile Treatment:** The five navigation links remain visible in a row below the site title; they do not require opening a collapsed menu.
+- **States:** Starlight at rest, Solar Gold for hover, active, and visible focus. Preserve the existing Google Scholar blue and ORCID green profile treatments.
+- **Contents:** Research Interests, Publications, the Software dropdown, CV, and Learn About FPVS on the left; Google Scholar, ORCID, and GitHub on the right.
+- **Mobile Treatment:** Preserve Quarto's normal collapsed menu and its toggle; the expanded menu remains a single dark surface.
 
 ### Links
 
@@ -193,8 +194,9 @@ stack in reading order. Retain the native Quarto navigation and its accessible
 mobile behavior.
 
 The content composition is scoped to `#zm-constellation` and its palette to
-`body.neural-home`. Shared navbar spacing and its visible mobile links match
-the homepage; other pages retain their existing content styles and palette.
+`body.neural-home`. Keep the original shared navbar layout, software dropdown,
+profile icons, and mobile collapse. Other pages retain their existing content
+styles and palette.
 
 | Homepage token | Value | Purpose |
 | --- | --- | --- |
@@ -223,10 +225,11 @@ does not animate on scroll.
 
 - Provide an accessible pause button in the artwork caption with an accurate
   current state. Its `data-brain-motion` attribute connects it to the script.
-- Respect `prefers-reduced-motion` on load and when that setting changes.
-  Show the disabled caption control as "Motion reduced" while it applies.
+- Autoplay the brain even when the system or browser requests reduced motion,
+  as explicitly requested by the site owner. The manual pause button remains
+  available; there is no automatic "Motion reduced" disabled state.
 - Suspend frame scheduling while the artwork is offscreen or the page is
-  hidden; resume only when motion is enabled and the artwork is visible.
+  hidden; resume when the artwork is visible unless the visitor paused it.
 - Limit link color feedback to 180ms and small arrow movement to 200ms, and
   disable those transitions for reduced motion.
 - Keep content, links, and the static brain useful without animation.
@@ -242,7 +245,7 @@ in `index.qmd` and all homepage layout and state styling stays in `styles.css`.
 - **Do** use Starlight for primary text and Lunar Gray only for secondary text on Deep Space or Flight Deck.
 - **Do** reserve Solar Gold for focus and hover orientation so keyboard position is unmistakable.
 - **Do** keep every required text contrast at 4.5:1 or higher and essential non-text contrast at 3:1 or higher.
-- **Do** preserve semantic headings, descriptive alternative text, responsive reflow, and reduced-motion behavior.
+- **Do** preserve semantic headings, descriptive alternative text, responsive reflow, and manual control of the brain animation. Reduced-motion preferences still disable small CSS transitions.
 
 ### Don't
 

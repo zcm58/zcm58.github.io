@@ -49,9 +49,10 @@ not source-of-truth files.
 - Keep page-specific browser behavior in a small vanilla JavaScript file under
   `assets/js/`; do not introduce a client framework for a single interaction.
 - `assets/js/brain-constellation.js` owns the home-page canvas and its automatic
-  20-second brain-to-orbit loop. It handles motion preference changes, the
-  caption's `data-brain-motion` pause button, resizing, and suspending animation
-  when offscreen or hidden.
+  20-second brain-to-orbit loop. It handles the caption's `data-brain-motion`
+  pause button, resizing, and suspending animation when offscreen or hidden.
+  The site owner explicitly requested autoplay regardless of the system or
+  browser reduced-motion preference.
 - `assets/brain-constellation.svg` supplies the static brain before canvas
   initialization and when JavaScript or a canvas context is unavailable.
 
@@ -102,12 +103,13 @@ pattern is likely to recur.
 The approved Neural Constellation homepage is a deliberate page-specific
 composition. Its `#zm-constellation` main content and `body.neural-home` shell rules
 use the scoped palette and typography documented in `DESIGN.md`; they do not
-replace the shared palette used by other pages. Shared navbar spacing and its
-visible mobile links match the homepage; shell rules adapt navbar colors and
-the native footer for the homepage. Keep star imagery in the hero
-artwork and reading surfaces calm. The canvas adds one slow repeating motion;
-it starts without user action, offers a pause control, and stays still for
-reduced-motion preferences. No framework or animation dependency is required.
+replace the shared palette used by other pages. Preserve the pre-redesign
+Quarto navbar: Research Interests, Publications, Software dropdown, CV, and
+Learn About FPVS on the left; Google Scholar, ORCID, and GitHub on the right;
+normal Quarto mobile collapse. Homepage rules adapt the native footer only.
+Keep star imagery in the hero artwork and reading surfaces calm. The canvas
+starts without user action regardless of reduced-motion preferences and
+offers a manual pause control. No framework or animation dependency is required.
 
 ## Build And Deploy
 

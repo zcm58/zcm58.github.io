@@ -15,7 +15,7 @@ presentation.
 |-- publications.qmd     # Publications, preprints, working papers
 |-- software.qmd         # Research software and project links
 |-- fpvs-toolbox.qmd     # Placeholder page for FPVS Toolbox
-|-- fpvs-studio.qmd      # Placeholder page for FPVS Studio
+|-- fpvs-studio.qmd      # FPVS Studio overview and installation tutorial
 |-- learn-fpvs/          # Multi-page educational guide to FPVS
 |-- assets/js/           # Small page-specific browser interactions
 |-- media.qmd            # Videos, talks, public-facing communication
@@ -64,7 +64,8 @@ not source-of-truth files.
 - `software.qmd`: tools, repositories, documentation links, releases, and design
   principles.
 - `fpvs-toolbox.qmd`: placeholder page for future FPVS Toolbox content.
-- `fpvs-studio.qmd`: placeholder page for future FPVS Studio content.
+- `fpvs-studio.qmd`: software overview, Windows installation, first-project
+  setup, image preparation, and Attentional Blink pilot-mode guidance.
 - `learn-fpvs/`: educational explanations of FPVS foundations, experiment-design
   topics, data analysis, terminology, and supporting references. Its
   `what-is-fpvs.qmd` page is the section entry point,

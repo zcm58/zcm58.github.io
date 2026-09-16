@@ -35,6 +35,8 @@ read first, not the full manual.
 ## Common Tasks
 
 - Page content: edit the matching root `.qmd` file.
+- FPVS Studio installation and first-project instructions: edit `fpvs-studio.qmd`;
+  keep interface labels aligned with the documented release and its screenshots.
 - FPVS educational content: edit the matching page under `learn-fpvs/`; keep
   its sidebar hierarchy in `_quarto.yml` synchronized when pages are added.
 - Navigation, title, site URL, footer, or theme: edit `_quarto.yml`.

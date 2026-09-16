@@ -15,47 +15,57 @@ FPVS Studio was designed with the non-expert user in mind. It is a user-friendly
 
 Once an experiment has been created, users simply need to open FPVS Studio, select their experiment, and run it. FPVS Studio logs all of the necessary information (eg., fixation cross accuracy, reaction times, image display seeds, etc) automatically, and outputs everything that is needed for a future publication. FPVS Studio is designed to work directly with the FPVS Toolbox - users can export their FPVS Studio project to be imported into FPVS Toolbox, which streamlines data analysis.
 
-## Installation and first project {#getting-started}
+## Installation and Setup Guide
 
-This guide walks through installing FPVS Studio on Windows and creating a project. No Python installation or coding is needed. The examples show version 1.8.0; labels may change in later releases. FPVS Studio is beta software, so start with a practice project before collecting study data.
+This guide walks through installing FPVS Studio on Windows 10/11 and creating your first project.project. No Python installation or coding is required.
 
 [Download FPVS Studio](https://github.com/zcm58/FPVS-Studio-2.0/releases){.btn .btn-primary target="_blank"}
-
-[Read the user documentation](https://zcm58.github.io/FPVS-Studio-2.0/){target="_blank"}
 
 ### 1. Download and install
 
 1. Open the [GitHub releases page](https://github.com/zcm58/FPVS-Studio-2.0/releases){target="_blank"}, find the most recent release marked **Latest**, and expand its **Assets** if needed.
-2. Download that release's Windows installer whose name begins with **FPVS-Studio-Setup** and ends in **.exe**. The version number in the filename changes with each release. The source-code ZIP is not the installer.
-3. Open the downloaded installer and follow its prompts. Then launch **FPVS Studio** from the Start menu or desktop shortcut.
 
-**If Windows or your browser shows a warning:** first check that the file came from the **zcm58/FPVS-Studio-2.0** release page above. A browser may offer **Keep** or **Keep anyway**; Windows SmartScreen may offer **More info → Run anyway**. Only continue if you have verified the source and intend to trust the download. If your institution blocks installation, ask its IT team for help.
+2. Download the Windows installer whose name begins with **FPVS-Studio-Setup** and ends in **.exe**. For example, you'll liekly see several patch files, but the installer is in the format of "FPVS-Studio-Setup-1.8.0.exe"
+
+You can also download the source code zip file, but it's not required to run FPVS Studio.
+
+3. Open the downloaded installer and follow its prompts. Then launch **FPVS Studio** from the Start menu or desktop shortcut. Note that Windows will likely flag this software as potentially malicious because the installer is not signed. You'll need to bypass these flags in order to install FPVS Studio for the first time.
+
+**If Windows or your browser shows a warning:** first check that the file came from the **zcm58/FPVS-Studio-2.0** release page above. A browser may offer **Keep** or **Keep anyway**; Windows SmartScreen may offer **More info → Run anyway**.
 
 ### 2. Choose a root folder
 
-On first launch, choose an **FPVS Studio Root Folder**. This is the main folder where the app stores your projects and shared templates; each experiment has its own project folder inside it.
+On first launch, choose an **FPVS Studio Root Folder**. FPVS Studio uses this root folder to store all of your projects and their data. I recommend creating a new folder for this purpose titled something like "FPVS Studio Root". I also recommend creating a folder that is NOT a cloud sync folder (like OneDrive, Google Drive, etc) as syncing can interfere with loading or runnning your experiments.
 
-Create a folder named **FPVS Studio** somewhere you can easily find again. A local folder outside OneDrive or another cloud-sync service is recommended, because syncing can interfere with loading or running experiments. Select that folder to finish the initial setup.
+If needed, you can change this location later using **Change Root Folder…** on the welcome screen or **File → Settings → Root Folder Setup…**.
 
-You can change this location later using **Change Root Folder…** on the welcome screen or **File → Settings → Root Folder Setup…**.
-
-### 3. Create a project
+### 3. Create your first project
 
 From the welcome screen, select **Create Project**, choose an experiment family, and click **Continue**.
 
-- **FPVS Oddball Paradigm:** use this for an experiment with frequent base stimuli and less frequent oddball stimuli. For an image-based project, prepare the image folders in the next step.
-- **Attentional-Blink:** use this for two targets presented within a rapid stream. The five-second digit-recall template uses letters and digits, so it does not need base and oddball image folders.
+- **FPVS Oddball Paradigm:** Inside this family, you can design both imaged based and word-based FPVS-oddball experiments. This is the what FPVS Studio was initially designed for.
 
 ![The experiment-family chooser in FPVS Studio 1.8.0. Attentional-Blink is selected in this example; choose FPVS Oddball Paradigm for the image-based workflow below.](assets/figures/fpvs-studio-experiment-family.png){fig-alt="FPVS Studio experiment chooser with FPVS Oddball Paradigm and Attentional-Blink options and a Continue button. Standard FPVS is marked Coming soon." width=800 loading="lazy"}
 
-Give the project a descriptive name, such as **Practice FPVS Project**, choose the appropriate experiment template, and check the save location. Click **Create Experiment**, then follow the setup steps for your chosen family.
+Give the project a descriptive name, such as **Practice FPVS Project**, choose the appropriate experiment template, and check the save location. By default, FPVS Studio will create a new project folder inside your project root folder. Click **Create Experiment**, then follow the guided setup wizard to configure your experiment.
 
 ### 4. Select your images
 
-For an image-based oddball project, put the frequent **base images** in one folder and the less frequent **oddball images** in another. Use a separate pair of folders for each condition when the stimulus sets differ. For example:
+For an image-based oddball project, you'll need to separate your **base images** in one folder and the **oddball images** in another folder on a per condition basis. If you have three FPVS conditions, you'll need three separate folders of base images, one for each condition, and three separate folders of oddball images, one for each condition. For example:
 
 ```{.text #stimulus-folder-example}
-Practice Stimuli/
+Condition 1/
+  Base Images/
+    base-01.png
+    base-02.png
+  Oddball Images/
+    oddball-01.png
+    oddball-02.png
+```
+Then,
+
+```{.text #stimulus-folder-example}
+Condition 2/
   Base Images/
     base-01.png
     base-02.png
@@ -64,30 +74,24 @@ Practice Stimuli/
     oddball-02.png
 ```
 
-In the **Conditions** step, name your condition and select its base and oddball image folders. Check that each folder contains the intended images before continuing.
+In the **Conditions** setup step, name your condition and select its base and oddball image folders. Check that each folder contains the intended images before continuing. Repeat this step for each condition.
 
-Use square images with consistent dimensions and file type; PNG is a good starting point. For example, prepare all images at **512 × 512 pixels**. The built-in **Tools → Image Resizer** can create resized PNG copies. Select the output folders when setting up the condition. Image file dimensions and the size displayed on screen are separate settings.
-
-For more detail, see the [stimulus preparation guide](https://zcm58.github.io/FPVS-Studio-2.0/prepare-images/){target="_blank"}.
+I suggest using square images with consistent dimensions and file type; PNG is a good starting point. For example, prepare all images at **512 × 512 pixels**. The built-in **Tools → Image Resizer** can create resized PNG copies in this format, but you can also prepare your images outside of FPVS Studio however you like.
 
 ### 5. Review the experiment and try it
 
 Work through the remaining setup screens. Check your conditions, timing, display settings, repetitions, and any fixation or response task before saving. Use settings appropriate to your study and display rather than assuming the template defaults match your design.
 
-Return to **Home** and choose **Launch Experiment** for a practice run. Follow the participant and start prompts, then check that the stimuli and responses behave as expected. Run outputs are stored in the project's **runs** folder, with project run history under **logs**.
+Return to **Home** and choose **Launch Experiment** for a practice run. Follow the participant and start prompts, then check that the stimuli and responses behave as expected. Run outputs are stored in the project's **runs** folder, with project run history under **logs**. You'll need to navigate to File > Settings to enable test mode. Otherwise, FPVS Studio will block the run unless you have that pc connected to your BioSemi software via the COM3 serial port.
 
-#### Attentional Blink without EEG hardware
-
-For an Attentional Blink pilot, open **File → Settings**, enable **Enable Pilot Study Mode (Attentional Blink)**, and click **Close**. Settings save immediately. This mode collects demographics and T1/T2 accuracy without EEG hardware and takes precedence over experiment test mode. It applies to Attentional Blink, not image-based FPVS experiments.
-
-![The Pilot Study Mode option in FPVS Studio 1.8.0, under Local experiment testing. Enable it for an Attentional Blink pilot without EEG hardware.](assets/figures/fpvs-studio-pilot-settings.png){fig-alt="FPVS Studio Settings with Enable Pilot Study Mode (Attentional Blink) checked. The description explains that pilot runs collect demographics and T1/T2 accuracy without EEG hardware." width=620 loading="lazy"}
+Future FPVS Studio updates will add support for other EEG systems, but for now, BioSemi is the only supported system.
 
 ### 6. Reopen your project
 
-The next time you launch FPVS Studio, choose **Open Existing Project** on the welcome screen and select the project you created. You do not need to repeat installation or create the experiment again.
+The next time you launch FPVS Studio, choose **Open Existing Project** on the welcome screen and select the project you created. You do not need to repeat installation or create the experiment again. Just open FPVS Studio, select your project, and run it.
 
 ## Updates and bug reports
 
 Use **File → Check for Updates** to look for a newer version. You can also return to the [GitHub releases page](https://github.com/zcm58/FPVS-Studio-2.0/releases){target="_blank"} for installers and release notes.
 
-If something goes wrong, choose **File → Report a Bug…**. Include what you were trying to do, what happened, your FPVS Studio version, and the steps needed to reproduce the problem. Review any attached information before submitting, and leave participant-identifying information out of the report.
+If something goes wrong, choose **File → Report a Bug…**. Include what you were trying to do, what happened, your FPVS Studio version, and the steps needed to reproduce the problem. These reports get automatically delivered to me via email and github issues. I will respond as soon as possible.

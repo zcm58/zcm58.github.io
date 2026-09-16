@@ -19,14 +19,14 @@ Once an experiment has been created, users simply need to open FPVS Studio, sele
 
 This guide walks through installing FPVS Studio on Windows and creating a project. No Python installation or coding is needed. The examples show version 1.8.0; labels may change in later releases. FPVS Studio is beta software, so start with a practice project before collecting study data.
 
-[Download FPVS Studio](https://github.com/zcm58/FPVS-Studio-2.0/releases/latest){.btn .btn-primary target="_blank"}
+[Download FPVS Studio](https://github.com/zcm58/FPVS-Studio-2.0/releases){.btn .btn-primary target="_blank"}
 
 [Read the user documentation](https://zcm58.github.io/FPVS-Studio-2.0/){target="_blank"}
 
 ### 1. Download and install
 
-1. Open the [latest release on GitHub](https://github.com/zcm58/FPVS-Studio-2.0/releases/latest){target="_blank"} and expand **Assets** if needed.
-2. Download the Windows installer whose name begins with **FPVS-Studio-Setup** and ends in **.exe**. For [version 1.8.0](https://github.com/zcm58/FPVS-Studio-2.0/releases/tag/v1.8.0){target="_blank"}, this is **FPVS-Studio-Setup-1.8.0.exe**. The source-code ZIP is not the installer.
+1. Open the [GitHub releases page](https://github.com/zcm58/FPVS-Studio-2.0/releases){target="_blank"}, find the most recent release marked **Latest**, and expand its **Assets** if needed.
+2. Download that release's Windows installer whose name begins with **FPVS-Studio-Setup** and ends in **.exe**. The version number in the filename changes with each release. The source-code ZIP is not the installer.
 3. Open the downloaded installer and follow its prompts. Then launch **FPVS Studio** from the Start menu or desktop shortcut.
 
 **If Windows or your browser shows a warning:** first check that the file came from the **zcm58/FPVS-Studio-2.0** release page above. A browser may offer **Keep** or **Keep anyway**; Windows SmartScreen may offer **More info → Run anyway**. Only continue if you have verified the source and intend to trust the download. If your institution blocks installation, ask its IT team for help.
@@ -54,7 +54,7 @@ Give the project a descriptive name, such as **Practice FPVS Project**, choose t
 
 For an image-based oddball project, put the frequent **base images** in one folder and the less frequent **oddball images** in another. Use a separate pair of folders for each condition when the stimulus sets differ. For example:
 
-```text
+```{.text #stimulus-folder-example}
 Practice Stimuli/
   Base Images/
     base-01.png
@@ -88,6 +88,6 @@ The next time you launch FPVS Studio, choose **Open Existing Project** on the we
 
 ## Updates and bug reports
 
-Use **File → Check for Updates** to look for a newer version. You can also return to the [GitHub releases page](https://github.com/zcm58/FPVS-Studio-2.0/releases/latest){target="_blank"} for installers and release notes.
+Use **File → Check for Updates** to look for a newer version. You can also return to the [GitHub releases page](https://github.com/zcm58/FPVS-Studio-2.0/releases){target="_blank"} for installers and release notes.
 
 If something goes wrong, choose **File → Report a Bug…**. Include what you were trying to do, what happened, your FPVS Studio version, and the steps needed to reproduce the problem. Review any attached information before submitting, and leave participant-identifying information out of the report.

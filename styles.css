@@ -243,6 +243,11 @@ button:focus-visible,
 }
 
 
+#stimulus-folder-example,
+#stimulus-folder-example code {
+  color: var(--starlight);
+}
+
 .btn {
   display: inline-flex;
   min-height: 44px;

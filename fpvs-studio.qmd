@@ -1,10 +1,11 @@
 ---
 title: "FPVS Studio"
-description: "Install FPVS Studio on Windows, choose a root folder, and set up your first experiment."
+description: "Install FPVS Studio on Windows, download an experiment from the library or create your own, and set up and test your project."
 toc: true
 toc-title: "On this page"
 toc-depth: 3
 page-layout: article
+lightbox: true
 ---
 
 <img src="assets/fpvs-studio-icon-1024.png" alt="FPVS Studio application icon" width="180" height="180" decoding="async">
@@ -17,7 +18,9 @@ Once an experiment has been created, users simply need to open FPVS Studio, sele
 
 ## Installation and Setup Guide
 
-This guide walks through installing FPVS Studio on Windows 10/11 and creating your first project.project. No Python installation or coding is required.
+This guide walks through installing FPVS Studio on Windows 10/11 and setting up your first project. You can download a complete experiment from the Experiment Library or create your own. No Python installation or coding is required.
+
+The screenshots show FPVS Studio 2.1.0 with illustrative project and display values. Click or tap a screenshot to enlarge it.
 
 [Download FPVS Studio](https://github.com/zcm58/FPVS-Studio-2.0/releases){.btn .btn-primary target="_blank"}
 
@@ -25,31 +28,50 @@ This guide walks through installing FPVS Studio on Windows 10/11 and creating yo
 
 1. Open the [GitHub releases page](https://github.com/zcm58/FPVS-Studio-2.0/releases){target="_blank"}, find the most recent release marked **Latest**, and expand its **Assets** if needed.
 
-2. Download the Windows installer whose name begins with **FPVS-Studio-Setup** and ends in **.exe**. For example, you'll liekly see several patch files, but the installer is in the format of "FPVS-Studio-Setup-1.8.0.exe"
+2. Download the Windows installer whose name begins with **FPVS-Studio-Setup** and ends in **.exe**. You may also see patch files and source code archives; choose the installer for your first installation.
 
-You can also download the source code zip file, but it's not required to run FPVS Studio.
-
-3. Open the downloaded installer and follow its prompts. Then launch **FPVS Studio** from the Start menu or desktop shortcut. Note that Windows will likely flag this software as potentially malicious because the installer is not signed. You'll need to bypass these flags in order to install FPVS Studio for the first time.
+3. Open the downloaded installer and follow its prompts. Then launch **FPVS Studio** from the Start menu or desktop shortcut.
 
 **If Windows or your browser shows a warning:** first check that the file came from the **zcm58/FPVS-Studio-2.0** release page above. A browser may offer **Keep** or **Keep anyway**; Windows SmartScreen may offer **More info → Run anyway**.
 
 ### 2. Choose a root folder
 
-On first launch, choose an **FPVS Studio Root Folder**. FPVS Studio uses this root folder to store all of your projects and their data. I recommend creating a new folder for this purpose titled something like "FPVS Studio Root". I also recommend creating a folder that is NOT a cloud sync folder (like OneDrive, Google Drive, etc) as syncing can interfere with loading or runnning your experiments.
+On first launch, choose an **FPVS Studio Root Folder**. FPVS Studio uses this root folder to store all of your projects and their data. I recommend creating a new folder for this purpose titled something like "FPVS Studio Root". I also recommend creating a folder that is NOT a cloud sync folder (like OneDrive, Google Drive, etc) as syncing can interfere with loading or running your experiments.
 
 If needed, you can change this location later using **Change Root Folder…** on the welcome screen or **File → Settings → Root Folder Setup…**.
 
-### 3. Create your first project
+### 3. Choose how to create your project
 
-From the welcome screen, select **Create Project**, choose an experiment family, and click **Continue**.
+From the welcome screen, select **Create Project**. You can then choose between two paths:
 
-- **FPVS Oddball Paradigm:** Inside this family, you can design both imaged based and word-based FPVS-oddball experiments. This is the what FPVS Studio was initially designed for.
+- [**Download from library**](#download-from-library) if your lab or collaborator has shared an experiment through the Experiment Library.
+- [**Create manually**](#create-manually) if you want to build your own experiment and select your own stimuli.
 
-![The experiment-family chooser in FPVS Studio 1.8.0. Attentional-Blink is selected in this example; choose FPVS Oddball Paradigm for the image-based workflow below.](assets/figures/fpvs-studio-experiment-family.png){fig-alt="FPVS Studio experiment chooser with FPVS Oddball Paradigm and Attentional-Blink options and a Continue button. Standard FPVS is marked Coming soon." width=800 loading="lazy"}
+![Choose whether to create an experiment manually or download one from the library.](assets/figures/fpvs-studio-project-source.webp){fig-alt="FPVS Studio project setup dialog with Create manually and Download from library buttons." width=800 loading="lazy"}
 
-Give the project a descriptive name, such as **Practice FPVS Project**, choose the appropriate experiment template, and check the save location. By default, FPVS Studio will create a new project folder inside your project root folder. Click **Create Experiment**, then follow the guided setup wizard to configure your experiment.
+#### Download from the Experiment Library {#download-from-library}
 
-### 4. Select your images
+The Experiment Library lets you download a complete experiment and set it up on another computer. Each download becomes a separate, editable project in your FPVS Studio Root Folder, including the experiment's bundled stimuli and settings.
+
+1. Choose **Download from library**. If you already have a project open, you can also use **View → Experiment Library…**.
+
+2. If prompted, enter the **Access code** provided by your lab or the library administrator, confirm the **Computer name**, and click **Connect**. If you don't have a code, ask the person sharing the experiment. You do not need a GitHub account. Access is remembered for your Windows user account on this computer.
+
+3. Select the experiment you want to use. Review its description and minimum FPVS Studio version, then click **Download and set up experiment**. If it requires a newer version of FPVS Studio, update the app first.
+
+4. Review the project details and destination folder, then click **Import Project**. Wait for FPVS Studio to finish setting up the local copy.
+
+![After connecting, select an experiment to review its details and download it. The library, computer, and experiment shown here are examples.](assets/figures/fpvs-studio-library.webp){fig-alt="Experiment Library with a sample experiment selected, its description and version requirements, and the Download and set up experiment button." width=800 loading="lazy"}
+
+Your downloaded project already includes its bundled stimuli, so you can continue to [configure this computer's display](#configure-display). You only need the manual image-folder steps below if you are creating your own experiment or replacing its images. Once downloaded, your local project remains available offline.
+
+#### Create manually {#create-manually}
+
+Choose **Create manually**, select an experiment family, and click **Continue**. For example, **FPVS Oddball Paradigm** supports both image-based and word-based oddball experiments. This is what FPVS Studio was initially designed for.
+
+Choose the appropriate experiment template, give the project a descriptive name such as **Practice FPVS Project**, and check the save location. By default, FPVS Studio will create a new project folder inside your root folder. Click **Create Experiment**, then follow the guided setup wizard to configure your experiment.
+
+**Select your images**
 
 For an image-based oddball project, you'll need to separate your **base images** in one folder and the **oddball images** in another folder on a per condition basis. If you have three FPVS conditions, you'll need three separate folders of base images, one for each condition, and three separate folders of oddball images, one for each condition. For example:
 
@@ -61,10 +83,7 @@ Condition 1/
   Oddball Images/
     oddball-01.png
     oddball-02.png
-```
-Then,
 
-```{.text #stimulus-folder-example}
 Condition 2/
   Base Images/
     base-01.png
@@ -78,13 +97,40 @@ In the **Conditions** setup step, name your condition and select its base and od
 
 I suggest using square images with consistent dimensions and file type; PNG is a good starting point. For example, prepare all images at **512 × 512 pixels**. The built-in **Tools → Image Resizer** can create resized PNG copies in this format, but you can also prepare your images outside of FPVS Studio however you like.
 
-### 5. Review the experiment and try it
+### 4. Configure this computer's display {#configure-display}
 
-Work through the remaining setup screens. Check your conditions, timing, display settings, repetitions, and any fixation or response task before saving. Use settings appropriate to your study and display rather than assuming the template defaults match your design.
+When you import a project, FPVS Studio asks you to review the display settings for this computer. These settings let it calculate the image size needed to preserve the project's intended visual angle, or how large the images appear to the participant. The target comes from the experiment; it is not the same for every project.
 
-Return to **Home** and choose **Launch Experiment** for a practice run. Follow the participant and start prompts, then check that the stimuli and responses behave as expected. Run outputs are stored in the project's **runs** folder, with project run history under **logs**. You'll need to navigate to File > Settings to enable test mode. Otherwise, FPVS Studio will block the run unless you have that pc connected to your BioSemi software via the COM3 serial port.
+Check the following values against the display you will use:
 
-Future FPVS Studio updates will add support for other EEG systems, but for now, BioSemi is the only supported system.
+- **Resolution:** the screen's width and height in pixels.
+- **Refresh rate:** the screen's refresh rate in Hz. Check that it is suitable for the experiment's timing.
+- **Screen width:** the physical width of the visible screen in centimetres, rather than its diagonal size.
+- **Viewing distance:** the distance from the participant's eyes to the screen in centimetres.
+
+![Review the display values before opening the imported project. These example values should be replaced with those for your own setup.](assets/figures/fpvs-studio-display-setup.webp){fig-alt="FPVS Studio display setup dialog with refresh rate, viewing distance, screen width, resolution, and Apply and Open Project controls." width=800 loading="lazy"}
+
+Click **Apply & Open Project** when the values match your setup. For a manually created project, review the same display details in the setup wizard. Recheck these values when moving a project to another computer, especially before collecting participant data.
+
+### 5. Review and test your experiment
+
+Review the setup before running the experiment. Check your conditions, stimuli, timing, display settings, repetitions, and any fixation or response task. Use settings appropriate to your study and display rather than assuming the downloaded project's settings or template defaults match your setup. Save any changes before continuing.
+
+To try the experiment without EEG hardware:
+
+1. Open **File → Settings**. Under **Local experiment testing**, check **Enable experiment test mode**, then close Settings.
+
+2. Return to **Home** and click **Launch Experiment**.
+
+3. In the test-launch dialog, use **Condition to run** to choose one condition, or leave **All conditions (current behavior)** selected to follow the project's configured sequence.
+
+4. Check **I understand this is a non-participant test launch**, then click **Launch Test**.
+
+![Use the test-launch dialog to try all conditions or choose one condition to review.](assets/figures/fpvs-studio-test-launch.webp){fig-alt="Experiment Test Launch dialog showing the condition selector, non-participant test acknowledgement, and Launch Test button." width=800 loading="lazy"}
+
+Test Mode lets you try the experiment without EEG trigger hardware. It skips the recording confirmation and connected-display refresh check, while project validation and timing checks still apply. Check each condition's instructions, stimuli, responses, and transitions before collecting data. A successful test launch does not verify your EEG connection or the lab display's refresh rate.
+
+Run outputs are stored in the project's **runs** folder, with project run history under **logs**. **Turn Test Mode off before collecting participant data**, then check the display and EEG connection on the recording computer and follow the normal participant and recording prompts.
 
 ### 6. Reopen your project
 

@@ -64,8 +64,8 @@ not source-of-truth files.
 - `software.qmd`: tools, repositories, documentation links, releases, and design
   principles.
 - `fpvs-toolbox.qmd`: placeholder page for future FPVS Toolbox content.
-- `fpvs-studio.qmd`: software overview, Windows installation, first-project
-  setup, image preparation, and Attentional Blink pilot-mode guidance.
+- `fpvs-studio.qmd`: software overview, Windows installation, Experiment Library
+  and manual project setup, image preparation, display setup, and Test Mode guidance.
 - `learn-fpvs/`: educational explanations of FPVS foundations, experiment-design
   topics, data analysis, terminology, and supporting references. Its
   `what-is-fpvs.qmd` page is the section entry point,

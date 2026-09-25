@@ -47,6 +47,14 @@
       "softwareRowRadius": "6px",
       "source": { "content": "index.qmd", "style": "styles.css", "artwork": "assets/brain-constellation.svg" }
     },
+    "numberedToc": {
+      "scope": "#TOC a:has(.toc-step-number)",
+      "numberColumn": "1.2em",
+      "columnGap": "0.35em",
+      "itemPaddingBlock": "0.3rem",
+      "lineHeight": 1.4,
+      "description": "Native Quarto table of contents with separate toc-step-number and toc-step-label spans. Wrapped lines align with labels; article headings remain inline. Preserve active-section feedback and anchor links."
+    },
     "breakpoints": [
       { "name": "compact", "value": "820px" }
     ]

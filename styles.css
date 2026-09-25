@@ -151,6 +151,19 @@ body {
   font-weight: 600;
 }
 
+#TOC a:has(.toc-step-number) {
+  display: grid;
+  grid-template-columns: 1.2em minmax(0, 1fr);
+  column-gap: 0.35em;
+  align-items: start;
+  padding-block: 0.3rem;
+  line-height: 1.4;
+}
+
+#TOC .toc-step-number {
+  font-variant-numeric: tabular-nums;
+}
+
 .quarto-title-block {
   position: absolute;
   width: 1px;

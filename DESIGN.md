@@ -179,6 +179,14 @@ Components are precise, calm, and immediately legible. Shape is gently squared, 
 - **Style:** Orbital Blue with a persistent underline and 3px underline offset.
 - **States:** Solar Gold on hover and a 3px Solar Gold focus outline for keyboard navigation.
 
+### Numbered Table of Contents
+
+- Keep the native Quarto sidebar, active-section feedback, and anchor links.
+- For numbered guide headings, use `.toc-step-number` and `.toc-step-label`
+  spans. In `#TOC`, place the number in a 1.2em column with a 0.35em gap so
+  continuation lines align with the label. Use 0.3rem vertical padding and
+  1.4 line height between steps; leave the article headings inline.
+
 ### Inline Code
 
 - **Style:** Orbital Blue text on a Flight Deck background with compact 2px by 4px padding.

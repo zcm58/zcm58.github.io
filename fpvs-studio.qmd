@@ -24,7 +24,7 @@ The screenshots show FPVS Studio 2.1.0 with illustrative project and display val
 
 [Download FPVS Studio](https://github.com/zcm58/FPVS-Studio-2.0/releases){.btn .btn-primary target="_blank"}
 
-### 1. Download and install
+### [1.]{.toc-step-number} [Download and install]{.toc-step-label} {#download-and-install}
 
 1. Open the [GitHub releases page](https://github.com/zcm58/FPVS-Studio-2.0/releases){target="_blank"}, find the most recent release marked **Latest**, and expand its **Assets** if needed.
 
@@ -34,13 +34,13 @@ The screenshots show FPVS Studio 2.1.0 with illustrative project and display val
 
 **If Windows or your browser shows a warning:** first check that the file came from the **zcm58/FPVS-Studio-2.0** release page above. A browser may offer **Keep** or **Keep anyway**; Windows SmartScreen may offer **More info → Run anyway**.
 
-### 2. Choose a root folder
+### [2.]{.toc-step-number} [Choose a root folder]{.toc-step-label} {#choose-a-root-folder}
 
 On first launch, choose an **FPVS Studio Root Folder**. FPVS Studio uses this root folder to store all of your projects and their data. I recommend creating a new folder for this purpose titled something like "FPVS Studio Root". I also recommend creating a folder that is NOT a cloud sync folder (like OneDrive, Google Drive, etc) as syncing can interfere with loading or running your experiments.
 
 If needed, you can change this location later using **Change Root Folder…** on the welcome screen or **File → Settings → Root Folder Setup…**.
 
-### 3. Choose how to create your project
+### [3.]{.toc-step-number} [Choose how to create your project]{.toc-step-label} {#choose-how-to-create-your-project}
 
 From the welcome screen, select **Create Project**. You can then choose between two paths:
 
@@ -97,7 +97,7 @@ In the **Conditions** setup step, name your condition and select its base and od
 
 I suggest using square images with consistent dimensions and file type; PNG is a good starting point. For example, prepare all images at **512 × 512 pixels**. The built-in **Tools → Image Resizer** can create resized PNG copies in this format, but you can also prepare your images outside of FPVS Studio however you like.
 
-### 4. Configure this computer's display {#configure-display}
+### [4.]{.toc-step-number} [Configure this computer's display]{.toc-step-label} {#configure-display}
 
 When you import a project, FPVS Studio asks you to review the display settings for this computer. These settings let it calculate the image size needed to preserve the project's intended visual angle, or how large the images appear to the participant. The target comes from the experiment; it is not the same for every project.
 
@@ -112,7 +112,7 @@ Check the following values against the display you will use:
 
 Click **Apply & Open Project** when the values match your setup. For a manually created project, review the same display details in the setup wizard. Recheck these values when moving a project to another computer, especially before collecting participant data.
 
-### 5. Review and test your experiment
+### [5.]{.toc-step-number} [Review and test your experiment]{.toc-step-label} {#review-and-test-your-experiment}
 
 Review the setup before running the experiment. Check your conditions, stimuli, timing, display settings, repetitions, and any fixation or response task. Use settings appropriate to your study and display rather than assuming the downloaded project's settings or template defaults match your setup. Save any changes before continuing.
 
@@ -132,7 +132,7 @@ Test Mode lets you try the experiment without EEG trigger hardware. It skips the
 
 Run outputs are stored in the project's **runs** folder, with project run history under **logs**. **Turn Test Mode off before collecting participant data**, then check the display and EEG connection on the recording computer and follow the normal participant and recording prompts.
 
-### 6. Reopen your project
+### [6.]{.toc-step-number} [Reopen your project]{.toc-step-label} {#reopen-your-project}
 
 The next time you launch FPVS Studio, choose **Open Existing Project** on the welcome screen and select the project you created. You do not need to repeat installation or create the experiment again. Just open FPVS Studio, select your project, and run it.
 
